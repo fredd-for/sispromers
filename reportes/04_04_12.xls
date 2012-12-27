@@ -1,0 +1,150 @@
+
+    <table id="table_example" class="ewTable" border="1" width="100%">
+        <tbody><tr align="center"><td style="background: rgb(99, 37, 35); color: white; font-size: 10pt;" colSpan="21">REPORTE DE MERS FORTALECIDAS</td></tr>
+<tr bgColor="#dddfff">
+    <td colSpan="3"><b>Regional: </b>Chuquisaca</td>
+    <td colSpan="3"><b>Depto: </b>Chuquisaca</td>
+    <td colSpan="15"></td>
+</tr>
+<tr>
+    <th style="background: rgb(184, 198, 146);">No</th>
+    <th style="background: rgb(184, 198, 146);">Municipio</th>
+    <th style="background: rgb(184, 198, 146);">Rubro</th>
+    <th style="background: rgb(184, 198, 146);">Nombre de la Mer</th>
+    <th style="background: rgb(184, 198, 146);">Gestion</th>
+
+    <th style="background: rgb(10, 238, 163);">Plan de Negocio</th>
+    <th style="background: rgb(10, 238, 163);">Plan Estrategico</th>
+    <th style="background: rgb(10, 238, 163);">Plan de Produccion</th>
+    <th style="background: rgb(10, 238, 163);">Plan Financiero</th>
+    <th style="background: rgb(10, 238, 163);">POA</th>
+
+    <th style="background: rgb(10, 234, 224);">Personeria Juridica</th>
+    <th style="background: rgb(10, 234, 224);">Estatuto Organico</th>
+    <th style="background: rgb(10, 234, 224);">Reglamento Interno</th>
+    <th style="background: rgb(10, 234, 224);">Reg. Funda Empresa</th>
+    <th style="background: rgb(10, 234, 224);">Acta Constitucion</th>
+    <th style="background: rgb(10, 234, 224);">Tarjeta Empresarial</th>
+
+    <th style="background: rgb(10, 180, 115);">Producto Desarrollado</th>
+    <th style="background: rgb(10, 180, 115);">Servicio Desarrollado</th>
+    <th style="background: rgb(10, 180, 115);">Plan Marketing</th>
+
+    <th style="background: rgb(10, 192, 191);">Registro de Ventas Actualizado</th>
+    <th style="background: rgb(125, 168, 27);">Parametros de Calidad</th>
+    <th style="background: rgb(184, 198, 146);">Valor</th>
+</tr>
+<tr><td colSpan="17">No se encuentra ninguna mers fortalecida en esta ubicacion</td></tr><tr bgColor="#dddfff">
+    <td colSpan="3"><b>Regional: </b>Chuquisaca</td>
+    <td colSpan="3"><b>Depto: </b>Potosi</td>
+    <td colSpan="15"></td>
+</tr>
+<tr>
+    <th style="background: rgb(184, 198, 146);">No</th>
+    <th style="background: rgb(184, 198, 146);">Municipio</th>
+    <th style="background: rgb(184, 198, 146);">Rubro</th>
+    <th style="background: rgb(184, 198, 146);">Nombre de la Mer</th>
+    <th style="background: rgb(184, 198, 146);">Gestion</th>
+
+    <th style="background: rgb(10, 238, 163);">Plan de Negocio</th>
+    <th style="background: rgb(10, 238, 163);">Plan Estrategico</th>
+    <th style="background: rgb(10, 238, 163);">Plan de Produccion</th>
+    <th style="background: rgb(10, 238, 163);">Plan Financiero</th>
+    <th style="background: rgb(10, 238, 163);">POA</th>
+
+    <th style="background: rgb(10, 234, 224);">Personeria Juridica</th>
+    <th style="background: rgb(10, 234, 224);">Estatuto Organico</th>
+    <th style="background: rgb(10, 234, 224);">Reglamento Interno</th>
+    <th style="background: rgb(10, 234, 224);">Reg. Funda Empresa</th>
+    <th style="background: rgb(10, 234, 224);">Acta Constitucion</th>
+    <th style="background: rgb(10, 234, 224);">Tarjeta Empresarial</th>
+
+    <th style="background: rgb(10, 180, 115);">Producto Desarrollado</th>
+    <th style="background: rgb(10, 180, 115);">Servicio Desarrollado</th>
+    <th style="background: rgb(10, 180, 115);">Plan Marketing</th>
+
+    <th style="background: rgb(10, 192, 191);">Registro de Ventas Actualizado</th>
+    <th style="background: rgb(125, 168, 27);">Parametros de Calidad</th>
+    <th style="background: rgb(184, 198, 146);">Valor</th>
+</tr>
+<tr><td colSpan="17">No se encuentra ninguna mers fortalecida en esta ubicacion</td></tr><tr bgColor="#dddfff">
+    <td colSpan="3"><b>Regional: </b>Cochabamba</td>
+    <td colSpan="3"><b>Depto: </b>Cochabamba</td>
+    <td colSpan="15"></td>
+</tr>
+<tr>
+    <th style="background: rgb(184, 198, 146);">No</th>
+    <th style="background: rgb(184, 198, 146);">Municipio</th>
+    <th style="background: rgb(184, 198, 146);">Rubro</th>
+    <th style="background: rgb(184, 198, 146);">Nombre de la Mer</th>
+    <th style="background: rgb(184, 198, 146);">Gestion</th>
+
+    <th style="background: rgb(10, 238, 163);">Plan de Negocio</th>
+    <th style="background: rgb(10, 238, 163);">Plan Estrategico</th>
+    <th style="background: rgb(10, 238, 163);">Plan de Produccion</th>
+    <th style="background: rgb(10, 238, 163);">Plan Financiero</th>
+    <th style="background: rgb(10, 238, 163);">POA</th>
+
+    <th style="background: rgb(10, 234, 224);">Personeria Juridica</th>
+    <th style="background: rgb(10, 234, 224);">Estatuto Organico</th>
+    <th style="background: rgb(10, 234, 224);">Reglamento Interno</th>
+    <th style="background: rgb(10, 234, 224);">Reg. Funda Empresa</th>
+    <th style="background: rgb(10, 234, 224);">Acta Constitucion</th>
+    <th style="background: rgb(10, 234, 224);">Tarjeta Empresarial</th>
+
+    <th style="background: rgb(10, 180, 115);">Producto Desarrollado</th>
+    <th style="background: rgb(10, 180, 115);">Servicio Desarrollado</th>
+    <th style="background: rgb(10, 180, 115);">Plan Marketing</th>
+
+    <th style="background: rgb(10, 192, 191);">Registro de Ventas Actualizado</th>
+    <th style="background: rgb(125, 168, 27);">Parametros de Calidad</th>
+    <th style="background: rgb(184, 198, 146);">Valor</th>
+</tr>
+<tr><td colSpan="17">No se encuentra ninguna mers fortalecida en esta ubicacion</td></tr><tr bgColor="#dddfff">
+    <td colSpan="3"><b>Regional: </b>Cochabamba</td>
+    <td colSpan="3"><b>Depto: </b>Potosi</td>
+    <td colSpan="15"></td>
+</tr>
+<tr>
+    <th style="background: rgb(184, 198, 146);">No</th>
+    <th style="background: rgb(184, 198, 146);">Municipio</th>
+    <th style="background: rgb(184, 198, 146);">Rubro</th>
+    <th style="background: rgb(184, 198, 146);">Nombre de la Mer</th>
+    <th style="background: rgb(184, 198, 146);">Gestion</th>
+
+    <th style="background: rgb(10, 238, 163);">Plan de Negocio</th>
+    <th style="background: rgb(10, 238, 163);">Plan Estrategico</th>
+    <th style="background: rgb(10, 238, 163);">Plan de Produccion</th>
+    <th style="background: rgb(10, 238, 163);">Plan Financiero</th>
+    <th style="background: rgb(10, 238, 163);">POA</th>
+
+    <th style="background: rgb(10, 234, 224);">Personeria Juridica</th>
+    <th style="background: rgb(10, 234, 224);">Estatuto Organico</th>
+    <th style="background: rgb(10, 234, 224);">Reglamento Interno</th>
+    <th style="background: rgb(10, 234, 224);">Reg. Funda Empresa</th>
+    <th style="background: rgb(10, 234, 224);">Acta Constitucion</th>
+    <th style="background: rgb(10, 234, 224);">Tarjeta Empresarial</th>
+
+    <th style="background: rgb(10, 180, 115);">Producto Desarrollado</th>
+    <th style="background: rgb(10, 180, 115);">Servicio Desarrollado</th>
+    <th style="background: rgb(10, 180, 115);">Plan Marketing</th>
+
+    <th style="background: rgb(10, 192, 191);">Registro de Ventas Actualizado</th>
+    <th style="background: rgb(125, 168, 27);">Parametros de Calidad</th>
+    <th style="background: rgb(184, 198, 146);">Valor</th>
+</tr>
+<tr><td colSpan="17">No se encuentra ninguna mers fortalecida en esta ubicacion</td></tr>    </tbody></table>
+<br>
+<table border="1" width="50">
+    <tbody><tr style="background: olive; color: rgb(255, 255, 255);">
+        <th>META DEL PROYECTO</th>
+        <th>MERS FORTALECIDAS</th>
+        <th>PORCENTAJE</th>
+    </tr>
+    <tr align="center">
+        <td> 115 </td>
+        <td>0</td>
+        <td>0.00%</td>
+    </tr>
+</tbody></table>
+

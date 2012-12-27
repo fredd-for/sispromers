@@ -1,0 +1,1336 @@
+
+<table>
+     <tbody><tr style="background: rgb(102, 113, 32); color: rgb(255, 255, 255); font-size: 15px;">
+         <th colSpan="2">INDICADOR DE IMPACTO:</th><td colSpan="16">A los dos años de finalizado el proyecto, al menos 80% de las 115 MERS beneficiarias mantienen sus servicios</td>
+     </tr>
+</tbody></table>
+ <table id="table_example" class="ewTable" border="1" width="100%">
+    <thead>
+    <tr>
+        <th bgColor="#b8c692"></th>
+        <th bgColor="#b8c692" colSpan="5" align="center">INFORME GEOGRAFICO</th>
+        <th bgColor="#b8c2a5" colSpan="4" align="center">DATOS DE LA MERS</th>
+        <th bgColor="#b8f5e0" colSpan="1" align="center">DOCUMENTO</th>
+        <th bgColor="#b89ec1" colSpan="1" align="center">INDICADOR</th>
+    </tr>
+    <tr class="ewTableHeader">
+        <th>Nro</th>
+        <th>Regional</th>
+        <th>Departamento</th>
+        <th>Municipio</th>
+        <th>Comunidad</th>
+        <th>Zona</th>
+        <th>Rubro</th>
+        <th>Razon Social de la Mers</th>
+        <th>Responsable de la Mers</th>
+        <th>Gestión</th>
+        <th style="cursor: pointer;" title="Ocultar/Ver Comentarios" onclick="verOcultarFormalizacion();">Contrato Municipio-Mers <img src="images/expand.gif"></th>
+        <th>Valor</th>
+    </tr>
+</thead>
+<tbody id="contenidoTbody">
+<tr>
+<td>1</td>
+        <td>Chuquisaca</td>
+        <td>Chuquisaca</td>
+        <td>Alcalá</td>
+        <td>Alcalá</td>
+        <td>Municipio de Alcalá</td>
+        <td>Acopio Productivo y Transformación</td>
+        <td>Asociación Productores Agropecuarios de Alcalá (APA)</td>
+        <td>            <div>Alvarado , Reinaldo</div>        </td>
+        <td>2010</td>
+        <td>            <table>
+                             <tbody><tr style="color: blue;">
+                    <td>Municipio-Mers ?</td>
+                    <td id="detalle_1">Venta de Turron, refresco y tostado de amaranto al Municipio de Alcalá trimestralmente. 4 Varios = 2480.00 Bs.</td>
+                </tr>
+                             <tr><td colSpan="2">TOTAL Bs.= 2480</td></tr>
+            </tbody></table>
+                    </td>
+<td style="background: rgb(194, 214, 154);">Cumple.</td>
+    </tr>
+<tr bgColor="#f1f1f1">
+<td>2</td>
+        <td>Chuquisaca</td>
+        <td>Chuquisaca</td>
+        <td>Alcalá</td>
+        <td>Alcalá</td>
+        <td></td>
+        <td>Agua Potable y Alcantarillado</td>
+        <td>EPSAS Alcalá</td>
+        <td>            <div>Alvarado , Reinaldo</div>            <div style="background: rgb(215, 211, 200);">Limachi , Limbert</div>        </td>
+        <td>2010</td>
+        <td>            <table>
+                             <tbody><tr style="color: blue;">
+                    <td>Privado-Privado ?</td>
+                    <td id="detalle_2">Servicio de Agua potable a 253 habitantes del Municipio de Alcalá.  12 Consumo = 16800.00 Bs.</td>
+                </tr>
+                             <tr><td colSpan="2">TOTAL Bs.= 16800</td></tr>
+            </tbody></table>
+                    </td>
+<td style="background: rgb(194, 214, 154);">Cumple.</td>
+    </tr>
+<tr>
+<td>3</td>
+        <td>Chuquisaca</td>
+        <td>Chuquisaca</td>
+        <td>Alcalá</td>
+        <td>Alcalá</td>
+        <td></td>
+        <td>Agua Potable y Alcantarillado</td>
+        <td>EPSAS Garza Chico</td>
+        <td>            <div>Alvarado , Reinaldo</div>        </td>
+        <td>2011</td>
+        <td>            <table>
+                             <tbody><tr style="color: blue;">
+                    <td>Privado-Privado ?</td>
+                    <td id="detalle_3">Venta Servicios de Agua 12 Usuario = 816.00 Bs.</td>
+                </tr>
+                             <tr><td colSpan="2">TOTAL Bs.= 816</td></tr>
+            </tbody></table>
+                    </td>
+<td style="background: rgb(194, 214, 154);">Cumple.</td>
+    </tr>
+<tr bgColor="#f1f1f1">
+<td>4</td>
+        <td>Chuquisaca</td>
+        <td>Chuquisaca</td>
+        <td>Alcalá</td>
+        <td>Alcalá</td>
+        <td></td>
+        <td>Construcción</td>
+        <td>Empresa Contructora Alcalá</td>
+        <td>            <div>Alvarado , Reinaldo</div>        </td>
+        <td>2011</td>
+        <td>            <table>
+                             <tbody><tr style="color: blue;">
+                    <td>Publico-Privado ?</td>
+                    <td id="detalle_4">Servicio de construcción /refacción  para el Hospital del Municipio de Alcalá. 1 Construcción = 19521.49 Bs.</td>
+                </tr>
+                             <tr><td colSpan="2">TOTAL Bs.= 19521.49</td></tr>
+            </tbody></table>
+                    </td>
+<td style="background: rgb(194, 214, 154);">Cumple.</td>
+    </tr>
+<tr>
+<td>5</td>
+        <td>Chuquisaca</td>
+        <td>Chuquisaca</td>
+        <td>Alcalá</td>
+        <td>Alcalá</td>
+        <td></td>
+        <td>Otro</td>
+        <td>Asociación Productores de Miel (APROMIEL)</td>
+        <td>            <div>Alvarado , Reinaldo</div>        </td>
+        <td>2010</td>
+        <td>            <table>
+                             <tbody><tr style="color: blue;">
+                    <td>Privado-Privado ?</td>
+                    <td id="detalle_5">Venta de Miel 42 Kilo = 609.00 Bs.</td>
+                </tr>
+                             <tr><td colSpan="2">TOTAL Bs.= 609</td></tr>
+            </tbody></table>
+                    </td>
+<td style="background: rgb(194, 214, 154);">Cumple.</td>
+    </tr>
+<tr bgColor="#f1f1f1">
+<td>6</td>
+        <td>Chuquisaca</td>
+        <td>Chuquisaca</td>
+        <td>Alcalá</td>
+        <td>Alcalá</td>
+        <td></td>
+        <td>Riego y Sistemas de Agua</td>
+        <td>Asociación de Agua y Saneamiento Básico Lima Alto</td>
+        <td>            <div>Alvarado , Reinaldo</div>            <div style="background: rgb(215, 211, 200);">Limachi , Limbert</div>        </td>
+        <td>2010</td>
+        <td>            <table>
+                             <tbody><tr style="color: blue;">
+                    <td>Privado-Privado ?</td>
+                    <td id="detalle_6">Servicio de distribución de Agua para Riego 12 Usuarios = 1200.00 Bs.</td>
+                </tr>
+                             <tr><td colSpan="2">TOTAL Bs.= 1200</td></tr>
+            </tbody></table>
+                    </td>
+<td style="background: rgb(194, 214, 154);">Cumple.</td>
+    </tr>
+<tr>
+<td>7</td>
+        <td>Chuquisaca</td>
+        <td>Chuquisaca</td>
+        <td>Alcalá</td>
+        <td>Alcalá</td>
+        <td></td>
+        <td>Riego y Sistemas de Agua</td>
+        <td>Asociación de Agua y Saneamineto Lima Bajo</td>
+        <td>            <div>Alvarado , Reinaldo</div>            <div style="background: rgb(215, 211, 200);">Limachi , Limbert</div>        </td>
+        <td>2011</td>
+        <td>            <table>
+                             <tbody><tr style="color: blue;">
+                    <td>Privado-Privado ?</td>
+                    <td id="detalle_7">Servicio de Agua Bebible 12 Usuarios = 648.00 Bs.</td>
+                </tr>
+                             <tr><td colSpan="2">TOTAL Bs.= 648</td></tr>
+            </tbody></table>
+                    </td>
+<td style="background: rgb(194, 214, 154);">Cumple.</td>
+    </tr>
+<tr bgColor="#f1f1f1">
+<td>8</td>
+        <td>Chuquisaca</td>
+        <td>Chuquisaca</td>
+        <td>Alcalá</td>
+        <td>limabamba</td>
+        <td>Municipio de Alcalá</td>
+        <td>Otro</td>
+        <td>Asociación de Trigo Limabamba (APTL)</td>
+        <td>            <div>Alvarado , Reinaldo</div>            <div style="background: rgb(215, 211, 200);">Limachi , Limbert</div>        </td>
+        <td>2010</td>
+        <td>            <table>
+                             <tbody><tr style="color: blue;">
+                    <td>Privado-Privado ?</td>
+                    <td id="detalle_8">Venta de 30 qq de Trigo a PCI, para la provisión del desayuno escolar.  30 qq = 10500.00 Bs.</td>
+                </tr>
+                             <tr><td colSpan="2">TOTAL Bs.= 10500</td></tr>
+            </tbody></table>
+                    </td>
+<td style="background: rgb(194, 214, 154);">Cumple.</td>
+    </tr>
+<tr>
+<td>9</td>
+        <td>Chuquisaca</td>
+        <td>Chuquisaca</td>
+        <td>Padilla</td>
+        <td>Lampasillos</td>
+        <td>Municipio de Padilla</td>
+        <td>Acopio Productivo y Transformación</td>
+        <td>Asociación Productores Agropecuarios  Lampasillos (APAL)</td>
+        <td>            <div>Alvarado , Reinaldo</div>            <div style="background: rgb(215, 211, 200);">Limachi , Limbert</div>        </td>
+        <td>2010</td>
+        <td>            <table>
+                             <tbody><tr style="color: blue;">
+                    <td>Privado-Privado ?</td>
+                    <td id="detalle_9">Venta de 30 qq de Semilla de papa al Sr. Gustavo Miranda de la ciudad de Cbba.  30 qq = 7800.00 Bs.</td>
+                </tr>
+                             <tr><td colSpan="2">TOTAL Bs.= 7800</td></tr>
+            </tbody></table>
+                    </td>
+<td style="background: rgb(194, 214, 154);">Cumple.</td>
+    </tr>
+<tr bgColor="#f1f1f1">
+<td>10</td>
+        <td>Chuquisaca</td>
+        <td>Chuquisaca</td>
+        <td>Padilla</td>
+        <td>Padilla</td>
+        <td>Municipio de Padilla</td>
+        <td>Agua Potable y Alcantarillado</td>
+        <td>COOPERATIVA DE AGUA Y ALCANTARILLADO PADILLA LTDA.</td>
+        <td>            <div>Alvarado , Reinaldo</div>            <div style="background: rgb(215, 211, 200);">Limachi , Limbert</div>        </td>
+        <td>2010</td>
+        <td>            <table>
+                             <tbody><tr style="color: blue;">
+                    <td>Municipio-Mers ?</td>
+                    <td id="detalle_10">Servicio de construcción de un Sistema de Microriego  1 Sistema = 15153.00 Bs.</td>
+                </tr>
+                             <tr><td colSpan="2">TOTAL Bs.= 15153</td></tr>
+            </tbody></table>
+                    </td>
+<td style="background: rgb(194, 214, 154);">Cumple.</td>
+    </tr>
+<tr>
+<td>11</td>
+        <td>Chuquisaca</td>
+        <td>Chuquisaca</td>
+        <td>Padilla</td>
+        <td>Padilla</td>
+        <td></td>
+        <td>Construcción</td>
+        <td>Empresa Constructora Padilla</td>
+        <td>            <div>Alvarado , Reinaldo</div>        </td>
+        <td>2011</td>
+        <td>            <table>
+                             <tbody><tr style="color: blue;">
+                    <td>Publico-Privado ?</td>
+                    <td id="detalle_11">Servicio de construcción de un Sistema de Microriego en la Comunidad Thiamayu del Municipio de Padilla 1 Construcción = 11811.00 Bs.</td>
+                </tr>
+                             <tr style="color: blue;">
+                    <td>Publico-Privado ?</td>
+                    <td id="detalle_12">Servicio de construcción de un Sistema de agua Lampacillo Sector Peñas Blancas 38 Unid. = 33364.00 Bs.</td>
+                </tr>
+                             <tr><td colSpan="2">TOTAL Bs.= 45175</td></tr>
+            </tbody></table>
+                    </td>
+<td style="background: rgb(194, 214, 154);">Cumple.</td>
+    </tr>
+<tr bgColor="#f1f1f1">
+<td>12</td>
+        <td>Chuquisaca</td>
+        <td>Chuquisaca</td>
+        <td>Padilla</td>
+        <td>Padilla</td>
+        <td>Municipio de Padilla</td>
+        <td>Otro</td>
+        <td>Asociación Productores de Ají "San Julian"    (APASJ)</td>
+        <td>            <div>Alvarado , Reinaldo</div>            <div style="background: rgb(215, 211, 200);">Limachi , Limbert</div>        </td>
+        <td>2010</td>
+        <td>            <table>
+                             <tbody><tr style="color: blue;">
+                    <td>Privado-Privado ?</td>
+                    <td id="detalle_13">Venta de Ají Amarillo y Rojo 1 Ají = 7297.00 Bs.</td>
+                </tr>
+                             <tr><td colSpan="2">TOTAL Bs.= 7297</td></tr>
+            </tbody></table>
+                    </td>
+<td style="background: rgb(194, 214, 154);">Cumple.</td>
+    </tr>
+<tr>
+<td>13</td>
+        <td>Chuquisaca</td>
+        <td>Chuquisaca</td>
+        <td>Sopachuy</td>
+        <td>Milanes</td>
+        <td></td>
+        <td>Riego y Sistemas de Agua</td>
+        <td>EPSAS Milanes</td>
+        <td>            <div>Arancibia , Feliciano</div>            <div style="background: rgb(215, 211, 200);">Limachi , Limbert</div>        </td>
+        <td>2010</td>
+        <td>            <table>
+                             <tbody><tr style="color: blue;">
+                    <td>Privado-Privado ?</td>
+                    <td id="detalle_14">Servicio de Agua Bebible 15 Cubo/año = 930.00 Bs.</td>
+                </tr>
+                             <tr><td colSpan="2">TOTAL Bs.= 930</td></tr>
+            </tbody></table>
+                    </td>
+<td style="background: rgb(194, 214, 154);">Cumple.</td>
+    </tr>
+<tr bgColor="#f1f1f1">
+<td>14</td>
+        <td>Chuquisaca</td>
+        <td>Chuquisaca</td>
+        <td>Sopachuy</td>
+        <td>Sopachuy</td>
+        <td></td>
+        <td>Acopio Productivo y Transformación</td>
+        <td>Asoc. Productores Agropecuarios de la Cuenca del Rio Milanes (APROCMI)</td>
+        <td>            <div>Arancibia , Feliciano</div>        </td>
+        <td>2010</td>
+        <td>            <table>
+                             <tbody><tr style="color: blue;">
+                    <td>Municipio-Mers ?</td>
+                    <td id="detalle_15">Venta de Api, tojorí, refresco de amaranto al Municipio de Sopachuy trimestralmente 1 Insumos = 79400.00 Bs.</td>
+                </tr>
+                             <tr style="color: gray;">
+                    <td>Municipio-Mers </td>
+                    <td id="detalle_16"> 0  = 0.00 Bs.</td>
+                </tr>
+                             <tr style="color: gray;">
+                    <td>Municipio-Mers </td>
+                    <td id="detalle_17"> 0  = 0.00 Bs.</td>
+                </tr>
+                             <tr><td colSpan="2">TOTAL Bs.= 79400</td></tr>
+            </tbody></table>
+                    </td>
+<td style="background: rgb(194, 214, 154);">Cumple.</td>
+    </tr>
+<tr>
+<td>15</td>
+        <td>Chuquisaca</td>
+        <td>Chuquisaca</td>
+        <td>Sopachuy</td>
+        <td>Sopachuy</td>
+        <td></td>
+        <td>Agua Potable y Alcantarillado</td>
+        <td>EPSAS Horcas</td>
+        <td>            <div>Arancibia , Feliciano</div>        </td>
+        <td>2011</td>
+        <td>            <table>
+                             <tbody><tr style="color: blue;">
+                    <td>Privado-Privado ?</td>
+                    <td id="detalle_18">Servicio de Agua 12 Cubo = 864.00 Bs.</td>
+                </tr>
+                             <tr><td colSpan="2">TOTAL Bs.= 864</td></tr>
+            </tbody></table>
+                    </td>
+<td style="background: rgb(194, 214, 154);">Cumple.</td>
+    </tr>
+<tr bgColor="#f1f1f1">
+<td>16</td>
+        <td>Chuquisaca</td>
+        <td>Chuquisaca</td>
+        <td>Sopachuy</td>
+        <td>Sopachuy</td>
+        <td></td>
+        <td>Agua Potable y Alcantarillado</td>
+        <td>EPSAS Sopachuy</td>
+        <td>            <div>Arancibia , Feliciano</div>            <div style="background: rgb(215, 211, 200);">Limachi , Limbert</div>        </td>
+        <td>2010</td>
+        <td>            <table>
+                             <tbody><tr style="color: blue;">
+                    <td>Privado-Privado ?</td>
+                    <td id="detalle_19">Servicio de Agua potable a 551 habitantes del Municipio de Sopachuy 10 Cubo = 27550.00 Bs.</td>
+                </tr>
+                             <tr><td colSpan="2">TOTAL Bs.= 27550</td></tr>
+            </tbody></table>
+                    </td>
+<td style="background: rgb(194, 214, 154);">Cumple.</td>
+    </tr>
+<tr>
+<td>17</td>
+        <td>Chuquisaca</td>
+        <td>Chuquisaca</td>
+        <td>Sopachuy</td>
+        <td>Sopachuy</td>
+        <td></td>
+        <td>Otro</td>
+        <td>Coop. San Jose Obrero</td>
+        <td>            <div>Arancibia , Feliciano</div>        </td>
+        <td>2010</td>
+        <td>            <table>
+                             <tbody><tr style="color: blue;">
+                    <td>Municipio-Mers ?</td>
+                    <td id="detalle_20">Dotación de insumos al Gobierno Municipal de Sopachuy. 1 Varios = 5445.00 Bs.</td>
+                </tr>
+                             <tr><td colSpan="2">TOTAL Bs.= 5445</td></tr>
+            </tbody></table>
+                    </td>
+<td style="background: rgb(194, 214, 154);">Cumple.</td>
+    </tr>
+<tr bgColor="#f1f1f1">
+<td>18</td>
+        <td>Chuquisaca</td>
+        <td>Chuquisaca</td>
+        <td>Tomina</td>
+        <td>Pampas Punta</td>
+        <td></td>
+        <td>Acopio Productivo y Transformación</td>
+        <td>Asociación de Mujeres Pampas Abajo (AMUPA)</td>
+        <td>            <div>Arancibia , Feliciano</div>        </td>
+        <td>2010</td>
+        <td>            <table>
+                             <tbody><tr style="color: blue;">
+                    <td>Municipio-Mers ?</td>
+                    <td id="detalle_21">Provisión de Insumos al Municipio de Tomina, para el Desayuno Escolar 1 Insumos = 12586.00 Bs.</td>
+                </tr>
+                             <tr><td colSpan="2">TOTAL Bs.= 12586</td></tr>
+            </tbody></table>
+                    </td>
+<td style="background: rgb(194, 214, 154);">Cumple.</td>
+    </tr>
+<tr>
+<td>19</td>
+        <td>Chuquisaca</td>
+        <td>Chuquisaca</td>
+        <td>Tomina</td>
+        <td>Tomina</td>
+        <td></td>
+        <td>Acopio Productivo y Transformación</td>
+        <td>Asociación Productores Agropecuarios (APROA San Mauro)</td>
+        <td>            <div>Arancibia , Feliciano</div>        </td>
+        <td>2010</td>
+        <td>            <table>
+                             <tbody><tr style="color: blue;">
+                    <td>Municipio-Mers ?</td>
+                    <td id="detalle_22">Venta de 16 qq de maní con perilla al Municipio de Tomina. 16 Quintales = 7182.56 Bs.</td>
+                </tr>
+                             <tr><td colSpan="2">TOTAL Bs.= 7182.56</td></tr>
+            </tbody></table>
+                    </td>
+<td style="background: rgb(194, 214, 154);">Cumple.</td>
+    </tr>
+<tr bgColor="#f1f1f1">
+<td>20</td>
+        <td>Chuquisaca</td>
+        <td>Chuquisaca</td>
+        <td>Tomina</td>
+        <td>Tomina</td>
+        <td></td>
+        <td>Agua Potable y Alcantarillado</td>
+        <td>Emp. Serv. Agua Potable Tomina</td>
+        <td>            <div>Arancibia , Feliciano</div>            <div style="background: rgb(215, 211, 200);">Limachi , Limbert</div>        </td>
+        <td>2010</td>
+        <td>            <table>
+                             <tbody><tr style="color: blue;">
+                    <td>Privado-Privado ?</td>
+                    <td id="detalle_23">Servicio de Agua potable a 636 habitantes del Municipio de Tomina. 636 Cubo = 19601.52 Bs.</td>
+                </tr>
+                             <tr><td colSpan="2">TOTAL Bs.= 19601.52</td></tr>
+            </tbody></table>
+                    </td>
+<td style="background: rgb(194, 214, 154);">Cumple.</td>
+    </tr>
+<tr>
+<td>21</td>
+        <td>Chuquisaca</td>
+        <td>Chuquisaca</td>
+        <td>Tomina</td>
+        <td>Tomina</td>
+        <td></td>
+        <td>Otro</td>
+        <td>Asociación Molinos San Mauro</td>
+        <td>            <div>Arancibia , Feliciano</div>            <div style="background: rgb(215, 211, 200);">Limachi , Limbert</div>        </td>
+        <td>2010</td>
+        <td>            <table>
+                             <tbody><tr style="color: blue;">
+                    <td>Municipio-Mers ?</td>
+                    <td id="detalle_24">Dotación del desayuno escolar al Municipio de Tomina 1 Insumos = 9718.88 Bs.</td>
+                </tr>
+                             <tr><td colSpan="2">TOTAL Bs.= 9718.88</td></tr>
+            </tbody></table>
+                    </td>
+<td style="background: rgb(194, 214, 154);">Cumple.</td>
+    </tr>
+<tr bgColor="#f1f1f1">
+<td>22</td>
+        <td>Chuquisaca</td>
+        <td>Chuquisaca</td>
+        <td>Tomina</td>
+        <td>Tomina</td>
+        <td></td>
+        <td>Otro</td>
+        <td>Asociación La Frontera</td>
+        <td>            <div>Arancibia , Feliciano</div>            <div style="background: rgb(215, 211, 200);">Limachi , Limbert</div>        </td>
+        <td>2010</td>
+        <td>            <table>
+                             <tbody><tr style="color: blue;">
+                    <td>Municipio-Mers ?</td>
+                    <td id="detalle_25">Dotación del desayuno escolar al Municipio de Tomina.  3 Varios = 15190.02 Bs.</td>
+                </tr>
+                             <tr><td colSpan="2">TOTAL Bs.= 15190.02</td></tr>
+            </tbody></table>
+                    </td>
+<td style="background: rgb(194, 214, 154);">Cumple.</td>
+    </tr>
+<tr>
+<td>23</td>
+        <td>Chuquisaca</td>
+        <td>Potosi</td>
+        <td>Ocurí</td>
+        <td>Canchas Blancas</td>
+        <td>Ocurí</td>
+        <td>Agua Potable y Alcantarillado</td>
+        <td>EPSAS Cancha Cancha</td>
+        <td>            <div>Loayza , David</div>        </td>
+        <td>2011</td>
+        <td>            <table>
+                             <tbody><tr style="color: blue;">
+                    <td>Privado-Privado ?</td>
+                    <td id="detalle_26">Servicio de agua potable y alcantarillado 24 Cubo = 720.00 Bs.</td>
+                </tr>
+                             <tr><td colSpan="2">TOTAL Bs.= 720</td></tr>
+            </tbody></table>
+                    </td>
+<td style="background: rgb(194, 214, 154);">Cumple.</td>
+    </tr>
+<tr bgColor="#f1f1f1">
+<td>24</td>
+        <td>Chuquisaca</td>
+        <td>Potosi</td>
+        <td>Ocurí</td>
+        <td>Canchas Blancas</td>
+        <td></td>
+        <td>Caminos</td>
+        <td>Microempresa de Conservación Vial Ocurí</td>
+        <td>            <div>Loayza , David</div>        </td>
+        <td>2010</td>
+        <td>            <table>
+                             <tbody><tr style="color: blue;">
+                    <td>Publico-Privado ?</td>
+                    <td id="detalle_27">Servicio de mantenimiento del camino del Municipio de Ocurí.  1 Mantenimiento = 44000.00 Bs.</td>
+                </tr>
+                             <tr><td colSpan="2">TOTAL Bs.= 44000</td></tr>
+            </tbody></table>
+                    </td>
+<td style="background: rgb(194, 214, 154);">Cumple.</td>
+    </tr>
+<tr>
+<td>25</td>
+        <td>Chuquisaca</td>
+        <td>Potosi</td>
+        <td>Ocurí</td>
+        <td>Canchas Blancas</td>
+        <td></td>
+        <td>Otro</td>
+        <td>Asociación de Productores Agropecuarios Allyn Tarpuy</td>
+        <td>            <div>Loayza , David</div>        </td>
+        <td>2010</td>
+        <td>            <table>
+                             <tbody><tr style="color: blue;">
+                    <td>Privado-Privado ?</td>
+                    <td id="detalle_28">Venta de 384 qq de semilla de papa al Sr. Fernando Rivas con C.I. 4280968 Cb, comprador particular. 384 qq = 76800.00 Bs.</td>
+                </tr>
+                             <tr><td colSpan="2">TOTAL Bs.= 76800</td></tr>
+            </tbody></table>
+                    </td>
+<td style="background: rgb(194, 214, 154);">Cumple.</td>
+    </tr>
+<tr bgColor="#f1f1f1">
+<td>26</td>
+        <td>Chuquisaca</td>
+        <td>Potosi</td>
+        <td>Ocurí</td>
+        <td>Ilabe</td>
+        <td></td>
+        <td>Otro</td>
+        <td>Asociación de Prod. Agropecuarios Ilabe (APROAGRO ILABE)</td>
+        <td>            <div>Loayza , David</div>        </td>
+        <td>2010</td>
+        <td>            <table>
+                             <tbody><tr style="color: blue;">
+                    <td>Privado-Privado ?</td>
+                    <td id="detalle_29">42,5 qq  de haba variedad pairumani 43 qq = 12707.50 Bs.</td>
+                </tr>
+                             <tr><td colSpan="2">TOTAL Bs.= 12707.5</td></tr>
+            </tbody></table>
+                    </td>
+<td style="background: rgb(194, 214, 154);">Cumple.</td>
+    </tr>
+<tr>
+<td>27</td>
+        <td>Chuquisaca</td>
+        <td>Potosi</td>
+        <td>Ocurí</td>
+        <td>Ocurí</td>
+        <td></td>
+        <td>Agua Potable y Alcantarillado</td>
+        <td>EPSAs Ocurí</td>
+        <td>            <div>Loayza , David</div>        </td>
+        <td>2010</td>
+        <td>            <table>
+                             <tbody><tr style="color: blue;">
+                    <td>Municipio-Mers ?</td>
+                    <td id="detalle_30">Servicio de Agua Potable a la H.A.M. de Ocurí 12 Cubo = 2400.00 Bs.</td>
+                </tr>
+                             <tr><td colSpan="2">TOTAL Bs.= 2400</td></tr>
+            </tbody></table>
+                    </td>
+<td style="background: rgb(194, 214, 154);">Cumple.</td>
+    </tr>
+<tr bgColor="#f1f1f1">
+<td>28</td>
+        <td>Chuquisaca</td>
+        <td>Potosi</td>
+        <td>Ocurí</td>
+        <td>Ocurí</td>
+        <td>Ocurí</td>
+        <td>Agua Potable y Alcantarillado</td>
+        <td>EPSAS Caine</td>
+        <td>            <div>Loayza , David</div>        </td>
+        <td>2011</td>
+        <td>            <table>
+                             <tbody><tr style="color: blue;">
+                    <td>Privado-Privado ?</td>
+                    <td id="detalle_31">Servicio de Agua 24 Cubo = 720.00 Bs.</td>
+                </tr>
+                             <tr><td colSpan="2">TOTAL Bs.= 720</td></tr>
+            </tbody></table>
+                    </td>
+<td style="background: rgb(194, 214, 154);">Cumple.</td>
+    </tr>
+<tr>
+<td>29</td>
+        <td>Chuquisaca</td>
+        <td>Potosi</td>
+        <td>Ocurí</td>
+        <td>Ocurí</td>
+        <td>Ravelo</td>
+        <td>Caminos</td>
+        <td>Caminos Maragua</td>
+        <td>            <div>Loayza , David</div>        </td>
+        <td>2011</td>
+        <td>            <table>
+                             <tbody><tr style="color: blue;">
+                    <td>Publico-Privado ?</td>
+                    <td id="detalle_32">Servicio de Mantenimiento Caminos en el Municipio de Ocurí 1 Mantenimiento = 10218.86 Bs.</td>
+                </tr>
+                             <tr><td colSpan="2">TOTAL Bs.= 10218.86</td></tr>
+            </tbody></table>
+                    </td>
+<td style="background: rgb(194, 214, 154);">Cumple.</td>
+    </tr>
+<tr bgColor="#f1f1f1">
+<td>30</td>
+        <td>Chuquisaca</td>
+        <td>Potosi</td>
+        <td>Ocurí</td>
+        <td>Ocurí</td>
+        <td></td>
+        <td>Caminos</td>
+        <td>Caminos Marcoma</td>
+        <td>            <div>Loayza , David</div>        </td>
+        <td>2011</td>
+        <td>            <table>
+                             <tbody><tr style="color: blue;">
+                    <td>Publico-Privado ?</td>
+                    <td id="detalle_33">Mantenimiento de caminos Rutinario, Muncipio de Ocurí 1 Mantenimiento = 21120.00 Bs.</td>
+                </tr>
+                             <tr><td colSpan="2">TOTAL Bs.= 21120</td></tr>
+            </tbody></table>
+                    </td>
+<td style="background: rgb(194, 214, 154);">Cumple.</td>
+    </tr>
+<tr>
+<td>31</td>
+        <td>Chuquisaca</td>
+        <td>Potosi</td>
+        <td>Ravelo</td>
+        <td>Ravelo</td>
+        <td></td>
+        <td>Agua Potable y Alcantarillado</td>
+        <td>Asociación de Agua y Saneamiento Básico Safiri (EPSAS Safiri)</td>
+        <td>            <div>Loayza , David</div>        </td>
+        <td>2010</td>
+        <td>            <table>
+                             <tbody><tr style="color: blue;">
+                    <td>Privado-Privado ?</td>
+                    <td id="detalle_34">Servicio de Agua potable a 672 habitantes de la comunidad Safiri del Municipio de Ravelo.   672 Cubo = 2016.00 Bs.</td>
+                </tr>
+                             <tr><td colSpan="2">TOTAL Bs.= 2016</td></tr>
+            </tbody></table>
+                    </td>
+<td style="background: rgb(194, 214, 154);">Cumple.</td>
+    </tr>
+<tr bgColor="#f1f1f1">
+<td>32</td>
+        <td>Chuquisaca</td>
+        <td>Potosi</td>
+        <td>Ravelo</td>
+        <td>Ravelo</td>
+        <td></td>
+        <td>Agua Potable y Alcantarillado</td>
+        <td>EPSA Ravelo</td>
+        <td>            <div>Loayza , David</div>        </td>
+        <td>2010</td>
+        <td>            <table>
+                             <tbody><tr style="color: blue;">
+                    <td>Privado-Privado ?</td>
+                    <td id="detalle_35">Servicio de Agua potable a 534 habitantes del Municipio de Ravelo. 533 Cubo = 7995.00 Bs.</td>
+                </tr>
+                             <tr><td colSpan="2">TOTAL Bs.= 7995</td></tr>
+            </tbody></table>
+                    </td>
+<td style="background: rgb(194, 214, 154);">Cumple.</td>
+    </tr>
+<tr>
+<td>33</td>
+        <td>Chuquisaca</td>
+        <td>Potosi</td>
+        <td>Ravelo</td>
+        <td>Rodeo</td>
+        <td></td>
+        <td>Caminos</td>
+        <td>Caminos Pata Rodeo</td>
+        <td>            <div>Loayza , David</div>        </td>
+        <td>2011</td>
+        <td>            <table>
+                             <tbody><tr style="color: blue;">
+                    <td>Publico-Privado ?</td>
+                    <td id="detalle_36">Servicio de Mantenimiento Caminos en el Municipio de Ravelo.                                                                                                                                                                                                                                             Detalle: Pago total de Bs. 10,134.36 por la refacción y mantenimiento de la vía Tomoyo-Sucre 1 Mantenimiento = 10134.36 Bs.</td>
+                </tr>
+                             <tr><td colSpan="2">TOTAL Bs.= 10134.36</td></tr>
+            </tbody></table>
+                    </td>
+<td style="background: rgb(194, 214, 154);">Cumple.</td>
+    </tr>
+<tr bgColor="#f1f1f1">
+<td>34</td>
+        <td>Chuquisaca</td>
+        <td>Potosi</td>
+        <td>Ravelo</td>
+        <td>Rodeo Huayllas</td>
+        <td></td>
+        <td>Acopio Productivo y Transformación</td>
+        <td>Asociación Productiva Agropecuaria (Aproagro) Huayllas</td>
+        <td>            <div>Loayza , David</div>        </td>
+        <td>2010</td>
+        <td>            <table>
+                             <tbody><tr style="color: blue;">
+                    <td>Municipio-Mers ?</td>
+                    <td id="detalle_37">Venta de Haba integral al Municipio de Ravelo.  50 Quintales = 9000.00 Bs.</td>
+                </tr>
+                             <tr><td colSpan="2">TOTAL Bs.= 9000</td></tr>
+            </tbody></table>
+                    </td>
+<td style="background: rgb(194, 214, 154);">Cumple.</td>
+    </tr>
+<tr>
+<td>35</td>
+        <td>Chuquisaca</td>
+        <td>Potosi</td>
+        <td>Ravelo</td>
+        <td>Sasanta</td>
+        <td></td>
+        <td>Otro</td>
+        <td>Asociación de Productores Agropecuarios Mojon Pata</td>
+        <td>            <div>Loayza , David</div>        </td>
+        <td>2010</td>
+        <td>            <table>
+                             <tbody><tr style="color: blue;">
+                    <td>Municipio-Mers ?</td>
+                    <td id="detalle_38">Compra de Insumos para el Desayuno Escolar 12 Kilos = 1020.00 Bs.</td>
+                </tr>
+                             <tr style="color: blue;">
+                    <td>Privado-Privado ?</td>
+                    <td id="detalle_39">Venta de 4TM de Api amarillo al PCI, para la provisión del desayuno escolar en el Municipio de Ravelo.                                                                                                                                                                                                                                             Detalle 4 TM por un total de Bs. 40.000.- 4 TM = 40000.00 Bs.</td>
+                </tr>
+                             <tr><td colSpan="2">TOTAL Bs.= 41020</td></tr>
+            </tbody></table>
+                    </td>
+<td style="background: rgb(194, 214, 154);">Cumple.</td>
+    </tr>
+<tr bgColor="#f1f1f1">
+<td>36</td>
+        <td>Chuquisaca</td>
+        <td>Potosi</td>
+        <td>Ravelo</td>
+        <td>Sauci Mayu</td>
+        <td></td>
+        <td>Agua Potable y Alcantarillado</td>
+        <td>EPSAS  Sauci mayu</td>
+        <td>            <div>Loayza , David</div>        </td>
+        <td>2010</td>
+        <td>            <table>
+                             <tbody><tr style="color: blue;">
+                    <td>Privado-Privado ?</td>
+                    <td id="detalle_40">Servicios de agua potable y alcantarillado 58 Cubo = 1160.00 Bs.</td>
+                </tr>
+                             <tr><td colSpan="2">TOTAL Bs.= 1160</td></tr>
+            </tbody></table>
+                    </td>
+<td style="background: rgb(194, 214, 154);">Cumple.</td>
+    </tr>
+<tr>
+<td>37</td>
+        <td>Chuquisaca</td>
+        <td>Potosi</td>
+        <td>Ravelo</td>
+        <td>Sorocoto</td>
+        <td></td>
+        <td>Riego y Sistemas de Agua</td>
+        <td>Asoc. De prod. De semilla de maiz "Aprosemas"</td>
+        <td>            <div>Loayza , David</div>        </td>
+        <td>2011</td>
+        <td>            <table>
+                             <tbody><tr style="color: blue;">
+                    <td>Privado-Privado ?</td>
+                    <td id="detalle_41">Venta de 40 quintales de Semilla de Maíz 40 qq = 9600.00 Bs.</td>
+                </tr>
+                             <tr><td colSpan="2">TOTAL Bs.= 9600</td></tr>
+            </tbody></table>
+                    </td>
+<td style="background: rgb(194, 214, 154);">Cumple.</td>
+    </tr>
+<tr bgColor="#f1f1f1">
+<td>38</td>
+        <td>Chuquisaca</td>
+        <td>Potosi</td>
+        <td>Ravelo</td>
+        <td>Sorocoto/Soroscopa</td>
+        <td></td>
+        <td>Riego y Sistemas de Agua</td>
+        <td>Asociación de Regantes  Arsass</td>
+        <td>            <div>Loayza , David</div>        </td>
+        <td>2010</td>
+        <td>            <table>
+                             <tbody><tr style="color: blue;">
+                    <td>Privado-Privado ?</td>
+                    <td id="detalle_42">Distribución de Agua para Riego 120 Yunta = 2400.00 Bs.</td>
+                </tr>
+                             <tr><td colSpan="2">TOTAL Bs.= 2400</td></tr>
+            </tbody></table>
+                    </td>
+<td style="background: rgb(194, 214, 154);">Cumple.</td>
+    </tr>
+<tr>
+<td>39</td>
+        <td>Chuquisaca</td>
+        <td>Potosi</td>
+        <td>Ravelo</td>
+        <td>Sorojchi</td>
+        <td></td>
+        <td>Otro</td>
+        <td>Mod. Lechero Sorojchi</td>
+        <td>            <div>Loayza , David</div>        </td>
+        <td>2010</td>
+        <td>            <table>
+                             <tbody><tr style="color: blue;">
+                    <td>Municipio-Mers ?</td>
+                    <td id="detalle_43">Venta Dulce de Leche 80 Kilo = 720.00 Bs.</td>
+                </tr>
+                             <tr><td colSpan="2">TOTAL Bs.= 720</td></tr>
+            </tbody></table>
+                    </td>
+<td style="background: rgb(194, 214, 154);">Cumple.</td>
+    </tr>
+<tr bgColor="#f1f1f1">
+<td>40</td>
+        <td>Chuquisaca</td>
+        <td>Potosi</td>
+        <td>Ravelo</td>
+        <td>Tomoyo</td>
+        <td></td>
+        <td>Riego y Sistemas de Agua</td>
+        <td>Asociación de Riego y Servicio Tomoyo (ARISET)</td>
+        <td>            <div>Loayza , David</div>        </td>
+        <td>2010</td>
+        <td>            <table>
+                             <tbody><tr style="color: blue;">
+                    <td>Privado-Privado ?</td>
+                    <td id="detalle_44">Distribución de Agua para Riego 408 Riego = 14280.00 Bs.</td>
+                </tr>
+                             <tr><td colSpan="2">TOTAL Bs.= 14280</td></tr>
+            </tbody></table>
+                    </td>
+<td style="background: rgb(194, 214, 154);">Cumple.</td>
+    </tr>
+<tr>
+<td>41</td>
+        <td>Cochabamba</td>
+        <td>Cochabamba</td>
+        <td>Capinota</td>
+        <td>Capinota</td>
+        <td>Capinota</td>
+        <td>Agua Potable y Alcantarillado</td>
+        <td>Cooperativa de Agua Potable Irpa Irpa</td>
+        <td>            <div>Dominguez , Manuel Richard</div>            <div style="background: rgb(215, 211, 200);">Suarez Soruco, Juan Carlos</div>            <div>Vargas Huanca, Arnaldo</div>        </td>
+        <td>2011</td>
+        <td>            <table>
+                             <tbody><tr style="color: blue;">
+                    <td>Privado-Privado ?</td>
+                    <td id="detalle_45">Servicio de Agua Potable 12 Usuarios = 168000.00 Bs.</td>
+                </tr>
+                             <tr><td colSpan="2">TOTAL Bs.= 168000</td></tr>
+            </tbody></table>
+                    </td>
+<td style="background: rgb(194, 214, 154);">Cumple.</td>
+    </tr>
+<tr bgColor="#f1f1f1">
+<td>42</td>
+        <td>Cochabamba</td>
+        <td>Cochabamba</td>
+        <td>Capinota</td>
+        <td>Capinota</td>
+        <td>Capinota</td>
+        <td>Agua Potable y Alcantarillado</td>
+        <td>Cooperativa de Agua Potable Capinota</td>
+        <td>            <div>Dominguez , Manuel Richard</div>            <div style="background: rgb(215, 211, 200);">Suarez Soruco, Juan Carlos</div>            <div>Vargas Huanca, Arnaldo</div>        </td>
+        <td>2011</td>
+        <td>            <table>
+                             <tbody><tr style="color: gray;">
+                    <td>Privado-Privado </td>
+                    <td id="detalle_46">Servicio de Agua Potable 12  = 25614.00 Bs.</td>
+                </tr>
+                             <tr><td colSpan="2">TOTAL Bs.= 25614</td></tr>
+            </tbody></table>
+                    </td>
+<td style="background: rgb(194, 214, 154);">Cumple.</td>
+    </tr>
+<tr>
+<td>43</td>
+        <td>Cochabamba</td>
+        <td>Cochabamba</td>
+        <td>Capinota</td>
+        <td>Capinota</td>
+        <td></td>
+        <td>Otro</td>
+        <td>Embotelladora de Agua Capinota</td>
+        <td>            <div>Dominguez , Manuel Richard</div>            <div style="background: rgb(215, 211, 200);">Suarez Soruco, Juan Carlos</div>            <div>Vargas Huanca, Arnaldo</div>        </td>
+        <td>2011</td>
+        <td>            <table>
+                             <tbody><tr style="color: blue;">
+                    <td>Privado-Privado ?</td>
+                    <td id="detalle_47">Embotelladora de Agua 12 Botellas = 216000.00 Bs.</td>
+                </tr>
+                             <tr><td colSpan="2">TOTAL Bs.= 216000</td></tr>
+            </tbody></table>
+                    </td>
+<td style="background: rgb(194, 214, 154);">Cumple.</td>
+    </tr>
+<tr bgColor="#f1f1f1">
+<td>44</td>
+        <td>Cochabamba</td>
+        <td>Cochabamba</td>
+        <td>Capinota</td>
+        <td>Charamoco</td>
+        <td></td>
+        <td>Agua Potable y Alcantarillado</td>
+        <td>EPSAS Charamoco</td>
+        <td>            <div>Dominguez , Manuel Richard</div>            <div style="background: rgb(215, 211, 200);">Vargas Huanca, Arnaldo</div>        </td>
+        <td>2011</td>
+        <td>            <table>
+                             <tbody><tr style="color: blue;">
+                    <td>Privado-Privado ?</td>
+                    <td id="detalle_48">Servicio de Agua potable a 50 habitantes de la comunidad Charamoco del Municipio de Capinota.      1 Servicio = 7500.00 Bs.</td>
+                </tr>
+                             <tr><td colSpan="2">TOTAL Bs.= 7500</td></tr>
+            </tbody></table>
+                    </td>
+<td style="background: rgb(194, 214, 154);">Cumple.</td>
+    </tr>
+<tr>
+<td>45</td>
+        <td>Cochabamba</td>
+        <td>Cochabamba</td>
+        <td>Capinota</td>
+        <td>Charamoco</td>
+        <td></td>
+        <td>Otro</td>
+        <td>Modulo Lechero Charamoco</td>
+        <td>            <div>Dominguez , Manuel Richard</div>        </td>
+
+        <td>2010</td>
+        <td>            <table>
+                             <tbody><tr style="color: blue;">
+                    <td>Privado-Privado ?</td>
+                    <td id="detalle_49">Venta de 1800 litros de leche fría a PIL Andina Cochabamba  18000 Litro = 47700.00 Bs.</td>
+                </tr>
+                             <tr><td colSpan="2">TOTAL Bs.= 47700</td></tr>
+            </tbody></table>
+                    </td>
+<td style="background: rgb(194, 214, 154);">Cumple.</td>
+    </tr>
+<tr bgColor="#f1f1f1">
+<td>46</td>
+        <td>Cochabamba</td>
+        <td>Cochabamba</td>
+        <td>Capinota</td>
+        <td>Honoma</td>
+        <td>Comunidad de Hornoma</td>
+        <td>Agua Potable y Alcantarillado</td>
+        <td>EPSAS Hornoma</td>
+        <td>            <div>Dominguez , Manuel Richard</div>            <div style="background: rgb(215, 211, 200);">Vargas Huanca, Arnaldo</div>        </td>
+        <td>2010</td>
+        <td>            <table>
+                             <tbody><tr style="color: blue;">
+                    <td>Privado-Privado ?</td>
+                    <td id="detalle_50">Servicio de Agua potable a 150 habitantes de la comunidad Hornoma del Municipio de Capinota.  150 Cubo = 4500.00 Bs.</td>
+                </tr>
+                             <tr><td colSpan="2">TOTAL Bs.= 4500</td></tr>
+            </tbody></table>
+                    </td>
+<td style="background: rgb(194, 214, 154);">Cumple.</td>
+    </tr>
+<tr>
+<td>47</td>
+        <td>Cochabamba</td>
+        <td>Cochabamba</td>
+        <td>Capinota</td>
+        <td>Playa Ancha</td>
+        <td>Municipio de Capinota</td>
+        <td>Agua Potable y Alcantarillado</td>
+        <td>Asociación de Usuarios y Consumidores Agua Potable Playa Ancha (EPSAS Playa Ancha)</td>
+        <td>            <div>Dominguez , Manuel Richard</div>            <div style="background: rgb(215, 211, 200);">Vargas Huanca, Arnaldo</div>        </td>
+        <td>2010</td>
+        <td>            <table>
+                             <tbody><tr style="color: blue;">
+                    <td>Privado-Privado ?</td>
+                    <td id="detalle_51">Servicio de Agua potable a 750 habitantes de la comunidad Playa Ancha del Municipio de Capinota.           1 Consumo = 4750.00 Bs.</td>
+                </tr>
+                             <tr><td colSpan="2">TOTAL Bs.= 4750</td></tr>
+            </tbody></table>
+                    </td>
+<td style="background: rgb(194, 214, 154);">Cumple.</td>
+    </tr>
+<tr bgColor="#f1f1f1">
+<td>48</td>
+        <td>Cochabamba</td>
+        <td>Cochabamba</td>
+        <td>Capinota</td>
+        <td>Playa Ancha</td>
+        <td>Cunidad de Charamoco</td>
+        <td>Otro</td>
+        <td>Asociación Modulo Lechero Playa Ancha</td>
+        <td>            <div>Dominguez , Manuel Richard</div>            <div style="background: rgb(215, 211, 200);">Vargas Huanca, Arnaldo</div>        </td>
+        <td>2010</td>
+        <td>            <table>
+                             <tbody><tr style="color: blue;">
+                    <td>Privado-Privado ?</td>
+                    <td id="detalle_52">Venta de 1800 litros de leche fría a PIL Andina Cochabamba 1800 litro = 4770.00 Bs.</td>
+                </tr>
+                             <tr><td colSpan="2">TOTAL Bs.= 4770</td></tr>
+            </tbody></table>
+                    </td>
+<td style="background: rgb(194, 214, 154);">Cumple.</td>
+    </tr>
+<tr>
+<td>49</td>
+        <td>Cochabamba</td>
+        <td>Cochabamba</td>
+        <td>Capinota</td>
+        <td>Ucuchi</td>
+        <td>Comunidad de Ucuchi</td>
+        <td>Otro</td>
+        <td>Asociación Modulo Lechero Ucuchi</td>
+        <td>            <div>Dominguez , Manuel Richard</div>            <div style="background: rgb(215, 211, 200);">Vargas Huanca, Arnaldo</div>        </td>
+        <td>2010</td>
+        <td>            <table>
+                             <tbody><tr style="color: blue;">
+                    <td>Privado-Privado ?</td>
+                    <td id="detalle_53">Venta de 1500 litros de leche cruda a PIL Andina Cochabamba 1500 Litros = 3000.00 Bs.</td>
+                </tr>
+                             <tr><td colSpan="2">TOTAL Bs.= 3000</td></tr>
+            </tbody></table>
+                    </td>
+<td style="background: rgb(194, 214, 154);">Cumple.</td>
+    </tr>
+<tr bgColor="#f1f1f1">
+<td>50</td>
+        <td>Cochabamba</td>
+        <td>Cochabamba</td>
+        <td>Tapacarí</td>
+        <td>Challa</td>
+        <td></td>
+        <td>Agroforestación</td>
+        <td>Vivero La Kiswara</td>
+        <td>            <div>Vargas Huanca, Arnaldo</div>        </td>
+        <td>2010</td>
+        <td>            <table>
+                             <tbody><tr style="color: blue;">
+                    <td>Municipio-Mers ?</td>
+                    <td id="detalle_54">Dotación de Palntines al Municipio de Tapacarí, 3500 plantines de pino, 3500 plantines de eucalipto y 9557 plantines de Kiswara.  16557 Plantines = 25001.07 Bs.</td>
+                </tr>
+                             <tr><td colSpan="2">TOTAL Bs.= 25001.07</td></tr>
+            </tbody></table>
+                    </td>
+<td style="background: rgb(194, 214, 154);">Cumple.</td>
+    </tr>
+<tr>
+<td>51</td>
+        <td>Cochabamba</td>
+        <td>Cochabamba</td>
+        <td>Tapacarí</td>
+        <td>Challa</td>
+        <td>Tapacarí</td>
+        <td>Caminos</td>
+        <td>Empresa de MV ABC Provial Santiago de Challa</td>
+        <td>            <div>Castro Ayala, Osvaldo</div>            <div style="background: rgb(215, 211, 200);">Vargas Huanca, Arnaldo</div>        </td>
+        <td>2011</td>
+        <td>            <table>
+                             <tbody><tr style="color: blue;">
+                    <td>Publico-Privado ?</td>
+                    <td id="detalle_55">Mantenimiento Rutinario en la Carretera principal Challa-Challa grande (Oruro-Cbba) 1 Mantenimiento = 10000.00 Bs.</td>
+                </tr>
+                             <tr><td colSpan="2">TOTAL Bs.= 10000</td></tr>
+            </tbody></table>
+                    </td>
+<td style="background: rgb(194, 214, 154);">Cumple.</td>
+    </tr>
+<tr bgColor="#f1f1f1">
+<td>52</td>
+        <td>Cochabamba</td>
+        <td>Cochabamba</td>
+        <td>Tapacarí</td>
+        <td>Challa</td>
+        <td>Tapacarí</td>
+        <td>Otro</td>
+        <td>Lavadora de Hortalizas</td>
+        <td>            <div>Dominguez , Manuel Richard</div>            <div style="background: rgb(215, 211, 200);">Suarez Soruco, Juan Carlos</div>            <div>Vargas Huanca, Arnaldo</div>        </td>
+        <td>2011</td>
+        <td>            <table>
+                             <tbody><tr style="color: blue;">
+                    <td>Privado-Privado ?</td>
+                    <td id="detalle_56">Lavado de cargas de hortalizas 765 Quintal = 3825.00 Bs.</td>
+                </tr>
+                             <tr><td colSpan="2">TOTAL Bs.= 3825</td></tr>
+            </tbody></table>
+                    </td>
+<td style="background: rgb(194, 214, 154);">Cumple.</td>
+    </tr>
+<tr>
+<td>53</td>
+        <td>Cochabamba</td>
+        <td>Cochabamba</td>
+        <td>Tapacarí</td>
+        <td>Confital</td>
+        <td>Tapacarí</td>
+        <td>Caminos</td>
+        <td>Empresa de MV ABC Provial Vicachani</td>
+        <td>            <div>Castro Ayala, Osvaldo</div>        </td>
+        <td>2011</td>
+        <td>            <table>
+                             <tbody><tr style="color: blue;">
+                    <td>Publico-Privado ?</td>
+                    <td id="detalle_57">Servicio de mantenimiento del camino Tramo 1  del Municipio de Tapacarí.   1 Mantenimiento = 23733.00 Bs.</td>
+                </tr>
+                             <tr style="color: blue;">
+                    <td>Publico-Privado ?</td>
+                    <td id="detalle_58">Servicio de Mantenimiento Caminos en el Municipio de Tapacarí.                                                                                                                                                                                                                                             Detalle: Pago total de Bs. 10,446.26 por la refacción y mantenimiento de la vía troncal Cochabamba-Oruro 1 Mantenimiento = 10446.00 Bs.</td>
+                </tr>
+                             <tr><td colSpan="2">TOTAL Bs.= 34179</td></tr>
+            </tbody></table>
+                    </td>
+<td style="background: rgb(194, 214, 154);">Cumple.</td>
+    </tr>
+<tr bgColor="#f1f1f1">
+<td>54</td>
+        <td>Cochabamba</td>
+        <td>Cochabamba</td>
+        <td>Tapacarí</td>
+        <td>Hualla Tambo</td>
+        <td>Comunidad de Hualla Tambo</td>
+        <td>Acopio Productivo y Transformación</td>
+        <td>APAE ANDINO</td>
+        <td>            <div>Castro Ayala, Osvaldo</div>            <div style="background: rgb(215, 211, 200);">Dominguez , Manuel Richard</div>            <div>Vargas Huanca, Arnaldo</div>        </td>
+        <td>2009</td>
+        <td>            <table>
+                             <tbody><tr style="color: blue;">
+                    <td>Privado-Privado ?</td>
+                    <td id="detalle_59">Venta de 205 qq  de cañahua al Sr. Siprian Choque Terraza con C.I.  6447391 Cbba.  205 qq = 96350.00 Bs.</td>
+                </tr>
+                             <tr><td colSpan="2">TOTAL Bs.= 96350</td></tr>
+            </tbody></table>
+                    </td>
+<td style="background: rgb(194, 214, 154);">Cumple.</td>
+    </tr>
+<tr>
+<td>55</td>
+        <td>Cochabamba</td>
+        <td>Potosi</td>
+        <td>Toro toro</td>
+        <td>Carasi</td>
+        <td>Comunidad Rodeo Escalon</td>
+        <td>Acopio Productivo y Transformación</td>
+        <td>Asociación Productores Andinos Originarios Ecológicos Torotoro (APECT)</td>
+        <td>            <div>Aldana Choque, Rubén Gustavo</div>            <div style="background: rgb(215, 211, 200);">Mendoza , Jurgen</div>        </td>
+        <td>2009</td>
+        <td>            <table>
+                             <tbody><tr style="color: blue;">
+                    <td>Municipio-Mers ?</td>
+                    <td id="detalle_60">Venta de Api al Municipio de Torotoro 11 Quintales = 12232.00 Bs.</td>
+                </tr>
+                             <tr style="color: blue;">
+                    <td>Publico-Privado ?</td>
+                    <td id="detalle_61">Venta de Api al Municipio de Torotoro. 11 qq = 12232.00 Bs.</td>
+                </tr>
+                             <tr style="color: blue;">
+                    <td>Municipio-Mers ?</td>
+                    <td id="detalle_62">Venta de Api y Tojori Municipio De Torotoro 1378 Kilo = 17914.00 Bs.</td>
+                </tr>
+                             <tr style="color: blue;">
+                    <td>Municipio-Mers ?</td>
+                    <td id="detalle_63">Venta de Api y Tojori Municipio De Torotoro 725 Kilo = 9425.00 Bs.</td>
+                </tr>
+                             <tr><td colSpan="2">TOTAL Bs.= 51803</td></tr>
+            </tbody></table>
+                    </td>
+<td style="background: rgb(194, 214, 154);">Cumple.</td>
+    </tr>
+<tr bgColor="#f1f1f1">
+<td>56</td>
+        <td>Cochabamba</td>
+        <td>Potosi</td>
+        <td>Toro toro</td>
+        <td>Sucusuma</td>
+        <td>Comunidad de Sucusuma</td>
+        <td>Acopio Productivo y Transformación</td>
+        <td>Asociación Productores Agropecuarios del Caine (AGROCAINE)</td>
+        <td>            <div>Aldana Choque, Rubén Gustavo</div>            <div style="background: rgb(215, 211, 200);">Mendoza , Jurgen</div>        </td>
+        <td>2010</td>
+        <td>            <table>
+                             <tbody><tr style="color: blue;">
+                    <td>Municipio-Mers ?</td>
+                    <td id="detalle_64">Venta de 1050 Kg de mermelada al Municipio de Torotoro 1050 Kilos = 19425.00 Bs.</td>
+                </tr>
+                             <tr><td colSpan="2">TOTAL Bs.= 19425</td></tr>
+            </tbody></table>
+                    </td>
+<td style="background: rgb(194, 214, 154);">Cumple.</td>
+    </tr>
+<tr>
+<td>57</td>
+        <td>Cochabamba</td>
+        <td>Potosi</td>
+        <td>Toro toro</td>
+        <td>Torotoro</td>
+        <td></td>
+        <td>Acopio Productivo y Transformación</td>
+        <td>APCC</td>
+        <td>            <div>Vargas Huanca, Arnaldo</div>        </td>
+        <td>2010</td>
+        <td>            <table>
+                             <tbody><tr style="color: blue;">
+                    <td>Municipio-Mers ?</td>
+                    <td id="detalle_65">Venta de Api al Municipio de Torotoro 11 Quintales = 12232.00 Bs.</td>
+                </tr>
+                             <tr><td colSpan="2">TOTAL Bs.= 12232</td></tr>
+            </tbody></table>
+                    </td>
+<td style="background: rgb(194, 214, 154);">Cumple.</td>
+    </tr>
+<tr bgColor="#f1f1f1">
+<td>58</td>
+        <td>Cochabamba</td>
+        <td>Potosi</td>
+        <td>Toro toro</td>
+        <td>Torotoro</td>
+        <td>Comunidad de Torotoro</td>
+        <td>Agua Potable y Alcantarillado</td>
+        <td>EPSAS Torotoro</td>
+        <td>            <div>Aldana Choque, Rubén Gustavo</div>            <div style="background: rgb(215, 211, 200);">Mendoza , Jurgen</div>            <div>Vargas Huanca, Arnaldo</div>        </td>
+        <td>2010</td>
+        <td>            <table>
+                             <tbody><tr style="color: blue;">
+                    <td>Privado-Privado ?</td>
+                    <td id="detalle_66">Servicio de Agua potable a 400 habitantes del Municipio  de Torotoro. 400 Consumo = 12000.00 Bs.</td>
+                </tr>
+                             <tr><td colSpan="2">TOTAL Bs.= 12000</td></tr>
+            </tbody></table>
+                    </td>
+<td style="background: rgb(194, 214, 154);">Cumple.</td>
+    </tr>
+<tr>
+<td>59</td>
+        <td>Cochabamba</td>
+        <td>Potosi</td>
+        <td>Toro toro</td>
+        <td>Torotoro</td>
+        <td></td>
+        <td>Construcción</td>
+        <td>Contructora Villca</td>
+        <td>            <div>Aldana Choque, Rubén Gustavo</div>            <div style="background: rgb(215, 211, 200);">Mendoza , Jurgen</div>        </td>
+        <td>2011</td>
+        <td>            <table>
+                             <tbody><tr style="color: blue;">
+                    <td>Publico-Privado ?</td>
+                    <td id="detalle_67">Servicio de construcción /refacción  para la escuela del Municipio 1 Refacción = 6530.00 Bs.</td>
+                </tr>
+                             <tr><td colSpan="2">TOTAL Bs.= 6530</td></tr>
+            </tbody></table>
+                    </td>
+<td style="background: rgb(194, 214, 154);">Cumple.</td>
+    </tr>
+<tr bgColor="#f1f1f1">
+<td>60</td>
+        <td>Cochabamba</td>
+        <td>Potosi</td>
+        <td>Toro toro</td>
+        <td>Torotoro</td>
+        <td></td>
+        <td>Turismo y Ecoturismo</td>
+        <td>Asoc.Guías de Ecoturismo Torotoro</td>
+        <td>            <div>Aldana Choque, Rubén Gustavo</div>            <div style="background: rgb(215, 211, 200);">Mendoza , Jurgen</div>        </td>
+        <td>2010</td>
+        <td>            <table>
+                             <tbody><tr style="color: blue;">
+                    <td>Privado-Privado ?</td>
+                    <td id="detalle_68">Servicio de Guiaje 12 Guiaje = 37440.00 Bs.</td>
+                </tr>
+                             <tr><td colSpan="2">TOTAL Bs.= 37440</td></tr>
+            </tbody></table>
+                    </td>
+<td style="background: rgb(194, 214, 154);">Cumple.</td>
+    </tr>
+ </tbody>
+ </table>
+    <input id="contador" name="contador" value="69" type="hidden">
+    <table>
+     <tbody><tr style="background: rgb(102, 113, 32); color: rgb(255, 255, 255); font-size: 15px;">
+         <th colSpan="2">INDICADOR DE IMPACTO:</th><td colSpan="16">A los dos años de finalizado el proyecto, al menos 80% de las 115 MERS beneficiarias mantienen sus servicios</td>
+     </tr>
+     <tr style="background: rgb(184, 245, 224); text-align: center; font-size: 11px;">
+         <th colSpan="6">Número Mers que prestaron servicios: 60</th><td colSpan="12">Porcentaje de Cumplimiento : 52.17 %</td>
+     </tr>
+
+</tbody></table>

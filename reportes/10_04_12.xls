@@ -1,0 +1,33 @@
+
+    <table id="table_example" class="ewTable" width="100%" border="1">
+        <thead>
+            <tr style="font-size: 12pt">
+                <th>Proposito I.1</th>
+                <td colspan="2">Numero de MERS sostenibles y en funcionamiento: Año 2: 50; Fin proyecto: 115</td>
+            </tr>
+
+        </thead>
+        <tbody><tr style="color: white;background: #4F6228">
+            <td>META</td>
+            <td>LOGRO</td>
+            <td>% CUMPLIMIENTO</td>
+        </tr>
+        <tr style="color: white;background: #4F6228">
+
+            <td>15</td>
+            <td>0</td>
+            <td style="background: #75923C">0.00%</td>
+        </tr>
+    </tbody></table>
+    
+    <style type="text/css" media="screen">
+        .jqplot-axis {
+            font-size: 1.2em;
+        }
+        .jqplot-title {
+            font-size: 2.2em;
+            color: navy;
+        }
+    </style>
+    
+    <div class="jqplot-target" id="marcoLogico" style="margin-top: 20px; margin-left: 20px; width: 800px; height: 300px; position: relative;"><canvas class="jqplot-base-canvas" style="position: absolute; left: 0px; top: 0px;" height="300" width="800"></canvas><div class="jqplot-title" style="height: 0px; width: 0px;"></div><div class="jqplot-axis jqplot-xaxis" style="position: absolute; width: 800px; height: 15px; left: 0px; bottom: 0px;"><canvas class="jqplot-xaxis-tick" style="text-align: left; position: absolute; left: 75.5px;" height="15" width="19"></canvas><canvas class="jqplot-xaxis-tick" style="text-align: left; position: absolute; left: 139.591px;" height="15" width="19"></canvas><canvas class="jqplot-xaxis-tick" style="text-align: left; position: absolute; left: 203.682px;" height="15" width="19"></canvas><canvas class="jqplot-xaxis-tick" style="text-align: left; position: absolute; left: 267.773px;" height="15" width="19"></canvas><canvas class="jqplot-xaxis-tick" style="text-align: left; position: absolute; left: 331.864px;" height="15" width="19"></canvas><canvas class="jqplot-xaxis-tick" style="text-align: left; position: absolute; left: 395.955px;" height="15" width="19"></canvas><canvas class="jqplot-xaxis-tick" style="text-align: left; position: absolute; left: 460.045px;" height="15" width="19"></canvas><canvas class="jqplot-xaxis-tick" style="text-align: left; position: absolute; left: 524.136px;" height="15" width="19"></canvas><canvas class="jqplot-xaxis-tick" style="text-align: left; position: absolute; left: 588.227px;" height="15" width="19"></canvas><canvas class="jqplot-xaxis-tick" style="text-align: left; position: absolute; left: 652.318px;" height="15" width="19"></canvas><canvas class="jqplot-xaxis-tick" style="text-align: left; position: absolute; left: 716.409px;" height="15" width="19"></canvas><canvas class="jqplot-xaxis-tick" style="text-align: left; position: absolute; left: 780.5px;" height="15" width="19"></canvas></div><div class="jqplot-axis jqplot-yaxis" style="position: absolute; height: 300px; width: 75px; left: 0px; top: 0px;"><canvas class="jqplot-yaxis-tick" style="text-align: left; position: absolute; top: 135px;" height="15" width="75"></canvas></div><canvas style="position: absolute; left: 0px; top: 0px;" class="jqplot-grid-canvas" height="300" width="800"></canvas><canvas class="jqplot-series-shadowCanvas" style="position: absolute; left: 85px; top: 10px;" height="265" width="705"></canvas><canvas class="jqplot-series-shadowCanvas" style="position: absolute; left: 85px; top: 10px;" height="265" width="705"></canvas><canvas class="jqplot-series-canvas" style="position: absolute; left: 85px; top: 10px;" height="265" width="705"></canvas><div class="jqplot-point-label jqplot-series-0 jqplot-point-0" style="position: absolute; left: 149.75px; top: 201.25px;">2.0</div><canvas class="jqplot-series-canvas" style="position: absolute; left: 85px; top: 10px;" height="265" width="705"></canvas><table class="jqplot-table-legend" style="position: absolute; right: 10px; top: 10px;"><tbody><tr class="jqplot-table-legend"><td class="jqplot-table-legend" style="text-align: center; padding-top: 0pt;"><div><div class="jqplot-table-legend-swatch" style="background-color: green; border-color: green;"></div></div></td><td class="jqplot-table-legend" style="padding-top: 0pt;">Event Regristration</td></tr><tr class="jqplot-table-legend"><td class="jqplot-table-legend" style="text-align: center; padding-top: 0.5em;"><div><div class="jqplot-table-legend-swatch" style="background-color: red; border-color: red;"></div></div></td><td class="jqplot-table-legend" style="padding-top: 0.5em;">Hotel</td></tr></tbody></table><div class="jqplot-point-label jqplot-series-1 jqplot-point-0" style="position: absolute; left: 737.25px; top: 74.75px;">5.0</div><canvas class="jqplot-barRenderer-highlight-canvas" style="position: absolute; left: 85px; top: 10px;" height="265" width="705"></canvas><canvas class="jqplot-barRenderer-highlight-canvas" style="position: absolute; left: 85px; top: 10px;" height="265" width="705"></canvas><canvas class="jqplot-event-canvas" style="position: absolute; left: 85px; top: 10px;" height="265" width="705"></canvas></div>

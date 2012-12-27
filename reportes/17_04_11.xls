@@ -1,0 +1,4471 @@
+
+<table>
+     <tbody><tr style="background: #667120; color:#ffffff; font-size: 15px">
+         <th colspan="2">PROPOSITO I.1:</th><td colspan="16">Número de MERS sostenibles y en funcionamiento: Año 2: 50; Fin proyecto: 115</td>
+     </tr>
+</tbody></table>
+  <table id="table_example" width="100%" border="1" class="ewTable">
+    <thead>
+    <tr>
+        <th bgcolor="#B8C692"></th>
+        <th colspan="5" align="center" bgcolor="#B8C692">INFORME GEOGRAFICO</th>
+        <th colspan="4" align="center" bgcolor="#b8c2a5">DATOS DE LA MERS</th>
+        <th colspan="3" align="center" bgcolor="#b8f5e0">DOCUMENTO</th>
+        <th colspan="1" align="center" bgcolor="#b89ec1">INDICADOR</th>
+    </tr>
+    <tr class="ewTableHeader">
+        <th>Nro</th>
+        <th>Regional</th>
+        <th>Departamento</th>
+        <th>Municipio</th>
+        <th>Comunidad</th>
+        <th>Zona</th>
+        <th>Rubro</th>
+        <th>Razon Social de la Mers</th>
+        <th>Responsable de la Mers</th>
+        <th>Gestión</th>
+        <th style="cursor: pointer" title="Ocultar/Ver Comentarios" onclick="verOcultarPlanes();">Planes/POA <img src="images/expand.gif"></th>
+        <th style="cursor: pointer" title="Ocultar/Ver Comentarios" onclick="verOcultarFormalizacion();">Formalizacion <img src="images/expand.gif"></th>
+        <th style="cursor: pointer" title="Ocultar/Ver Comentarios" onclick="verOcultarRegVentas();">Reg. Ventas <img src="images/expand.gif"></th>
+        <th>Valor</th>
+     </tr>
+</thead>
+<tbody id="contenidoTbody">
+<tr bgcolor="#F1F1F1">
+<td>1</td>
+<td>Chuquisaca</td>
+<td>Chuquisaca</td>
+<td>Alcalá</td>
+<td>Alcalá</td>
+<td></td>
+<td>Acopio Productivo y Transformación</td>
+<td>APAMA</td>
+<td>    <div>
+Venegas Ruiz, Lilian</div>
+</td>
+<td>2010</td>
+<td><table width="120px" id="poas_table">
+        <tbody><tr style="color:blue">
+       <td>Plan Negocio ?</td>
+       <td id="plan_negocio1"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan Estrategico </td>
+       <td id="plan_estrategico1"></td>
+        </tr>
+        <tr style="color:blue">
+       <td>Plan Produccion ?</td>
+       <td id="plan_produccion1"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan Financiero </td>
+       <td id="plan_financiero1"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan POA </td>
+       <td id="plan_poa1"></td>
+        </tr>
+    </tbody></table>
+</td>
+<td><table width="130px" id="formalizada_table">
+       <tbody><tr style="color:blue">
+        <td>Personeria Juridica ?</td>
+        <td id="personeria_juridica1"></td>
+       </tr>
+       <tr style="color:blue">
+        <td>Estatuto Organico ?</td>
+        <td id="estatuto_organico1"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Reglamento Interno </td>
+        <td id="reglamento_interno1"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Reg. FundaEmpresa </td>
+        <td id="reg_fundaempresa1"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Acta Constitucion </td>
+        <td id="acta_constitucion1"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Tarjeta Empresarial </td>
+        <td id="tarjeta_empresarial1"></td>
+       </tr>
+    </tbody></table>
+</td>
+<td><table width="130px" id="regVentas_table">
+       <tbody><tr style="color:blue">
+        <td>Reg. Ventas ?</td>
+        <td rowspan="2" id="reg_ventas1"></td>
+       </tr>
+       <tr style="color:blue">
+        <td>Total Ventas Bs.=7870</td>
+       </tr>
+    </tbody></table>
+</td>
+<td style="background:#C2D69A">Form.</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Chuquisaca</td>
+<td>Chuquisaca</td>
+<td>Alcalá</td>
+<td>limabamba</td>
+<td>Municipio de Alcalá</td>
+<td>Acopio Productivo y Transformación</td>
+<td>Asociación de Trigo Limabamba (APTL)</td>
+<td>    <div>
+Venegas Ruiz, Lilian</div>
+</td>
+<td>2010</td>
+<td><table width="120px" id="poas_table">
+        <tbody><tr style="color:gray">
+       <td>Plan Negocio </td>
+       <td id="plan_negocio2"></td>
+        </tr>
+        <tr style="color:blue">
+       <td>Plan Estrategico ?</td>
+       <td id="plan_estrategico2"></td>
+        </tr>
+        <tr style="color:blue">
+       <td>Plan Produccion ?</td>
+       <td id="plan_produccion2"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan Financiero </td>
+       <td id="plan_financiero2"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan POA </td>
+       <td id="plan_poa2"></td>
+        </tr>
+    </tbody></table>
+</td>
+<td><table width="130px" id="formalizada_table">
+       <tbody><tr style="color:blue">
+        <td>Personeria Juridica ?</td>
+        <td id="personeria_juridica2"></td>
+       </tr>
+       <tr style="color:blue">
+        <td>Estatuto Organico ?</td>
+        <td id="estatuto_organico2"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Reglamento Interno </td>
+        <td id="reglamento_interno2"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Reg. FundaEmpresa </td>
+        <td id="reg_fundaempresa2"></td>
+       </tr>
+       <tr style="color:blue">
+        <td>Acta Constitucion ?</td>
+        <td id="acta_constitucion2"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Tarjeta Empresarial </td>
+        <td id="tarjeta_empresarial2"></td>
+       </tr>
+    </tbody></table>
+</td>
+<td><table width="130px" id="regVentas_table">
+       <tbody><tr style="color:blue">
+        <td>Reg. Ventas ?</td>
+        <td rowspan="2" id="reg_ventas2"></td>
+       </tr>
+       <tr style="color:blue">
+        <td>Total Ventas Bs.=19240</td>
+       </tr>
+    </tbody></table>
+</td>
+<td style="background:#C2D69A">Form.</td>
+</tr>
+<tr bgcolor="#F1F1F1">
+<td>3</td>
+<td>Chuquisaca</td>
+<td>Chuquisaca</td>
+<td>Alcalá</td>
+<td>Alcalá</td>
+<td>Municipio de Alcalá</td>
+<td>Acopio Productivo y Transformación</td>
+<td>Asociación Productores Agropecuarios de Alcalá (APA)</td>
+<td>    <div>
+Venegas Ruiz, Lilian</div>
+</td>
+<td>2010</td>
+<td><table width="120px" id="poas_table">
+        <tbody><tr style="color:blue">
+       <td>Plan Negocio ?</td>
+       <td id="plan_negocio3">Aca se puede guradar comentarios mayores a 50 caractreres para realziar la descripcion de l trabajo realozado.</td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan Estrategico </td>
+       <td id="plan_estrategico3"></td>
+        </tr>
+        <tr style="color:blue">
+       <td>Plan Produccion ?</td>
+       <td id="plan_produccion3"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan Financiero </td>
+       <td id="plan_financiero3"></td>
+        </tr>
+        <tr style="color:blue">
+       <td>Plan POA ?</td>
+       <td id="plan_poa3"></td>
+        </tr>
+    </tbody></table>
+</td>
+<td><table width="130px" id="formalizada_table">
+       <tbody><tr style="color:blue">
+        <td>Personeria Juridica ?</td>
+        <td id="personeria_juridica3">Todo Personalidad Jurídica en Trámite Personalidad Jurídica en Trámite Personalidad Jurídica en Trámite Personalidad Jurídica en Trámite</td>
+       </tr>
+       <tr style="color:blue">
+        <td>Estatuto Organico ?</td>
+        <td id="estatuto_organico3"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Reglamento Interno </td>
+        <td id="reglamento_interno3"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Reg. FundaEmpresa </td>
+        <td id="reg_fundaempresa3"></td>
+       </tr>
+       <tr style="color:blue">
+        <td>Acta Constitucion ?</td>
+        <td id="acta_constitucion3"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Tarjeta Empresarial </td>
+        <td id="tarjeta_empresarial3"></td>
+       </tr>
+    </tbody></table>
+</td>
+<td><table width="130px" id="regVentas_table">
+       <tbody><tr style="color:blue">
+        <td>Reg. Ventas ?</td>
+        <td rowspan="2" id="reg_ventas3"></td>
+       </tr>
+       <tr style="color:blue">
+        <td>Total Ventas Bs.=12600</td>
+       </tr>
+    </tbody></table>
+</td>
+<td style="background:#C2D69A">Form.</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Chuquisaca</td>
+<td>Chuquisaca</td>
+<td>Alcalá</td>
+<td>Alcalá</td>
+<td></td>
+<td>Acopio Productivo y Transformación</td>
+<td>Asociación Productores de Miel (APROMIEL)</td>
+<td>    <div>
+Venegas Ruiz, Lilian</div>
+</td>
+<td>2010</td>
+<td><table width="120px" id="poas_table">
+        <tbody><tr style="color:blue">
+       <td>Plan Negocio ?</td>
+       <td id="plan_negocio4"></td>
+        </tr>
+        <tr style="color:blue">
+       <td>Plan Estrategico ?</td>
+       <td id="plan_estrategico4"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan Produccion </td>
+       <td id="plan_produccion4"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan Financiero </td>
+       <td id="plan_financiero4"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan POA </td>
+       <td id="plan_poa4"></td>
+        </tr>
+    </tbody></table>
+</td>
+<td><table width="130px" id="formalizada_table">
+       <tbody><tr style="color:blue">
+        <td>Personeria Juridica ?</td>
+        <td id="personeria_juridica4"></td>
+       </tr>
+       <tr style="color:blue">
+        <td>Estatuto Organico ?</td>
+        <td id="estatuto_organico4"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Reglamento Interno </td>
+        <td id="reglamento_interno4"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Reg. FundaEmpresa </td>
+        <td id="reg_fundaempresa4"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Acta Constitucion </td>
+        <td id="acta_constitucion4"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Tarjeta Empresarial </td>
+        <td id="tarjeta_empresarial4"></td>
+       </tr>
+    </tbody></table>
+</td>
+<td><table width="130px" id="regVentas_table">
+       <tbody><tr style="color:blue">
+        <td>Reg. Ventas ?</td>
+        <td rowspan="2" id="reg_ventas4"></td>
+       </tr>
+       <tr style="color:blue">
+        <td>Total Ventas Bs.=144</td>
+       </tr>
+    </tbody></table>
+</td>
+<td style="background:#C2D69A">Form.</td>
+</tr>
+<tr bgcolor="#F1F1F1">
+<td>5</td>
+<td>Chuquisaca</td>
+<td>Chuquisaca</td>
+<td>Alcalá</td>
+<td>Alcalá</td>
+<td></td>
+<td>Agua Potable y Alcantarillado</td>
+<td>EPSAS Alcalá</td>
+<td>    <div>
+Venegas Ruiz, Lilian</div>
+</td>
+<td>2010</td>
+<td><table width="120px" id="poas_table">
+        <tbody><tr style="color:gray">
+       <td>Plan Negocio </td>
+       <td id="plan_negocio5"></td>
+        </tr>
+        <tr style="color:blue">
+       <td>Plan Estrategico ?</td>
+       <td id="plan_estrategico5"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan Produccion </td>
+       <td id="plan_produccion5"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan Financiero </td>
+       <td id="plan_financiero5"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan POA </td>
+       <td id="plan_poa5"></td>
+        </tr>
+    </tbody></table>
+</td>
+<td><table width="130px" id="formalizada_table">
+       <tbody><tr style="color:blue">
+        <td>Personeria Juridica ?</td>
+        <td id="personeria_juridica5"></td>
+       </tr>
+       <tr style="color:blue">
+        <td>Estatuto Organico ?</td>
+        <td id="estatuto_organico5"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Reglamento Interno </td>
+        <td id="reglamento_interno5"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Reg. FundaEmpresa </td>
+        <td id="reg_fundaempresa5"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Acta Constitucion </td>
+        <td id="acta_constitucion5"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Tarjeta Empresarial </td>
+        <td id="tarjeta_empresarial5"></td>
+       </tr>
+    </tbody></table>
+</td>
+<td><table width="130px" id="regVentas_table">
+       <tbody><tr style="color:blue">
+        <td>Reg. Ventas ?</td>
+        <td rowspan="2" id="reg_ventas5"></td>
+       </tr>
+       <tr style="color:blue">
+        <td>Total Ventas Bs.=381</td>
+       </tr>
+    </tbody></table>
+</td>
+<td style="background:#C2D69A">Form.</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Chuquisaca</td>
+<td>Chuquisaca</td>
+<td>Alcalá</td>
+<td>limabamba</td>
+<td></td>
+<td>Riego y Sistemas de Agua</td>
+<td>Asociación de Agua y Saneamiento Básico Limabamba</td>
+<td>    <div>
+Venegas Ruiz, Lilian</div>
+</td>
+<td>2010</td>
+<td><table width="120px" id="poas_table">
+        <tbody><tr style="color:gray">
+       <td>Plan Negocio </td>
+       <td id="plan_negocio6"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan Estrategico </td>
+       <td id="plan_estrategico6"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan Produccion </td>
+       <td id="plan_produccion6"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan Financiero </td>
+       <td id="plan_financiero6"></td>
+        </tr>
+        <tr style="color:blue">
+       <td>Plan POA ?</td>
+       <td id="plan_poa6"></td>
+        </tr>
+    </tbody></table>
+</td>
+<td><table width="130px" id="formalizada_table">
+       <tbody><tr style="color:gray">
+        <td>Personeria Juridica </td>
+        <td id="personeria_juridica6"></td>
+       </tr>
+       <tr style="color:blue">
+        <td>Estatuto Organico ?</td>
+        <td id="estatuto_organico6"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Reglamento Interno </td>
+        <td id="reglamento_interno6"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Reg. FundaEmpresa </td>
+        <td id="reg_fundaempresa6"></td>
+       </tr>
+       <tr style="color:blue">
+        <td>Acta Constitucion ?</td>
+        <td id="acta_constitucion6"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Tarjeta Empresarial </td>
+        <td id="tarjeta_empresarial6"></td>
+       </tr>
+    </tbody></table>
+</td>
+<td><table width="130px" id="regVentas_table">
+       <tbody><tr style="color:blue">
+        <td>Reg. Ventas ?</td>
+        <td rowspan="2" id="reg_ventas6"></td>
+       </tr>
+       <tr style="color:blue">
+        <td>Total Ventas Bs.=1200</td>
+       </tr>
+    </tbody></table>
+</td>
+<td style="background:#C2D69A">Form.</td>
+</tr>
+<tr bgcolor="#F1F1F1">
+<td>7</td>
+<td>Chuquisaca</td>
+<td>Chuquisaca</td>
+<td>Padilla</td>
+<td>Padilla</td>
+<td>Municipio de Padilla</td>
+<td>Acopio Productivo y Transformación</td>
+<td>Asociación Productores Agropecuarios  Lampasillos (APAL)</td>
+<td>    <div>
+Venegas Ruiz, Lilian</div>
+</td>
+<td>2010</td>
+<td><table width="120px" id="poas_table">
+        <tbody><tr style="color:blue">
+       <td>Plan Negocio ?</td>
+       <td id="plan_negocio7"></td>
+        </tr>
+        <tr style="color:blue">
+       <td>Plan Estrategico ?</td>
+       <td id="plan_estrategico7"></td>
+        </tr>
+        <tr style="color:blue">
+       <td>Plan Produccion ?</td>
+       <td id="plan_produccion7"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan Financiero </td>
+       <td id="plan_financiero7"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan POA </td>
+       <td id="plan_poa7"></td>
+        </tr>
+    </tbody></table>
+</td>
+<td><table width="130px" id="formalizada_table">
+       <tbody><tr style="color:blue">
+        <td>Personeria Juridica ?</td>
+        <td id="personeria_juridica7"></td>
+       </tr>
+       <tr style="color:blue">
+        <td>Estatuto Organico ?</td>
+        <td id="estatuto_organico7"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Reglamento Interno </td>
+        <td id="reglamento_interno7"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Reg. FundaEmpresa </td>
+        <td id="reg_fundaempresa7"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Acta Constitucion </td>
+        <td id="acta_constitucion7"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Tarjeta Empresarial </td>
+        <td id="tarjeta_empresarial7"></td>
+       </tr>
+    </tbody></table>
+</td>
+<td><table width="130px" id="regVentas_table">
+       <tbody><tr style="color:blue">
+        <td>Reg. Ventas ?</td>
+        <td rowspan="2" id="reg_ventas7"></td>
+       </tr>
+       <tr style="color:blue">
+        <td>Total Ventas Bs.=7800</td>
+       </tr>
+    </tbody></table>
+</td>
+<td style="background:#C2D69A">Form.</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Chuquisaca</td>
+<td>Chuquisaca</td>
+<td>Padilla</td>
+<td>San Julian</td>
+<td>Municipio de Padilla</td>
+<td>Acopio Productivo y Transformación</td>
+<td>Asociación Productores de Ají "San Julian"    (APASJ)</td>
+<td>    <div>
+Venegas Ruiz, Lilian</div>
+</td>
+<td>2010</td>
+<td><table width="120px" id="poas_table">
+        <tbody><tr style="color:blue">
+       <td>Plan Negocio ?</td>
+       <td id="plan_negocio8"></td>
+        </tr>
+        <tr style="color:blue">
+       <td>Plan Estrategico ?</td>
+       <td id="plan_estrategico8"></td>
+        </tr>
+        <tr style="color:blue">
+       <td>Plan Produccion ?</td>
+       <td id="plan_produccion8"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan Financiero </td>
+       <td id="plan_financiero8"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan POA </td>
+       <td id="plan_poa8"></td>
+        </tr>
+    </tbody></table>
+</td>
+<td><table width="130px" id="formalizada_table">
+       <tbody><tr style="color:blue">
+        <td>Personeria Juridica ?</td>
+        <td id="personeria_juridica8"></td>
+       </tr>
+       <tr style="color:blue">
+        <td>Estatuto Organico ?</td>
+        <td id="estatuto_organico8"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Reglamento Interno </td>
+        <td id="reglamento_interno8"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Reg. FundaEmpresa </td>
+        <td id="reg_fundaempresa8"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Acta Constitucion </td>
+        <td id="acta_constitucion8"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Tarjeta Empresarial </td>
+        <td id="tarjeta_empresarial8"></td>
+       </tr>
+    </tbody></table>
+</td>
+<td><table width="130px" id="regVentas_table">
+       <tbody><tr style="color:blue">
+        <td>Reg. Ventas ?</td>
+        <td rowspan="2" id="reg_ventas8"></td>
+       </tr>
+       <tr style="color:blue">
+        <td>Total Ventas Bs.=713</td>
+       </tr>
+    </tbody></table>
+</td>
+<td style="background:#C2D69A">Form.</td>
+</tr>
+<tr bgcolor="#F1F1F1">
+<td>9</td>
+<td>Chuquisaca</td>
+<td>Chuquisaca</td>
+<td>Padilla</td>
+<td>Padilla</td>
+<td>Municipio de Padilla</td>
+<td>Agua Potable y Alcantarillado</td>
+<td>COOPERATIVA DE AGUA Y ALCANTARILLADO PADILLA LTDA.</td>
+<td>    <div>
+Venegas Ruiz, Lilian</div>
+</td>
+<td>2010</td>
+<td><table width="120px" id="poas_table">
+        <tbody><tr style="color:gray">
+       <td>Plan Negocio </td>
+       <td id="plan_negocio9"></td>
+        </tr>
+        <tr style="color:blue">
+       <td>Plan Estrategico ?</td>
+       <td id="plan_estrategico9"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan Produccion </td>
+       <td id="plan_produccion9"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan Financiero </td>
+       <td id="plan_financiero9"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan POA </td>
+       <td id="plan_poa9"></td>
+        </tr>
+    </tbody></table>
+</td>
+<td><table width="130px" id="formalizada_table">
+       <tbody><tr style="color:blue">
+        <td>Personeria Juridica ?</td>
+        <td id="personeria_juridica9"></td>
+       </tr>
+       <tr style="color:blue">
+        <td>Estatuto Organico ?</td>
+        <td id="estatuto_organico9"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Reglamento Interno </td>
+        <td id="reglamento_interno9"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Reg. FundaEmpresa </td>
+        <td id="reg_fundaempresa9"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Acta Constitucion </td>
+        <td id="acta_constitucion9"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Tarjeta Empresarial </td>
+        <td id="tarjeta_empresarial9"></td>
+       </tr>
+    </tbody></table>
+</td>
+<td><table width="130px" id="regVentas_table">
+       <tbody><tr style="color:blue">
+        <td>Reg. Ventas ?</td>
+        <td rowspan="2" id="reg_ventas9">contrato con las Ham- para la ampliacióndel caudal  de agua potable</td>
+       </tr>
+       <tr style="color:blue">
+        <td>Total Ventas Bs.=858070</td>
+       </tr>
+    </tbody></table>
+</td>
+<td style="background:#C2D69A">Form.</td>
+</tr>
+<tr>
+<td>10</td>
+<td>Chuquisaca</td>
+<td>Chuquisaca</td>
+<td>Padilla</td>
+<td>Lampasillos</td>
+<td>Municipio de Padilla</td>
+<td>Otro</td>
+<td>Centro de Costuras "Padilla"</td>
+<td>    <div>
+Venegas Ruiz, Lilian</div>
+</td>
+<td>2010</td>
+<td><table width="120px" id="poas_table">
+        <tbody><tr style="color:blue">
+       <td>Plan Negocio ?</td>
+       <td id="plan_negocio10"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan Estrategico </td>
+       <td id="plan_estrategico10"></td>
+        </tr>
+        <tr style="color:blue">
+       <td>Plan Produccion ?</td>
+       <td id="plan_produccion10"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan Financiero </td>
+       <td id="plan_financiero10"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan POA </td>
+       <td id="plan_poa10"></td>
+        </tr>
+    </tbody></table>
+</td>
+<td><table width="130px" id="formalizada_table">
+       <tbody><tr style="color:gray">
+        <td>Personeria Juridica </td>
+        <td id="personeria_juridica10"></td>
+       </tr>
+       <tr style="color:blue">
+        <td>Estatuto Organico ?</td>
+        <td id="estatuto_organico10"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Reglamento Interno </td>
+        <td id="reglamento_interno10"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Reg. FundaEmpresa </td>
+        <td id="reg_fundaempresa10"></td>
+       </tr>
+       <tr style="color:blue">
+        <td>Acta Constitucion ?</td>
+        <td id="acta_constitucion10"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Tarjeta Empresarial </td>
+        <td id="tarjeta_empresarial10"></td>
+       </tr>
+    </tbody></table>
+</td>
+<td><table width="130px" id="regVentas_table">
+       <tbody><tr style="color:blue">
+        <td>Reg. Ventas ?</td>
+        <td rowspan="2" id="reg_ventas10"></td>
+       </tr>
+       <tr style="color:blue">
+        <td>Total Ventas Bs.=630</td>
+       </tr>
+    </tbody></table>
+</td>
+<td style="background:#C2D69A">Form.</td>
+</tr>
+<tr bgcolor="#F1F1F1">
+<td>11</td>
+<td>Chuquisaca</td>
+<td>Chuquisaca</td>
+<td>Sopachuy</td>
+<td>Sopachuy</td>
+<td></td>
+<td>Acopio Productivo y Transformación</td>
+<td>Coop. San Jose Obrero</td>
+<td>    <div>
+Venegas Ruiz, Lilian</div>
+</td>
+<td>2010</td>
+<td><table width="120px" id="poas_table">
+        <tbody><tr style="color:gray">
+       <td>Plan Negocio </td>
+       <td id="plan_negocio11"></td>
+        </tr>
+        <tr style="color:blue">
+       <td>Plan Estrategico ?</td>
+       <td id="plan_estrategico11"></td>
+        </tr>
+        <tr style="color:blue">
+       <td>Plan Produccion ?</td>
+       <td id="plan_produccion11"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan Financiero </td>
+       <td id="plan_financiero11"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan POA </td>
+       <td id="plan_poa11"></td>
+        </tr>
+    </tbody></table>
+</td>
+<td><table width="130px" id="formalizada_table">
+       <tbody><tr style="color:gray">
+        <td>Personeria Juridica </td>
+        <td id="personeria_juridica11"></td>
+       </tr>
+       <tr style="color:blue">
+        <td>Estatuto Organico ?</td>
+        <td id="estatuto_organico11"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Reglamento Interno </td>
+        <td id="reglamento_interno11"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Reg. FundaEmpresa </td>
+        <td id="reg_fundaempresa11"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Acta Constitucion </td>
+        <td id="acta_constitucion11"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Tarjeta Empresarial </td>
+        <td id="tarjeta_empresarial11"></td>
+       </tr>
+    </tbody></table>
+</td>
+<td><table width="130px" id="regVentas_table">
+       <tbody><tr style="color:blue">
+        <td>Reg. Ventas ?</td>
+        <td rowspan="2" id="reg_ventas11">COMO SEGUNDO DOCUMENTO SE ADJUNTARA EL REPORTE DE VENTA DE OREGANO A UNEC</td>
+       </tr>
+       <tr style="color:blue">
+        <td>Total Ventas Bs.=4193</td>
+       </tr>
+    </tbody></table>
+</td>
+<td style="background:#C2D69A">Form.</td>
+</tr>
+<tr>
+<td>12</td>
+<td>Chuquisaca</td>
+<td>Chuquisaca</td>
+<td>Sopachuy</td>
+<td>Sopachuy</td>
+<td></td>
+<td>Acopio Productivo y Transformación</td>
+<td>Asoc. Productores Agropecuarios de la Cuenca del Rio Milanes (APROCMI)</td>
+<td>    <div>
+Venegas Ruiz, Lilian</div>
+</td>
+<td>2010</td>
+<td><table width="120px" id="poas_table">
+        <tbody><tr style="color:blue">
+       <td>Plan Negocio ?</td>
+       <td id="plan_negocio12"></td>
+        </tr>
+        <tr style="color:blue">
+       <td>Plan Estrategico ?</td>
+       <td id="plan_estrategico12"></td>
+        </tr>
+        <tr style="color:blue">
+       <td>Plan Produccion ?</td>
+       <td id="plan_produccion12"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan Financiero </td>
+       <td id="plan_financiero12"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan POA </td>
+       <td id="plan_poa12"></td>
+        </tr>
+    </tbody></table>
+</td>
+<td><table width="130px" id="formalizada_table">
+       <tbody><tr style="color:blue">
+        <td>Personeria Juridica ?</td>
+        <td id="personeria_juridica12"></td>
+       </tr>
+       <tr style="color:blue">
+        <td>Estatuto Organico ?</td>
+        <td id="estatuto_organico12"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Reglamento Interno </td>
+        <td id="reglamento_interno12"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Reg. FundaEmpresa </td>
+        <td id="reg_fundaempresa12"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Acta Constitucion </td>
+        <td id="acta_constitucion12"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Tarjeta Empresarial </td>
+        <td id="tarjeta_empresarial12"></td>
+       </tr>
+    </tbody></table>
+</td>
+<td><table width="130px" id="regVentas_table">
+       <tbody><tr style="color:blue">
+        <td>Reg. Ventas ?</td>
+        <td rowspan="2" id="reg_ventas12"></td>
+       </tr>
+       <tr style="color:blue">
+        <td>Total Ventas Bs.=5466</td>
+       </tr>
+    </tbody></table>
+</td>
+<td style="background:#C2D69A">Form.</td>
+</tr>
+<tr bgcolor="#F1F1F1">
+<td>13</td>
+<td>Chuquisaca</td>
+<td>Chuquisaca</td>
+<td>Sopachuy</td>
+<td>Pampas Punta</td>
+<td></td>
+<td>Agroforestación</td>
+<td>MERS Forestales y Asociados Pampas Punta (APROAF)</td>
+<td>    <div>
+Venegas Ruiz, Lilian</div>
+</td>
+<td>2010</td>
+<td><table width="120px" id="poas_table">
+        <tbody><tr style="color:gray">
+       <td>Plan Negocio </td>
+       <td id="plan_negocio13"></td>
+        </tr>
+        <tr style="color:blue">
+       <td>Plan Estrategico ?</td>
+       <td id="plan_estrategico13"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan Produccion </td>
+       <td id="plan_produccion13"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan Financiero </td>
+       <td id="plan_financiero13"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan POA </td>
+       <td id="plan_poa13"></td>
+        </tr>
+    </tbody></table>
+</td>
+<td><table width="130px" id="formalizada_table">
+       <tbody><tr style="color:blue">
+        <td>Personeria Juridica ?</td>
+        <td id="personeria_juridica13"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Estatuto Organico </td>
+        <td id="estatuto_organico13"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Reglamento Interno </td>
+        <td id="reglamento_interno13"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Reg. FundaEmpresa </td>
+        <td id="reg_fundaempresa13"></td>
+       </tr>
+       <tr style="color:blue">
+        <td>Acta Constitucion ?</td>
+        <td id="acta_constitucion13"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Tarjeta Empresarial </td>
+        <td id="tarjeta_empresarial13"></td>
+       </tr>
+    </tbody></table>
+</td>
+<td><table width="130px" id="regVentas_table">
+       <tbody><tr style="color:blue">
+        <td>Reg. Ventas ?</td>
+        <td rowspan="2" id="reg_ventas13"></td>
+       </tr>
+       <tr style="color:blue">
+        <td>Total Ventas Bs.=140</td>
+       </tr>
+    </tbody></table>
+</td>
+<td style="background:#C2D69A">Form.</td>
+</tr>
+<tr>
+<td>14</td>
+<td>Chuquisaca</td>
+<td>Chuquisaca</td>
+<td>Sopachuy</td>
+<td>Sopachuy</td>
+<td></td>
+<td>Agua Potable y Alcantarillado</td>
+<td>EPSAS Sopachuy</td>
+<td>    <div>
+Venegas Ruiz, Lilian</div>
+</td>
+<td>2010</td>
+<td><table width="120px" id="poas_table">
+        <tbody><tr style="color:gray">
+       <td>Plan Negocio </td>
+       <td id="plan_negocio14"></td>
+        </tr>
+        <tr style="color:blue">
+       <td>Plan Estrategico ?</td>
+       <td id="plan_estrategico14"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan Produccion </td>
+       <td id="plan_produccion14"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan Financiero </td>
+       <td id="plan_financiero14"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan POA </td>
+       <td id="plan_poa14"></td>
+        </tr>
+    </tbody></table>
+</td>
+<td><table width="130px" id="formalizada_table">
+       <tbody><tr style="color:blue">
+        <td>Personeria Juridica ?</td>
+        <td id="personeria_juridica14"></td>
+       </tr>
+       <tr style="color:blue">
+        <td>Estatuto Organico ?</td>
+        <td id="estatuto_organico14"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Reglamento Interno </td>
+        <td id="reglamento_interno14"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Reg. FundaEmpresa </td>
+        <td id="reg_fundaempresa14"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Acta Constitucion </td>
+        <td id="acta_constitucion14"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Tarjeta Empresarial </td>
+        <td id="tarjeta_empresarial14"></td>
+       </tr>
+    </tbody></table>
+</td>
+<td><table width="130px" id="regVentas_table">
+       <tbody><tr style="color:blue">
+        <td>Reg. Ventas ?</td>
+        <td rowspan="2" id="reg_ventas14"></td>
+       </tr>
+       <tr style="color:blue">
+        <td>Total Ventas Bs.=2755</td>
+       </tr>
+    </tbody></table>
+</td>
+<td style="background:#C2D69A">Form.</td>
+</tr>
+<tr bgcolor="#F1F1F1">
+<td>15</td>
+<td>Chuquisaca</td>
+<td>Chuquisaca</td>
+<td>Sopachuy</td>
+<td>Milanes</td>
+<td></td>
+<td>Riego y Sistemas de Agua</td>
+<td>Asociación de Agua y Saneamiento Básico Milanes</td>
+<td>    <div>
+Venegas Ruiz, Lilian</div>
+</td>
+<td>2010</td>
+<td><table width="120px" id="poas_table">
+        <tbody><tr style="color:gray">
+       <td>Plan Negocio </td>
+       <td id="plan_negocio15"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan Estrategico </td>
+       <td id="plan_estrategico15"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan Produccion </td>
+       <td id="plan_produccion15"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan Financiero </td>
+       <td id="plan_financiero15"></td>
+        </tr>
+        <tr style="color:blue">
+       <td>Plan POA ?</td>
+       <td id="plan_poa15"></td>
+        </tr>
+    </tbody></table>
+</td>
+<td><table width="130px" id="formalizada_table">
+       <tbody><tr style="color:gray">
+        <td>Personeria Juridica </td>
+        <td id="personeria_juridica15"></td>
+       </tr>
+       <tr style="color:blue">
+        <td>Estatuto Organico ?</td>
+        <td id="estatuto_organico15"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Reglamento Interno </td>
+        <td id="reglamento_interno15"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Reg. FundaEmpresa </td>
+        <td id="reg_fundaempresa15"></td>
+       </tr>
+       <tr style="color:blue">
+        <td>Acta Constitucion ?</td>
+        <td id="acta_constitucion15"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Tarjeta Empresarial </td>
+        <td id="tarjeta_empresarial15"></td>
+       </tr>
+    </tbody></table>
+</td>
+<td><table width="130px" id="regVentas_table">
+       <tbody><tr style="color:blue">
+        <td>Reg. Ventas ?</td>
+        <td rowspan="2" id="reg_ventas15"></td>
+       </tr>
+       <tr style="color:blue">
+        <td>Total Ventas Bs.=930</td>
+       </tr>
+    </tbody></table>
+</td>
+<td style="background:#C2D69A">Form.</td>
+</tr>
+<tr>
+<td>16</td>
+<td>Chuquisaca</td>
+<td>Chuquisaca</td>
+<td>Sopachuy</td>
+<td>Sopachuy</td>
+<td></td>
+<td>Turismo y Ecoturismo</td>
+<td>Asociación de guías de Sopachuy</td>
+<td>    <div>
+Venegas Ruiz, Lilian</div>
+</td>
+<td>2010</td>
+<td><table width="120px" id="poas_table">
+        <tbody><tr style="color:gray">
+       <td>Plan Negocio </td>
+       <td id="plan_negocio16"></td>
+        </tr>
+        <tr style="color:blue">
+       <td>Plan Estrategico ?</td>
+       <td id="plan_estrategico16"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan Produccion </td>
+       <td id="plan_produccion16"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan Financiero </td>
+       <td id="plan_financiero16"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan POA </td>
+       <td id="plan_poa16"></td>
+        </tr>
+    </tbody></table>
+</td>
+<td><table width="130px" id="formalizada_table">
+       <tbody><tr style="color:blue">
+        <td>Personeria Juridica ?</td>
+        <td id="personeria_juridica16"></td>
+       </tr>
+       <tr style="color:blue">
+        <td>Estatuto Organico ?</td>
+        <td id="estatuto_organico16"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Reglamento Interno </td>
+        <td id="reglamento_interno16"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Reg. FundaEmpresa </td>
+        <td id="reg_fundaempresa16"></td>
+       </tr>
+       <tr style="color:blue">
+        <td>Acta Constitucion ?</td>
+        <td id="acta_constitucion16"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Tarjeta Empresarial </td>
+        <td id="tarjeta_empresarial16"></td>
+       </tr>
+    </tbody></table>
+</td>
+<td><table width="130px" id="regVentas_table">
+       <tbody><tr style="color:blue">
+        <td>Reg. Ventas ?</td>
+        <td rowspan="2" id="reg_ventas16"></td>
+       </tr>
+       <tr style="color:blue">
+        <td>Total Ventas Bs.=12050</td>
+       </tr>
+    </tbody></table>
+</td>
+<td style="background:#C2D69A">Form.</td>
+</tr>
+<tr bgcolor="#F1F1F1">
+<td>17</td>
+<td>Chuquisaca</td>
+<td>Chuquisaca</td>
+<td>Tomina</td>
+<td>Corso</td>
+<td></td>
+<td>Acopio Productivo y Transformación</td>
+<td>Productos "CORSO"</td>
+<td>    <div>
+Venegas Ruiz, Lilian</div>
+</td>
+<td>2010</td>
+<td><table width="120px" id="poas_table">
+        <tbody><tr style="color:blue">
+       <td>Plan Negocio ?</td>
+       <td id="plan_negocio17"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan Estrategico </td>
+       <td id="plan_estrategico17"></td>
+        </tr>
+        <tr style="color:blue">
+       <td>Plan Produccion ?</td>
+       <td id="plan_produccion17"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan Financiero </td>
+       <td id="plan_financiero17"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan POA </td>
+       <td id="plan_poa17"></td>
+        </tr>
+    </tbody></table>
+</td>
+<td><table width="130px" id="formalizada_table">
+       <tbody><tr style="color:gray">
+        <td>Personeria Juridica </td>
+        <td id="personeria_juridica17"></td>
+       </tr>
+       <tr style="color:blue">
+        <td>Estatuto Organico ?</td>
+        <td id="estatuto_organico17"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Reglamento Interno </td>
+        <td id="reglamento_interno17"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Reg. FundaEmpresa </td>
+        <td id="reg_fundaempresa17"></td>
+       </tr>
+       <tr style="color:blue">
+        <td>Acta Constitucion ?</td>
+        <td id="acta_constitucion17"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Tarjeta Empresarial </td>
+        <td id="tarjeta_empresarial17"></td>
+       </tr>
+    </tbody></table>
+</td>
+<td><table width="130px" id="regVentas_table">
+       <tbody><tr style="color:blue">
+        <td>Reg. Ventas ?</td>
+        <td rowspan="2" id="reg_ventas17"></td>
+       </tr>
+       <tr style="color:blue">
+        <td>Total Ventas Bs.=2880</td>
+       </tr>
+    </tbody></table>
+</td>
+<td style="background:#C2D69A">Form.</td>
+</tr>
+<tr>
+<td>18</td>
+<td>Chuquisaca</td>
+<td>Chuquisaca</td>
+<td>Tomina</td>
+<td>Tomina</td>
+<td></td>
+<td>Acopio Productivo y Transformación</td>
+<td>Asociación Molinos San Mauro</td>
+<td>    <div>
+Venegas Ruiz, Lilian</div>
+</td>
+<td>2010</td>
+<td><table width="120px" id="poas_table">
+        <tbody><tr style="color:gray">
+       <td>Plan Negocio </td>
+       <td id="plan_negocio18"></td>
+        </tr>
+        <tr style="color:blue">
+       <td>Plan Estrategico ?</td>
+       <td id="plan_estrategico18"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan Produccion </td>
+       <td id="plan_produccion18"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan Financiero </td>
+       <td id="plan_financiero18"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan POA </td>
+       <td id="plan_poa18"></td>
+        </tr>
+    </tbody></table>
+</td>
+<td><table width="130px" id="formalizada_table">
+       <tbody><tr style="color:gray">
+        <td>Personeria Juridica </td>
+        <td id="personeria_juridica18"></td>
+       </tr>
+       <tr style="color:blue">
+        <td>Estatuto Organico ?</td>
+        <td id="estatuto_organico18"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Reglamento Interno </td>
+        <td id="reglamento_interno18"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Reg. FundaEmpresa </td>
+        <td id="reg_fundaempresa18"></td>
+       </tr>
+       <tr style="color:blue">
+        <td>Acta Constitucion ?</td>
+        <td id="acta_constitucion18"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Tarjeta Empresarial </td>
+        <td id="tarjeta_empresarial18"></td>
+       </tr>
+    </tbody></table>
+</td>
+<td><table width="130px" id="regVentas_table">
+       <tbody><tr style="color:blue">
+        <td>Reg. Ventas ?</td>
+        <td rowspan="2" id="reg_ventas18"></td>
+       </tr>
+       <tr style="color:blue">
+        <td>Total Ventas Bs.=4230</td>
+       </tr>
+    </tbody></table>
+</td>
+<td style="background:#C2D69A">Form.</td>
+</tr>
+<tr bgcolor="#F1F1F1">
+<td>19</td>
+<td>Chuquisaca</td>
+<td>Chuquisaca</td>
+<td>Tomina</td>
+<td>Pampas Punta</td>
+<td></td>
+<td>Acopio Productivo y Transformación</td>
+<td>Asociación de Mujeres Pampas Abajo (AMUPA)</td>
+<td>    <div>
+Venegas Ruiz, Lilian</div>
+</td>
+<td>2010</td>
+<td><table width="120px" id="poas_table">
+        <tbody><tr style="color:blue">
+       <td>Plan Negocio ?</td>
+       <td id="plan_negocio19"></td>
+        </tr>
+        <tr style="color:blue">
+       <td>Plan Estrategico ?</td>
+       <td id="plan_estrategico19"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan Produccion </td>
+       <td id="plan_produccion19"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan Financiero </td>
+       <td id="plan_financiero19"></td>
+        </tr>
+        <tr style="color:blue">
+       <td>Plan POA ?</td>
+       <td id="plan_poa19"></td>
+        </tr>
+    </tbody></table>
+</td>
+<td><table width="130px" id="formalizada_table">
+       <tbody><tr style="color:blue">
+        <td>Personeria Juridica ?</td>
+        <td id="personeria_juridica19"></td>
+       </tr>
+       <tr style="color:blue">
+        <td>Estatuto Organico ?</td>
+        <td id="estatuto_organico19"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Reglamento Interno </td>
+        <td id="reglamento_interno19"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Reg. FundaEmpresa </td>
+        <td id="reg_fundaempresa19"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Acta Constitucion </td>
+        <td id="acta_constitucion19"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Tarjeta Empresarial </td>
+        <td id="tarjeta_empresarial19"></td>
+       </tr>
+    </tbody></table>
+</td>
+<td><table width="130px" id="regVentas_table">
+       <tbody><tr style="color:blue">
+        <td>Reg. Ventas ?</td>
+        <td rowspan="2" id="reg_ventas19"></td>
+       </tr>
+       <tr style="color:blue">
+        <td>Total Ventas Bs.=585</td>
+       </tr>
+    </tbody></table>
+</td>
+<td style="background:#C2D69A">Form.</td>
+</tr>
+<tr>
+<td>20</td>
+<td>Chuquisaca</td>
+<td>Chuquisaca</td>
+<td>Tomina</td>
+<td>Tomina</td>
+<td></td>
+<td>Acopio Productivo y Transformación</td>
+<td>Asociación Productores Agropecuarios (APROA San Mauro)</td>
+<td>    <div>
+Venegas Ruiz, Lilian</div>
+</td>
+<td>2010</td>
+<td><table width="120px" id="poas_table">
+        <tbody><tr style="color:gray">
+       <td>Plan Negocio </td>
+       <td id="plan_negocio20"></td>
+        </tr>
+        <tr style="color:blue">
+       <td>Plan Estrategico ?</td>
+       <td id="plan_estrategico20"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan Produccion </td>
+       <td id="plan_produccion20"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan Financiero </td>
+       <td id="plan_financiero20"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan POA </td>
+       <td id="plan_poa20"></td>
+        </tr>
+    </tbody></table>
+</td>
+<td><table width="130px" id="formalizada_table">
+       <tbody><tr style="color:blue">
+        <td>Personeria Juridica ?</td>
+        <td id="personeria_juridica20"></td>
+       </tr>
+       <tr style="color:blue">
+        <td>Estatuto Organico ?</td>
+        <td id="estatuto_organico20"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Reglamento Interno </td>
+        <td id="reglamento_interno20"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Reg. FundaEmpresa </td>
+        <td id="reg_fundaempresa20"></td>
+       </tr>
+       <tr style="color:blue">
+        <td>Acta Constitucion ?</td>
+        <td id="acta_constitucion20"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Tarjeta Empresarial </td>
+        <td id="tarjeta_empresarial20"></td>
+       </tr>
+    </tbody></table>
+</td>
+<td><table width="130px" id="regVentas_table">
+       <tbody><tr style="color:blue">
+        <td>Reg. Ventas ?</td>
+        <td rowspan="2" id="reg_ventas20"></td>
+       </tr>
+       <tr style="color:blue">
+        <td>Total Ventas Bs.=43400</td>
+       </tr>
+    </tbody></table>
+</td>
+<td style="background:#C2D69A">Form.</td>
+</tr>
+<tr bgcolor="#F1F1F1">
+<td>21</td>
+<td>Chuquisaca</td>
+<td>Chuquisaca</td>
+<td>Tomina</td>
+<td>Tomina</td>
+<td></td>
+<td>Agua Potable y Alcantarillado</td>
+<td>Emp. Serv. Agua Potable Tomina</td>
+<td>    <div>
+Venegas Ruiz, Lilian</div>
+</td>
+<td>2010</td>
+<td><table width="120px" id="poas_table">
+        <tbody><tr style="color:gray">
+       <td>Plan Negocio </td>
+       <td id="plan_negocio21"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan Estrategico </td>
+       <td id="plan_estrategico21"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan Produccion </td>
+       <td id="plan_produccion21"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan Financiero </td>
+       <td id="plan_financiero21"></td>
+        </tr>
+        <tr style="color:blue">
+       <td>Plan POA ?</td>
+       <td id="plan_poa21"></td>
+        </tr>
+    </tbody></table>
+</td>
+<td><table width="130px" id="formalizada_table">
+       <tbody><tr style="color:blue">
+        <td>Personeria Juridica ?</td>
+        <td id="personeria_juridica21"></td>
+       </tr>
+       <tr style="color:blue">
+        <td>Estatuto Organico ?</td>
+        <td id="estatuto_organico21"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Reglamento Interno </td>
+        <td id="reglamento_interno21"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Reg. FundaEmpresa </td>
+        <td id="reg_fundaempresa21"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Acta Constitucion </td>
+        <td id="acta_constitucion21"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Tarjeta Empresarial </td>
+        <td id="tarjeta_empresarial21"></td>
+       </tr>
+    </tbody></table>
+</td>
+<td><table width="130px" id="regVentas_table">
+       <tbody><tr style="color:blue">
+        <td>Reg. Ventas ?</td>
+        <td rowspan="2" id="reg_ventas21"></td>
+       </tr>
+       <tr style="color:blue">
+        <td>Total Ventas Bs.=36600</td>
+       </tr>
+    </tbody></table>
+</td>
+<td style="background:#C2D69A">Form.</td>
+</tr>
+<tr>
+<td>22</td>
+<td>Chuquisaca</td>
+<td>Chuquisaca</td>
+<td>Tomina</td>
+<td>Tomina</td>
+<td></td>
+<td>Otro</td>
+<td>Asociación La Frontera</td>
+<td>    <div>
+Venegas Ruiz, Lilian</div>
+</td>
+<td>2010</td>
+<td><table width="120px" id="poas_table">
+        <tbody><tr style="color:gray">
+       <td>Plan Negocio </td>
+       <td id="plan_negocio22"></td>
+        </tr>
+        <tr style="color:blue">
+       <td>Plan Estrategico ?</td>
+       <td id="plan_estrategico22"></td>
+        </tr>
+        <tr style="color:blue">
+       <td>Plan Produccion ?</td>
+       <td id="plan_produccion22"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan Financiero </td>
+       <td id="plan_financiero22"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan POA </td>
+       <td id="plan_poa22"></td>
+        </tr>
+    </tbody></table>
+</td>
+<td><table width="130px" id="formalizada_table">
+       <tbody><tr style="color:blue">
+        <td>Personeria Juridica ?</td>
+        <td id="personeria_juridica22"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Estatuto Organico </td>
+        <td id="estatuto_organico22"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Reglamento Interno </td>
+        <td id="reglamento_interno22"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Reg. FundaEmpresa </td>
+        <td id="reg_fundaempresa22"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Acta Constitucion </td>
+        <td id="acta_constitucion22"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Tarjeta Empresarial </td>
+        <td id="tarjeta_empresarial22"></td>
+       </tr>
+    </tbody></table>
+</td>
+<td><table width="130px" id="regVentas_table">
+       <tbody><tr style="color:blue">
+        <td>Reg. Ventas ?</td>
+        <td rowspan="2" id="reg_ventas22"></td>
+       </tr>
+       <tr style="color:blue">
+        <td>Total Ventas Bs.=15192</td>
+       </tr>
+    </tbody></table>
+</td>
+<td style="background:#C2D69A">Form.</td>
+</tr>
+<tr bgcolor="#F1F1F1">
+<td>23</td>
+<td>Chuquisaca</td>
+<td>Potosi</td>
+<td>Ocurí</td>
+<td>Canchas Blancas</td>
+<td></td>
+<td>Acopio Productivo y Transformación</td>
+<td>Asociación de Productores Agropecuarios Allyn Tarpuy</td>
+<td>    <div>
+Loayza , David</div>
+</td>
+<td>2010</td>
+<td><table width="120px" id="poas_table">
+        <tbody><tr style="color:blue">
+       <td>Plan Negocio ?</td>
+       <td id="plan_negocio23"></td>
+        </tr>
+        <tr style="color:blue">
+       <td>Plan Estrategico ?</td>
+       <td id="plan_estrategico23"></td>
+        </tr>
+        <tr style="color:blue">
+       <td>Plan Produccion ?</td>
+       <td id="plan_produccion23"></td>
+        </tr>
+        <tr style="color:blue">
+       <td>Plan Financiero ?</td>
+       <td id="plan_financiero23"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan POA </td>
+       <td id="plan_poa23"></td>
+        </tr>
+    </tbody></table>
+</td>
+<td><table width="130px" id="formalizada_table">
+       <tbody><tr style="color:blue">
+        <td>Personeria Juridica ?</td>
+        <td id="personeria_juridica23"></td>
+       </tr>
+       <tr style="color:blue">
+        <td>Estatuto Organico ?</td>
+        <td id="estatuto_organico23"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Reglamento Interno </td>
+        <td id="reglamento_interno23"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Reg. FundaEmpresa </td>
+        <td id="reg_fundaempresa23"></td>
+       </tr>
+       <tr style="color:blue">
+        <td>Acta Constitucion ?</td>
+        <td id="acta_constitucion23"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Tarjeta Empresarial </td>
+        <td id="tarjeta_empresarial23"></td>
+       </tr>
+    </tbody></table>
+</td>
+<td><table width="130px" id="regVentas_table">
+       <tbody><tr style="color:blue">
+        <td>Reg. Ventas ?</td>
+        <td rowspan="2" id="reg_ventas23"></td>
+       </tr>
+       <tr style="color:blue">
+        <td>Total Ventas Bs.=272830</td>
+       </tr>
+    </tbody></table>
+</td>
+<td style="background:#C2D69A">Form.</td>
+</tr>
+<tr>
+<td>24</td>
+<td>Chuquisaca</td>
+<td>Potosi</td>
+<td>Ocurí</td>
+<td>Tahua Reja</td>
+<td></td>
+<td>Agua Potable y Alcantarillado</td>
+<td>EPSAS Tahua Reja</td>
+<td>    <div>
+Loayza , David</div>
+</td>
+<td>2010</td>
+<td><table width="120px" id="poas_table">
+        <tbody><tr style="color:gray">
+       <td>Plan Negocio </td>
+       <td id="plan_negocio24"></td>
+        </tr>
+        <tr style="color:blue">
+       <td>Plan Estrategico ?</td>
+       <td id="plan_estrategico24"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan Produccion </td>
+       <td id="plan_produccion24"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan Financiero </td>
+       <td id="plan_financiero24"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan POA </td>
+       <td id="plan_poa24"></td>
+        </tr>
+    </tbody></table>
+</td>
+<td><table width="130px" id="formalizada_table">
+       <tbody><tr style="color:gray">
+        <td>Personeria Juridica </td>
+        <td id="personeria_juridica24"></td>
+       </tr>
+       <tr style="color:blue">
+        <td>Estatuto Organico ?</td>
+        <td id="estatuto_organico24"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Reglamento Interno </td>
+        <td id="reglamento_interno24"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Reg. FundaEmpresa </td>
+        <td id="reg_fundaempresa24"></td>
+       </tr>
+       <tr style="color:blue">
+        <td>Acta Constitucion ?</td>
+        <td id="acta_constitucion24"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Tarjeta Empresarial </td>
+        <td id="tarjeta_empresarial24"></td>
+       </tr>
+    </tbody></table>
+</td>
+<td><table width="130px" id="regVentas_table">
+       <tbody><tr style="color:blue">
+        <td>Reg. Ventas ?</td>
+        <td rowspan="2" id="reg_ventas24"></td>
+       </tr>
+       <tr style="color:blue">
+        <td>Total Ventas Bs.=504</td>
+       </tr>
+    </tbody></table>
+</td>
+<td style="background:#C2D69A">Form.</td>
+</tr>
+<tr bgcolor="#F1F1F1">
+<td>25</td>
+<td>Chuquisaca</td>
+<td>Potosi</td>
+<td>Ocurí</td>
+<td>Ocurí</td>
+<td></td>
+<td>Agua Potable y Alcantarillado</td>
+<td>EPSAs Ocurí</td>
+<td>    <div>
+Loayza , David</div>
+</td>
+<td>2010</td>
+<td><table width="120px" id="poas_table">
+        <tbody><tr style="color:gray">
+       <td>Plan Negocio </td>
+       <td id="plan_negocio25"></td>
+        </tr>
+        <tr style="color:blue">
+       <td>Plan Estrategico ?</td>
+       <td id="plan_estrategico25"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan Produccion </td>
+       <td id="plan_produccion25"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan Financiero </td>
+       <td id="plan_financiero25"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan POA </td>
+       <td id="plan_poa25"></td>
+        </tr>
+    </tbody></table>
+</td>
+<td><table width="130px" id="formalizada_table">
+       <tbody><tr style="color:blue">
+        <td>Personeria Juridica ?</td>
+        <td id="personeria_juridica25"></td>
+       </tr>
+       <tr style="color:blue">
+        <td>Estatuto Organico ?</td>
+        <td id="estatuto_organico25"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Reglamento Interno </td>
+        <td id="reglamento_interno25"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Reg. FundaEmpresa </td>
+        <td id="reg_fundaempresa25"></td>
+       </tr>
+       <tr style="color:blue">
+        <td>Acta Constitucion ?</td>
+        <td id="acta_constitucion25"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Tarjeta Empresarial </td>
+        <td id="tarjeta_empresarial25"></td>
+       </tr>
+    </tbody></table>
+</td>
+<td><table width="130px" id="regVentas_table">
+       <tbody><tr style="color:blue">
+        <td>Reg. Ventas ?</td>
+        <td rowspan="2" id="reg_ventas25"></td>
+       </tr>
+       <tr style="color:blue">
+        <td>Total Ventas Bs.=806</td>
+       </tr>
+    </tbody></table>
+</td>
+<td style="background:#C2D69A">Form.</td>
+</tr>
+<tr>
+<td>26</td>
+<td>Chuquisaca</td>
+<td>Potosi</td>
+<td>Ocurí</td>
+<td>Ocurí</td>
+<td></td>
+<td>Caminos</td>
+<td>Microempresa de Conservación Vial Ocurí</td>
+<td>    <div>
+Loayza , David</div>
+</td>
+<td>2010</td>
+<td><table width="120px" id="poas_table">
+        <tbody><tr style="color:gray">
+       <td>Plan Negocio </td>
+       <td id="plan_negocio26"></td>
+        </tr>
+        <tr style="color:blue">
+       <td>Plan Estrategico ?</td>
+       <td id="plan_estrategico26"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan Produccion </td>
+       <td id="plan_produccion26"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan Financiero </td>
+       <td id="plan_financiero26"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan POA </td>
+       <td id="plan_poa26"></td>
+        </tr>
+    </tbody></table>
+</td>
+<td><table width="130px" id="formalizada_table">
+       <tbody><tr style="color:gray">
+        <td>Personeria Juridica </td>
+        <td id="personeria_juridica26"></td>
+       </tr>
+       <tr style="color:blue">
+        <td>Estatuto Organico ?</td>
+        <td id="estatuto_organico26"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Reglamento Interno </td>
+        <td id="reglamento_interno26"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Reg. FundaEmpresa </td>
+        <td id="reg_fundaempresa26"></td>
+       </tr>
+       <tr style="color:blue">
+        <td>Acta Constitucion ?</td>
+        <td id="acta_constitucion26"></td>
+       </tr>
+       <tr style="color:blue">
+        <td>Tarjeta Empresarial ?</td>
+        <td id="tarjeta_empresarial26"></td>
+       </tr>
+    </tbody></table>
+</td>
+<td><table width="130px" id="regVentas_table">
+       <tbody><tr style="color:blue">
+        <td>Reg. Ventas ?</td>
+        <td rowspan="2" id="reg_ventas26"></td>
+       </tr>
+       <tr style="color:blue">
+        <td>Total Ventas Bs.=84000</td>
+       </tr>
+    </tbody></table>
+</td>
+<td style="background:#C2D69A">Form.</td>
+</tr>
+<tr bgcolor="#F1F1F1">
+<td>27</td>
+<td>Chuquisaca</td>
+<td>Potosi</td>
+<td>Ocurí</td>
+<td>Ilabe</td>
+<td></td>
+<td>Otro</td>
+<td>Asociación de Prod. Agropecuarios Ilabe (APROAGRO ILABE)</td>
+<td>    <div>
+Loayza , David</div>
+</td>
+<td>2010</td>
+<td><table width="120px" id="poas_table">
+        <tbody><tr style="color:blue">
+       <td>Plan Negocio ?</td>
+       <td id="plan_negocio27"></td>
+        </tr>
+        <tr style="color:blue">
+       <td>Plan Estrategico ?</td>
+       <td id="plan_estrategico27"></td>
+        </tr>
+        <tr style="color:blue">
+       <td>Plan Produccion ?</td>
+       <td id="plan_produccion27"></td>
+        </tr>
+        <tr style="color:blue">
+       <td>Plan Financiero ?</td>
+       <td id="plan_financiero27"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan POA </td>
+       <td id="plan_poa27"></td>
+        </tr>
+    </tbody></table>
+</td>
+<td><table width="130px" id="formalizada_table">
+       <tbody><tr style="color:blue">
+        <td>Personeria Juridica ?</td>
+        <td id="personeria_juridica27"></td>
+       </tr>
+       <tr style="color:blue">
+        <td>Estatuto Organico ?</td>
+        <td id="estatuto_organico27"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Reglamento Interno </td>
+        <td id="reglamento_interno27"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Reg. FundaEmpresa </td>
+        <td id="reg_fundaempresa27"></td>
+       </tr>
+       <tr style="color:blue">
+        <td>Acta Constitucion ?</td>
+        <td id="acta_constitucion27"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Tarjeta Empresarial </td>
+        <td id="tarjeta_empresarial27"></td>
+       </tr>
+    </tbody></table>
+</td>
+<td><table width="130px" id="regVentas_table">
+       <tbody><tr style="color:blue">
+        <td>Reg. Ventas ?</td>
+        <td rowspan="2" id="reg_ventas27"></td>
+       </tr>
+       <tr style="color:blue">
+        <td>Total Ventas Bs.=0</td>
+       </tr>
+    </tbody></table>
+</td>
+<td style="background:#C2D69A">Form.</td>
+</tr>
+<tr>
+<td>28</td>
+<td>Chuquisaca</td>
+<td>Potosi</td>
+<td>Ravelo</td>
+<td>Rodeo Huayllas</td>
+<td></td>
+<td>Acopio Productivo y Transformación</td>
+<td>Asociación Productiva Agropecuaria (Aproagro) Huayllas</td>
+<td>    <div>
+Loayza , David</div>
+</td>
+<td>2010</td>
+<td><table width="120px" id="poas_table">
+        <tbody><tr style="color:blue">
+       <td>Plan Negocio ?</td>
+       <td id="plan_negocio28"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan Estrategico </td>
+       <td id="plan_estrategico28"></td>
+        </tr>
+        <tr style="color:blue">
+       <td>Plan Produccion ?</td>
+       <td id="plan_produccion28"></td>
+        </tr>
+        <tr style="color:blue">
+       <td>Plan Financiero ?</td>
+       <td id="plan_financiero28"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan POA </td>
+       <td id="plan_poa28"></td>
+        </tr>
+    </tbody></table>
+</td>
+<td><table width="130px" id="formalizada_table">
+       <tbody><tr style="color:blue">
+        <td>Personeria Juridica ?</td>
+        <td id="personeria_juridica28"></td>
+       </tr>
+       <tr style="color:blue">
+        <td>Estatuto Organico ?</td>
+        <td id="estatuto_organico28"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Reglamento Interno </td>
+        <td id="reglamento_interno28"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Reg. FundaEmpresa </td>
+        <td id="reg_fundaempresa28"></td>
+       </tr>
+       <tr style="color:blue">
+        <td>Acta Constitucion ?</td>
+        <td id="acta_constitucion28"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Tarjeta Empresarial </td>
+        <td id="tarjeta_empresarial28"></td>
+       </tr>
+    </tbody></table>
+</td>
+<td><table width="130px" id="regVentas_table">
+       <tbody><tr style="color:blue">
+        <td>Reg. Ventas ?</td>
+        <td rowspan="2" id="reg_ventas28"></td>
+       </tr>
+       <tr style="color:blue">
+        <td>Total Ventas Bs.=9000</td>
+       </tr>
+    </tbody></table>
+</td>
+<td style="background:#C2D69A">Form.</td>
+</tr>
+<tr bgcolor="#F1F1F1">
+<td>29</td>
+<td>Chuquisaca</td>
+<td>Potosi</td>
+<td>Ravelo</td>
+<td>Ravelo</td>
+<td></td>
+<td>Agua Potable y Alcantarillado</td>
+<td>EPSA Ravelo</td>
+<td>    <div>
+Loayza , David</div>
+</td>
+<td>2010</td>
+<td><table width="120px" id="poas_table">
+        <tbody><tr style="color:gray">
+       <td>Plan Negocio </td>
+       <td id="plan_negocio29"></td>
+        </tr>
+        <tr style="color:blue">
+       <td>Plan Estrategico ?</td>
+       <td id="plan_estrategico29"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan Produccion </td>
+       <td id="plan_produccion29"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan Financiero </td>
+       <td id="plan_financiero29"></td>
+        </tr>
+        <tr style="color:blue">
+       <td>Plan POA ?</td>
+       <td id="plan_poa29"></td>
+        </tr>
+    </tbody></table>
+</td>
+<td><table width="130px" id="formalizada_table">
+       <tbody><tr style="color:gray">
+        <td>Personeria Juridica </td>
+        <td id="personeria_juridica29"></td>
+       </tr>
+       <tr style="color:blue">
+        <td>Estatuto Organico ?</td>
+        <td id="estatuto_organico29"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Reglamento Interno </td>
+        <td id="reglamento_interno29"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Reg. FundaEmpresa </td>
+        <td id="reg_fundaempresa29"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Acta Constitucion </td>
+        <td id="acta_constitucion29"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Tarjeta Empresarial </td>
+        <td id="tarjeta_empresarial29"></td>
+       </tr>
+    </tbody></table>
+</td>
+<td><table width="130px" id="regVentas_table">
+       <tbody><tr style="color:blue">
+        <td>Reg. Ventas ?</td>
+        <td rowspan="2" id="reg_ventas29"></td>
+       </tr>
+       <tr style="color:blue">
+        <td>Total Ventas Bs.=8010</td>
+       </tr>
+    </tbody></table>
+</td>
+<td style="background:#C2D69A">Form.</td>
+</tr>
+<tr>
+<td>30</td>
+<td>Chuquisaca</td>
+<td>Potosi</td>
+<td>Ravelo</td>
+<td>Rodeo Huayllas</td>
+<td></td>
+<td>Agua Potable y Alcantarillado</td>
+<td>EPSAS  Pajlli</td>
+<td>    <div>
+Loayza , David</div>
+</td>
+<td>2010</td>
+<td><table width="120px" id="poas_table">
+        <tbody><tr style="color:gray">
+       <td>Plan Negocio </td>
+       <td id="plan_negocio30"></td>
+        </tr>
+        <tr style="color:blue">
+       <td>Plan Estrategico ?</td>
+       <td id="plan_estrategico30"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan Produccion </td>
+       <td id="plan_produccion30"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan Financiero </td>
+       <td id="plan_financiero30"></td>
+        </tr>
+        <tr style="color:blue">
+       <td>Plan POA ?</td>
+       <td id="plan_poa30"></td>
+        </tr>
+    </tbody></table>
+</td>
+<td><table width="130px" id="formalizada_table">
+       <tbody><tr style="color:gray">
+        <td>Personeria Juridica </td>
+        <td id="personeria_juridica30"></td>
+       </tr>
+       <tr style="color:blue">
+        <td>Estatuto Organico ?</td>
+        <td id="estatuto_organico30"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Reglamento Interno </td>
+        <td id="reglamento_interno30"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Reg. FundaEmpresa </td>
+        <td id="reg_fundaempresa30"></td>
+       </tr>
+       <tr style="color:blue">
+        <td>Acta Constitucion ?</td>
+        <td id="acta_constitucion30"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Tarjeta Empresarial </td>
+        <td id="tarjeta_empresarial30"></td>
+       </tr>
+    </tbody></table>
+</td>
+<td><table width="130px" id="regVentas_table">
+       <tbody><tr style="color:blue">
+        <td>Reg. Ventas ?</td>
+        <td rowspan="2" id="reg_ventas30"></td>
+       </tr>
+       <tr style="color:blue">
+        <td>Total Ventas Bs.=92.5</td>
+       </tr>
+    </tbody></table>
+</td>
+<td style="background:#C2D69A">Form.</td>
+</tr>
+<tr bgcolor="#F1F1F1">
+<td>31</td>
+<td>Chuquisaca</td>
+<td>Potosi</td>
+<td>Ravelo</td>
+<td>Ura Rodeo</td>
+<td></td>
+<td>Agua Potable y Alcantarillado</td>
+<td>EPSAS  Ura Rodeo</td>
+<td>    <div>
+Loayza , David</div>
+</td>
+<td>2010</td>
+<td><table width="120px" id="poas_table">
+        <tbody><tr style="color:gray">
+       <td>Plan Negocio </td>
+       <td id="plan_negocio31"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan Estrategico </td>
+       <td id="plan_estrategico31"></td>
+        </tr>
+        <tr style="color:blue">
+       <td>Plan Produccion ?</td>
+       <td id="plan_produccion31"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan Financiero </td>
+       <td id="plan_financiero31"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan POA </td>
+       <td id="plan_poa31"></td>
+        </tr>
+    </tbody></table>
+</td>
+<td><table width="130px" id="formalizada_table">
+       <tbody><tr style="color:gray">
+        <td>Personeria Juridica </td>
+        <td id="personeria_juridica31"></td>
+       </tr>
+       <tr style="color:blue">
+        <td>Estatuto Organico ?</td>
+        <td id="estatuto_organico31"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Reglamento Interno </td>
+        <td id="reglamento_interno31"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Reg. FundaEmpresa </td>
+        <td id="reg_fundaempresa31"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Acta Constitucion </td>
+        <td id="acta_constitucion31"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Tarjeta Empresarial </td>
+        <td id="tarjeta_empresarial31"></td>
+       </tr>
+    </tbody></table>
+</td>
+<td><table width="130px" id="regVentas_table">
+       <tbody><tr style="color:blue">
+        <td>Reg. Ventas ?</td>
+        <td rowspan="2" id="reg_ventas31"></td>
+       </tr>
+       <tr style="color:blue">
+        <td>Total Ventas Bs.=2040</td>
+       </tr>
+    </tbody></table>
+</td>
+<td style="background:#C2D69A">Form.</td>
+</tr>
+<tr>
+<td>32</td>
+<td>Chuquisaca</td>
+<td>Potosi</td>
+<td>Ravelo</td>
+<td>Challuma</td>
+<td></td>
+<td>Agua Potable y Alcantarillado</td>
+<td>Asociación de Agua y Saneamiento Básico Challuma</td>
+<td>    <div>
+Loayza , David</div>
+</td>
+<td>2010</td>
+<td><table width="120px" id="poas_table">
+        <tbody><tr style="color:gray">
+       <td>Plan Negocio </td>
+       <td id="plan_negocio32"></td>
+        </tr>
+        <tr style="color:blue">
+       <td>Plan Estrategico ?</td>
+       <td id="plan_estrategico32"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan Produccion </td>
+       <td id="plan_produccion32"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan Financiero </td>
+       <td id="plan_financiero32"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan POA </td>
+       <td id="plan_poa32"></td>
+        </tr>
+    </tbody></table>
+</td>
+<td><table width="130px" id="formalizada_table">
+       <tbody><tr style="color:gray">
+        <td>Personeria Juridica </td>
+        <td id="personeria_juridica32"></td>
+       </tr>
+       <tr style="color:blue">
+        <td>Estatuto Organico ?</td>
+        <td id="estatuto_organico32"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Reglamento Interno </td>
+        <td id="reglamento_interno32"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Reg. FundaEmpresa </td>
+        <td id="reg_fundaempresa32"></td>
+       </tr>
+       <tr style="color:blue">
+        <td>Acta Constitucion ?</td>
+        <td id="acta_constitucion32"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Tarjeta Empresarial </td>
+        <td id="tarjeta_empresarial32"></td>
+       </tr>
+    </tbody></table>
+</td>
+<td><table width="130px" id="regVentas_table">
+       <tbody><tr style="color:blue">
+        <td>Reg. Ventas ?</td>
+        <td rowspan="2" id="reg_ventas32"></td>
+       </tr>
+       <tr style="color:blue">
+        <td>Total Ventas Bs.=288</td>
+       </tr>
+    </tbody></table>
+</td>
+<td style="background:#C2D69A">Form.</td>
+</tr>
+<tr bgcolor="#F1F1F1">
+<td>33</td>
+<td>Chuquisaca</td>
+<td>Potosi</td>
+<td>Ravelo</td>
+<td>Ravelo</td>
+<td></td>
+<td>Otro</td>
+<td>Asociación de Productores Agropecuarios-Veterinarios</td>
+<td>    <div>
+Loayza , David</div>
+</td>
+<td>2010</td>
+<td><table width="120px" id="poas_table">
+        <tbody><tr style="color:blue">
+       <td>Plan Negocio ?</td>
+       <td id="plan_negocio33"></td>
+        </tr>
+        <tr style="color:blue">
+       <td>Plan Estrategico ?</td>
+       <td id="plan_estrategico33"></td>
+        </tr>
+        <tr style="color:blue">
+       <td>Plan Produccion ?</td>
+       <td id="plan_produccion33"></td>
+        </tr>
+        <tr style="color:blue">
+       <td>Plan Financiero ?</td>
+       <td id="plan_financiero33"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan POA </td>
+       <td id="plan_poa33"></td>
+        </tr>
+    </tbody></table>
+</td>
+<td><table width="130px" id="formalizada_table">
+       <tbody><tr style="color:gray">
+        <td>Personeria Juridica </td>
+        <td id="personeria_juridica33"></td>
+       </tr>
+       <tr style="color:blue">
+        <td>Estatuto Organico ?</td>
+        <td id="estatuto_organico33"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Reglamento Interno </td>
+        <td id="reglamento_interno33"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Reg. FundaEmpresa </td>
+        <td id="reg_fundaempresa33"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Acta Constitucion </td>
+        <td id="acta_constitucion33"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Tarjeta Empresarial </td>
+        <td id="tarjeta_empresarial33"></td>
+       </tr>
+    </tbody></table>
+</td>
+<td><table width="130px" id="regVentas_table">
+       <tbody><tr style="color:blue">
+        <td>Reg. Ventas ?</td>
+        <td rowspan="2" id="reg_ventas33"></td>
+       </tr>
+       <tr style="color:blue">
+        <td>Total Ventas Bs.=12292</td>
+       </tr>
+    </tbody></table>
+</td>
+<td style="background:#C2D69A">Form.</td>
+</tr>
+<tr>
+<td>34</td>
+<td>Chuquisaca</td>
+<td>Potosi</td>
+<td>Ravelo</td>
+<td>Sorojchi</td>
+<td></td>
+<td>Otro</td>
+<td>Mod. Lechero Sorojchi</td>
+<td>    <div>
+Loayza , David</div>
+</td>
+<td>2010</td>
+<td><table width="120px" id="poas_table">
+        <tbody><tr style="color:gray">
+       <td>Plan Negocio </td>
+       <td id="plan_negocio34"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan Estrategico </td>
+       <td id="plan_estrategico34"></td>
+        </tr>
+        <tr style="color:blue">
+       <td>Plan Produccion ?</td>
+       <td id="plan_produccion34"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan Financiero </td>
+       <td id="plan_financiero34"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan POA </td>
+       <td id="plan_poa34"></td>
+        </tr>
+    </tbody></table>
+</td>
+<td><table width="130px" id="formalizada_table">
+       <tbody><tr style="color:blue">
+        <td>Personeria Juridica ?</td>
+        <td id="personeria_juridica34"></td>
+       </tr>
+       <tr style="color:blue">
+        <td>Estatuto Organico ?</td>
+        <td id="estatuto_organico34"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Reglamento Interno </td>
+        <td id="reglamento_interno34"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Reg. FundaEmpresa </td>
+        <td id="reg_fundaempresa34"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Acta Constitucion </td>
+        <td id="acta_constitucion34"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Tarjeta Empresarial </td>
+        <td id="tarjeta_empresarial34"></td>
+       </tr>
+    </tbody></table>
+</td>
+<td><table width="130px" id="regVentas_table">
+       <tbody><tr style="color:blue">
+        <td>Reg. Ventas ?</td>
+        <td rowspan="2" id="reg_ventas34"></td>
+       </tr>
+       <tr style="color:blue">
+        <td>Total Ventas Bs.=34335.3</td>
+       </tr>
+    </tbody></table>
+</td>
+<td style="background:#C2D69A">Form.</td>
+</tr>
+<tr bgcolor="#F1F1F1">
+<td>35</td>
+<td>Chuquisaca</td>
+<td>Potosi</td>
+<td>Ravelo</td>
+<td>Yoroca</td>
+<td></td>
+<td>Otro</td>
+<td>Modulo Lechero Yoroca</td>
+<td>    <div>
+Loayza , David</div>
+</td>
+<td>2010</td>
+<td><table width="120px" id="poas_table">
+        <tbody><tr style="color:gray">
+       <td>Plan Negocio </td>
+       <td id="plan_negocio35"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan Estrategico </td>
+       <td id="plan_estrategico35"></td>
+        </tr>
+        <tr style="color:blue">
+       <td>Plan Produccion ?</td>
+       <td id="plan_produccion35"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan Financiero </td>
+       <td id="plan_financiero35"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan POA </td>
+       <td id="plan_poa35"></td>
+        </tr>
+    </tbody></table>
+</td>
+<td><table width="130px" id="formalizada_table">
+       <tbody><tr style="color:blue">
+        <td>Personeria Juridica ?</td>
+        <td id="personeria_juridica35"></td>
+       </tr>
+       <tr style="color:blue">
+        <td>Estatuto Organico ?</td>
+        <td id="estatuto_organico35"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Reglamento Interno </td>
+        <td id="reglamento_interno35"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Reg. FundaEmpresa </td>
+        <td id="reg_fundaempresa35"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Acta Constitucion </td>
+        <td id="acta_constitucion35"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Tarjeta Empresarial </td>
+        <td id="tarjeta_empresarial35"></td>
+       </tr>
+    </tbody></table>
+</td>
+<td><table width="130px" id="regVentas_table">
+       <tbody><tr style="color:blue">
+        <td>Reg. Ventas ?</td>
+        <td rowspan="2" id="reg_ventas35"></td>
+       </tr>
+       <tr style="color:blue">
+        <td>Total Ventas Bs.=75914</td>
+       </tr>
+    </tbody></table>
+</td>
+<td style="background:#C2D69A">Form.</td>
+</tr>
+<tr>
+<td>36</td>
+<td>Chuquisaca</td>
+<td>Potosi</td>
+<td>Ravelo</td>
+<td>Tomoyo</td>
+<td></td>
+<td>Otro</td>
+<td>Modulo Lechero Tomoyo</td>
+<td>    <div>
+Loayza , David</div>
+</td>
+<td>2010</td>
+<td><table width="120px" id="poas_table">
+        <tbody><tr style="color:gray">
+       <td>Plan Negocio </td>
+       <td id="plan_negocio36"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan Estrategico </td>
+       <td id="plan_estrategico36"></td>
+        </tr>
+        <tr style="color:blue">
+       <td>Plan Produccion ?</td>
+       <td id="plan_produccion36"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan Financiero </td>
+       <td id="plan_financiero36"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan POA </td>
+       <td id="plan_poa36"></td>
+        </tr>
+    </tbody></table>
+</td>
+<td><table width="130px" id="formalizada_table">
+       <tbody><tr style="color:blue">
+        <td>Personeria Juridica ?</td>
+        <td id="personeria_juridica36"></td>
+       </tr>
+       <tr style="color:blue">
+        <td>Estatuto Organico ?</td>
+        <td id="estatuto_organico36"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Reglamento Interno </td>
+        <td id="reglamento_interno36"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Reg. FundaEmpresa </td>
+        <td id="reg_fundaempresa36"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Acta Constitucion </td>
+        <td id="acta_constitucion36"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Tarjeta Empresarial </td>
+        <td id="tarjeta_empresarial36"></td>
+       </tr>
+    </tbody></table>
+</td>
+<td><table width="130px" id="regVentas_table">
+       <tbody><tr style="color:blue">
+        <td>Reg. Ventas ?</td>
+        <td rowspan="2" id="reg_ventas36"></td>
+       </tr>
+       <tr style="color:blue">
+        <td>Total Ventas Bs.=53655.2</td>
+       </tr>
+    </tbody></table>
+</td>
+<td style="background:#C2D69A">Form.</td>
+</tr>
+<tr bgcolor="#F1F1F1">
+<td>37</td>
+<td>Chuquisaca</td>
+<td>Potosi</td>
+<td>Ravelo</td>
+<td>Sasanta</td>
+<td></td>
+<td>Otro</td>
+<td>Asociación de Productores Agropecuarios Mojon Pata</td>
+<td>    <div>
+Loayza , David</div>
+</td>
+<td>2010</td>
+<td><table width="120px" id="poas_table">
+        <tbody><tr style="color:blue">
+       <td>Plan Negocio ?</td>
+       <td id="plan_negocio37"></td>
+        </tr>
+        <tr style="color:blue">
+       <td>Plan Estrategico ?</td>
+       <td id="plan_estrategico37"></td>
+        </tr>
+        <tr style="color:blue">
+       <td>Plan Produccion ?</td>
+       <td id="plan_produccion37"></td>
+        </tr>
+        <tr style="color:blue">
+       <td>Plan Financiero ?</td>
+       <td id="plan_financiero37"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan POA </td>
+       <td id="plan_poa37"></td>
+        </tr>
+    </tbody></table>
+</td>
+<td><table width="130px" id="formalizada_table">
+       <tbody><tr style="color:blue">
+        <td>Personeria Juridica ?</td>
+        <td id="personeria_juridica37"></td>
+       </tr>
+       <tr style="color:blue">
+        <td>Estatuto Organico ?</td>
+        <td id="estatuto_organico37"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Reglamento Interno </td>
+        <td id="reglamento_interno37"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Reg. FundaEmpresa </td>
+        <td id="reg_fundaempresa37"></td>
+       </tr>
+       <tr style="color:blue">
+        <td>Acta Constitucion ?</td>
+        <td id="acta_constitucion37"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Tarjeta Empresarial </td>
+        <td id="tarjeta_empresarial37"></td>
+       </tr>
+    </tbody></table>
+</td>
+<td><table width="130px" id="regVentas_table">
+       <tbody><tr style="color:blue">
+        <td>Reg. Ventas ?</td>
+        <td rowspan="2" id="reg_ventas37"></td>
+       </tr>
+       <tr style="color:blue">
+        <td>Total Ventas Bs.=40000</td>
+       </tr>
+    </tbody></table>
+</td>
+<td style="background:#C2D69A">Form.</td>
+</tr>
+<tr>
+<td>38</td>
+<td>Chuquisaca</td>
+<td>Potosi</td>
+<td>Ravelo</td>
+<td>Safiri</td>
+<td></td>
+<td>Riego y Sistemas de Agua</td>
+<td>Asociación de Agua y Saneamiento Básico Safiri (MR Safiri)</td>
+<td>    <div>
+Loayza , David</div>
+</td>
+<td>2010</td>
+<td><table width="120px" id="poas_table">
+        <tbody><tr style="color:gray">
+       <td>Plan Negocio </td>
+       <td id="plan_negocio38"></td>
+        </tr>
+        <tr style="color:blue">
+       <td>Plan Estrategico ?</td>
+       <td id="plan_estrategico38"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan Produccion </td>
+       <td id="plan_produccion38"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan Financiero </td>
+       <td id="plan_financiero38"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan POA </td>
+       <td id="plan_poa38"></td>
+        </tr>
+    </tbody></table>
+</td>
+<td><table width="130px" id="formalizada_table">
+       <tbody><tr style="color:gray">
+        <td>Personeria Juridica </td>
+        <td id="personeria_juridica38"></td>
+       </tr>
+       <tr style="color:blue">
+        <td>Estatuto Organico ?</td>
+        <td id="estatuto_organico38"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Reglamento Interno </td>
+        <td id="reglamento_interno38"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Reg. FundaEmpresa </td>
+        <td id="reg_fundaempresa38"></td>
+       </tr>
+       <tr style="color:blue">
+        <td>Acta Constitucion ?</td>
+        <td id="acta_constitucion38"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Tarjeta Empresarial </td>
+        <td id="tarjeta_empresarial38"></td>
+       </tr>
+    </tbody></table>
+</td>
+<td><table width="130px" id="regVentas_table">
+       <tbody><tr style="color:blue">
+        <td>Reg. Ventas ?</td>
+        <td rowspan="2" id="reg_ventas38"></td>
+       </tr>
+       <tr style="color:blue">
+        <td>Total Ventas Bs.=2016</td>
+       </tr>
+    </tbody></table>
+</td>
+<td style="background:#C2D69A">Form.</td>
+</tr>
+<tr bgcolor="#F1F1F1">
+<td>39</td>
+<td>Chuquisaca</td>
+<td>Potosi</td>
+<td>Ravelo</td>
+<td>Sorocoto/Soroscopa</td>
+<td></td>
+<td>Riego y Sistemas de Agua</td>
+<td>Asociación de Regantes  Arsass</td>
+<td>    <div>
+Loayza , David</div>
+</td>
+<td>2010</td>
+<td><table width="120px" id="poas_table">
+        <tbody><tr style="color:gray">
+       <td>Plan Negocio </td>
+       <td id="plan_negocio39"></td>
+        </tr>
+        <tr style="color:blue">
+       <td>Plan Estrategico ?</td>
+       <td id="plan_estrategico39"></td>
+        </tr>
+        <tr style="color:blue">
+       <td>Plan Produccion ?</td>
+       <td id="plan_produccion39"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan Financiero </td>
+       <td id="plan_financiero39"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan POA </td>
+       <td id="plan_poa39"></td>
+        </tr>
+    </tbody></table>
+</td>
+<td><table width="130px" id="formalizada_table">
+       <tbody><tr style="color:blue">
+        <td>Personeria Juridica ?</td>
+        <td id="personeria_juridica39"></td>
+       </tr>
+       <tr style="color:blue">
+        <td>Estatuto Organico ?</td>
+        <td id="estatuto_organico39"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Reglamento Interno </td>
+        <td id="reglamento_interno39"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Reg. FundaEmpresa </td>
+        <td id="reg_fundaempresa39"></td>
+       </tr>
+       <tr style="color:blue">
+        <td>Acta Constitucion ?</td>
+        <td id="acta_constitucion39"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Tarjeta Empresarial </td>
+        <td id="tarjeta_empresarial39"></td>
+       </tr>
+    </tbody></table>
+</td>
+<td><table width="130px" id="regVentas_table">
+       <tbody><tr style="color:blue">
+        <td>Reg. Ventas ?</td>
+        <td rowspan="2" id="reg_ventas39"></td>
+       </tr>
+       <tr style="color:blue">
+        <td>Total Ventas Bs.=2400</td>
+       </tr>
+    </tbody></table>
+</td>
+<td style="background:#C2D69A">Form.</td>
+</tr>
+<tr>
+<td>40</td>
+<td>Chuquisaca</td>
+<td>Potosi</td>
+<td>Ravelo</td>
+<td>Tomoyo</td>
+<td></td>
+<td>Riego y Sistemas de Agua</td>
+<td>Asociación de Riego y Servicio Tomoyo (ARISET)</td>
+<td>    <div>
+Loayza , David</div>
+</td>
+<td>2010</td>
+<td><table width="120px" id="poas_table">
+        <tbody><tr style="color:blue">
+       <td>Plan Negocio ?</td>
+       <td id="plan_negocio40"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan Estrategico </td>
+       <td id="plan_estrategico40"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan Produccion </td>
+       <td id="plan_produccion40"></td>
+        </tr>
+        <tr style="color:blue">
+       <td>Plan Financiero ?</td>
+       <td id="plan_financiero40"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan POA </td>
+       <td id="plan_poa40"></td>
+        </tr>
+    </tbody></table>
+</td>
+<td><table width="130px" id="formalizada_table">
+       <tbody><tr style="color:blue">
+        <td>Personeria Juridica ?</td>
+        <td id="personeria_juridica40"></td>
+       </tr>
+       <tr style="color:blue">
+        <td>Estatuto Organico ?</td>
+        <td id="estatuto_organico40"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Reglamento Interno </td>
+        <td id="reglamento_interno40"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Reg. FundaEmpresa </td>
+        <td id="reg_fundaempresa40"></td>
+       </tr>
+       <tr style="color:blue">
+        <td>Acta Constitucion ?</td>
+        <td id="acta_constitucion40"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Tarjeta Empresarial </td>
+        <td id="tarjeta_empresarial40"></td>
+       </tr>
+    </tbody></table>
+</td>
+<td><table width="130px" id="regVentas_table">
+       <tbody><tr style="color:blue">
+        <td>Reg. Ventas ?</td>
+        <td rowspan="2" id="reg_ventas40"></td>
+       </tr>
+       <tr style="color:blue">
+        <td>Total Ventas Bs.=14280</td>
+       </tr>
+    </tbody></table>
+</td>
+<td style="background:#C2D69A">Form.</td>
+</tr>
+<tr bgcolor="#F1F1F1">
+<td>41</td>
+<td>Cochabamba</td>
+<td>Cochabamba</td>
+<td>Capinota</td>
+<td>Playa Ancha</td>
+<td>Cunidad de Charamoco</td>
+<td>Acopio Productivo y Transformación</td>
+<td>Asociación Modulo Lechero Playa Ancha</td>
+<td>    <div>
+Gallo Subieta, Alvaro</div>
+</td>
+<td>2010</td>
+<td><table width="120px" id="poas_table">
+        <tbody><tr style="color:gray">
+       <td>Plan Negocio </td>
+       <td id="plan_negocio41"></td>
+        </tr>
+        <tr style="color:blue">
+       <td>Plan Estrategico ?</td>
+       <td id="plan_estrategico41">h hola comoe alkdjfalñskdj hola comoe alkdjfalñskdj hola comoe alkdjfalñskdj hola comoe alkdjfalñskdj hola comoe alkdjfalñskdjola comoe alkdjfalñskdj</td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan Produccion </td>
+       <td id="plan_produccion41"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan Financiero </td>
+       <td id="plan_financiero41"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan POA </td>
+       <td id="plan_poa41"></td>
+        </tr>
+    </tbody></table>
+</td>
+<td><table width="130px" id="formalizada_table">
+       <tbody><tr style="color:gray">
+        <td>Personeria Juridica </td>
+        <td id="personeria_juridica41"></td>
+       </tr>
+       <tr style="color:blue">
+        <td>Estatuto Organico ?</td>
+        <td id="estatuto_organico41"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Reglamento Interno </td>
+        <td id="reglamento_interno41"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Reg. FundaEmpresa </td>
+        <td id="reg_fundaempresa41"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Acta Constitucion </td>
+        <td id="acta_constitucion41"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Tarjeta Empresarial </td>
+        <td id="tarjeta_empresarial41"></td>
+       </tr>
+    </tbody></table>
+</td>
+<td><table width="130px" id="regVentas_table">
+       <tbody><tr style="color:blue">
+        <td>Reg. Ventas ?</td>
+        <td rowspan="2" id="reg_ventas41"></td>
+       </tr>
+       <tr style="color:blue">
+        <td>Total Ventas Bs.=9975</td>
+       </tr>
+    </tbody></table>
+</td>
+<td style="background:#C2D69A">Form.</td>
+</tr>
+<tr>
+<td>42</td>
+<td>Cochabamba</td>
+<td>Cochabamba</td>
+<td>Capinota</td>
+<td>Ucuchi</td>
+<td>Comunidad de Ucuchi</td>
+<td>Acopio Productivo y Transformación</td>
+<td>Asociación Modulo Lechero Ucuchi</td>
+<td>    <div>
+Gallo Subieta, Alvaro</div>
+</td>
+<td>2010</td>
+<td><table width="120px" id="poas_table">
+        <tbody><tr style="color:gray">
+       <td>Plan Negocio </td>
+       <td id="plan_negocio42"></td>
+        </tr>
+        <tr style="color:blue">
+       <td>Plan Estrategico ?</td>
+       <td id="plan_estrategico42"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan Produccion </td>
+       <td id="plan_produccion42"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan Financiero </td>
+       <td id="plan_financiero42"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan POA </td>
+       <td id="plan_poa42"></td>
+        </tr>
+    </tbody></table>
+</td>
+<td><table width="130px" id="formalizada_table">
+       <tbody><tr style="color:blue">
+        <td>Personeria Juridica ?</td>
+        <td id="personeria_juridica42"></td>
+       </tr>
+       <tr style="color:blue">
+        <td>Estatuto Organico ?</td>
+        <td id="estatuto_organico42"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Reglamento Interno </td>
+        <td id="reglamento_interno42"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Reg. FundaEmpresa </td>
+        <td id="reg_fundaempresa42"></td>
+       </tr>
+       <tr style="color:blue">
+        <td>Acta Constitucion ?</td>
+        <td id="acta_constitucion42"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Tarjeta Empresarial </td>
+        <td id="tarjeta_empresarial42"></td>
+       </tr>
+    </tbody></table>
+</td>
+<td><table width="130px" id="regVentas_table">
+       <tbody><tr style="color:blue">
+        <td>Reg. Ventas ?</td>
+        <td rowspan="2" id="reg_ventas42"></td>
+       </tr>
+       <tr style="color:blue">
+        <td>Total Ventas Bs.=3000</td>
+       </tr>
+    </tbody></table>
+</td>
+<td style="background:#C2D69A">Form.</td>
+</tr>
+<tr bgcolor="#F1F1F1">
+<td>43</td>
+<td>Cochabamba</td>
+<td>Cochabamba</td>
+<td>Capinota</td>
+<td>Apillapampa</td>
+<td>Cunidad de Palcoma</td>
+<td>Agua Potable y Alcantarillado</td>
+<td>Comité de Agua y Sanamiento  Palcoma (EPSAS Palcoma)</td>
+<td>    <div>
+Gallo Subieta, Alvaro</div>
+</td>
+<td>2010</td>
+<td><table width="120px" id="poas_table">
+        <tbody><tr style="color:gray">
+       <td>Plan Negocio </td>
+       <td id="plan_negocio43"></td>
+        </tr>
+        <tr style="color:blue">
+       <td>Plan Estrategico ?</td>
+       <td id="plan_estrategico43"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan Produccion </td>
+       <td id="plan_produccion43"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan Financiero </td>
+       <td id="plan_financiero43"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan POA </td>
+       <td id="plan_poa43"></td>
+        </tr>
+    </tbody></table>
+</td>
+<td><table width="130px" id="formalizada_table">
+       <tbody><tr style="color:blue">
+        <td>Personeria Juridica ?</td>
+        <td id="personeria_juridica43"></td>
+       </tr>
+       <tr style="color:blue">
+        <td>Estatuto Organico ?</td>
+        <td id="estatuto_organico43"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Reglamento Interno </td>
+        <td id="reglamento_interno43"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Reg. FundaEmpresa </td>
+        <td id="reg_fundaempresa43"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Acta Constitucion </td>
+        <td id="acta_constitucion43"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Tarjeta Empresarial </td>
+        <td id="tarjeta_empresarial43"></td>
+       </tr>
+    </tbody></table>
+</td>
+<td><table width="130px" id="regVentas_table">
+       <tbody><tr style="color:blue">
+        <td>Reg. Ventas ?</td>
+        <td rowspan="2" id="reg_ventas43"></td>
+       </tr>
+       <tr style="color:blue">
+        <td>Total Ventas Bs.=559</td>
+       </tr>
+    </tbody></table>
+</td>
+<td style="background:#C2D69A">Form.</td>
+</tr>
+<tr>
+<td>44</td>
+<td>Cochabamba</td>
+<td>Cochabamba</td>
+<td>Capinota</td>
+<td>Villcabamba</td>
+<td>Comunidad Villcabamba</td>
+<td>Agua Potable y Alcantarillado</td>
+<td>EPSAS Villcabamba</td>
+<td>    <div>
+Gallo Subieta, Alvaro</div>
+</td>
+<td>2010</td>
+<td><table width="120px" id="poas_table">
+        <tbody><tr style="color:gray">
+       <td>Plan Negocio </td>
+       <td id="plan_negocio44"></td>
+        </tr>
+        <tr style="color:blue">
+       <td>Plan Estrategico ?</td>
+       <td id="plan_estrategico44"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan Produccion </td>
+       <td id="plan_produccion44"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan Financiero </td>
+       <td id="plan_financiero44"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan POA </td>
+       <td id="plan_poa44"></td>
+        </tr>
+    </tbody></table>
+</td>
+<td><table width="130px" id="formalizada_table">
+       <tbody><tr style="color:blue">
+        <td>Personeria Juridica ?</td>
+        <td id="personeria_juridica44"></td>
+       </tr>
+       <tr style="color:blue">
+        <td>Estatuto Organico ?</td>
+        <td id="estatuto_organico44"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Reglamento Interno </td>
+        <td id="reglamento_interno44"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Reg. FundaEmpresa </td>
+        <td id="reg_fundaempresa44"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Acta Constitucion </td>
+        <td id="acta_constitucion44"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Tarjeta Empresarial </td>
+        <td id="tarjeta_empresarial44"></td>
+       </tr>
+    </tbody></table>
+</td>
+<td><table width="130px" id="regVentas_table">
+       <tbody><tr style="color:blue">
+        <td>Reg. Ventas ?</td>
+        <td rowspan="2" id="reg_ventas44"></td>
+       </tr>
+       <tr style="color:blue">
+        <td>Total Ventas Bs.=254</td>
+       </tr>
+    </tbody></table>
+</td>
+<td style="background:#C2D69A">Form.</td>
+</tr>
+<tr bgcolor="#F1F1F1">
+<td>45</td>
+<td>Cochabamba</td>
+<td>Cochabamba</td>
+<td>Capinota</td>
+<td>Playa Ancha</td>
+<td>Municipio de Capinota</td>
+<td>Agua Potable y Alcantarillado</td>
+<td>Asociación de Usuarios y Consumidores Agua Potable Playa Ancha (EPSAS Playa Ancha)</td>
+<td>    <div>
+Gallo Subieta, Alvaro</div>
+</td>
+<td>2010</td>
+<td><table width="120px" id="poas_table">
+        <tbody><tr style="color:blue">
+       <td>Plan Negocio ?</td>
+       <td id="plan_negocio45">Hola como estas amigo mio nos vemos en la casa del señor. por todo loque tu isistesa</td>
+        </tr>
+        <tr style="color:blue">
+       <td>Plan Estrategico ?</td>
+       <td id="plan_estrategico45">Es el inicio del plan de negocio en la zona para el veneficion de los mas de 1000 comunarios </td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan Produccion </td>
+       <td id="plan_produccion45"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan Financiero </td>
+       <td id="plan_financiero45"></td>
+        </tr>
+        <tr style="color:blue">
+       <td>Plan POA ?</td>
+       <td id="plan_poa45"></td>
+        </tr>
+    </tbody></table>
+</td>
+<td><table width="130px" id="formalizada_table">
+       <tbody><tr style="color:gray">
+        <td>Personeria Juridica </td>
+        <td id="personeria_juridica45"></td>
+       </tr>
+       <tr style="color:blue">
+        <td>Estatuto Organico ?</td>
+        <td id="estatuto_organico45"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Reglamento Interno </td>
+        <td id="reglamento_interno45"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Reg. FundaEmpresa </td>
+        <td id="reg_fundaempresa45"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Acta Constitucion </td>
+        <td id="acta_constitucion45"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Tarjeta Empresarial </td>
+        <td id="tarjeta_empresarial45"></td>
+       </tr>
+    </tbody></table>
+</td>
+<td><table width="130px" id="regVentas_table">
+       <tbody><tr style="color:blue">
+        <td>Reg. Ventas ?</td>
+        <td rowspan="2" id="reg_ventas45"></td>
+       </tr>
+       <tr style="color:blue">
+        <td>Total Ventas Bs.=1500</td>
+       </tr>
+    </tbody></table>
+</td>
+<td style="background:#C2D69A">Form.</td>
+</tr>
+<tr>
+<td>46</td>
+<td>Cochabamba</td>
+<td>Cochabamba</td>
+<td>Capinota</td>
+<td>Ucuchi</td>
+<td>Comunidad de Ucuchi</td>
+<td>Agua Potable y Alcantarillado</td>
+<td>Comité de Agua y Sanamiento Ucuchi</td>
+<td>    <div>
+Gallo Subieta, Alvaro</div>
+</td>
+<td>2010</td>
+<td><table width="120px" id="poas_table">
+        <tbody><tr style="color:gray">
+       <td>Plan Negocio </td>
+       <td id="plan_negocio46"></td>
+        </tr>
+        <tr style="color:blue">
+       <td>Plan Estrategico ?</td>
+       <td id="plan_estrategico46"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan Produccion </td>
+       <td id="plan_produccion46"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan Financiero </td>
+       <td id="plan_financiero46"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan POA </td>
+       <td id="plan_poa46"></td>
+        </tr>
+    </tbody></table>
+</td>
+<td><table width="130px" id="formalizada_table">
+       <tbody><tr style="color:gray">
+        <td>Personeria Juridica </td>
+        <td id="personeria_juridica46"></td>
+       </tr>
+       <tr style="color:blue">
+        <td>Estatuto Organico ?</td>
+        <td id="estatuto_organico46"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Reglamento Interno </td>
+        <td id="reglamento_interno46"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Reg. FundaEmpresa </td>
+        <td id="reg_fundaempresa46"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Acta Constitucion </td>
+        <td id="acta_constitucion46"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Tarjeta Empresarial </td>
+        <td id="tarjeta_empresarial46"></td>
+       </tr>
+    </tbody></table>
+</td>
+<td><table width="130px" id="regVentas_table">
+       <tbody><tr style="color:blue">
+        <td>Reg. Ventas ?</td>
+        <td rowspan="2" id="reg_ventas46"></td>
+       </tr>
+       <tr style="color:blue">
+        <td>Total Ventas Bs.=840</td>
+       </tr>
+    </tbody></table>
+</td>
+<td style="background:#C2D69A">Form.</td>
+</tr>
+<tr bgcolor="#F1F1F1">
+<td>47</td>
+<td>Cochabamba</td>
+<td>Cochabamba</td>
+<td>Capinota</td>
+<td>Apillapampa</td>
+<td></td>
+<td>Construcción</td>
+<td>Empresa Constructora Capinota</td>
+<td>    <div>
+Gallo Subieta, Alvaro</div>
+</td>
+<td>2010</td>
+<td><table width="120px" id="poas_table">
+        <tbody><tr style="color:gray">
+       <td>Plan Negocio </td>
+       <td id="plan_negocio47"></td>
+        </tr>
+        <tr style="color:blue">
+       <td>Plan Estrategico ?</td>
+       <td id="plan_estrategico47"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan Produccion </td>
+       <td id="plan_produccion47"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan Financiero </td>
+       <td id="plan_financiero47"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan POA </td>
+       <td id="plan_poa47"></td>
+        </tr>
+    </tbody></table>
+</td>
+<td><table width="130px" id="formalizada_table">
+       <tbody><tr style="color:gray">
+        <td>Personeria Juridica </td>
+        <td id="personeria_juridica47"></td>
+       </tr>
+       <tr style="color:blue">
+        <td>Estatuto Organico ?</td>
+        <td id="estatuto_organico47"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Reglamento Interno </td>
+        <td id="reglamento_interno47"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Reg. FundaEmpresa </td>
+        <td id="reg_fundaempresa47"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Acta Constitucion </td>
+        <td id="acta_constitucion47"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Tarjeta Empresarial </td>
+        <td id="tarjeta_empresarial47"></td>
+       </tr>
+    </tbody></table>
+</td>
+<td><table width="130px" id="regVentas_table">
+       <tbody><tr style="color:blue">
+        <td>Reg. Ventas ?</td>
+        <td rowspan="2" id="reg_ventas47"></td>
+       </tr>
+       <tr style="color:blue">
+        <td>Total Ventas Bs.=900</td>
+       </tr>
+    </tbody></table>
+</td>
+<td style="background:#C2D69A">Form.</td>
+</tr>
+<tr>
+<td>48</td>
+<td>Cochabamba</td>
+<td>Cochabamba</td>
+<td>Capinota</td>
+<td>Charamoco</td>
+<td></td>
+<td>Otro</td>
+<td>Modulo Lechero Charamoco</td>
+<td>    <div>
+Gallo Subieta, Alvaro</div>
+</td>
+<td>2010</td>
+<td><table width="120px" id="poas_table">
+        <tbody><tr style="color:gray">
+       <td>Plan Negocio </td>
+       <td id="plan_negocio48"></td>
+        </tr>
+        <tr style="color:blue">
+       <td>Plan Estrategico ?</td>
+       <td id="plan_estrategico48"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan Produccion </td>
+       <td id="plan_produccion48"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan Financiero </td>
+       <td id="plan_financiero48"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan POA </td>
+       <td id="plan_poa48"></td>
+        </tr>
+    </tbody></table>
+</td>
+<td><table width="130px" id="formalizada_table">
+       <tbody><tr style="color:gray">
+        <td>Personeria Juridica </td>
+        <td id="personeria_juridica48"></td>
+       </tr>
+       <tr style="color:blue">
+        <td>Estatuto Organico ?</td>
+        <td id="estatuto_organico48"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Reglamento Interno </td>
+        <td id="reglamento_interno48"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Reg. FundaEmpresa </td>
+        <td id="reg_fundaempresa48"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Acta Constitucion </td>
+        <td id="acta_constitucion48"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Tarjeta Empresarial </td>
+        <td id="tarjeta_empresarial48"></td>
+       </tr>
+    </tbody></table>
+</td>
+<td><table width="130px" id="regVentas_table">
+       <tbody><tr style="color:blue">
+        <td>Reg. Ventas ?</td>
+        <td rowspan="2" id="reg_ventas48"></td>
+       </tr>
+       <tr style="color:blue">
+        <td>Total Ventas Bs.=4770</td>
+       </tr>
+    </tbody></table>
+</td>
+<td style="background:#C2D69A">Form.</td>
+</tr>
+<tr bgcolor="#F1F1F1">
+<td>49</td>
+<td>Cochabamba</td>
+<td>Cochabamba</td>
+<td>Capinota</td>
+<td>Honoma</td>
+<td>Comunidad de Hornoma</td>
+<td>Riego y Sistemas de Agua</td>
+<td>Comité de Agua y Sanamiento  Hornoma</td>
+<td>    <div>
+Gallo Subieta, Alvaro</div>
+</td>
+<td>2010</td>
+<td><table width="120px" id="poas_table">
+        <tbody><tr style="color:gray">
+       <td>Plan Negocio </td>
+       <td id="plan_negocio49"></td>
+        </tr>
+        <tr style="color:blue">
+       <td>Plan Estrategico ?</td>
+       <td id="plan_estrategico49"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan Produccion </td>
+       <td id="plan_produccion49"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan Financiero </td>
+       <td id="plan_financiero49"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan POA </td>
+       <td id="plan_poa49"></td>
+        </tr>
+    </tbody></table>
+</td>
+<td><table width="130px" id="formalizada_table">
+       <tbody><tr style="color:gray">
+        <td>Personeria Juridica </td>
+        <td id="personeria_juridica49"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Estatuto Organico </td>
+        <td id="estatuto_organico49"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Reglamento Interno </td>
+        <td id="reglamento_interno49"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Reg. FundaEmpresa </td>
+        <td id="reg_fundaempresa49"></td>
+       </tr>
+       <tr style="color:blue">
+        <td>Acta Constitucion ?</td>
+        <td id="acta_constitucion49"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Tarjeta Empresarial </td>
+        <td id="tarjeta_empresarial49"></td>
+       </tr>
+    </tbody></table>
+</td>
+<td><table width="130px" id="regVentas_table">
+       <tbody><tr style="color:blue">
+        <td>Reg. Ventas ?</td>
+        <td rowspan="2" id="reg_ventas49"></td>
+       </tr>
+       <tr style="color:blue">
+        <td>Total Ventas Bs.=390</td>
+       </tr>
+    </tbody></table>
+</td>
+<td style="background:#C2D69A">Form.</td>
+</tr>
+<tr>
+<td>50</td>
+<td>Cochabamba</td>
+<td>Cochabamba</td>
+<td>Tapacarí</td>
+<td>Japo</td>
+<td></td>
+<td>Acopio Productivo y Transformación</td>
+<td>Asociacion de artesanas Japo</td>
+<td>    <div>
+Gallo Subieta, Alvaro</div>
+</td>
+<td>2010</td>
+<td><table width="120px" id="poas_table">
+        <tbody><tr style="color:blue">
+       <td>Plan Negocio ?</td>
+       <td id="plan_negocio50"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan Estrategico </td>
+       <td id="plan_estrategico50"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan Produccion </td>
+       <td id="plan_produccion50"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan Financiero </td>
+       <td id="plan_financiero50"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan POA </td>
+       <td id="plan_poa50"></td>
+        </tr>
+    </tbody></table>
+</td>
+<td><table width="130px" id="formalizada_table">
+       <tbody><tr style="color:blue">
+        <td>Personeria Juridica ?</td>
+        <td id="personeria_juridica50"></td>
+       </tr>
+       <tr style="color:blue">
+        <td>Estatuto Organico ?</td>
+        <td id="estatuto_organico50"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Reglamento Interno </td>
+        <td id="reglamento_interno50"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Reg. FundaEmpresa </td>
+        <td id="reg_fundaempresa50"></td>
+       </tr>
+       <tr style="color:blue">
+        <td>Acta Constitucion ?</td>
+        <td id="acta_constitucion50"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Tarjeta Empresarial </td>
+        <td id="tarjeta_empresarial50"></td>
+       </tr>
+    </tbody></table>
+</td>
+<td><table width="130px" id="regVentas_table">
+       <tbody><tr style="color:blue">
+        <td>Reg. Ventas ?</td>
+        <td rowspan="2" id="reg_ventas50"></td>
+       </tr>
+       <tr style="color:blue">
+        <td>Total Ventas Bs.=4000</td>
+       </tr>
+    </tbody></table>
+</td>
+<td style="background:#C2D69A">Form.</td>
+</tr>
+<tr bgcolor="#F1F1F1">
+<td>51</td>
+<td>Cochabamba</td>
+<td>Cochabamba</td>
+<td>Tapacarí</td>
+<td>Hualla Tambo</td>
+<td>Comunidad de Hualla Tambo</td>
+<td>Otro</td>
+<td>APAE ANDINO</td>
+<td>    <div>
+Gallo Subieta, Alvaro</div>
+</td>
+<td>2010</td>
+<td><table width="120px" id="poas_table">
+        <tbody><tr style="color:gray">
+       <td>Plan Negocio </td>
+       <td id="plan_negocio51"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan Estrategico </td>
+       <td id="plan_estrategico51"></td>
+        </tr>
+        <tr style="color:blue">
+       <td>Plan Produccion ?</td>
+       <td id="plan_produccion51"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan Financiero </td>
+       <td id="plan_financiero51"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan POA </td>
+       <td id="plan_poa51"></td>
+        </tr>
+    </tbody></table>
+</td>
+<td><table width="130px" id="formalizada_table">
+       <tbody><tr style="color:gray">
+        <td>Personeria Juridica </td>
+        <td id="personeria_juridica51"></td>
+       </tr>
+       <tr style="color:blue">
+        <td>Estatuto Organico ?</td>
+        <td id="estatuto_organico51"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Reglamento Interno </td>
+        <td id="reglamento_interno51"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Reg. FundaEmpresa </td>
+        <td id="reg_fundaempresa51"></td>
+       </tr>
+       <tr style="color:blue">
+        <td>Acta Constitucion ?</td>
+        <td id="acta_constitucion51"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Tarjeta Empresarial </td>
+        <td id="tarjeta_empresarial51"></td>
+       </tr>
+    </tbody></table>
+</td>
+<td><table width="130px" id="regVentas_table">
+       <tbody><tr style="color:blue">
+        <td>Reg. Ventas ?</td>
+        <td rowspan="2" id="reg_ventas51"></td>
+       </tr>
+       <tr style="color:blue">
+        <td>Total Ventas Bs.=183065</td>
+       </tr>
+    </tbody></table>
+</td>
+<td style="background:#C2D69A">Form.</td>
+</tr>
+<tr>
+<td>52</td>
+<td>Cochabamba</td>
+<td>Potosi</td>
+<td>Toro toro</td>
+<td>Rodeo Escalon</td>
+<td>Comunidad Rodeo Escalon</td>
+<td>Acopio Productivo y Transformación</td>
+<td>Asociación Productores Andinos Originarios Ecológicos Torotoro (APECT)</td>
+<td>    <div>
+Gallo Subieta, Alvaro</div>
+</td>
+<td>2010</td>
+<td><table width="120px" id="poas_table">
+        <tbody><tr style="color:blue">
+       <td>Plan Negocio ?</td>
+       <td id="plan_negocio52"></td>
+        </tr>
+        <tr style="color:blue">
+       <td>Plan Estrategico ?</td>
+       <td id="plan_estrategico52"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan Produccion </td>
+       <td id="plan_produccion52"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan Financiero </td>
+       <td id="plan_financiero52"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan POA </td>
+       <td id="plan_poa52"></td>
+        </tr>
+    </tbody></table>
+</td>
+<td><table width="130px" id="formalizada_table">
+       <tbody><tr style="color:blue">
+        <td>Personeria Juridica ?</td>
+        <td id="personeria_juridica52"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Estatuto Organico </td>
+        <td id="estatuto_organico52"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Reglamento Interno </td>
+        <td id="reglamento_interno52"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Reg. FundaEmpresa </td>
+        <td id="reg_fundaempresa52"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Acta Constitucion </td>
+        <td id="acta_constitucion52"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Tarjeta Empresarial </td>
+        <td id="tarjeta_empresarial52"></td>
+       </tr>
+    </tbody></table>
+</td>
+<td><table width="130px" id="regVentas_table">
+       <tbody><tr style="color:blue">
+        <td>Reg. Ventas ?</td>
+        <td rowspan="2" id="reg_ventas52"></td>
+       </tr>
+       <tr style="color:blue">
+        <td>Total Ventas Bs.=0</td>
+       </tr>
+    </tbody></table>
+</td>
+<td style="background:#C2D69A">Form.</td>
+</tr>
+<tr bgcolor="#F1F1F1">
+<td>53</td>
+<td>Cochabamba</td>
+<td>Potosi</td>
+<td>Toro toro</td>
+<td>Sucusuma</td>
+<td>Comunidad de Sucusuma</td>
+<td>Acopio Productivo y Transformación</td>
+<td>Asociación Productores Agropecuarios del Caine (AGROCAINE)</td>
+<td>    <div>
+Gallo Subieta, Alvaro</div>
+</td>
+<td>2010</td>
+<td><table width="120px" id="poas_table">
+        <tbody><tr style="color:blue">
+       <td>Plan Negocio ?</td>
+       <td id="plan_negocio53"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan Estrategico </td>
+       <td id="plan_estrategico53"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan Produccion </td>
+       <td id="plan_produccion53"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan Financiero </td>
+       <td id="plan_financiero53"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan POA </td>
+       <td id="plan_poa53"></td>
+        </tr>
+    </tbody></table>
+</td>
+<td><table width="130px" id="formalizada_table">
+       <tbody><tr style="color:blue">
+        <td>Personeria Juridica ?</td>
+        <td id="personeria_juridica53"></td>
+       </tr>
+       <tr style="color:blue">
+        <td>Estatuto Organico ?</td>
+        <td id="estatuto_organico53"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Reglamento Interno </td>
+        <td id="reglamento_interno53"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Reg. FundaEmpresa </td>
+        <td id="reg_fundaempresa53"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Acta Constitucion </td>
+        <td id="acta_constitucion53"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Tarjeta Empresarial </td>
+        <td id="tarjeta_empresarial53"></td>
+       </tr>
+    </tbody></table>
+</td>
+<td><table width="130px" id="regVentas_table">
+       <tbody><tr style="color:blue">
+        <td>Reg. Ventas ?</td>
+        <td rowspan="2" id="reg_ventas53"></td>
+       </tr>
+       <tr style="color:blue">
+        <td>Total Ventas Bs.=19425</td>
+       </tr>
+    </tbody></table>
+</td>
+<td style="background:#C2D69A">Form.</td>
+</tr>
+<tr>
+<td>54</td>
+<td>Cochabamba</td>
+<td>Potosi</td>
+<td>Toro toro</td>
+<td>Torotoro</td>
+<td>Comunidad de Torotoro</td>
+<td>Agua Potable y Alcantarillado</td>
+<td>EPSAS Torotoro</td>
+<td>    <div>
+Gallo Subieta, Alvaro</div>
+</td>
+<td>2010</td>
+<td><table width="120px" id="poas_table">
+        <tbody><tr style="color:gray">
+       <td>Plan Negocio </td>
+       <td id="plan_negocio54"></td>
+        </tr>
+        <tr style="color:blue">
+       <td>Plan Estrategico ?</td>
+       <td id="plan_estrategico54"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan Produccion </td>
+       <td id="plan_produccion54"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan Financiero </td>
+       <td id="plan_financiero54"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan POA </td>
+       <td id="plan_poa54"></td>
+        </tr>
+    </tbody></table>
+</td>
+<td><table width="130px" id="formalizada_table">
+       <tbody><tr style="color:gray">
+        <td>Personeria Juridica </td>
+        <td id="personeria_juridica54"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Estatuto Organico </td>
+        <td id="estatuto_organico54"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Reglamento Interno </td>
+        <td id="reglamento_interno54"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Reg. FundaEmpresa </td>
+        <td id="reg_fundaempresa54"></td>
+       </tr>
+       <tr style="color:blue">
+        <td>Acta Constitucion ?</td>
+        <td id="acta_constitucion54"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Tarjeta Empresarial </td>
+        <td id="tarjeta_empresarial54"></td>
+       </tr>
+    </tbody></table>
+</td>
+<td><table width="130px" id="regVentas_table">
+       <tbody><tr style="color:blue">
+        <td>Reg. Ventas ?</td>
+        <td rowspan="2" id="reg_ventas54"></td>
+       </tr>
+       <tr style="color:blue">
+        <td>Total Ventas Bs.=12000</td>
+       </tr>
+    </tbody></table>
+</td>
+<td style="background:#C2D69A">Form.</td>
+</tr>
+<tr bgcolor="#F1F1F1">
+<td>55</td>
+<td>Cochabamba</td>
+<td>Potosi</td>
+<td>Toro toro</td>
+<td>Apillapampa</td>
+<td></td>
+<td>Agua Potable y Alcantarillado</td>
+<td>EPSAS Apillapampa</td>
+<td>    <div>
+Gallo Subieta, Alvaro</div>
+</td>
+<td>2010</td>
+<td><table width="120px" id="poas_table">
+        <tbody><tr style="color:gray">
+       <td>Plan Negocio </td>
+       <td id="plan_negocio55"></td>
+        </tr>
+        <tr style="color:blue">
+       <td>Plan Estrategico ?</td>
+       <td id="plan_estrategico55"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan Produccion </td>
+       <td id="plan_produccion55"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan Financiero </td>
+       <td id="plan_financiero55"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan POA </td>
+       <td id="plan_poa55"></td>
+        </tr>
+    </tbody></table>
+</td>
+<td><table width="130px" id="formalizada_table">
+       <tbody><tr style="color:blue">
+        <td>Personeria Juridica ?</td>
+        <td id="personeria_juridica55"></td>
+       </tr>
+       <tr style="color:blue">
+        <td>Estatuto Organico ?</td>
+        <td id="estatuto_organico55"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Reglamento Interno </td>
+        <td id="reglamento_interno55"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Reg. FundaEmpresa </td>
+        <td id="reg_fundaempresa55"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Acta Constitucion </td>
+        <td id="acta_constitucion55"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Tarjeta Empresarial </td>
+        <td id="tarjeta_empresarial55"></td>
+       </tr>
+    </tbody></table>
+</td>
+<td><table width="130px" id="regVentas_table">
+       <tbody><tr style="color:blue">
+        <td>Reg. Ventas ?</td>
+        <td rowspan="2" id="reg_ventas55"></td>
+       </tr>
+       <tr style="color:blue">
+        <td>Total Ventas Bs.=900</td>
+       </tr>
+    </tbody></table>
+</td>
+<td style="background:#C2D69A">Form.</td>
+</tr>
+<tr>
+<td>56</td>
+<td>Cochabamba</td>
+<td>Potosi</td>
+<td>Toro toro</td>
+<td>Torotoro</td>
+<td></td>
+<td>Otro</td>
+<td>Centro artesanal Rosas T'ikas</td>
+<td>    <div>
+Gallo Subieta, Alvaro</div>
+</td>
+<td>2010</td>
+<td><table width="120px" id="poas_table">
+        <tbody><tr style="color:blue">
+       <td>Plan Negocio ?</td>
+       <td id="plan_negocio56"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan Estrategico </td>
+       <td id="plan_estrategico56"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan Produccion </td>
+       <td id="plan_produccion56"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan Financiero </td>
+       <td id="plan_financiero56"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan POA </td>
+       <td id="plan_poa56"></td>
+        </tr>
+    </tbody></table>
+</td>
+<td><table width="130px" id="formalizada_table">
+       <tbody><tr style="color:blue">
+        <td>Personeria Juridica ?</td>
+        <td id="personeria_juridica56"></td>
+       </tr>
+       <tr style="color:blue">
+        <td>Estatuto Organico ?</td>
+        <td id="estatuto_organico56"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Reglamento Interno </td>
+        <td id="reglamento_interno56"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Reg. FundaEmpresa </td>
+        <td id="reg_fundaempresa56"></td>
+       </tr>
+       <tr style="color:blue">
+        <td>Acta Constitucion ?</td>
+        <td id="acta_constitucion56"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Tarjeta Empresarial </td>
+        <td id="tarjeta_empresarial56"></td>
+       </tr>
+    </tbody></table>
+</td>
+<td><table width="130px" id="regVentas_table">
+       <tbody><tr style="color:blue">
+        <td>Reg. Ventas ?</td>
+        <td rowspan="2" id="reg_ventas56"></td>
+       </tr>
+       <tr style="color:blue">
+        <td>Total Ventas Bs.=1000</td>
+       </tr>
+    </tbody></table>
+</td>
+<td style="background:#C2D69A">Form.</td>
+</tr>
+<tr bgcolor="#F1F1F1">
+<td>57</td>
+<td>Cochabamba</td>
+<td>Potosi</td>
+<td>Toro toro</td>
+<td>Mollecancha</td>
+<td>Comunidad Mollecancha</td>
+<td>Riego y Sistemas de Agua</td>
+<td>Asoc.Riego y Serv.Kuchura Huayco</td>
+<td>    <div>
+Gallo Subieta, Alvaro</div>
+</td>
+<td>2010</td>
+<td><table width="120px" id="poas_table">
+        <tbody><tr style="color:blue">
+       <td>Plan Negocio ?</td>
+       <td id="plan_negocio57"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan Estrategico </td>
+       <td id="plan_estrategico57"></td>
+        </tr>
+        <tr style="color:blue">
+       <td>Plan Produccion ?</td>
+       <td id="plan_produccion57"></td>
+        </tr>
+        <tr style="color:blue">
+       <td>Plan Financiero ?</td>
+       <td id="plan_financiero57"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan POA </td>
+       <td id="plan_poa57"></td>
+        </tr>
+    </tbody></table>
+</td>
+<td><table width="130px" id="formalizada_table">
+       <tbody><tr style="color:blue">
+        <td>Personeria Juridica ?</td>
+        <td id="personeria_juridica57"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Estatuto Organico </td>
+        <td id="estatuto_organico57"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Reglamento Interno </td>
+        <td id="reglamento_interno57"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Reg. FundaEmpresa </td>
+        <td id="reg_fundaempresa57"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Acta Constitucion </td>
+        <td id="acta_constitucion57"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Tarjeta Empresarial </td>
+        <td id="tarjeta_empresarial57"></td>
+       </tr>
+    </tbody></table>
+</td>
+<td><table width="130px" id="regVentas_table">
+       <tbody><tr style="color:blue">
+        <td>Reg. Ventas ?</td>
+        <td rowspan="2" id="reg_ventas57"></td>
+       </tr>
+       <tr style="color:blue">
+        <td>Total Ventas Bs.=15792</td>
+       </tr>
+    </tbody></table>
+</td>
+<td style="background:#C2D69A">Form.</td>
+</tr>
+<tr>
+<td>58</td>
+<td>Cochabamba</td>
+<td>Potosi</td>
+<td>Toro toro</td>
+<td>Torotoro</td>
+<td>Comunidad de Kewayllani</td>
+<td>Riego y Sistemas de Agua</td>
+<td>Asoc.Riego y Serv. Kewayllani</td>
+<td>    <div>
+Gallo Subieta, Alvaro</div>
+</td>
+<td>2010</td>
+<td><table width="120px" id="poas_table">
+        <tbody><tr style="color:gray">
+       <td>Plan Negocio </td>
+       <td id="plan_negocio58"></td>
+        </tr>
+        <tr style="color:blue">
+       <td>Plan Estrategico ?</td>
+       <td id="plan_estrategico58"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan Produccion </td>
+       <td id="plan_produccion58"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan Financiero </td>
+       <td id="plan_financiero58"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan POA </td>
+       <td id="plan_poa58"></td>
+        </tr>
+    </tbody></table>
+</td>
+<td><table width="130px" id="formalizada_table">
+       <tbody><tr style="color:gray">
+        <td>Personeria Juridica </td>
+        <td id="personeria_juridica58"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Estatuto Organico </td>
+        <td id="estatuto_organico58"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Reglamento Interno </td>
+        <td id="reglamento_interno58"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Reg. FundaEmpresa </td>
+        <td id="reg_fundaempresa58"></td>
+       </tr>
+       <tr style="color:blue">
+        <td>Acta Constitucion ?</td>
+        <td id="acta_constitucion58"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Tarjeta Empresarial </td>
+        <td id="tarjeta_empresarial58"></td>
+       </tr>
+    </tbody></table>
+</td>
+<td><table width="130px" id="regVentas_table">
+       <tbody><tr style="color:blue">
+        <td>Reg. Ventas ?</td>
+        <td rowspan="2" id="reg_ventas58"></td>
+       </tr>
+       <tr style="color:blue">
+        <td>Total Ventas Bs.=150</td>
+       </tr>
+    </tbody></table>
+</td>
+<td style="background:#C2D69A">Form.</td>
+</tr>
+<tr bgcolor="#F1F1F1">
+<td>59</td>
+<td>Cochabamba</td>
+<td>Potosi</td>
+<td>Toro toro</td>
+<td>Torotoro</td>
+<td></td>
+<td>Turismo y Ecoturismo</td>
+<td>Asoc.Guías de Ecoturismo Torotoro</td>
+<td>    <div>
+Gallo Subieta, Alvaro</div>
+</td>
+<td>2010</td>
+<td><table width="120px" id="poas_table">
+        <tbody><tr style="color:blue">
+       <td>Plan Negocio ?</td>
+       <td id="plan_negocio59"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan Estrategico </td>
+       <td id="plan_estrategico59"></td>
+        </tr>
+        <tr style="color:blue">
+       <td>Plan Produccion ?</td>
+       <td id="plan_produccion59"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan Financiero </td>
+       <td id="plan_financiero59"></td>
+        </tr>
+        <tr style="color:gray">
+       <td>Plan POA </td>
+       <td id="plan_poa59"></td>
+        </tr>
+    </tbody></table>
+</td>
+<td><table width="130px" id="formalizada_table">
+       <tbody><tr style="color:gray">
+        <td>Personeria Juridica </td>
+        <td id="personeria_juridica59"></td>
+       </tr>
+       <tr style="color:blue">
+        <td>Estatuto Organico ?</td>
+        <td id="estatuto_organico59"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Reglamento Interno </td>
+        <td id="reglamento_interno59"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Reg. FundaEmpresa </td>
+        <td id="reg_fundaempresa59"></td>
+       </tr>
+       <tr style="color:blue">
+        <td>Acta Constitucion ?</td>
+        <td id="acta_constitucion59"></td>
+       </tr>
+       <tr style="color:gray">
+        <td>Tarjeta Empresarial </td>
+        <td id="tarjeta_empresarial59"></td>
+       </tr>
+    </tbody></table>
+</td>
+<td><table width="130px" id="regVentas_table">
+       <tbody><tr style="color:blue">
+        <td>Reg. Ventas ?</td>
+        <td rowspan="2" id="reg_ventas59"></td>
+       </tr>
+       <tr style="color:blue">
+        <td>Total Ventas Bs.=3120</td>
+       </tr>
+    </tbody></table>
+</td>
+<td style="background:#C2D69A">Form.</td>
+</tr>
+</tbody>
+</table>
+    <input type="hidden" name="contador" id="contador" value="60">
+<table>
+     <tbody><tr style="background: #667120; color:#ffffff; font-size: 15px">
+         <th colspan="6">PROPOSITO I.1:</th><td colspan="12">Número de MERS sostenibles y en funcionamiento: Año 2: 50; Fin proyecto: 115</td>
+     </tr>
+     <tr style="background:#b8f5e0; font-size: 11px; text-align: center">
+         <th colspan="6">Número de MERS sostenibles y en funcionamiento: 
+         59</th><td colspan="12">Porcentaje de Cumplimiento : 51.30 %</td>
+     </tr>
+
+</tbody></table>

@@ -1,0 +1,269 @@
+
+    <table id="table_example" width="100%" border="1" class="ewTable">
+    <thead>
+    <tr style="font-size: 12pt">
+        <th colspan="20">CONTROL DE AVANCE DEL PROYECTO POR RUBROS DE LAS MICROEMPRESAS</th>
+    </tr>
+    <tr style="font-size: 10pt;background: #632523;color: white">
+        <th>RUBRO DE LA MERS</th>
+        <th colspan="10">INFORMACION GEOGRAFICA</th>
+        <th colspan="2">METAS</th>
+        <th colspan="6">CUMPLIMIENTO POR GESTIÓN</th>
+        <th rowspan="4">CUMPLIMIENTO TOTAL POR RUBRO</th>
+    </tr>
+        <tr style="font-size: 8pt;background: #d77050;color: white">
+        <th rowspan="3">La MERS se dedica a:</th>
+                <th colspan="6">Chuquisaca</th>
+                <th colspan="3">Cochabamba</th>
+                <th colspan="1">La PAZ</th>
+                <th rowspan="3">TOTAL MERS</th>
+        <th rowspan="3">METAS POR RUBRO</th>
+        <th rowspan="3">2010 (año 2)</th>
+        <th rowspan="3">Porcentaje de Avance</th>
+        <th rowspan="3">2011</th>
+        <th rowspan="3">Porcentaje de Avance</th>
+        <th rowspan="3">2012 (Fin del Proyecto)</th>
+        <th rowspan="3">Porcentaje de Avance</th>
+    </tr>
+<tr style="font-size: 7pt;background: #d75245;color: #000000">
+<th colspan="4">Chuquisaca</th>
+<th colspan="2">Potosi</th>
+<th colspan="2">Cochabamba</th>
+<th colspan="1">Potosi</th>
+<th colspan="1">la paz</th>
+</tr>
+<tr style="font-size: 7pt;background: #d77589;color: #000000">
+<th>Alcalá</th>
+<th>Padilla</th>
+<th>Sopachuy</th>
+<th>Tomina</th>
+<th>Ocurí</th>
+<th>Ravelo</th>
+<th>Capinota</th>
+<th>Tapacarí</th>
+<th>Toro toro</th>
+<th>la paz</th>
+</tr>
+<tr align="center">
+    <td align="left">Acopio Productivo y Transformación</td>
+    <td>1</td>
+    <td></td>
+    <td></td>
+    <td>3</td>
+    <td>3</td>
+    <td>1</td>
+    <td>4</td>
+    <td>4</td>
+    <td>4</td>
+    <td></td>
+    <td bgcolor="#d3faa5">20</td>
+    <td bgcolor="#d3faa5">10</td>
+<td>2</td>
+<td>100.00 %</td>
+<td>4</td>
+<td>100.00 %</td>
+<td>14</td>
+<td>350.00 %</td>
+<td>200.00 %</td>
+</tr>
+<tr align="center">
+    <td align="left">Agroforestación</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>1</td>
+    <td></td>
+    <td>1</td>
+    <td></td>
+    <td bgcolor="#d3faa5">2</td>
+    <td bgcolor="#d3faa5">5</td>
+<td>2</td>
+<td>100.00 %</td>
+<td>0</td>
+<td>0.00 %</td>
+<td>0</td>
+<td>0.00 %</td>
+<td>40.00 %</td>
+</tr>
+<tr align="center">
+    <td align="left">Agua Potable y Alcantarillado</td>
+    <td>1</td>
+    <td></td>
+    <td></td>
+    <td>1</td>
+    <td>5</td>
+    <td>8</td>
+    <td>6</td>
+    <td></td>
+    <td>7</td>
+    <td></td>
+    <td bgcolor="#d3faa5">28</td>
+    <td bgcolor="#d3faa5">30</td>
+<td>10</td>
+<td>100.00 %</td>
+<td>10</td>
+<td>100.00 %</td>
+<td>8</td>
+<td>80.00 %</td>
+<td>93.33 %</td>
+</tr>
+<tr align="center">
+    <td align="left">Caminos</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>2</td>
+    <td>1</td>
+    <td></td>
+    <td>1</td>
+    <td></td>
+    <td></td>
+    <td bgcolor="#d3faa5">4</td>
+    <td bgcolor="#d3faa5">8</td>
+<td>2</td>
+<td>100.00 %</td>
+<td>2</td>
+<td>66.67 %</td>
+<td>0</td>
+<td>0.00 %</td>
+<td>50.00 %</td>
+</tr>
+<tr align="center">
+    <td align="left">Construcción</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>1</td>
+    <td>1</td>
+    <td></td>
+    <td></td>
+    <td bgcolor="#d3faa5">2</td>
+    <td bgcolor="#d3faa5">0</td>
+<td>0</td>
+<td></td>
+<td>0</td>
+<td></td>
+<td>0</td>
+<td></td>
+<td></td>
+</tr>
+<tr align="center">
+    <td align="left">Microfinanzas</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td bgcolor="#d3faa5">0</td>
+    <td bgcolor="#d3faa5">0</td>
+<td>0</td>
+<td></td>
+<td>0</td>
+<td></td>
+<td>0</td>
+<td></td>
+<td></td>
+</tr>
+<tr align="center">
+    <td align="left">Otro</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>1</td>
+    <td>1</td>
+    <td>7</td>
+    <td>2</td>
+    <td>3</td>
+    <td>1</td>
+    <td></td>
+    <td bgcolor="#d3faa5">15</td>
+    <td bgcolor="#d3faa5">30</td>
+<td>10</td>
+<td>100.00 %</td>
+<td>5</td>
+<td>50.00 %</td>
+<td>0</td>
+<td>0.00 %</td>
+<td>50.00 %</td>
+</tr>
+<tr align="center">
+    <td align="left">Riego y Sistemas de Agua</td>
+    <td></td>
+    <td></td>
+    <td>1</td>
+    <td>8</td>
+    <td>2</td>
+    <td>4</td>
+    <td>3</td>
+    <td></td>
+    <td>4</td>
+    <td></td>
+    <td bgcolor="#d3faa5">22</td>
+    <td bgcolor="#d3faa5">30</td>
+<td>20</td>
+<td>100.00 %</td>
+<td>2</td>
+<td>40.00 %</td>
+<td>0</td>
+<td>0.00 %</td>
+<td>73.33 %</td>
+</tr>
+<tr align="center">
+    <td align="left">Turismo y Ecoturismo</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>1</td>
+    <td></td>
+    <td bgcolor="#d3faa5">1</td>
+    <td bgcolor="#d3faa5">3</td>
+<td>1</td>
+<td>100.00 %</td>
+<td>0</td>
+<td>0.00 %</td>
+<td>0</td>
+<td>0.00 %</td>
+<td>33.33 %</td>
+</tr>
+<tr bgcolor="#aaaddd" align="center">
+    <td>TOTAL</td>
+        <td>2</td>
+    <td></td>
+    <td>1</td>
+    <td>13</td>
+    <td>13</td>
+    <td>21</td>
+    <td>17</td>
+    <td>9</td>
+    <td>18</td>
+    <td></td>
+    <td>94</td>
+    <td>116</td>
+    <td>47</td>
+    <td></td>
+    <td>23</td>
+    <td></td>
+    <td>22</td>
+    <td></td>
+    <td></td>
+</tr>
+    </thead>
+    </table>
+

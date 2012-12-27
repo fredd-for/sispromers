@@ -1,0 +1,285 @@
+<TABLE id=table_example class=ewTable border=1 width="100%">
+<THEAD>
+<TR style="FONT-SIZE: 12pt">
+<TH colSpan=20>CONTROL DE AVANCE DEL PROYECTO POR RUBROS DE LAS MICROEMPRESAS</TH></TR>
+<TR>
+<TH style="BACKGROUND: #632523; COLOR: #ffffff; FONT-SIZE: 10px">RUBRO DE LA MERS</TH>
+<TH style="BACKGROUND: #632523; COLOR: #ffffff; FONT-SIZE: 10px" colSpan=9>MERS EN LA LINEA DE BASE</TH>
+<TH style="BACKGROUND: #632523; COLOR: #ffffff; FONT-SIZE: 10px" colSpan=1>TOTAL</TH>
+<TH style="BACKGROUND: #fac090" colSpan=4>POA GESTION 2011</TH>
+<TH style="BACKGROUND: #632523; COLOR: #ffffff; FONT-SIZE: 10px" colSpan=3>MARCO LOGICO</TH></TR>
+<TR>
+<TH style="BACKGROUND: #d77050; COLOR: white; FONT-SIZE: 8pt" rowSpan=3>La MERS se dedica a:</TH>
+<TH style="BACKGROUND: #d77050; COLOR: white; FONT-SIZE: 8pt" colSpan=6>Chuquisaca</TH>
+<TH style="BACKGROUND: #d77050; COLOR: white; FONT-SIZE: 8pt" colSpan=3>Cochabamba</TH>
+<TH style="BACKGROUND: #d77050; COLOR: white; FONT-SIZE: 8pt" rowSpan=3>TOTAL MERS</TH>
+<TH style="BACKGROUND: #fcd5b4" rowSpan=3>Meta Planificada</TH>
+<TH style="BACKGROUND: #fcd5b4" rowSpan=3>Logro Mers Fortalecidas</TH>
+<TH style="BACKGROUND: #fcd5b4" rowSpan=3>Mers en Proceso</TH>
+<TH style="BACKGROUND: #fcd5b4" rowSpan=3>% de Avance</TH>
+<TH style="BACKGROUND: #d77050; COLOR: white; FONT-SIZE: 8pt" rowSpan=3>META</TH>
+<TH style="BACKGROUND: #d77050; COLOR: white; FONT-SIZE: 8pt" rowSpan=3>LOGRO</TH>
+<TH style="BACKGROUND: #d77050; COLOR: white; FONT-SIZE: 8pt" rowSpan=3>% de Avance</TH></TR>
+<TR style="BACKGROUND: #d75245; COLOR: #000000; FONT-SIZE: 7pt">
+<TH colSpan=4>Chuquisaca</TH>
+<TH colSpan=2>Potosi</TH>
+<TH colSpan=2>Cochabamba</TH>
+<TH colSpan=1>Potosi</TH></TR>
+<TR style="BACKGROUND: #d77589; COLOR: #000000; FONT-SIZE: 7pt">
+<TH>Alcalá</TH>
+<TH>Padilla</TH>
+<TH>Sopachuy</TH>
+<TH>Tomina</TH>
+<TH>Ocurí</TH>
+<TH>Ravelo</TH>
+<TH>Capinota</TH>
+<TH>Tapacarí</TH>
+<TH>Toro toro</TH></TR>
+<TR align=middle>
+<TD align=left>Acopio Productivo y Transformación</TD>
+<TD>1 </TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD bgColor=#d3faa5>1</TD>
+<TD>0</TD>
+<TD>1</TD>
+<TD>0</TD>
+<TD style="BACKGROUND: #fde9d9">1</TD>
+<TD>21</TD>
+<TD>20</TD>
+<TD style="BACKGROUND: #fcd5b4">95.24</TD></TR>
+<TR align=middle>
+<TD align=left>Agroforestación</TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD bgColor=#d3faa5>0</TD>
+<TD>4</TD>
+<TD>0</TD>
+<TD>0</TD>
+<TD style="BACKGROUND: #fde9d9">0.00</TD>
+<TD>7</TD>
+<TD>1</TD>
+<TD style="BACKGROUND: #fcd5b4">14.29</TD></TR>
+<TR align=middle>
+<TD align=left>Agua Potable y Alcantarillado</TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD bgColor=#d3faa5>0</TD>
+<TD>13</TD>
+<TD>0</TD>
+<TD>0</TD>
+<TD style="BACKGROUND: #fde9d9">0.00</TD>
+<TD>32</TD>
+<TD>10</TD>
+<TD style="BACKGROUND: #fcd5b4">31.25</TD></TR>
+<TR align=middle>
+<TD align=left>Caminos</TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD bgColor=#d3faa5>0</TD>
+<TD>7</TD>
+<TD>0</TD>
+<TD>0</TD>
+<TD style="BACKGROUND: #fde9d9">0.00</TD>
+<TD>10</TD>
+<TD>1</TD>
+<TD style="BACKGROUND: #fcd5b4">10.00</TD></TR>
+<TR align=middle>
+<TD align=left>Construcción</TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD bgColor=#d3faa5>0</TD>
+<TD>0</TD>
+<TD>0</TD>
+<TD>0</TD>
+<TD style="BACKGROUND: #fde9d9">0</TD>
+<TD>2</TD>
+<TD>0</TD>
+<TD style="BACKGROUND: #fcd5b4">0.00</TD></TR>
+<TR align=middle>
+<TD align=left>Microfinanzas</TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD bgColor=#d3faa5>0</TD>
+<TD>0</TD>
+<TD>0</TD>
+<TD>0</TD>
+<TD style="BACKGROUND: #fde9d9">0</TD>
+<TD>2</TD>
+<TD>0</TD>
+<TD style="BACKGROUND: #fcd5b4">0.00</TD></TR>
+<TR align=middle>
+<TD align=left>Otro</TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD bgColor=#d3faa5>0</TD>
+<TD>21</TD>
+<TD>0</TD>
+<TD>0</TD>
+<TD style="BACKGROUND: #fde9d9">0.00</TD>
+<TD>34</TD>
+<TD>11</TD>
+<TD style="BACKGROUND: #fcd5b4">32.35</TD></TR>
+<TR align=middle>
+<TD align=left>Riego y Sistemas de Agua</TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD bgColor=#d3faa5>0</TD>
+<TD>23</TD>
+<TD>0</TD>
+<TD>0</TD>
+<TD style="BACKGROUND: #fde9d9">0.00</TD>
+<TD>33</TD>
+<TD>6</TD>
+<TD style="BACKGROUND: #fcd5b4">18.18</TD></TR>
+<TR align=middle>
+<TD align=left>Turismo y Ecoturismo</TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD bgColor=#d3faa5>0</TD>
+<TD>0</TD>
+<TD>0</TD>
+<TD>0</TD>
+<TD style="BACKGROUND: #fde9d9">0</TD>
+<TD>4</TD>
+<TD>2</TD>
+<TD style="BACKGROUND: #fcd5b4">50.00</TD></TR>
+<TR align=middle bgColor=#aaaddd>
+<TD>TOTAL</TD>
+<TD>1</TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD>1</TD>
+<TD>68</TD>
+<TD>1</TD>
+<TD>0</TD>
+<TD></TD>
+<TD>145</TD>
+<TD>51</TD>
+<TD></TD></TR></THEAD></TABLE>
+<STYLE type=text/css media=screen>
+    .jqplot-axis {
+      font-size: 1.2em;
+    }
+    .jqplot-title {
+      font-size: 2.2em;
+      color: navy;
+    }
+  </STYLE>
+
+<DIV style="POSITION: relative; MARGIN-TOP: 20px; WIDTH: 800px; HEIGHT: 300px; MARGIN-LEFT: 20px" id=chart1 class=jqplot-target jQuery1299470343592="1"><canvas style="POSITION: absolute; WIDTH: 800px; HEIGHT: 300px; TOP: 0px; LEFT: 0px" class=jqplot-base-canvas width="800" height="300">
+<DIV style="POSITION: absolute; WIDTH: 800px; HEIGHT: 300px; OVERFLOW: hidden"></DIV>
+<DIV style="POSITION: absolute; FILTER: alpha(opacity=0); BACKGROUND-COLOR: red; WIDTH: 800px; HEIGHT: 300px; OVERFLOW: hidden"></DIV></canvas>
+<DIV style="POSITION: absolute; TEXT-ALIGN: center; WIDTH: 800px; TOP: 0px; LEFT: 0px" class=jqplot-title>Grafico Marco Logico</DIV>
+<DIV style="POSITION: absolute; WIDTH: 800px; BOTTOM: 0px; HEIGHT: 16px; LEFT: 0px" class="jqplot-axis jqplot-xaxis">
+<DIV style="POSITION: absolute; FONT-SIZE: 8pt; LEFT: -16px" class=jqplot-xaxis-tick>Acopio Productivo y Transformación</DIV>
+<DIV style="POSITION: absolute; FONT-SIZE: 8pt; LEFT: 117px" class=jqplot-xaxis-tick>Agroforestación</DIV>
+<DIV style="POSITION: absolute; FONT-SIZE: 8pt; LEFT: 171px" class=jqplot-xaxis-tick>Agua Potable y Alcantarillado</DIV>
+<DIV style="POSITION: absolute; FONT-SIZE: 8pt; LEFT: 306px" class=jqplot-xaxis-tick>Caminos</DIV>
+<DIV style="POSITION: absolute; FONT-SIZE: 8pt; LEFT: 377px" class=jqplot-xaxis-tick>Construcción</DIV>
+<DIV style="POSITION: absolute; FONT-SIZE: 8pt; LEFT: 460px" class=jqplot-xaxis-tick>Microfinanzas</DIV>
+<DIV style="POSITION: absolute; FONT-SIZE: 8pt; LEFT: 567px" class=jqplot-xaxis-tick>Otro</DIV>
+<DIV style="POSITION: absolute; FONT-SIZE: 8pt; LEFT: 601px" class=jqplot-xaxis-tick>Riego y Sistemas de Agua</DIV>
+<DIV style="POSITION: absolute; FONT-SIZE: 8pt; LEFT: 694px" class=jqplot-xaxis-tick>Turismo y Ecoturismo</DIV></DIV>
+<DIV style="POSITION: absolute; WIDTH: 22px; HEIGHT: 300px; TOP: 0px; LEFT: 0px" class="jqplot-axis jqplot-yaxis">
+<DIV style="POSITION: absolute; TOP: 266px" class=jqplot-yaxis-tick>0.0</DIV>
+<DIV style="POSITION: absolute; WHITE-SPACE: nowrap; TOP: 206px" class=jqplot-yaxis-tick>2.5</DIV>
+<DIV style="POSITION: absolute; WHITE-SPACE: nowrap; TOP: 147px" class=jqplot-yaxis-tick>5.0</DIV>
+<DIV style="POSITION: absolute; WHITE-SPACE: nowrap; TOP: 87px" class=jqplot-yaxis-tick>7.5</DIV>
+<DIV style="POSITION: absolute; WHITE-SPACE: nowrap; TOP: 28px" class=jqplot-yaxis-tick>10.0</DIV></DIV><canvas style="POSITION: absolute; WIDTH: 800px; HEIGHT: 300px; TOP: 0px; LEFT: 0px" class=jqplot-grid-canvas width="800" height="300">
+<DIV style="POSITION: absolute; WIDTH: 800px; HEIGHT: 300px; OVERFLOW: hidden"><?import namespace = g_vml_ urn = "urn:schemas-microsoft-com:vml" implementation = "#default#VML" declareNamespace /><g_vml_:shape style="POSITION: absolute; WIDTH: 10px; HEIGHT: 10px" coordsize = "100,100" filled = "t" fillcolor = "#fffdf6" stroked = "f" path = " m315,355 l7895,355,7895,2735,315,2735 xe"><g_vml_:fill opacity = "1"></g_vml_:fill></g_vml_:shape><g_vml_:shape style="POSITION: absolute; WIDTH: 10px; HEIGHT: 10px" coordsize = "100,100" filled = "f" stroked = "t" strokecolor = "#ccc" strokeweight = ".75pt" path = " m7895,360 l315,360 e"><g_vml_:stroke opacity = "1" miterlimit = "10" joinstyle = "miter" endcap = "flat"></g_vml_:stroke></g_vml_:shape><g_vml_:shape style="POSITION: absolute; WIDTH: 10px; HEIGHT: 10px" coordsize = "100,100" filled = "f" stroked = "t" strokecolor = "black" strokeweight = "14287emu" path = " m260,365 l320,365 e"><g_vml_:stroke opacity = "4587f" miterlimit = "10" joinstyle = "miter" endcap = "flat"></g_vml_:stroke></g_vml_:shape><g_vml_:shape style="POSITION: absolute; WIDTH: 10px; HEIGHT: 10px" coordsize = "100,100" filled = "f" stroked = "t" strokecolor = "black" strokeweight = "14287emu" path = " m266,371 l326,371 e"><g_vml_:stroke opacity = "4587f" miterlimit = "10" joinstyle = "miter" endcap = "flat"></g_vml_:stroke></g_vml_:shape><g_vml_:shape style="POSITION: absolute; WIDTH: 10px; HEIGHT: 10px" coordsize = "100,100" filled = "f" stroked = "t" strokecolor = "black" strokeweight = "14287emu" path = " m271,376 l331,376 e"><g_vml_:stroke opacity = "4587f" miterlimit = "10" joinstyle = "miter" endcap = "flat"></g_vml_:stroke></g_vml_:shape><g_vml_:shape style="POSITION: absolute; WIDTH: 10px; HEIGHT: 10px" coordsize = "100,100" filled = "f" stroked = "t" strokecolor = "#999" strokeweight = ".75pt" path = " m255,360 l315,360 e"><g_vml_:stroke opacity = "1" miterlimit = "10" joinstyle = "miter" endcap = "flat"></g_vml_:stroke></g_vml_:shape><g_vml_:shape style="POSITION: absolute; WIDTH: 10px; HEIGHT: 10px" coordsize = "100,100" filled = "f" stroked = "t" strokecolor = "#ccc" strokeweight = ".75pt" path = " m7895,960 l315,960 e"><g_vml_:stroke opacity = "1" miterlimit = "10" joinstyle = "miter" endcap = "flat"></g_vml_:stroke></g_vml_:shape><g_vml_:shape style="POSITION: absolute; WIDTH: 10px; HEIGHT: 10px" coordsize = "100,100" filled = "f" stroked = "t" strokecolor = "black" strokeweight = "14287emu" path = " m260,965 l320,965 e"><g_vml_:stroke opacity = "4587f" miterlimit = "10" joinstyle = "miter" endcap = "flat"></g_vml_:stroke></g_vml_:shape><g_vml_:shape style="POSITION: absolute; WIDTH: 10px; HEIGHT: 10px" coordsize = "100,100" filled = "f" stroked = "t" strokecolor = "black" strokeweight = "14287emu" path = " m266,971 l326,971 e"><g_vml_:stroke opacity = "4587f" miterlimit = "10" joinstyle = "miter" endcap = "flat"></g_vml_:stroke></g_vml_:shape><g_vml_:shape style="POSITION: absolute; WIDTH: 10px; HEIGHT: 10px" coordsize = "100,100" filled = "f" stroked = "t" strokecolor = "black" strokeweight = "14287emu" path = " m271,976 l331,976 e"><g_vml_:stroke opacity = "4587f" miterlimit = "10" joinstyle = "miter" endcap = "flat"></g_vml_:stroke></g_vml_:shape><g_vml_:shape style="POSITION: absolute; WIDTH: 10px; HEIGHT: 10px" coordsize = "100,100" filled = "f" stroked = "t" strokecolor = "#999" strokeweight = ".75pt" path = " m255,960 l315,960 e"><g_vml_:stroke opacity = "1" miterlimit = "10" joinstyle = "miter" endcap = "flat"></g_vml_:stroke></g_vml_:shape><g_vml_:shape style="POSITION: absolute; WIDTH: 10px; HEIGHT: 10px" coordsize = "100,100" filled = "f" stroked = "t" strokecolor = "#ccc" strokeweight = ".75pt" path = " m7895,1550 l315,1550 e"><g_vml_:stroke opacity = "1" miterlimit = "10" joinstyle = "miter" endcap = "flat"></g_vml_:stroke></g_vml_:shape><g_vml_:shape style="POSITION: absolute; WIDTH: 10px; HEIGHT: 10px" coordsize = "100,100" filled = "f" stroked = "t" strokecolor = "black" strokeweight = "14287emu" path = " m260,1555 l320,1555 e"><g_vml_:stroke opacity = "4587f" miterlimit = "10" joinstyle = "miter" endcap = "flat"></g_vml_:stroke></g_vml_:shape><g_vml_:shape style="POSITION: absolute; WIDTH: 10px; HEIGHT: 10px" coordsize = "100,100" filled = "f" stroked = "t" strokecolor = "black" strokeweight = "14287emu" path = " m266,1561 l326,1561 e"><g_vml_:stroke opacity = "4587f" miterlimit = "10" joinstyle = "miter" endcap = "flat"></g_vml_:stroke></g_vml_:shape><g_vml_:shape style="POSITION: absolute; WIDTH: 10px; HEIGHT: 10px" coordsize = "100,100" filled = "f" stroked = "t" strokecolor = "black" strokeweight = "14287emu" path = " m271,1566 l331,1566 e"><g_vml_:stroke opacity = "4587f" miterlimit = "10" joinstyle = "miter" endcap = "flat"></g_vml_:stroke></g_vml_:shape><g_vml_:shape style="POSITION: absolute; WIDTH: 10px; HEIGHT: 10px" coordsize = "100,100" filled = "f" stroked = "t" strokecolor = "#999" strokeweight = ".75pt" path = " m255,1550 l315,1550 e"><g_vml_:stroke opacity = "1" miterlimit = "10" joinstyle = "miter" endcap = "flat"></g_vml_:stroke></g_vml_:shape><g_vml_:shape style="POSITION: absolute; WIDTH: 10px; HEIGHT: 10px" coordsize = "100,100" filled = "f" stroked = "t" strokecolor = "#ccc" strokeweight = ".75pt" path = " m7895,2150 l315,2150 e"><g_vml_:stroke opacity = "1" miterlimit = "10" joinstyle = "miter" endcap = "flat"></g_vml_:stroke></g_vml_:shape><g_vml_:shape style="POSITION: absolute; WIDTH: 10px; HEIGHT: 10px" coordsize = "100,100" filled = "f" stroked = "t" strokecolor = "black" strokeweight = "14287emu" path = " m260,2155 l320,2155 e"><g_vml_:stroke opacity = "4587f" miterlimit = "10" joinstyle = "miter" endcap = "flat"></g_vml_:stroke></g_vml_:shape><g_vml_:shape style="POSITION: absolute; WIDTH: 10px; HEIGHT: 10px" coordsize = "100,100" filled = "f" stroked = "t" strokecolor = "black" strokeweight = "14287emu" path = " m266,2161 l326,2161 e"><g_vml_:stroke opacity = "4587f" miterlimit = "10" joinstyle = "miter" endcap = "flat"></g_vml_:stroke></g_vml_:shape><g_vml_:shape style="POSITION: absolute; WIDTH: 10px; HEIGHT: 10px" coordsize = "100,100" filled = "f" stroked = "t" strokecolor = "black" strokeweight = "14287emu" path = " m271,2166 l331,2166 e"><g_vml_:stroke opacity = "4587f" miterlimit = "10" joinstyle = "miter" endcap = "flat"></g_vml_:stroke></g_vml_:shape><g_vml_:shape style="POSITION: absolute; WIDTH: 10px; HEIGHT: 10px" coordsize = "100,100" filled = "f" stroked = "t" strokecolor = "#999" strokeweight = ".75pt" path = " m255,2150 l315,2150 e"><g_vml_:stroke opacity = "1" miterlimit = "10" joinstyle = "miter" endcap = "flat"></g_vml_:stroke></g_vml_:shape><g_vml_:shape style="POSITION: absolute; WIDTH: 10px; HEIGHT: 10px" coordsize = "100,100" filled = "f" stroked = "t" strokecolor = "#ccc" strokeweight = ".75pt" path = " m7895,2740 l315,2740 e"><g_vml_:stroke opacity = "1" miterlimit = "10" joinstyle = "miter" endcap = "flat"></g_vml_:stroke></g_vml_:shape><g_vml_:shape style="POSITION: absolute; WIDTH: 10px; HEIGHT: 10px" coordsize = "100,100" filled = "f" stroked = "t" strokecolor = "black" strokeweight = "14287emu" path = " m260,2745 l320,2745 e"><g_vml_:stroke opacity = "4587f" miterlimit = "10" joinstyle = "miter" endcap = "flat"></g_vml_:stroke></g_vml_:shape><g_vml_:shape style="POSITION: absolute; WIDTH: 10px; HEIGHT: 10px" coordsize = "100,100" filled = "f" stroked = "t" strokecolor = "black" strokeweight = "14287emu" path = " m266,2751 l326,2751 e"><g_vml_:stroke opacity = "4587f" miterlimit = "10" joinstyle = "miter" endcap = "flat"></g_vml_:stroke></g_vml_:shape><g_vml_:shape style="POSITION: absolute; WIDTH: 10px; HEIGHT: 10px" coordsize = "100,100" filled = "f" stroked = "t" strokecolor = "black" strokeweight = "14287emu" path = " m271,2756 l331,2756 e"><g_vml_:stroke opacity = "4587f" miterlimit = "10" joinstyle = "miter" endcap = "flat"></g_vml_:stroke></g_vml_:shape><g_vml_:shape style="POSITION: absolute; WIDTH: 10px; HEIGHT: 10px" coordsize = "100,100" filled = "f" stroked = "t" strokecolor = "#999" strokeweight = ".75pt" path = " m255,2740 l315,2740 e"><g_vml_:stroke opacity = "1" miterlimit = "10" joinstyle = "miter" endcap = "flat"></g_vml_:stroke></g_vml_:shape><g_vml_:shape style="POSITION: absolute; WIDTH: 10px; HEIGHT: 10px" coordsize = "100,100" filled = "f" stroked = "t" strokecolor = "black" strokeweight = "2.25pt" path = " m326,2746 l7906,2746,7906,366 e"><g_vml_:stroke opacity = "4587f" miterlimit = "10" joinstyle = "miter" endcap = "round"></g_vml_:stroke></g_vml_:shape><g_vml_:shape style="POSITION: absolute; WIDTH: 10px; HEIGHT: 10px" coordsize = "100,100" filled = "f" stroked = "t" strokecolor = "black" strokeweight = "2.25pt" path = " m336,2756 l7916,2756,7916,376 e"><g_vml_:stroke opacity = "4587f" miterlimit = "10" joinstyle = "miter" endcap = "round"></g_vml_:stroke></g_vml_:shape><g_vml_:shape style="POSITION: absolute; WIDTH: 10px; HEIGHT: 10px" coordsize = "100,100" filled = "f" stroked = "t" strokecolor = "black" strokeweight = "2.25pt" path = " m347,2767 l7927,2767,7927,387 e"><g_vml_:stroke opacity = "4587f" miterlimit = "10" joinstyle = "miter" endcap = "round"></g_vml_:stroke></g_vml_:shape><g_vml_:shape style="POSITION: absolute; WIDTH: 10px; HEIGHT: 10px" coordsize = "100,100" filled = "f" stroked = "t" strokecolor = "#999" strokeweight = "1.5pt" path = " m315,355 l7895,355 e"><g_vml_:stroke opacity = "1" miterlimit = "10" joinstyle = "miter" endcap = "round"></g_vml_:stroke></g_vml_:shape><g_vml_:shape style="POSITION: absolute; WIDTH: 10px; HEIGHT: 10px" coordsize = "100,100" filled = "f" stroked = "t" strokecolor = "#999" strokeweight = "1.5pt" path = " m7895,355 l7895,2735 e"><g_vml_:stroke opacity = "1" miterlimit = "10" joinstyle = "miter" endcap = "round"></g_vml_:stroke></g_vml_:shape><g_vml_:shape style="POSITION: absolute; WIDTH: 10px; HEIGHT: 10px" coordsize = "100,100" filled = "f" stroked = "t" strokecolor = "#999" strokeweight = "1.5pt" path = " m7895,2735 l315,2735 e"><g_vml_:stroke opacity = "1" miterlimit = "10" joinstyle = "miter" endcap = "round"></g_vml_:stroke></g_vml_:shape><g_vml_:shape style="POSITION: absolute; WIDTH: 10px; HEIGHT: 10px" coordsize = "100,100" filled = "f" stroked = "t" strokecolor = "#999" strokeweight = "1.5pt" path = " m315,2735 l315,355 e"><g_vml_:stroke opacity = "1" miterlimit = "10" joinstyle = "miter" endcap = "round"></g_vml_:stroke></g_vml_:shape></DIV>
+<DIV style="POSITION: absolute; FILTER: alpha(opacity=0); BACKGROUND-COLOR: red; WIDTH: 800px; HEIGHT: 300px; OVERFLOW: hidden"></DIV></canvas><canvas style="POSITION: absolute; WIDTH: 758px; HEIGHT: 238px; TOP: 36px; LEFT: 32px" class=jqplot-series-shadowCanvas width="758" height="238" jQuery1299470343592="2">
+<DIV style="POSITION: absolute; WIDTH: 758px; HEIGHT: 238px; OVERFLOW: hidden"></DIV>
+<DIV style="POSITION: absolute; FILTER: alpha(opacity=0); BACKGROUND-COLOR: red; WIDTH: 758px; HEIGHT: 238px; OVERFLOW: hidden"></DIV></canvas><canvas style="POSITION: absolute; WIDTH: 758px; HEIGHT: 238px; TOP: 36px; LEFT: 32px" class=jqplot-series-shadowCanvas width="758" height="238" jQuery1299470343592="3">
+<DIV style="POSITION: absolute; WIDTH: 758px; HEIGHT: 238px; OVERFLOW: hidden"></DIV>
+<DIV style="POSITION: absolute; FILTER: alpha(opacity=0); BACKGROUND-COLOR: red; WIDTH: 758px; HEIGHT: 238px; OVERFLOW: hidden"></DIV></canvas><canvas style="POSITION: absolute; WIDTH: 758px; HEIGHT: 238px; TOP: 36px; LEFT: 32px" class=jqplot-series-canvas width="758" height="238" jQuery1299470343592="4">
+<DIV style="POSITION: absolute; WIDTH: 758px; HEIGHT: 238px; OVERFLOW: hidden"><g_vml_:shape style="POSITION: absolute; WIDTH: 10px; HEIGHT: 10px" coordsize = "100,100" filled = "t" fillcolor = "black" stroked = "f" path = " m109,2389 l109,-2609,390,-2609,390,2389 xe"><g_vml_:fill opacity = "5242f"></g_vml_:fill></g_vml_:shape><g_vml_:shape style="POSITION: absolute; WIDTH: 10px; HEIGHT: 10px" coordsize = "100,100" filled = "t" fillcolor = "black" stroked = "f" path = " m123,2403 l123,-2595,404,-2595,404,2403 xe"><g_vml_:fill opacity = "5242f"></g_vml_:fill></g_vml_:shape><g_vml_:shape style="POSITION: absolute; WIDTH: 10px; HEIGHT: 10px" coordsize = "100,100" filled = "t" fillcolor = "black" stroked = "f" path = " m137,2417 l137,-2581,419,-2581,419,2417 xe"><g_vml_:fill opacity = "5242f"></g_vml_:fill></g_vml_:shape><g_vml_:shape style="POSITION: absolute; WIDTH: 10px; HEIGHT: 10px" coordsize = "100,100" filled = "t" fillcolor = "black" stroked = "f" path = " m152,2432 l152,-2566,433,-2566,433,2432 xe"><g_vml_:fill opacity = "5242f"></g_vml_:fill></g_vml_:shape><g_vml_:shape style="POSITION: absolute; WIDTH: 10px; HEIGHT: 10px" coordsize = "100,100" filled = "t" fillcolor = "black" stroked = "f" path = " m166,2446 l166,-2552,447,-2552,447,2446 xe"><g_vml_:fill opacity = "5242f"></g_vml_:fill></g_vml_:shape><g_vml_:shape style="POSITION: absolute; WIDTH: 10px; HEIGHT: 10px" coordsize = "100,100" filled = "t" fillcolor = "#4bb2c5" stroked = "f" path = " m95,2375 l95,-2623,376,-2623,376,2375 xe"><g_vml_:fill opacity = "1"></g_vml_:fill></g_vml_:shape><g_vml_:shape style="POSITION: absolute; WIDTH: 10px; HEIGHT: 10px" coordsize = "100,100" filled = "t" fillcolor = "black" stroked = "f" path = " m951,2389 l951,723,1232,723,1232,2389 xe"><g_vml_:fill opacity = "5242f"></g_vml_:fill></g_vml_:shape><g_vml_:shape style="POSITION: absolute; WIDTH: 10px; HEIGHT: 10px" coordsize = "100,100" filled = "t" fillcolor = "black" stroked = "f" path = " m966,2403 l966,737,1247,737,1247,2403 xe"><g_vml_:fill opacity = "5242f"></g_vml_:fill></g_vml_:shape><g_vml_:shape style="POSITION: absolute; WIDTH: 10px; HEIGHT: 10px" coordsize = "100,100" filled = "t" fillcolor = "black" stroked = "f" path = " m980,2417 l980,751,1261,751,1261,2417 xe"><g_vml_:fill opacity = "5242f"></g_vml_:fill></g_vml_:shape><g_vml_:shape style="POSITION: absolute; WIDTH: 10px; HEIGHT: 10px" coordsize = "100,100" filled = "t" fillcolor = "black" stroked = "f" path = " m994,2432 l994,766,1275,766,1275,2432 xe"><g_vml_:fill opacity = "5242f"></g_vml_:fill></g_vml_:shape><g_vml_:shape style="POSITION: absolute; WIDTH: 10px; HEIGHT: 10px" coordsize = "100,100" filled = "t" fillcolor = "black" stroked = "f" path = " m1008,2446 l1008,780,1289,780,1289,2446 xe"><g_vml_:fill opacity = "5242f"></g_vml_:fill></g_vml_:shape><g_vml_:shape style="POSITION: absolute; WIDTH: 10px; HEIGHT: 10px" coordsize = "100,100" filled = "t" fillcolor = "#4bb2c5" stroked = "f" path = " m937,2375 l937,709,1218,709,1218,2375 xe"><g_vml_:fill opacity = "1"></g_vml_:fill></g_vml_:shape><g_vml_:shape style="POSITION: absolute; WIDTH: 10px; HEIGHT: 10px" coordsize = "100,100" filled = "t" fillcolor = "black" stroked = "f" path = " m1794,2389 l1794,-5227,2075,-5227,2075,2389 xe"><g_vml_:fill opacity = "5242f"></g_vml_:fill></g_vml_:shape><g_vml_:shape style="POSITION: absolute; WIDTH: 10px; HEIGHT: 10px" coordsize = "100,100" filled = "t" fillcolor = "black" stroked = "f" path = " m1808,2403 l1808,-5213,2089,-5213,2089,2403 xe"><g_vml_:fill opacity = "5242f"></g_vml_:fill></g_vml_:shape><g_vml_:shape style="POSITION: absolute; WIDTH: 10px; HEIGHT: 10px" coordsize = "100,100" filled = "t" fillcolor = "black" stroked = "f" path = " m1822,2417 l1822,-5199,2103,-5199,2103,2417 xe"><g_vml_:fill opacity = "5242f"></g_vml_:fill></g_vml_:shape><g_vml_:shape style="POSITION: absolute; WIDTH: 10px; HEIGHT: 10px" coordsize = "100,100" filled = "t" fillcolor = "black" stroked = "f" path = " m1836,2432 l1836,-5184,2117,-5184,2117,2432 xe"><g_vml_:fill opacity = "5242f"></g_vml_:fill></g_vml_:shape><g_vml_:shape style="POSITION: absolute; WIDTH: 10px; HEIGHT: 10px" coordsize = "100,100" filled = "t" fillcolor = "black" stroked = "f" path = " m1850,2446 l1850,-5170,2131,-5170,2131,2446 xe"><g_vml_:fill opacity = "5242f"></g_vml_:fill></g_vml_:shape><g_vml_:shape style="POSITION: absolute; WIDTH: 10px; HEIGHT: 10px" coordsize = "100,100" filled = "t" fillcolor = "#4bb2c5" stroked = "f" path = " m1779,2375 l1779,-5241,2061,-5241,2061,2375 xe"><g_vml_:fill opacity = "1"></g_vml_:fill></g_vml_:shape><g_vml_:shape style="POSITION: absolute; WIDTH: 10px; HEIGHT: 10px" coordsize = "100,100" filled = "t" fillcolor = "black" stroked = "f" path = " m2636,2389 l2636,9,2917,9,2917,2389 xe"><g_vml_:fill opacity = "5242f"></g_vml_:fill></g_vml_:shape><g_vml_:shape style="POSITION: absolute; WIDTH: 10px; HEIGHT: 10px" coordsize = "100,100" filled = "t" fillcolor = "black" stroked = "f" path = " m2650,2403 l2650,23,2931,23,2931,2403 xe"><g_vml_:fill opacity = "5242f"></g_vml_:fill></g_vml_:shape><g_vml_:shape style="POSITION: absolute; WIDTH: 10px; HEIGHT: 10px" coordsize = "100,100" filled = "t" fillcolor = "black" stroked = "f" path = " m2664,2417 l2664,37,2945,37,2945,2417 xe"><g_vml_:fill opacity = "5242f"></g_vml_:fill></g_vml_:shape><g_vml_:shape style="POSITION: absolute; WIDTH: 10px; HEIGHT: 10px" coordsize = "100,100" filled = "t" fillcolor = "black" stroked = "f" path = " m2678,2432 l2678,52,2959,52,2959,2432 xe"><g_vml_:fill opacity = "5242f"></g_vml_:fill></g_vml_:shape><g_vml_:shape style="POSITION: absolute; WIDTH: 10px; HEIGHT: 10px" coordsize = "100,100" filled = "t" fillcolor = "black" stroked = "f" path = " m2692,2446 l2692,66,2973,66,2973,2446 xe"><g_vml_:fill opacity = "5242f"></g_vml_:fill></g_vml_:shape><g_vml_:shape style="POSITION: absolute; WIDTH: 10px; HEIGHT: 10px" coordsize = "100,100" filled = "t" fillcolor = "#4bb2c5" stroked = "f" path = " m2622,2375 l2622,-5,2903,-5,2903,2375 xe"><g_vml_:fill opacity = "1"></g_vml_:fill></g_vml_:shape><g_vml_:shape style="POSITION: absolute; WIDTH: 10px; HEIGHT: 10px" coordsize = "100,100" filled = "t" fillcolor = "black" stroked = "f" path = " m3478,2389 l3478,1913,3759,1913,3759,2389 xe"><g_vml_:fill opacity = "5242f"></g_vml_:fill></g_vml_:shape><g_vml_:shape style="POSITION: absolute; WIDTH: 10px; HEIGHT: 10px" coordsize = "100,100" filled = "t" fillcolor = "black" stroked = "f" path = " m3492,2403 l3492,1927,3773,1927,3773,2403 xe"><g_vml_:fill opacity = "5242f"></g_vml_:fill></g_vml_:shape><g_vml_:shape style="POSITION: absolute; WIDTH: 10px; HEIGHT: 10px" coordsize = "100,100" filled = "t" fillcolor = "black" stroked = "f" path = " m3506,2417 l3506,1941,3787,1941,3787,2417 xe"><g_vml_:fill opacity = "5242f"></g_vml_:fill></g_vml_:shape><g_vml_:shape style="POSITION: absolute; WIDTH: 10px; HEIGHT: 10px" coordsize = "100,100" filled = "t" fillcolor = "black" stroked = "f" path = " m3520,2432 l3520,1956,3802,1956,3802,2432 xe"><g_vml_:fill opacity = "5242f"></g_vml_:fill></g_vml_:shape><g_vml_:shape style="POSITION: absolute; WIDTH: 10px; HEIGHT: 10px" coordsize = "100,100" filled = "t" fillcolor = "black" stroked = "f" path = " m3535,2446 l3535,1970,3816,1970,3816,2446 xe"><g_vml_:fill opacity = "5242f"></g_vml_:fill></g_vml_:shape><g_vml_:shape style="POSITION: absolute; WIDTH: 10px; HEIGHT: 10px" coordsize = "100,100" filled = "t" fillcolor = "#4bb2c5" stroked = "f" path = " m3464,2375 l3464,1899,3745,1899,3745,2375 xe"><g_vml_:fill opacity = "1"></g_vml_:fill></g_vml_:shape><g_vml_:shape style="POSITION: absolute; WIDTH: 10px; HEIGHT: 10px" coordsize = "100,100" filled = "t" fillcolor = "black" stroked = "f" path = " m4320,2389 l4320,1913,4601,1913,4601,2389 xe"><g_vml_:fill opacity = "5242f"></g_vml_:fill></g_vml_:shape><g_vml_:shape style="POSITION: absolute; WIDTH: 10px; HEIGHT: 10px" coordsize = "100,100" filled = "t" fillcolor = "black" stroked = "f" path = " m4334,2403 l4334,1927,4616,1927,4616,2403 xe"><g_vml_:fill opacity = "5242f"></g_vml_:fill></g_vml_:shape><g_vml_:shape style="POSITION: absolute; WIDTH: 10px; HEIGHT: 10px" coordsize = "100,100" filled = "t" fillcolor = "black" stroked = "f" path = " m4349,2417 l4349,1941,4630,1941,4630,2417 xe"><g_vml_:fill opacity = "5242f"></g_vml_:fill></g_vml_:shape><g_vml_:shape style="POSITION: absolute; WIDTH: 10px; HEIGHT: 10px" coordsize = "100,100" filled = "t" fillcolor = "black" stroked = "f" path = " m4363,2432 l4363,1956,4644,1956,4644,2432 xe"><g_vml_:fill opacity = "5242f"></g_vml_:fill></g_vml_:shape><g_vml_:shape style="POSITION: absolute; WIDTH: 10px; HEIGHT: 10px" coordsize = "100,100" filled = "t" fillcolor = "black" stroked = "f" path = " m4377,2446 l4377,1970,4658,1970,4658,2446 xe"><g_vml_:fill opacity = "5242f"></g_vml_:fill></g_vml_:shape><g_vml_:shape style="POSITION: absolute; WIDTH: 10px; HEIGHT: 10px" coordsize = "100,100" filled = "t" fillcolor = "#4bb2c5" stroked = "f" path = " m4306,2375 l4306,1899,4587,1899,4587,2375 xe"><g_vml_:fill opacity = "1"></g_vml_:fill></g_vml_:shape><g_vml_:shape style="POSITION: absolute; WIDTH: 10px; HEIGHT: 10px" coordsize = "100,100" filled = "t" fillcolor = "black" stroked = "f" path = " m5162,2389 l5162,-5703,5444,-5703,5444,2389 xe"><g_vml_:fill opacity = "5242f"></g_vml_:fill></g_vml_:shape><g_vml_:shape style="POSITION: absolute; WIDTH: 10px; HEIGHT: 10px" coordsize = "100,100" filled = "t" fillcolor = "black" stroked = "f" path = " m5177,2403 l5177,-5689,5458,-5689,5458,2403 xe"><g_vml_:fill opacity = "5242f"></g_vml_:fill></g_vml_:shape><g_vml_:shape style="POSITION: absolute; WIDTH: 10px; HEIGHT: 10px" coordsize = "100,100" filled = "t" fillcolor = "black" stroked = "f" path = " m5191,2417 l5191,-5675,5472,-5675,5472,2417 xe"><g_vml_:fill opacity = "5242f"></g_vml_:fill></g_vml_:shape><g_vml_:shape style="POSITION: absolute; WIDTH: 10px; HEIGHT: 10px" coordsize = "100,100" filled = "t" fillcolor = "black" stroked = "f" path = " m5205,2432 l5205,-5660,5486,-5660,5486,2432 xe"><g_vml_:fill opacity = "5242f"></g_vml_:fill></g_vml_:shape><g_vml_:shape style="POSITION: absolute; WIDTH: 10px; HEIGHT: 10px" coordsize = "100,100" filled = "t" fillcolor = "black" stroked = "f" path = " m5219,2446 l5219,-5646,5500,-5646,5500,2446 xe"><g_vml_:fill opacity = "5242f"></g_vml_:fill></g_vml_:shape><g_vml_:shape style="POSITION: absolute; WIDTH: 10px; HEIGHT: 10px" coordsize = "100,100" filled = "t" fillcolor = "#4bb2c5" stroked = "f" path = " m5148,2375 l5148,-5717,5429,-5717,5429,2375 xe"><g_vml_:fill opacity = "1"></g_vml_:fill></g_vml_:shape><g_vml_:shape style="POSITION: absolute; WIDTH: 10px; HEIGHT: 10px" coordsize = "100,100" filled = "t" fillcolor = "black" stroked = "f" path = " m6005,2389 l6005,-5465,6286,-5465,6286,2389 xe"><g_vml_:fill opacity = "5242f"></g_vml_:fill></g_vml_:shape><g_vml_:shape style="POSITION: absolute; WIDTH: 10px; HEIGHT: 10px" coordsize = "100,100" filled = "t" fillcolor = "black" stroked = "f" path = " m6019,2403 l6019,-5451,6300,-5451,6300,2403 xe"><g_vml_:fill opacity = "5242f"></g_vml_:fill></g_vml_:shape><g_vml_:shape style="POSITION: absolute; WIDTH: 10px; HEIGHT: 10px" coordsize = "100,100" filled = "t" fillcolor = "black" stroked = "f" path = " m6033,2417 l6033,-5437,6314,-5437,6314,2417 xe"><g_vml_:fill opacity = "5242f"></g_vml_:fill></g_vml_:shape><g_vml_:shape style="POSITION: absolute; WIDTH: 10px; HEIGHT: 10px" coordsize = "100,100" filled = "t" fillcolor = "black" stroked = "f" path = " m6047,2432 l6047,-5422,6328,-5422,6328,2432 xe"><g_vml_:fill opacity = "5242f"></g_vml_:fill></g_vml_:shape><g_vml_:shape style="POSITION: absolute; WIDTH: 10px; HEIGHT: 10px" coordsize = "100,100" filled = "t" fillcolor = "black" stroked = "f" path = " m6061,2446 l6061,-5408,6342,-5408,6342,2446 xe"><g_vml_:fill opacity = "5242f"></g_vml_:fill></g_vml_:shape><g_vml_:shape style="POSITION: absolute; WIDTH: 10px; HEIGHT: 10px" coordsize = "100,100" filled = "t" fillcolor = "#4bb2c5" stroked = "f" path = " m5991,2375 l5991,-5479,6272,-5479,6272,2375 xe"><g_vml_:fill opacity = "1"></g_vml_:fill></g_vml_:shape><g_vml_:shape style="POSITION: absolute; WIDTH: 10px; HEIGHT: 10px" coordsize = "100,100" filled = "t" fillcolor = "black" stroked = "f" path = " m6847,2389 l6847,1437,7128,1437,7128,2389 xe"><g_vml_:fill opacity = "5242f"></g_vml_:fill></g_vml_:shape><g_vml_:shape style="POSITION: absolute; WIDTH: 10px; HEIGHT: 10px" coordsize = "100,100" filled = "t" fillcolor = "black" stroked = "f" path = " m6861,2403 l6861,1451,7142,1451,7142,2403 xe"><g_vml_:fill opacity = "5242f"></g_vml_:fill></g_vml_:shape><g_vml_:shape style="POSITION: absolute; WIDTH: 10px; HEIGHT: 10px" coordsize = "100,100" filled = "t" fillcolor = "black" stroked = "f" path = " m6875,2417 l6875,1465,7156,1465,7156,2417 xe"><g_vml_:fill opacity = "5242f"></g_vml_:fill></g_vml_:shape><g_vml_:shape style="POSITION: absolute; WIDTH: 10px; HEIGHT: 10px" coordsize = "100,100" filled = "t" fillcolor = "black" stroked = "f" path = " m6889,2432 l6889,1480,7170,1480,7170,2432 xe"><g_vml_:fill opacity = "5242f"></g_vml_:fill></g_vml_:shape><g_vml_:shape style="POSITION: absolute; WIDTH: 10px; HEIGHT: 10px" coordsize = "100,100" filled = "t" fillcolor = "black" stroked = "f" path = " m6903,2446 l6903,1494,7185,1494,7185,2446 xe"><g_vml_:fill opacity = "5242f"></g_vml_:fill></g_vml_:shape><g_vml_:shape style="POSITION: absolute; WIDTH: 10px; HEIGHT: 10px" coordsize = "100,100" filled = "t" fillcolor = "#4bb2c5" stroked = "f" path = " m6833,2375 l6833,1423,7114,1423,7114,2375 xe"><g_vml_:fill opacity = "1"></g_vml_:fill></g_vml_:shape></DIV>
+<DIV style="POSITION: absolute; FILTER: alpha(opacity=0); BACKGROUND-COLOR: red; WIDTH: 758px; HEIGHT: 238px; OVERFLOW: hidden"></DIV></canvas><canvas style="POSITION: absolute; WIDTH: 758px; HEIGHT: 238px; TOP: 36px; LEFT: 32px" class=jqplot-series-canvas width="758" height="238" jQuery1299470343592="5">
+<DIV style="POSITION: absolute; WIDTH: 758px; HEIGHT: 238px; OVERFLOW: hidden"><g_vml_:shape style="POSITION: absolute; WIDTH: 10px; HEIGHT: 10px" coordsize = "100,100" filled = "t" fillcolor = "black" stroked = "f" path = " m470,2389 l470,-2371,751,-2371,751,2389 xe"><g_vml_:fill opacity = "5242f"></g_vml_:fill></g_vml_:shape><g_vml_:shape style="POSITION: absolute; WIDTH: 10px; HEIGHT: 10px" coordsize = "100,100" filled = "t" fillcolor = "black" stroked = "f" path = " m484,2403 l484,-2357,766,-2357,766,2403 xe"><g_vml_:fill opacity = "5242f"></g_vml_:fill></g_vml_:shape><g_vml_:shape style="POSITION: absolute; WIDTH: 10px; HEIGHT: 10px" coordsize = "100,100" filled = "t" fillcolor = "black" stroked = "f" path = " m499,2417 l499,-2343,780,-2343,780,2417 xe"><g_vml_:fill opacity = "5242f"></g_vml_:fill></g_vml_:shape><g_vml_:shape style="POSITION: absolute; WIDTH: 10px; HEIGHT: 10px" coordsize = "100,100" filled = "t" fillcolor = "black" stroked = "f" path = " m513,2432 l513,-2328,794,-2328,794,2432 xe"><g_vml_:fill opacity = "5242f"></g_vml_:fill></g_vml_:shape><g_vml_:shape style="POSITION: absolute; WIDTH: 10px; HEIGHT: 10px" coordsize = "100,100" filled = "t" fillcolor = "black" stroked = "f" path = " m527,2446 l527,-2314,808,-2314,808,2446 xe"><g_vml_:fill opacity = "5242f"></g_vml_:fill></g_vml_:shape><g_vml_:shape style="POSITION: absolute; WIDTH: 10px; HEIGHT: 10px" coordsize = "100,100" filled = "t" fillcolor = "#eaa228" stroked = "f" path = " m456,2375 l456,-2385,737,-2385,737,2375 xe"><g_vml_:fill opacity = "1"></g_vml_:fill></g_vml_:shape><g_vml_:shape style="POSITION: absolute; WIDTH: 10px; HEIGHT: 10px" coordsize = "100,100" filled = "t" fillcolor = "black" stroked = "f" path = " m1312,2389 l1312,2151,1594,2151,1594,2389 xe"><g_vml_:fill opacity = "5242f"></g_vml_:fill></g_vml_:shape><g_vml_:shape style="POSITION: absolute; WIDTH: 10px; HEIGHT: 10px" coordsize = "100,100" filled = "t" fillcolor = "black" stroked = "f" path = " m1327,2403 l1327,2165,1608,2165,1608,2403 xe"><g_vml_:fill opacity = "5242f"></g_vml_:fill></g_vml_:shape><g_vml_:shape style="POSITION: absolute; WIDTH: 10px; HEIGHT: 10px" coordsize = "100,100" filled = "t" fillcolor = "black" stroked = "f" path = " m1341,2417 l1341,2179,1622,2179,1622,2417 xe"><g_vml_:fill opacity = "5242f"></g_vml_:fill></g_vml_:shape><g_vml_:shape style="POSITION: absolute; WIDTH: 10px; HEIGHT: 10px" coordsize = "100,100" filled = "t" fillcolor = "black" stroked = "f" path = " m1355,2432 l1355,2194,1636,2194,1636,2432 xe"><g_vml_:fill opacity = "5242f"></g_vml_:fill></g_vml_:shape><g_vml_:shape style="POSITION: absolute; WIDTH: 10px; HEIGHT: 10px" coordsize = "100,100" filled = "t" fillcolor = "black" stroked = "f" path = " m1369,2446 l1369,2208,1650,2208,1650,2446 xe"><g_vml_:fill opacity = "5242f"></g_vml_:fill></g_vml_:shape><g_vml_:shape style="POSITION: absolute; WIDTH: 10px; HEIGHT: 10px" coordsize = "100,100" filled = "t" fillcolor = "#eaa228" stroked = "f" path = " m1298,2375 l1298,2137,1579,2137,1579,2375 xe"><g_vml_:fill opacity = "1"></g_vml_:fill></g_vml_:shape><g_vml_:shape style="POSITION: absolute; WIDTH: 10px; HEIGHT: 10px" coordsize = "100,100" filled = "t" fillcolor = "black" stroked = "f" path = " m2155,2389 l2155,9,2436,9,2436,2389 xe"><g_vml_:fill opacity = "5242f"></g_vml_:fill></g_vml_:shape><g_vml_:shape style="POSITION: absolute; WIDTH: 10px; HEIGHT: 10px" coordsize = "100,100" filled = "t" fillcolor = "black" stroked = "f" path = " m2169,2403 l2169,23,2450,23,2450,2403 xe"><g_vml_:fill opacity = "5242f"></g_vml_:fill></g_vml_:shape><g_vml_:shape style="POSITION: absolute; WIDTH: 10px; HEIGHT: 10px" coordsize = "100,100" filled = "t" fillcolor = "black" stroked = "f" path = " m2183,2417 l2183,37,2464,37,2464,2417 xe"><g_vml_:fill opacity = "5242f"></g_vml_:fill></g_vml_:shape><g_vml_:shape style="POSITION: absolute; WIDTH: 10px; HEIGHT: 10px" coordsize = "100,100" filled = "t" fillcolor = "black" stroked = "f" path = " m2197,2432 l2197,52,2478,52,2478,2432 xe"><g_vml_:fill opacity = "5242f"></g_vml_:fill></g_vml_:shape><g_vml_:shape style="POSITION: absolute; WIDTH: 10px; HEIGHT: 10px" coordsize = "100,100" filled = "t" fillcolor = "black" stroked = "f" path = " m2211,2446 l2211,66,2492,66,2492,2446 xe"><g_vml_:fill opacity = "5242f"></g_vml_:fill></g_vml_:shape><g_vml_:shape style="POSITION: absolute; WIDTH: 10px; HEIGHT: 10px" coordsize = "100,100" filled = "t" fillcolor = "#eaa228" stroked = "f" path = " m2141,2375 l2141,-5,2422,-5,2422,2375 xe"><g_vml_:fill opacity = "1"></g_vml_:fill></g_vml_:shape><g_vml_:shape style="POSITION: absolute; WIDTH: 10px; HEIGHT: 10px" coordsize = "100,100" filled = "t" fillcolor = "black" stroked = "f" path = " m2997,2389 l2997,2151,3278,2151,3278,2389 xe"><g_vml_:fill opacity = "5242f"></g_vml_:fill></g_vml_:shape><g_vml_:shape style="POSITION: absolute; WIDTH: 10px; HEIGHT: 10px" coordsize = "100,100" filled = "t" fillcolor = "black" stroked = "f" path = " m3011,2403 l3011,2165,3292,2165,3292,2403 xe"><g_vml_:fill opacity = "5242f"></g_vml_:fill></g_vml_:shape><g_vml_:shape style="POSITION: absolute; WIDTH: 10px; HEIGHT: 10px" coordsize = "100,100" filled = "t" fillcolor = "black" stroked = "f" path = " m3025,2417 l3025,2179,3306,2179,3306,2417 xe"><g_vml_:fill opacity = "5242f"></g_vml_:fill></g_vml_:shape><g_vml_:shape style="POSITION: absolute; WIDTH: 10px; HEIGHT: 10px" coordsize = "100,100" filled = "t" fillcolor = "black" stroked = "f" path = " m3039,2432 l3039,2194,3320,2194,3320,2432 xe"><g_vml_:fill opacity = "5242f"></g_vml_:fill></g_vml_:shape><g_vml_:shape style="POSITION: absolute; WIDTH: 10px; HEIGHT: 10px" coordsize = "100,100" filled = "t" fillcolor = "black" stroked = "f" path = " m3053,2446 l3053,2208,3335,2208,3335,2446 xe"><g_vml_:fill opacity = "5242f"></g_vml_:fill></g_vml_:shape><g_vml_:shape style="POSITION: absolute; WIDTH: 10px; HEIGHT: 10px" coordsize = "100,100" filled = "t" fillcolor = "#eaa228" stroked = "f" path = " m2983,2375 l2983,2137,3264,2137,3264,2375 xe"><g_vml_:fill opacity = "1"></g_vml_:fill></g_vml_:shape><g_vml_:shape style="POSITION: absolute; WIDTH: 10px; HEIGHT: 10px" coordsize = "100,100" filled = "t" fillcolor = "black" stroked = "f" path = " m3839,2389 l3839,2389,4120,2389 xe"><g_vml_:fill opacity = "5242f"></g_vml_:fill></g_vml_:shape><g_vml_:shape style="POSITION: absolute; WIDTH: 10px; HEIGHT: 10px" coordsize = "100,100" filled = "t" fillcolor = "black" stroked = "f" path = " m3853,2403 l3853,2403,4134,2403 xe"><g_vml_:fill opacity = "5242f"></g_vml_:fill></g_vml_:shape><g_vml_:shape style="POSITION: absolute; WIDTH: 10px; HEIGHT: 10px" coordsize = "100,100" filled = "t" fillcolor = "black" stroked = "f" path = " m3867,2417 l3867,2417,4149,2417 xe"><g_vml_:fill opacity = "5242f"></g_vml_:fill></g_vml_:shape><g_vml_:shape style="POSITION: absolute; WIDTH: 10px; HEIGHT: 10px" coordsize = "100,100" filled = "t" fillcolor = "black" stroked = "f" path = " m3882,2432 l3882,2432,4163,2432 xe"><g_vml_:fill opacity = "5242f"></g_vml_:fill></g_vml_:shape><g_vml_:shape style="POSITION: absolute; WIDTH: 10px; HEIGHT: 10px" coordsize = "100,100" filled = "t" fillcolor = "black" stroked = "f" path = " m3896,2446 l3896,2446,4177,2446 xe"><g_vml_:fill opacity = "5242f"></g_vml_:fill></g_vml_:shape><g_vml_:shape style="POSITION: absolute; WIDTH: 10px; HEIGHT: 10px" coordsize = "100,100" filled = "t" fillcolor = "#eaa228" stroked = "f" path = " m3825,2375 l3825,2375,4106,2375 xe"><g_vml_:fill opacity = "1"></g_vml_:fill></g_vml_:shape><g_vml_:shape style="POSITION: absolute; WIDTH: 10px; HEIGHT: 10px" coordsize = "100,100" filled = "t" fillcolor = "black" stroked = "f" path = " m4681,2389 l4681,2389,4962,2389 xe"><g_vml_:fill opacity = "5242f"></g_vml_:fill></g_vml_:shape><g_vml_:shape style="POSITION: absolute; WIDTH: 10px; HEIGHT: 10px" coordsize = "100,100" filled = "t" fillcolor = "black" stroked = "f" path = " m4696,2403 l4696,2403,4977,2403 xe"><g_vml_:fill opacity = "5242f"></g_vml_:fill></g_vml_:shape><g_vml_:shape style="POSITION: absolute; WIDTH: 10px; HEIGHT: 10px" coordsize = "100,100" filled = "t" fillcolor = "black" stroked = "f" path = " m4710,2417 l4710,2417,4991,2417 xe"><g_vml_:fill opacity = "5242f"></g_vml_:fill></g_vml_:shape><g_vml_:shape style="POSITION: absolute; WIDTH: 10px; HEIGHT: 10px" coordsize = "100,100" filled = "t" fillcolor = "black" stroked = "f" path = " m4724,2432 l4724,2432,5005,2432 xe"><g_vml_:fill opacity = "5242f"></g_vml_:fill></g_vml_:shape><g_vml_:shape style="POSITION: absolute; WIDTH: 10px; HEIGHT: 10px" coordsize = "100,100" filled = "t" fillcolor = "black" stroked = "f" path = " m4738,2446 l4738,2446,5019,2446 xe"><g_vml_:fill opacity = "5242f"></g_vml_:fill></g_vml_:shape><g_vml_:shape style="POSITION: absolute; WIDTH: 10px; HEIGHT: 10px" coordsize = "100,100" filled = "t" fillcolor = "#eaa228" stroked = "f" path = " m4667,2375 l4667,2375,4948,2375 xe"><g_vml_:fill opacity = "1"></g_vml_:fill></g_vml_:shape><g_vml_:shape style="POSITION: absolute; WIDTH: 10px; HEIGHT: 10px" coordsize = "100,100" filled = "t" fillcolor = "black" stroked = "f" path = " m5524,2389 l5524,-229,5805,-229,5805,2389 xe"><g_vml_:fill opacity = "5242f"></g_vml_:fill></g_vml_:shape><g_vml_:shape style="POSITION: absolute; WIDTH: 10px; HEIGHT: 10px" coordsize = "100,100" filled = "t" fillcolor = "black" stroked = "f" path = " m5538,2403 l5538,-215,5819,-215,5819,2403 xe"><g_vml_:fill opacity = "5242f"></g_vml_:fill></g_vml_:shape><g_vml_:shape style="POSITION: absolute; WIDTH: 10px; HEIGHT: 10px" coordsize = "100,100" filled = "t" fillcolor = "black" stroked = "f" path = " m5552,2417 l5552,-201,5833,-201,5833,2417 xe"><g_vml_:fill opacity = "5242f"></g_vml_:fill></g_vml_:shape><g_vml_:shape style="POSITION: absolute; WIDTH: 10px; HEIGHT: 10px" coordsize = "100,100" filled = "t" fillcolor = "black" stroked = "f" path = " m5566,2432 l5566,-186,5847,-186,5847,2432 xe"><g_vml_:fill opacity = "5242f"></g_vml_:fill></g_vml_:shape><g_vml_:shape style="POSITION: absolute; WIDTH: 10px; HEIGHT: 10px" coordsize = "100,100" filled = "t" fillcolor = "black" stroked = "f" path = " m5580,2446 l5580,-172,5861,-172,5861,2446 xe"><g_vml_:fill opacity = "5242f"></g_vml_:fill></g_vml_:shape><g_vml_:shape style="POSITION: absolute; WIDTH: 10px; HEIGHT: 10px" coordsize = "100,100" filled = "t" fillcolor = "#eaa228" stroked = "f" path = " m5509,2375 l5509,-243,5791,-243,5791,2375 xe"><g_vml_:fill opacity = "1"></g_vml_:fill></g_vml_:shape><g_vml_:shape style="POSITION: absolute; WIDTH: 10px; HEIGHT: 10px" coordsize = "100,100" filled = "t" fillcolor = "black" stroked = "f" path = " m6366,2389 l6366,961,6647,961,6647,2389 xe"><g_vml_:fill opacity = "5242f"></g_vml_:fill></g_vml_:shape><g_vml_:shape style="POSITION: absolute; WIDTH: 10px; HEIGHT: 10px" coordsize = "100,100" filled = "t" fillcolor = "black" stroked = "f" path = " m6380,2403 l6380,975,6661,975,6661,2403 xe"><g_vml_:fill opacity = "5242f"></g_vml_:fill></g_vml_:shape><g_vml_:shape style="POSITION: absolute; WIDTH: 10px; HEIGHT: 10px" coordsize = "100,100" filled = "t" fillcolor = "black" stroked = "f" path = " m6394,2417 l6394,989,6675,989,6675,2417 xe"><g_vml_:fill opacity = "5242f"></g_vml_:fill></g_vml_:shape><g_vml_:shape style="POSITION: absolute; WIDTH: 10px; HEIGHT: 10px" coordsize = "100,100" filled = "t" fillcolor = "black" stroked = "f" path = " m6408,2432 l6408,1004,6689,1004,6689,2432 xe"><g_vml_:fill opacity = "5242f"></g_vml_:fill></g_vml_:shape><g_vml_:shape style="POSITION: absolute; WIDTH: 10px; HEIGHT: 10px" coordsize = "100,100" filled = "t" fillcolor = "black" stroked = "f" path = " m6422,2446 l6422,1018,6703,1018,6703,2446 xe"><g_vml_:fill opacity = "5242f"></g_vml_:fill></g_vml_:shape><g_vml_:shape style="POSITION: absolute; WIDTH: 10px; HEIGHT: 10px" coordsize = "100,100" filled = "t" fillcolor = "#eaa228" stroked = "f" path = " m6352,2375 l6352,947,6633,947,6633,2375 xe"><g_vml_:fill opacity = "1"></g_vml_:fill></g_vml_:shape><g_vml_:shape style="POSITION: absolute; WIDTH: 10px; HEIGHT: 10px" coordsize = "100,100" filled = "t" fillcolor = "black" stroked = "f" path = " m7208,2389 l7208,1913,7489,1913,7489,2389 xe"><g_vml_:fill opacity = "5242f"></g_vml_:fill></g_vml_:shape><g_vml_:shape style="POSITION: absolute; WIDTH: 10px; HEIGHT: 10px" coordsize = "100,100" filled = "t" fillcolor = "black" stroked = "f" path = " m7222,2403 l7222,1927,7503,1927,7503,2403 xe"><g_vml_:fill opacity = "5242f"></g_vml_:fill></g_vml_:shape><g_vml_:shape style="POSITION: absolute; WIDTH: 10px; HEIGHT: 10px" coordsize = "100,100" filled = "t" fillcolor = "black" stroked = "f" path = " m7236,2417 l7236,1941,7517,1941,7517,2417 xe"><g_vml_:fill opacity = "5242f"></g_vml_:fill></g_vml_:shape><g_vml_:shape style="POSITION: absolute; WIDTH: 10px; HEIGHT: 10px" coordsize = "100,100" filled = "t" fillcolor = "black" stroked = "f" path = " m7250,2432 l7250,1956,7532,1956,7532,2432 xe"><g_vml_:fill opacity = "5242f"></g_vml_:fill></g_vml_:shape><g_vml_:shape style="POSITION: absolute; WIDTH: 10px; HEIGHT: 10px" coordsize = "100,100" filled = "t" fillcolor = "black" stroked = "f" path = " m7265,2446 l7265,1970,7546,1970,7546,2446 xe"><g_vml_:fill opacity = "5242f"></g_vml_:fill></g_vml_:shape><g_vml_:shape style="POSITION: absolute; WIDTH: 10px; HEIGHT: 10px" coordsize = "100,100" filled = "t" fillcolor = "#eaa228" stroked = "f" path = " m7194,2375 l7194,1899,7475,1899,7475,2375 xe"><g_vml_:fill opacity = "1"></g_vml_:fill></g_vml_:shape></DIV>
+<DIV style="POSITION: absolute; FILTER: alpha(opacity=0); BACKGROUND-COLOR: red; WIDTH: 758px; HEIGHT: 238px; OVERFLOW: hidden"></DIV></canvas>
+<TABLE style="POSITION: absolute; TOP: 36px; LEFT: 32px" class=jqplot-table-legend>
+<TBODY>
+<TR class=jqplot-table-legend>
+<TD style="TEXT-ALIGN: center; PADDING-TOP: 0px" class=jqplot-table-legend>
+<DIV>
+<DIV style="BORDER-BOTTOM-COLOR: #4bb2c5; BACKGROUND-COLOR: #4bb2c5; BORDER-TOP-COLOR: #4bb2c5; BORDER-RIGHT-COLOR: #4bb2c5; BORDER-LEFT-COLOR: #4bb2c5" class=jqplot-table-legend-swatch></DIV></DIV></TD>
+<TD style="PADDING-TOP: 0px" class=jqplot-table-legend>META</TD></TR>
+<TR class=jqplot-table-legend>
+<TD style="TEXT-ALIGN: center; PADDING-TOP: 0.5em" class=jqplot-table-legend>
+<DIV>
+<DIV style="BORDER-BOTTOM-COLOR: #eaa228; BACKGROUND-COLOR: #eaa228; BORDER-TOP-COLOR: #eaa228; BORDER-RIGHT-COLOR: #eaa228; BORDER-LEFT-COLOR: #eaa228" class=jqplot-table-legend-swatch></DIV></DIV></TD>
+<TD style="PADDING-TOP: 0.5em" class=jqplot-table-legend>LOGRO</TD></TR></TBODY></TABLE><canvas style="POSITION: absolute; WIDTH: 758px; HEIGHT: 238px; TOP: 36px; LEFT: 32px" class=jqplot-barRenderer-highlight-canvas width="758" height="238">
+<DIV style="POSITION: absolute; WIDTH: 758px; HEIGHT: 238px; OVERFLOW: hidden"></DIV>
+<DIV style="POSITION: absolute; FILTER: alpha(opacity=0); BACKGROUND-COLOR: red; WIDTH: 758px; HEIGHT: 238px; OVERFLOW: hidden"></DIV></canvas><canvas style="POSITION: absolute; WIDTH: 758px; HEIGHT: 238px; TOP: 36px; LEFT: 32px" class=jqplot-barRenderer-highlight-canvas width="758" height="238">
+<DIV style="POSITION: absolute; WIDTH: 758px; HEIGHT: 238px; OVERFLOW: hidden"></DIV>
+<DIV style="POSITION: absolute; FILTER: alpha(opacity=0); BACKGROUND-COLOR: red; WIDTH: 758px; HEIGHT: 238px; OVERFLOW: hidden"></DIV></canvas><canvas style="POSITION: absolute; WIDTH: 758px; HEIGHT: 238px; TOP: 36px; LEFT: 32px" class=jqplot-event-canvas width="758" height="238" jQuery1299470343592="6">
+<DIV style="POSITION: absolute; WIDTH: 758px; HEIGHT: 238px; OVERFLOW: hidden"><g_vml_:shape style="POSITION: absolute; WIDTH: 10px; HEIGHT: 10px" coordsize = "100,100" filled = "t" fillcolor = "black" stroked = "f" path = " m-5,-5 l7575,-5,7575,2375,-5,2375 xe"><g_vml_:fill opacity = "0"></g_vml_:fill></g_vml_:shape></DIV>
+<DIV style="POSITION: absolute; FILTER: alpha(opacity=0); BACKGROUND-COLOR: red; WIDTH: 758px; HEIGHT: 238px; OVERFLOW: hidden"></DIV></canvas></DIV>

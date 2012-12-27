@@ -1,0 +1,420 @@
+
+<table>
+     <tbody><tr style="background: #667120; color:#ffffff; font-size: 15px">
+         <th colspan="2">INDICADOR C.2-I.3:</th><td colspan="16">Porcentaje de MERS que cumplen sus contratos de servicios: Año 2: 20%; Fin de proyecto: 80% de las 115 MERS</td>
+     </tr>
+</tbody></table>
+ <table id="table_example" width="100%" border="1" class="ewTable">
+    <thead>
+    <tr>
+        <th bgcolor="#B8C692"></th>
+        <th colspan="5" align="center" bgcolor="#B8C692">INFORME GEOGRAFICO</th>
+        <th colspan="4" align="center" bgcolor="#b8c2a5">DATOS DE LA MERS</th>
+        <th colspan="4" align="center" bgcolor="#b8f5e0">DOCUMENTO</th>
+        <th colspan="1" align="center" bgcolor="#b89ec1">INDICADOR</th>
+    </tr>
+    <tr class="ewTableHeader">
+        <th>Nro</th>
+        <th>Regional</th>
+        <th>Departamento</th>
+        <th>Municipio</th>
+        <th>Comunidad</th>
+        <th>Zona</th>
+        <th>Rubro</th>
+        <th>Razon Social de la Mers</th>
+        <th>Responsable de la Mers</th>
+        <th>Gestión</th>
+        <th>Planificado</th>
+        <th>Alcanzado</th>
+        <th>% cumplimiento</th>
+        <th style="cursor: pointer" title="Ocultar/Ver Comentarios" onclick="verOcultarFormalizacion();">Comentario <img src="images/expand.gif"></th>
+        <th>Valor</th>
+    </tr>
+</thead>
+<tbody id="contenidoTbody">
+<tr>
+<td>1</td>
+        <td>Chuquisaca</td>
+        <td>Chuquisaca</td>
+        <td>Alcalá</td>
+        <td>Alcalá</td>
+        <td></td>
+        <td>Acopio Productivo y Transformación</td>
+        <td>Asociación Productores de Miel (APROMIEL)</td>
+        <td>            <div>Venegas Ruiz, Lilian</div>        </td>
+        <td>2010</td>
+        <td>8450</td>
+        <td>13000</td>
+        <td>153.85 %</td>
+        <td><div id="detalle_1"></div></td>
+<td style="background:#C2D69A">Cumple.</td>
+    </tr>
+<tr bgcolor="#F1F1F1">
+<td>2</td>
+        <td>Chuquisaca</td>
+        <td>Chuquisaca</td>
+        <td>Padilla</td>
+        <td>Padilla</td>
+        <td>Municipio de Padilla</td>
+        <td>Agua Potable y Alcantarillado</td>
+        <td>COOPERATIVA DE AGUA Y ALCANTARILLADO PADILLA LTDA.</td>
+        <td>            <div>Venegas Ruiz, Lilian</div>        </td>
+        <td>2010</td>
+        <td>13397</td>
+        <td>15153</td>
+        <td>113.11 %</td>
+        <td><div id="detalle_2"></div></td>
+<td style="background:#C2D69A">Cumple.</td>
+    </tr>
+<tr>
+<td>3</td>
+        <td>Chuquisaca</td>
+        <td>Chuquisaca</td>
+        <td>Padilla</td>
+        <td>San Julian</td>
+        <td>Municipio de Padilla</td>
+        <td>Acopio Productivo y Transformación</td>
+        <td>Asociación Productores de Ají "San Julian"    (APASJ)</td>
+        <td>            <div>Venegas Ruiz, Lilian</div>        </td>
+        <td>2010</td>
+        <td>19500</td>
+        <td>24000</td>
+        <td>123.08 %</td>
+        <td><div id="detalle_3"></div></td>
+<td style="background:#C2D69A">Cumple.</td>
+    </tr>
+<tr bgcolor="#F1F1F1">
+<td>4</td>
+        <td>Chuquisaca</td>
+        <td>Chuquisaca</td>
+        <td>Sopachuy</td>
+        <td>Sopachuy</td>
+        <td></td>
+        <td>Acopio Productivo y Transformación</td>
+        <td>Coop. San Jose Obrero</td>
+        <td>            <div>Venegas Ruiz, Lilian</div>        </td>
+        <td>2010</td>
+        <td>3670</td>
+        <td>4193</td>
+        <td>114.25 %</td>
+        <td><div id="detalle_4">LA PROYECCCION SE LO REALIZAO EN BASE AL PLAN ESTRATEGICO PLAN ESTRATEGICO </div></td>
+<td style="background:#C2D69A">Cumple.</td>
+    </tr>
+<tr>
+<td>5</td>
+        <td>Chuquisaca</td>
+        <td>Chuquisaca</td>
+        <td>Sopachuy</td>
+        <td>Sopachuy</td>
+        <td></td>
+        <td>Agua Potable y Alcantarillado</td>
+        <td>EPSAS Sopachuy</td>
+        <td>            <div>Venegas Ruiz, Lilian</div>        </td>
+        <td>2010</td>
+        <td>2755</td>
+        <td>10369</td>
+        <td>376.37 %</td>
+        <td><div id="detalle_5"></div></td>
+<td style="background:#C2D69A">Cumple.</td>
+    </tr>
+<tr bgcolor="#F1F1F1">
+<td>6</td>
+        <td>Chuquisaca</td>
+        <td>Chuquisaca</td>
+        <td>Tomina</td>
+        <td>Pampas Punta</td>
+        <td></td>
+        <td>Acopio Productivo y Transformación</td>
+        <td>Asociación de Mujeres Pampas Abajo (AMUPA)</td>
+        <td>            <div>Venegas Ruiz, Lilian</div>        </td>
+        <td>2010</td>
+        <td>8000</td>
+        <td>9760</td>
+        <td>122 %</td>
+        <td><div id="detalle_6"></div></td>
+<td style="background:#C2D69A">Cumple.</td>
+    </tr>
+<tr>
+<td>7</td>
+        <td>Chuquisaca</td>
+        <td>Chuquisaca</td>
+        <td>Tomina</td>
+        <td>Tomina</td>
+        <td></td>
+        <td>Acopio Productivo y Transformación</td>
+        <td>Asociación Molinos San Mauro</td>
+        <td>            <div>Venegas Ruiz, Lilian</div>        </td>
+        <td>2010</td>
+        <td>9600</td>
+        <td>9630</td>
+        <td>100.31 %</td>
+        <td><div id="detalle_7"></div></td>
+<td style="background:#C2D69A">Cumple.</td>
+    </tr>
+<tr bgcolor="#F1F1F1">
+<td>8</td>
+        <td>Chuquisaca</td>
+        <td>Chuquisaca</td>
+        <td>Tomina</td>
+        <td>Tomina</td>
+        <td></td>
+        <td>Acopio Productivo y Transformación</td>
+        <td>Asociación Productores Agropecuarios (APROA San Mauro)</td>
+        <td>            <div>Venegas Ruiz, Lilian</div>        </td>
+        <td>2010</td>
+        <td>19600</td>
+        <td>43920</td>
+        <td>224.08 %</td>
+        <td><div id="detalle_8"></div></td>
+<td style="background:#C2D69A">Cumple.</td>
+    </tr>
+<tr>
+<td>9</td>
+        <td>Chuquisaca</td>
+        <td>Potosi</td>
+        <td>Ocurí</td>
+        <td>Canchas Blancas</td>
+        <td></td>
+        <td>Acopio Productivo y Transformación</td>
+        <td>Asociación de Productores Agropecuarios Allyn Tarpuy</td>
+        <td>            <div>Loayza , David</div>        </td>
+        <td>2010</td>
+        <td>158400</td>
+        <td>158400</td>
+        <td>100 %</td>
+        <td><div id="detalle_9"></div></td>
+<td style="background:#C2D69A">Cumple.</td>
+    </tr>
+<tr bgcolor="#F1F1F1">
+<td>10</td>
+        <td>Chuquisaca</td>
+        <td>Potosi</td>
+        <td>Ocurí</td>
+        <td>Tahua Reja</td>
+        <td></td>
+        <td>Agua Potable y Alcantarillado</td>
+        <td>EPSAS Tahua Reja</td>
+        <td>            <div>Loayza , David</div>        </td>
+        <td>2010</td>
+        <td>72</td>
+        <td>72</td>
+        <td>100 %</td>
+        <td><div id="detalle_10"></div></td>
+<td style="background:#C2D69A">Cumple.</td>
+    </tr>
+<tr>
+<td>11</td>
+        <td>Chuquisaca</td>
+        <td>Potosi</td>
+        <td>Ravelo</td>
+        <td>Challuma</td>
+        <td></td>
+        <td>Agua Potable y Alcantarillado</td>
+        <td>Asociación de Agua y Saneamiento Básico Challuma</td>
+        <td>            <div>Loayza , David</div>        </td>
+        <td>2010</td>
+        <td>1152</td>
+        <td>1152</td>
+        <td>100 %</td>
+        <td><div id="detalle_11"></div></td>
+<td style="background:#C2D69A">Cumple.</td>
+    </tr>
+<tr bgcolor="#F1F1F1">
+<td>12</td>
+        <td>Chuquisaca</td>
+        <td>Potosi</td>
+        <td>Ravelo</td>
+        <td>Ravelo</td>
+        <td></td>
+        <td>Agua Potable y Alcantarillado</td>
+        <td>EPSA Ravelo</td>
+        <td>            <div>Loayza , David</div>        </td>
+        <td>2010</td>
+        <td>32040</td>
+        <td>32040</td>
+        <td>100 %</td>
+        <td><div id="detalle_12"></div></td>
+<td style="background:#C2D69A">Cumple.</td>
+    </tr>
+<tr>
+<td>13</td>
+        <td>Chuquisaca</td>
+        <td>Potosi</td>
+        <td>Ravelo</td>
+        <td>Ravelo</td>
+        <td></td>
+        <td>Otro</td>
+        <td>Asociación de Productores Agropecuarios-Veterinarios</td>
+        <td>            <div>Loayza , David</div>        </td>
+        <td>2010</td>
+        <td>1756</td>
+        <td>1756</td>
+        <td>100 %</td>
+        <td><div id="detalle_13"></div></td>
+<td style="background:#C2D69A">Cumple.</td>
+    </tr>
+<tr bgcolor="#F1F1F1">
+<td>14</td>
+        <td>Chuquisaca</td>
+        <td>Potosi</td>
+        <td>Ravelo</td>
+        <td>Rodeo Huayllas</td>
+        <td></td>
+        <td>Acopio Productivo y Transformación</td>
+        <td>Asociación Productiva Agropecuaria (Aproagro) Huayllas</td>
+        <td>            <div>Loayza , David</div>        </td>
+        <td>2010</td>
+        <td>9504</td>
+        <td>9504</td>
+        <td>100 %</td>
+        <td><div id="detalle_14"></div></td>
+<td style="background:#C2D69A">Cumple.</td>
+    </tr>
+<tr>
+<td>15</td>
+        <td>Chuquisaca</td>
+        <td>Potosi</td>
+        <td>Ravelo</td>
+        <td>Rodeo Huayllas</td>
+        <td></td>
+        <td>Agua Potable y Alcantarillado</td>
+        <td>EPSAS  Pajlli</td>
+        <td>            <div>Loayza , David</div>        </td>
+        <td>2010</td>
+        <td>1110</td>
+        <td>1110</td>
+        <td>100 %</td>
+        <td><div id="detalle_15"></div></td>
+<td style="background:#C2D69A">Cumple.</td>
+    </tr>
+<tr bgcolor="#F1F1F1">
+<td>16</td>
+        <td>Chuquisaca</td>
+        <td>Potosi</td>
+        <td>Ravelo</td>
+        <td>Safiri</td>
+        <td></td>
+        <td>Riego y Sistemas de Agua</td>
+        <td>Asociación de Agua y Saneamiento Básico Safiri (MR Safiri)</td>
+        <td>            <div>Loayza , David</div>        </td>
+        <td>2010</td>
+        <td>1494</td>
+        <td>1494</td>
+        <td>100 %</td>
+        <td><div id="detalle_16"></div></td>
+<td style="background:#C2D69A">Cumple.</td>
+    </tr>
+<tr>
+<td>17</td>
+        <td>Chuquisaca</td>
+        <td>Potosi</td>
+        <td>Ravelo</td>
+        <td>Sasanta</td>
+        <td></td>
+        <td>Otro</td>
+        <td>Asociación de Productores Agropecuarios Mojon Pata</td>
+        <td>            <div>Loayza , David</div>        </td>
+        <td>2010</td>
+        <td>99572</td>
+        <td>160000</td>
+        <td>160.69 %</td>
+        <td><div id="detalle_17"></div></td>
+<td style="background:#C2D69A">Cumple.</td>
+    </tr>
+<tr bgcolor="#F1F1F1">
+<td>18</td>
+        <td>Chuquisaca</td>
+        <td>Potosi</td>
+        <td>Ravelo</td>
+        <td>Sorocoto/Soroscopa</td>
+        <td></td>
+        <td>Riego y Sistemas de Agua</td>
+        <td>Asociación de Regantes  Arsass</td>
+        <td>            <div>Loayza , David</div>        </td>
+        <td>2010</td>
+        <td>2318</td>
+        <td>2318</td>
+        <td>100 %</td>
+        <td><div id="detalle_18"></div></td>
+<td style="background:#C2D69A">Cumple.</td>
+    </tr>
+<tr>
+<td>19</td>
+        <td>Chuquisaca</td>
+        <td>Potosi</td>
+        <td>Ravelo</td>
+        <td>Sorojchi</td>
+        <td></td>
+        <td>Otro</td>
+        <td>Mod. Lechero Sorojchi</td>
+        <td>            <div>Loayza , David</div>        </td>
+        <td>2010</td>
+        <td>100059.51</td>
+        <td>100059.51</td>
+        <td>100 %</td>
+        <td><div id="detalle_19"></div></td>
+<td style="background:#C2D69A">Cumple.</td>
+    </tr>
+<tr bgcolor="#F1F1F1">
+<td>20</td>
+        <td>Chuquisaca</td>
+        <td>Potosi</td>
+        <td>Ravelo</td>
+        <td>Tomoyo</td>
+        <td></td>
+        <td>Otro</td>
+        <td>Modulo Lechero Tomoyo</td>
+        <td>            <div>Loayza , David</div>        </td>
+        <td>2010</td>
+        <td>50566.97</td>
+        <td>50566.97</td>
+        <td>100 %</td>
+        <td><div id="detalle_20"></div></td>
+<td style="background:#C2D69A">Cumple.</td>
+    </tr>
+<tr>
+<td>21</td>
+        <td>Chuquisaca</td>
+        <td>Potosi</td>
+        <td>Ravelo</td>
+        <td>Yoroca</td>
+        <td></td>
+        <td>Otro</td>
+        <td>Modulo Lechero Yoroca</td>
+        <td>            <div>Loayza , David</div>        </td>
+        <td>2010</td>
+        <td>101154.12</td>
+        <td>101154.12</td>
+        <td>100 %</td>
+        <td><div id="detalle_21"></div></td>
+<td style="background:#C2D69A">Cumple.</td>
+    </tr>
+<tr bgcolor="#F1F1F1">
+<td>22</td>
+        <td>Cochabamba</td>
+        <td>Cochabamba</td>
+        <td>Capinota</td>
+        <td>Playa Ancha</td>
+        <td>Municipio de Capinota</td>
+        <td>Agua Potable y Alcantarillado</td>
+        <td>Asociación de Usuarios y Consumidores Agua Potable Playa Ancha (EPSAS Playa Ancha)</td>
+        <td>            <div>Gallo Subieta, Alvaro</div>        </td>
+        <td>2010</td>
+        <td>3000</td>
+        <td>3000</td>
+        <td>100 %</td>
+        <td><div id="detalle_22"></div></td>
+<td style="background:#C2D69A">Cumple.</td>
+    </tr>
+ </tbody>
+ </table>
+    <input type="hidden" name="contador" id="contador" value="23">
+    <table>
+     <tbody><tr style="background: #667120; color:#ffffff; font-size: 15px">
+         <th colspan="2">INDICADOR C.2-I.3:</th><td colspan="16">Porcentaje de MERS que cumplen sus contratos de servicios: Año 2: 20%; Fin de proyecto: 80% de las 115 MERS</td>
+     </tr>
+     <tr style="background:#b8f5e0; font-size: 11px; text-align: center">
+         <th colspan="6">Número Mers que cumplen sus contratos de servicios: 22</th><td colspan="12">Porcentaje de Cumplimiento : 19.13 %</td>
+     </tr>
+
+</tbody></table>

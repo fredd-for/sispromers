@@ -1,0 +1,299 @@
+<TABLE>
+<TBODY>
+<TR style="BACKGROUND: #667120; COLOR: #ffffff; FONT-SIZE: 15px">
+<TH colSpan=2>PROPOSITO I.2:</TH>
+<TD colSpan=16>Número de empleos generados: Año 2: 150; Fin proyecto: 450</TD></TR></TBODY></TABLE>
+<TABLE id=table_example class=ewTable border=1 width="100%">
+<THEAD>
+<TR>
+<TH bgColor=#b8c692></TH>
+<TH bgColor=#b8c692 colSpan=5 align=middle>INFORME GEOGRAFICO</TH>
+<TH bgColor=#b8c2a5 colSpan=4 align=middle>DATOS DE LA MERS</TH>
+<TH bgColor=#b8f5e0 colSpan=1 align=middle>DOCUMENTO</TH>
+<TH bgColor=#b89ec1 colSpan=1 align=middle>INDICADOR</TH></TR>
+<TR class=ewTableHeader>
+<TH>Nro</TH>
+<TH>Regional</TH>
+<TH>Departamento</TH>
+<TH>Municipio</TH>
+<TH>Comunidad</TH>
+<TH>Zona</TH>
+<TH>Rubro</TH>
+<TH>Razon Social de la Mers</TH>
+<TH>Responsable de la Mers</TH>
+<TH>Gestión</TH>
+<TH>Nro de Empleos Generados</TH>
+<TH>Valor</TH></TR></THEAD>
+<TBODY id=contenidoTbody>
+<TR>
+<TD>1</TD>
+<TD>Chuquisaca</TD>
+<TD>Chuquisaca</TD>
+<TD>Padilla</TD>
+<TD>Padilla</TD>
+<TD>Municipio de Padilla</TD>
+<TD>Agua Potable y Alcantarillado</TD>
+<TD>COOPERATIVA DE AGUA Y ALCANTARILLADO PADILLA LTDA.</TD>
+<TD>
+<DIV>Venegas Ruiz, Lilian</DIV></TD>
+<TD>2010</TD>
+<TD align=middle>2<IMG id=expandir title="ver contratos de trabajo" onclick=expandirDIV(1) align=right src="images/expand.gif"> 
+<TABLE id=expandir_table_1>
+<TBODY>
+<TR>
+<TD>
+<DIV>Contrato (1)= Contrato Formal=2</DIV></TD></TR>
+<TR>
+<TD>
+<DIV>REGISTRO (2)= EN LIBRO / PLANILLAS=2</DIV></TD></TR></TBODY></TABLE></TD>
+<TD style="BACKGROUND: #c2d69a">Empleo</TD></TR>
+<TR bgColor=#f1f1f1>
+<TD>2</TD>
+<TD>Chuquisaca</TD>
+<TD>Chuquisaca</TD>
+<TD>Sopachuy</TD>
+<TD>Sopachuy</TD>
+<TD></TD>
+<TD>Acopio Productivo y Transformación</TD>
+<TD>Asoc. Productores Agropecuarios de la Cuenca del Rio Milanes (APROCMI)</TD>
+<TD>
+<DIV>Venegas Ruiz, Lilian</DIV></TD>
+<TD>2010</TD>
+<TD align=middle>1<IMG id=expandir title="ver contratos de trabajo" onclick=expandirDIV(2) align=right src="images/expand.gif"> 
+<TABLE id=expandir_table_2>
+<TBODY>
+<TR>
+<TD>
+<DIV>Contrato (1)= Contrato Formal=1</DIV></TD></TR>
+<TR>
+<TD>
+<DIV>REGISTRO (1)= EN RECIBOS=1</DIV></TD></TR></TBODY></TABLE></TD>
+<TD style="BACKGROUND: #c2d69a">Empleo</TD></TR>
+<TR>
+<TD>3</TD>
+<TD>Chuquisaca</TD>
+<TD>Chuquisaca</TD>
+<TD>Sopachuy</TD>
+<TD>Sopachuy</TD>
+<TD></TD>
+<TD>Agua Potable y Alcantarillado</TD>
+<TD>EPSAS Sopachuy</TD>
+<TD>
+<DIV>Venegas Ruiz, Lilian</DIV></TD>
+<TD>2010</TD>
+<TD align=middle>2<IMG id=expandir title="ver contratos de trabajo" onclick=expandirDIV(3) align=right src="images/expand.gif"> 
+<TABLE id=expandir_table_3>
+<TBODY>
+<TR>
+<TD>
+<DIV>Contrato (1)= Contrato Formal=2</DIV></TD></TR>
+<TR>
+<TD>
+<DIV>REGISTRO (1)= EN RECIBOS=2</DIV></TD></TR></TBODY></TABLE></TD>
+<TD style="BACKGROUND: #c2d69a">Empleo</TD></TR>
+<TR bgColor=#f1f1f1>
+<TD>4</TD>
+<TD>Chuquisaca</TD>
+<TD>Chuquisaca</TD>
+<TD>Tomina</TD>
+<TD>Tomina</TD>
+<TD></TD>
+<TD>Acopio Productivo y Transformación</TD>
+<TD>Asociación Productores Agropecuarios (APROA San Mauro)</TD>
+<TD>
+<DIV>Venegas Ruiz, Lilian</DIV></TD>
+<TD>2010</TD>
+<TD align=middle>1<IMG id=expandir title="ver contratos de trabajo" onclick=expandirDIV(4) align=right src="images/expand.gif"> 
+<TABLE id=expandir_table_4>
+<TBODY>
+<TR>
+<TD>
+<DIV>Contrato (2)= Contrato Jornales=1</DIV></TD></TR>
+<TR>
+<TD>
+<DIV>REGISTRO (1)= EN RECIBOS=1</DIV></TD></TR></TBODY></TABLE></TD>
+<TD style="BACKGROUND: #c2d69a">Empleo</TD></TR>
+<TR>
+<TD>5</TD>
+<TD>Chuquisaca</TD>
+<TD>Chuquisaca</TD>
+<TD>Tomina</TD>
+<TD>Tomina</TD>
+<TD></TD>
+<TD>Acopio Productivo y Transformación</TD>
+<TD>Asociación Molinos San Mauro</TD>
+<TD>
+<DIV>Venegas Ruiz, Lilian</DIV></TD>
+<TD>2010</TD>
+<TD align=middle>10<IMG id=expandir title="ver contratos de trabajo" onclick=expandirDIV(5) align=right src="images/expand.gif"> 
+<TABLE id=expandir_table_5>
+<TBODY>
+<TR>
+<TD>
+<DIV>Contrato (2)= Contrato Jornales=10</DIV></TD></TR>
+<TR>
+<TD>
+<DIV>REGISTRO (2)= EN LIBRO / PLANILLAS=10</DIV></TD></TR></TBODY></TABLE></TD>
+<TD style="BACKGROUND: #c2d69a">Empleo</TD></TR>
+<TR bgColor=#f1f1f1>
+<TD>6</TD>
+<TD>Chuquisaca</TD>
+<TD>Chuquisaca</TD>
+<TD>Tomina</TD>
+<TD>Tomina</TD>
+<TD></TD>
+<TD>Otro</TD>
+<TD>Asociación La Frontera</TD>
+<TD>
+<DIV>Venegas Ruiz, Lilian</DIV></TD>
+<TD>2010</TD>
+<TD align=middle>14<IMG id=expandir title="ver contratos de trabajo" onclick=expandirDIV(6) align=right src="images/expand.gif"> 
+<TABLE id=expandir_table_6>
+<TBODY>
+<TR>
+<TD>
+<DIV>Contrato (2)= Contrato Jornales=14</DIV></TD></TR>
+<TR>
+<TD>
+<DIV>REGISTRO (2)= EN LIBRO / PLANILLAS=14</DIV></TD></TR></TBODY></TABLE></TD>
+<TD style="BACKGROUND: #c2d69a">Empleo</TD></TR>
+<TR>
+<TD>7</TD>
+<TD>Chuquisaca</TD>
+<TD>Potosi</TD>
+<TD>Ocurí</TD>
+<TD>Ocurí</TD>
+<TD></TD>
+<TD>Agua Potable y Alcantarillado</TD>
+<TD>EPSAs Ocurí</TD>
+<TD>
+<DIV>Loayza , David</DIV></TD>
+<TD>2010</TD>
+<TD align=middle>3<IMG id=expandir title="ver contratos de trabajo" onclick=expandirDIV(7) align=right src="images/expand.gif"> 
+<TABLE id=expandir_table_7>
+<TBODY>
+<TR>
+<TD>
+<DIV>Contrato (1)= Contrato Formal=3</DIV></TD></TR>
+<TR>
+<TD>
+<DIV>REGISTRO (1)= EN RECIBOS=3</DIV></TD></TR></TBODY></TABLE></TD>
+<TD style="BACKGROUND: #c2d69a">Empleo</TD></TR>
+<TR bgColor=#f1f1f1>
+<TD>8</TD>
+<TD>Chuquisaca</TD>
+<TD>Potosi</TD>
+<TD>Ocurí</TD>
+<TD>Ocurí</TD>
+<TD></TD>
+<TD>Caminos</TD>
+<TD>Microempresa de Conservación Vial Ocurí</TD>
+<TD>
+<DIV>Loayza , David</DIV></TD>
+<TD>2010</TD>
+<TD align=middle>8<IMG id=expandir title="ver contratos de trabajo" onclick=expandirDIV(8) align=right src="images/expand.gif"> 
+<TABLE id=expandir_table_8>
+<TBODY>
+<TR>
+<TD>
+<DIV>Contrato (1)= Contrato Formal=8</DIV></TD></TR>
+<TR>
+<TD>
+<DIV>REGISTRO (2)= EN LIBRO / PLANILLAS=8</DIV></TD></TR></TBODY></TABLE></TD>
+<TD style="BACKGROUND: #c2d69a">Empleo</TD></TR>
+<TR>
+<TD>9</TD>
+<TD>Chuquisaca</TD>
+<TD>Potosi</TD>
+<TD>Ravelo</TD>
+<TD>Tomoyo</TD>
+<TD></TD>
+<TD>Riego y Sistemas de Agua</TD>
+<TD>Asociación de Riego y Servicio Tomoyo (ARISET)</TD>
+<TD>
+<DIV>Loayza , David</DIV></TD>
+<TD>2010</TD>
+<TD align=middle>2<IMG id=expandir title="ver contratos de trabajo" onclick=expandirDIV(9) align=right src="images/expand.gif"> 
+<TABLE id=expandir_table_9>
+<TBODY>
+<TR>
+<TD>
+<DIV>Contrato (1)= Contrato Formal=2</DIV></TD></TR>
+<TR>
+<TD>
+<DIV>REGISTRO (2)= EN LIBRO / PLANILLAS=2</DIV></TD></TR></TBODY></TABLE></TD>
+<TD style="BACKGROUND: #c2d69a">Empleo</TD></TR>
+<TR bgColor=#f1f1f1>
+<TD>10</TD>
+<TD>Cochabamba</TD>
+<TD>Cochabamba</TD>
+<TD>Capinota</TD>
+<TD>Playa Ancha</TD>
+<TD>Municipio de Capinota</TD>
+<TD>Agua Potable y Alcantarillado</TD>
+<TD>Asociación de Usuarios y Consumidores Agua Potable Playa Ancha (EPSAS Playa Ancha)</TD>
+<TD>
+<DIV>Gallo Subieta, Alvaro</DIV></TD>
+<TD>2010</TD>
+<TD align=middle>2<IMG id=expandir title="ver contratos de trabajo" onclick=expandirDIV(10) align=right src="images/expand.gif"> 
+<TABLE id=expandir_table_10>
+<TBODY>
+<TR>
+<TD>
+<DIV>Contrato (1)= Contrato Formal=2</DIV></TD></TR>
+<TR>
+<TD>
+<DIV>REGISTRO (2)= EN LIBRO / PLANILLAS=2</DIV></TD></TR></TBODY></TABLE></TD>
+<TD style="BACKGROUND: #c2d69a">Empleo</TD></TR>
+<TR>
+<TD>11</TD>
+<TD>Cochabamba</TD>
+<TD>Cochabamba</TD>
+<TD>Tapacarí</TD>
+<TD>Challa Grande</TD>
+<TD>Comunidad de Challa Grande</TD>
+<TD>Acopio Productivo y Transformación</TD>
+<TD>Asociación Productores Andinos Originarios (APROANDINO)</TD>
+<TD>
+<DIV>Gallo Subieta, Alvaro</DIV></TD>
+<TD>2010</TD>
+<TD align=middle>12<IMG id=expandir title="ver contratos de trabajo" onclick=expandirDIV(11) align=right src="images/expand.gif"> 
+<TABLE id=expandir_table_11>
+<TBODY>
+<TR>
+<TD>
+<DIV>Contrato (2)= Contrato Jornales=12</DIV></TD></TR>
+<TR>
+<TD>
+<DIV>REGISTRO (1)= EN RECIBOS=12</DIV></TD></TR></TBODY></TABLE></TD>
+<TD style="BACKGROUND: #c2d69a">Empleo</TD></TR>
+<TR bgColor=#f1f1f1>
+<TD>12</TD>
+<TD>Cochabamba</TD>
+<TD>Potosi</TD>
+<TD>Toro toro</TD>
+<TD>Sucusuma</TD>
+<TD>Comunidad de Sucusuma</TD>
+<TD>Acopio Productivo y Transformación</TD>
+<TD>Asociación Productores Agropecuarios del Caine (AGROCAINE)</TD>
+<TD>
+<DIV>Gallo Subieta, Alvaro</DIV></TD>
+<TD>2010</TD>
+<TD align=middle>3<IMG id=expandir title="ver contratos de trabajo" onclick=expandirDIV(12) align=right src="images/expand.gif"> 
+<TABLE id=expandir_table_12>
+<TBODY>
+<TR>
+<TD>
+<DIV>Contrato (1)= Contrato Formal=3</DIV></TD></TR>
+<TR>
+<TD>
+<DIV>REGISTRO (2)= EN LIBRO / PLANILLAS=3</DIV></TD></TR></TBODY></TABLE></TD>
+<TD style="BACKGROUND: #c2d69a">Empleo</TD></TR><INPUT id=contador value=13 type=hidden name=contador> </TBODY></TABLE>
+<TABLE>
+<TBODY>
+<TR style="BACKGROUND: #667120; COLOR: #ffffff; FONT-SIZE: 15px">
+<TH colSpan=6>PROPOSITO I.2:</TH>
+<TD colSpan=12>Número de empleos generados: Año 2: 150; Fin proyecto: 450</TD></TR>
+<TR style="TEXT-ALIGN: center; BACKGROUND: #b8f5e0; FONT-SIZE: 11px">
+<TH colSpan=6>Número de empleos generados: 60</TH>
+<TD colSpan=12>Porcentaje de Cumplimiento : 13.33 %</TD></TR></TBODY></TABLE>

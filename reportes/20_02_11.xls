@@ -1,0 +1,87 @@
+<TABLE>
+<TBODY>
+<TR style="BACKGROUND: #667120; COLOR: #ffffff; FONT-SIZE: 15px">
+<TH colSpan=2>PROPOSITO I.1:</TH>
+<TD colSpan=20>Número de MERS sostenibles y en funcionamiento: Año 2: 50; Fin proyecto: 115</TD></TR>
+<TR>
+<TD colSpan=20>Numero de Mers sostenibles: <STRONG id=num_contratos></STRONG></TD></TR></TBODY></TABLE>
+<TABLE id=table_example class=ewTable border=1 width="100%">
+<THEAD>
+<TR>
+<TH bgColor=#b8c692></TH>
+<TH bgColor=#b8c692 colSpan=5 align=middle>INFORME GEOGRAFICO</TH>
+<TH bgColor=#b8c2a5 colSpan=4 align=middle>DATOS DE LA MERS</TH>
+<TH bgColor=#b8f5e0 colSpan=11 align=middle>DOCUMENTO</TH>
+<TH bgColor=#b89ec1 align=middle>INDICADOR</TH></TR>
+<TR class=ewTableHeader>
+<TH>Nro</TH>
+<TH>Regional</TH>
+<TH>Departamento</TH>
+<TH>Municipio</TH>
+<TH>Comunidad</TH>
+<TH>Zona</TH>
+<TH>Rubro</TH>
+<TH>Razon Social de la Mers</TH>
+<TH>Responsable de la Mers</TH>
+<TH>Gestión</TH>
+<TH>Plan Estrategico</TH>
+<TH>Plan de Negocio</TH>
+<TH>Plan Financiero</TH>
+<TH>Plan de Produccion</TH>
+<TH>Plan Operativo Anual</TH>
+<TH>Testimonio de Constitución</TH>
+<TH>Personeria Juridica</TH>
+<TH>Estatutos y Reglamentos</TH>
+<TH>Tarjeta Empresarial</TH>
+<TH>Registro FundaEmpresa</TH>
+<TH>Registro de Ventas Actualizado</TH>
+<TH>Valor</TH></TR></THEAD>
+<TBODY id=contenidoTbody>
+<TR>
+<TD>1</TD>
+<TD>Chuquisaca</TD>
+<TD>Potosi</TD>
+<TD>Ocurí</TD>
+<TD>Chullpas</TD>
+<TD></TD>
+<TD>Caminos</TD>
+<TD>Caminos Chullpas</TD>
+<TD>
+<DIV>Loayza , David</DIV></TD>
+<TD>2010</TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD>0</TD></TR>
+<TR bgColor=#f1f1f1>
+<TD>2</TD>
+<TD>Chuquisaca</TD>
+<TD>Potosi</TD>
+<TD>Ocurí</TD>
+<TD>Ocurí</TD>
+<TD></TD>
+<TD>Caminos</TD>
+<TD>Microempresa de Conservación Vial Ocurí</TD>
+<TD>
+<DIV>Loayza , David</DIV></TD>
+<TD>2010</TD>
+<TD>SI</TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD>SI</TD>
+<TD></TD>
+<TD>SI</TD>
+<TD>SI</TD>
+<TD></TD>
+<TD>SI</TD>
+<TD>1</TD></TR><INPUT id=contIndicador value=1 type=hidden name=contIndicador> </TBODY></TABLE>

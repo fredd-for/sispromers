@@ -1,0 +1,179 @@
+
+    <table id="table_example" class="ewTable" width="100%" border="1">
+    <thead>
+    <tr style="font-size: 12pt">
+        <th colspan="2">CONTROL DE AVANCE DEL PROYECTO SEGÚN MARCO LÓGICO</th>
+    </tr>
+        <tr>
+        <th style="font-size: 10pt;background: #632523;color: white" rowspan="2">Nro</th>
+        <th style="font-size: 10pt;background: #632523;color: white" rowspan="2">INDICADORES</th>
+                <th colspan="3" style="background: #75923C; color: white">POA GESTION 2012</th>
+                <th style="font-size: 10pt;background: #632523;color: white" colspan="3">Marco Logico</th>
+    </tr>
+        <tr>
+                <th style="background: #75923C; color: white">Meta</th>
+        <th style="background: #75923C; color: white">Logro</th>
+        <th style="background: #75923C; color: white">% Avance</th>
+                <th style="font-size: 10pt;background: #632523;color: white">Meta</th>
+        <th style="font-size: 10pt;background: #632523;color: white">Logro</th>
+        <th style="font-size: 10pt;background: #632523;color: white">% Avance</th>
+    </tr>
+    </thead>
+    <tbody><tr style="color: white;background: #4F6228">
+        <td>Prop. I.1</td>
+        <td>Numero de MERS sostenibles y en funcionamiento: Año 2: 50; Fin proyecto: 115</td>
+                <td>15</td>
+        <td>0</td>
+        <td style="background: #75923C">0.00</td>
+                <td>115</td>
+        <td>78</td>
+        <td>67.83</td>
+    </tr>
+    <tr style="color: white;background: #4F6228">
+        <td>Prop. I.2</td>
+        <td>Número de empleos generados: Año 2:  150; Fin proyecto: 450</td>
+                <td>150</td>
+        <td></td>
+        <td style="background: #75923C">0.00</td>
+                <td>450</td>
+        <td>224</td>
+        <td>49.78</td>
+    </tr>
+    <tr style="color: white;background: #4F6228">
+        <td>Prop. I.3</td>
+        <td>Municipios que contratan anualmente los servicios de al menos una MERS. Año 2: 4; Fin de proyecto: 8</td>
+                <td>1</td>
+        <td>0</td>
+        <td style="background: #75923C">0.00</td>
+                <td>8</td>
+        <td>8</td>
+        <td>100.00</td>
+    </tr>
+    <tr style="color: white;background: #4F6228">
+        <td>Prop. I.4</td>
+        <td>Municipios que establecen una alianza publico-privada con fines de desarrollo. Año 2:  4; Fin de proyecto: 8.</td>
+                <td>1</td>
+        <td>0</td>
+        <td style="background: #75923C">0.00</td>
+                <td>8</td>
+        <td>8</td>
+        <td>100.00</td>
+    </tr>
+    <tr style="color: white;background: #4F6228">
+        <td>C.1-I.1</td>
+        <td>Porcentaje de MERS  formalizadas (Testimonio, Reglamentos, Estatutos, Tarjeta Empresarial, u otros). Año 2: 30%; Fin proyecto: 70% de las 115  MERS</td>
+                <td>11</td>
+        <td>0</td>
+        <td style="background: #75923C">0.00</td>
+                <td>81</td>
+        <td>95</td>
+        <td>117.28</td>
+    </tr>
+    <tr style="color: white;background: #4F6228">
+        <td>C.1-I.2</td>
+        <td>Porcentaje de  MERS que aplican instrumentos de gestion empresarial  (contabilidad basica, administracion y plan de negocios). Año 2: 30%; Fin proyecto:</td>
+                <td>11</td>
+        <td>0</td>
+        <td style="background: #75923C">0.00</td>
+                <td>81</td>
+        <td>81</td>
+        <td>100.00</td>
+    </tr>
+    <tr style="color: white;background: #4F6228">
+        <td>C.1-I.3</td>
+        <td>Porcentaje de  MERS que acceden a creditos: Año 2: 10%; Fin de proyecto: 30% de las 115  MERS</td>
+                <td>11</td>
+        <td>0</td>
+        <td style="background: #75923C">0.00</td>
+                <td>35</td>
+        <td>6</td>
+        <td>17.14</td>
+    </tr>
+    <tr style="color: white;background: #4F6228">
+        <td>C.1-I.4</td>
+        <td>Porcentaje maximo de MERS con problemas de mora en el financiamiento durante todo el proyecto: 10% de las 115  MERS</td>
+                <td>2</td>
+        <td>0</td>
+        <td style="background: #75923C">0.00</td>
+                <td>12</td>
+        <td>2</td>
+        <td>16.67</td>
+    </tr>
+    <tr style="color: white;background: #4F6228">
+        <td>C.2-I.1</td>
+        <td>Porcentaje de MERS que han prestado servicios a entidades publicas o privadas, con contrato formal: Año 2: 30%; Fin de proyecto: 80% de las 115  MERS</td>
+                <td>22</td>
+        <td>0</td>
+        <td style="background: #75923C">0.00</td>
+                <td>92</td>
+        <td>60</td>
+        <td>65.22</td>
+    </tr>
+    <tr style="color: white;background: #4F6228">
+        <td>C.2-I.2</td>
+        <td>Porcentaje de cumplimiento de venta de servicios de las MERS respecto a lo proyectado en sus planes de negocios: Año 2; 50%; Fin de proyecto: 70% de las 115  MERS</td>
+                <td>10</td>
+        <td>0</td>
+        <td style="background: #75923C">0.00</td>
+                <td>60</td>
+        <td>50</td>
+        <td>83.33</td>
+    </tr>
+    <tr style="color: white;background: #4F6228">
+        <td>C.2-I.3</td>
+        <td>Porcentaje de MERS que cumplen sus contratos de servicios: Año 2: 20%; Fin de proyecto: 80% de las 115  MERS</td>
+                <td>34</td>
+        <td>0</td>
+        <td style="background: #75923C">0.00</td>
+                <td>92</td>
+        <td>71</td>
+        <td>77.17</td>
+    </tr>
+    <tr style="color: white;background: #4F6228">
+        <td>C.3-I.1</td>
+        <td>Municipios que establecen una alianza publico-privada con fines de desarrollo. Año 2:  4; Fin de proyecto: 8</td>
+                <td>1</td>
+        <td>0</td>
+        <td style="background: #75923C">0.00</td>
+                <td>8</td>
+        <td>8</td>
+        <td>100.00</td>
+    </tr>
+    <tr style="color: white;background: #4F6228">
+        <td>C.3-I.2</td>
+        <td>Municipios que incorporan acciones de apoyo al sector productivo en sus Planes Anuales y los ejecutan. Año 2: 4; Fin de proyecto: 8</td>
+                <td>1</td>
+        <td>0</td>
+        <td style="background: #75923C">0.00</td>
+                <td>8</td>
+        <td>71</td>
+        <td>887.50</td>
+    </tr>
+    <tr style="color: white;background: #4F6228">
+        <td>C.3-I.3</td>
+        <td>Municipios que contratan anualmente los servicios de al menos una MERS. Año 2: 4; Fin de proyecto: 8</td>
+                <td>1</td>
+        <td>0</td>
+        <td style="background: #75923C">0.00</td>
+                <td>8</td>
+        <td>8</td>
+        <td>100.00</td>
+    </tr>
+    </tbody></table>
+
+  <style type="text/css" media="screen">
+    .jqplot-axis {
+      font-size: 1.2em;
+    }
+    .jqplot-title {
+      font-size: 2.2em;
+      color: navy;
+    }
+  </style>
+  
+       <div class="jqplot-target" id="marcoLogico" style="margin-top: 20px; margin-left: 20px; width: 800px; height: 300px; position: relative;"><canvas class="jqplot-base-canvas" style="position: absolute; left: 0px; top: 0px;" height="300" width="800"></canvas><div class="jqplot-title" style="position: absolute; top: 0px; left: 0px; width: 800px; text-align: center;">Grafico Marco Logico</div><div class="jqplot-axis jqplot-xaxis" style="position: absolute; width: 800px; height: 35px; left: 0px; bottom: 0px;"><canvas class="jqplot-xaxis-tick" style="text-align: left; position: absolute; left: 16.0268px;" height="35" width="52"></canvas><canvas class="jqplot-xaxis-tick" style="text-align: left; position: absolute; left: 69.7411px;" height="35" width="52"></canvas><canvas class="jqplot-xaxis-tick" style="text-align: left; position: absolute; left: 123.455px;" height="35" width="52"></canvas><canvas class="jqplot-xaxis-tick" style="text-align: left; position: absolute; left: 177.17px;" height="35" width="52"></canvas><canvas class="jqplot-xaxis-tick" style="text-align: left; position: absolute; left: 239.884px;" height="30" width="43"></canvas><canvas class="jqplot-xaxis-tick" style="text-align: left; position: absolute; left: 293.598px;" height="30" width="43"></canvas><canvas class="jqplot-xaxis-tick" style="text-align: left; position: absolute; left: 347.312px;" height="30" width="43"></canvas><canvas class="jqplot-xaxis-tick" style="text-align: left; position: absolute; left: 401.027px;" height="30" width="43"></canvas><canvas class="jqplot-xaxis-tick" style="text-align: left; position: absolute; left: 454.741px;" height="30" width="43"></canvas><canvas class="jqplot-xaxis-tick" style="text-align: left; position: absolute; left: 508.455px;" height="30" width="43"></canvas><canvas class="jqplot-xaxis-tick" style="text-align: left; position: absolute; left: 562.17px;" height="30" width="43"></canvas><canvas class="jqplot-xaxis-tick" style="text-align: left; position: absolute; left: 615.884px;" height="30" width="43"></canvas><canvas class="jqplot-xaxis-tick" style="text-align: left; position: absolute; left: 669.598px;" height="30" width="43"></canvas><canvas class="jqplot-xaxis-tick" style="text-align: left; position: absolute; left: 723.312px;" height="30" width="43"></canvas></div><div class="jqplot-axis jqplot-yaxis" style="position: absolute; height: 300px; width: 28px; left: 0px; top: 0px;"><div style="position: absolute; top: 247px;" class="jqplot-yaxis-tick">0.0</div><div style="position: absolute; white-space: nowrap; top: 227.091px;" class="jqplot-yaxis-tick">45.0</div><div style="position: absolute; white-space: nowrap; top: 207.182px;" class="jqplot-yaxis-tick">90.0</div><div style="position: absolute; white-space: nowrap; top: 187.273px;" class="jqplot-yaxis-tick">135.0</div><div style="position: absolute; white-space: nowrap; top: 167.364px;" class="jqplot-yaxis-tick">180.0</div><div style="position: absolute; white-space: nowrap; top: 147.455px;" class="jqplot-yaxis-tick">225.0</div><div style="position: absolute; white-space: nowrap; top: 127.545px;" class="jqplot-yaxis-tick">270.0</div><div style="position: absolute; white-space: nowrap; top: 107.636px;" class="jqplot-yaxis-tick">315.0</div><div style="position: absolute; white-space: nowrap; top: 87.7273px;" class="jqplot-yaxis-tick">360.0</div><div style="position: absolute; white-space: nowrap; top: 67.8182px;" class="jqplot-yaxis-tick">405.0</div><div style="position: absolute; white-space: nowrap; top: 47.9091px;" class="jqplot-yaxis-tick">450.0</div><div style="position: absolute; white-space: nowrap; top: 28px;" class="jqplot-yaxis-tick">495.0</div></div><canvas style="position: absolute; left: 0px; top: 0px;" class="jqplot-grid-canvas" height="300" width="800"></canvas><canvas class="jqplot-series-shadowCanvas" style="position: absolute; left: 38px; top: 36px;" height="219" width="752"></canvas><canvas class="jqplot-series-shadowCanvas" style="position: absolute; left: 38px; top: 36px;" height="219" width="752"></canvas><canvas class="jqplot-series-canvas" style="position: absolute; left: 38px; top: 36px;" height="219" width="752"></canvas><div class="jqplot-point-label jqplot-series-0 jqplot-point-0" style="position: absolute; left: 44.4286px; top: 189.121px;">115.0</div><div class="jqplot-point-label jqplot-series-0 jqplot-point-1" style="position: absolute; left: 98.1429px; top: 40.9091px;">450.0</div><div class="jqplot-point-label jqplot-series-0 jqplot-point-2" style="position: absolute; left: 155.857px; top: 236.461px;">8.0</div><div class="jqplot-point-label jqplot-series-0 jqplot-point-3" style="position: absolute; left: 209.571px; top: 236.461px;">8.0</div><div class="jqplot-point-label jqplot-series-0 jqplot-point-4" style="position: absolute; left: 261.286px; top: 204.164px;">81.0</div><div class="jqplot-point-label jqplot-series-0 jqplot-point-5" style="position: absolute; left: 315px; top: 204.164px;">81.0</div><div class="jqplot-point-label jqplot-series-0 jqplot-point-6" style="position: absolute; left: 368.714px; top: 224.515px;">35.0</div><div class="jqplot-point-label jqplot-series-0 jqplot-point-7" style="position: absolute; left: 422.429px; top: 234.691px;">12.0</div><div class="jqplot-point-label jqplot-series-0 jqplot-point-8" style="position: absolute; left: 476.143px; top: 199.297px;">92.0</div><div class="jqplot-point-label jqplot-series-0 jqplot-point-9" style="position: absolute; left: 529.857px; top: 213.455px;">60.0</div><div class="jqplot-point-label jqplot-series-0 jqplot-point-10" style="position: absolute; left: 583.571px; top: 199.297px;">92.0</div><div class="jqplot-point-label jqplot-series-0 jqplot-point-11" style="position: absolute; left: 639.286px; top: 236.461px;">8.0</div><div class="jqplot-point-label jqplot-series-0 jqplot-point-12" style="position: absolute; left: 693px; top: 236.461px;">8.0</div><div class="jqplot-point-label jqplot-series-0 jqplot-point-13" style="position: absolute; left: 746.714px; top: 236.461px;">8.0</div><canvas class="jqplot-series-canvas" style="position: absolute; left: 38px; top: 36px;" height="219" width="752"></canvas><table class="jqplot-table-legend" style="position: absolute; left: 38px; top: 36px;"><tbody><tr class="jqplot-table-legend"><td class="jqplot-table-legend" style="text-align: center; padding-top: 0pt;"><div><div class="jqplot-table-legend-swatch" style="background-color: rgb(75, 178, 197); border-color: rgb(75, 178, 197);"></div></div></td><td class="jqplot-table-legend" style="padding-top: 0pt;">META</td></tr><tr class="jqplot-table-legend"><td class="jqplot-table-legend" style="text-align: center; padding-top: 0.5em;"><div><div class="jqplot-table-legend-swatch" style="background-color: rgb(234, 162, 40); border-color: rgb(234, 162, 40);"></div></div></td><td class="jqplot-table-legend" style="padding-top: 0.5em;">LOGRO</td></tr></tbody></table><div class="jqplot-point-label jqplot-series-1 jqplot-point-0" style="position: absolute; left: 68.2857px; top: 205.491px;">78.0</div><div class="jqplot-point-label jqplot-series-1 jqplot-point-1" style="position: absolute; left: 123.5px; top: 140.897px;">224</div><div class="jqplot-point-label jqplot-series-1 jqplot-point-2" style="position: absolute; left: 177.714px; top: 236.461px;">8.0</div><div class="jqplot-point-label jqplot-series-1 jqplot-point-3" style="position: absolute; left: 231.429px; top: 236.461px;">8.0</div><div class="jqplot-point-label jqplot-series-1 jqplot-point-4" style="position: absolute; left: 283.143px; top: 197.97px;">95.0</div><div class="jqplot-point-label jqplot-series-1 jqplot-point-5" style="position: absolute; left: 336.857px; top: 204.164px;">81.0</div><div class="jqplot-point-label jqplot-series-1 jqplot-point-6" style="position: absolute; left: 392.571px; top: 237.345px;">6.0</div><div class="jqplot-point-label jqplot-series-1 jqplot-point-7" style="position: absolute; left: 446.286px; top: 239.115px;">2.0</div><div class="jqplot-point-label jqplot-series-1 jqplot-point-8" style="position: absolute; left: 498px; top: 213.455px;">60.0</div><div class="jqplot-point-label jqplot-series-1 jqplot-point-9" style="position: absolute; left: 551.714px; top: 217.879px;">50.0</div><div class="jqplot-point-label jqplot-series-1 jqplot-point-10" style="position: absolute; left: 605.429px; top: 208.588px;">71.0</div><div class="jqplot-point-label jqplot-series-1 jqplot-point-11" style="position: absolute; left: 661.143px; top: 236.461px;">8.0</div><div class="jqplot-point-label jqplot-series-1 jqplot-point-12" style="position: absolute; left: 712.857px; top: 208.588px;">71.0</div><div class="jqplot-point-label jqplot-series-1 jqplot-point-13" style="position: absolute; left: 768.571px; top: 236.461px;">8.0</div><canvas class="jqplot-barRenderer-highlight-canvas" style="position: absolute; left: 38px; top: 36px;" height="219" width="752"></canvas><canvas class="jqplot-barRenderer-highlight-canvas" style="position: absolute; left: 38px; top: 36px;" height="219" width="752"></canvas><canvas class="jqplot-event-canvas" style="position: absolute; left: 38px; top: 36px;" height="219" width="752"></canvas></div>
+	<div id="gestion2009" style="margin-top: 20px; margin-left: 20px; width: 800px; height: 300px; display: none;"></div>
+	<div id="gestion2010" style="margin-top: 20px; margin-left: 20px; width: 800px; height: 300px; display: none;"></div>
+	<div id="gestion2011" style="margin-top: 20px; margin-left: 20px; width: 800px; height: 300px; display: none;"></div>
+	<div class="jqplot-target" id="gestion2012" style="margin-top: 20px; margin-left: 20px; width: 800px; height: 300px; position: relative;"><canvas class="jqplot-base-canvas" style="position: absolute; left: 0px; top: 0px;" height="300" width="800"></canvas><div class="jqplot-title" style="position: absolute; top: 0px; left: 0px; width: 800px; text-align: center;">Grafico Gestion 2012</div><div class="jqplot-axis jqplot-xaxis" style="position: absolute; width: 800px; height: 35px; left: 0px; bottom: 0px;"><canvas class="jqplot-xaxis-tick" style="text-align: left; position: absolute; left: 16.0268px;" height="35" width="52"></canvas><canvas class="jqplot-xaxis-tick" style="text-align: left; position: absolute; left: 69.7411px;" height="35" width="52"></canvas><canvas class="jqplot-xaxis-tick" style="text-align: left; position: absolute; left: 123.455px;" height="35" width="52"></canvas><canvas class="jqplot-xaxis-tick" style="text-align: left; position: absolute; left: 177.17px;" height="35" width="52"></canvas><canvas class="jqplot-xaxis-tick" style="text-align: left; position: absolute; left: 239.884px;" height="30" width="43"></canvas><canvas class="jqplot-xaxis-tick" style="text-align: left; position: absolute; left: 293.598px;" height="30" width="43"></canvas><canvas class="jqplot-xaxis-tick" style="text-align: left; position: absolute; left: 347.312px;" height="30" width="43"></canvas><canvas class="jqplot-xaxis-tick" style="text-align: left; position: absolute; left: 401.027px;" height="30" width="43"></canvas><canvas class="jqplot-xaxis-tick" style="text-align: left; position: absolute; left: 454.741px;" height="30" width="43"></canvas><canvas class="jqplot-xaxis-tick" style="text-align: left; position: absolute; left: 508.455px;" height="30" width="43"></canvas><canvas class="jqplot-xaxis-tick" style="text-align: left; position: absolute; left: 562.17px;" height="30" width="43"></canvas><canvas class="jqplot-xaxis-tick" style="text-align: left; position: absolute; left: 615.884px;" height="30" width="43"></canvas><canvas class="jqplot-xaxis-tick" style="text-align: left; position: absolute; left: 669.598px;" height="30" width="43"></canvas><canvas class="jqplot-xaxis-tick" style="text-align: left; position: absolute; left: 723.312px;" height="30" width="43"></canvas></div><div class="jqplot-axis jqplot-yaxis" style="position: absolute; height: 300px; width: 28px; left: 0px; top: 0px;"><div style="position: absolute; top: 247px;" class="jqplot-yaxis-tick">0.0</div><div style="position: absolute; white-space: nowrap; top: 227.091px;" class="jqplot-yaxis-tick">15.0</div><div style="position: absolute; white-space: nowrap; top: 207.182px;" class="jqplot-yaxis-tick">30.0</div><div style="position: absolute; white-space: nowrap; top: 187.273px;" class="jqplot-yaxis-tick">45.0</div><div style="position: absolute; white-space: nowrap; top: 167.364px;" class="jqplot-yaxis-tick">60.0</div><div style="position: absolute; white-space: nowrap; top: 147.455px;" class="jqplot-yaxis-tick">75.0</div><div style="position: absolute; white-space: nowrap; top: 127.545px;" class="jqplot-yaxis-tick">90.0</div><div style="position: absolute; white-space: nowrap; top: 107.636px;" class="jqplot-yaxis-tick">105.0</div><div style="position: absolute; white-space: nowrap; top: 87.7273px;" class="jqplot-yaxis-tick">120.0</div><div style="position: absolute; white-space: nowrap; top: 67.8182px;" class="jqplot-yaxis-tick">135.0</div><div style="position: absolute; white-space: nowrap; top: 47.9091px;" class="jqplot-yaxis-tick">150.0</div><div style="position: absolute; white-space: nowrap; top: 28px;" class="jqplot-yaxis-tick">165.0</div></div><canvas style="position: absolute; left: 0px; top: 0px;" class="jqplot-grid-canvas" height="300" width="800"></canvas><canvas class="jqplot-series-shadowCanvas" style="position: absolute; left: 38px; top: 36px;" height="219" width="752"></canvas><canvas class="jqplot-series-shadowCanvas" style="position: absolute; left: 38px; top: 36px;" height="219" width="752"></canvas><canvas class="jqplot-series-canvas" style="position: absolute; left: 38px; top: 36px;" height="219" width="752"></canvas><div class="jqplot-point-label jqplot-series-0 jqplot-point-0" style="position: absolute; left: 46.4286px; top: 220.091px;">15.0</div><div class="jqplot-point-label jqplot-series-0 jqplot-point-1" style="position: absolute; left: 98.1429px; top: 40.9091px;">150.0</div><div class="jqplot-point-label jqplot-series-0 jqplot-point-2" style="position: absolute; left: 155.857px; top: 238.673px;">1.0</div><div class="jqplot-point-label jqplot-series-0 jqplot-point-3" style="position: absolute; left: 209.571px; top: 238.673px;">1.0</div><div class="jqplot-point-label jqplot-series-0 jqplot-point-4" style="position: absolute; left: 261.286px; top: 225.4px;">11.0</div><div class="jqplot-point-label jqplot-series-0 jqplot-point-5" style="position: absolute; left: 315px; top: 225.4px;">11.0</div><div class="jqplot-point-label jqplot-series-0 jqplot-point-6" style="position: absolute; left: 368.714px; top: 225.4px;">11.0</div><div class="jqplot-point-label jqplot-series-0 jqplot-point-7" style="position: absolute; left: 424.429px; top: 237.345px;">2.0</div><div class="jqplot-point-label jqplot-series-0 jqplot-point-8" style="position: absolute; left: 476.143px; top: 210.8px;">22.0</div><div class="jqplot-point-label jqplot-series-0 jqplot-point-9" style="position: absolute; left: 529.857px; top: 226.727px;">10.0</div><div class="jqplot-point-label jqplot-series-0 jqplot-point-10" style="position: absolute; left: 583.571px; top: 194.873px;">34.0</div><div class="jqplot-point-label jqplot-series-0 jqplot-point-11" style="position: absolute; left: 639.286px; top: 238.673px;">1.0</div><div class="jqplot-point-label jqplot-series-0 jqplot-point-12" style="position: absolute; left: 693px; top: 238.673px;">1.0</div><div class="jqplot-point-label jqplot-series-0 jqplot-point-13" style="position: absolute; left: 746.714px; top: 238.673px;">1.0</div><canvas class="jqplot-series-canvas" style="position: absolute; left: 38px; top: 36px;" height="219" width="752"></canvas><table class="jqplot-table-legend" style="position: absolute; left: 38px; top: 36px;"><tbody><tr class="jqplot-table-legend"><td class="jqplot-table-legend" style="text-align: center; padding-top: 0pt;"><div><div class="jqplot-table-legend-swatch" style="background-color: rgb(75, 178, 197); border-color: rgb(75, 178, 197);"></div></div></td><td class="jqplot-table-legend" style="padding-top: 0pt;">META</td></tr><tr class="jqplot-table-legend"><td class="jqplot-table-legend" style="text-align: center; padding-top: 0.5em;"><div><div class="jqplot-table-legend-swatch" style="background-color: rgb(234, 162, 40); border-color: rgb(234, 162, 40);"></div></div></td><td class="jqplot-table-legend" style="padding-top: 0.5em;">LOGRO</td></tr></tbody></table><div class="jqplot-point-label jqplot-series-1 jqplot-point-0" style="position: absolute; left: 70.2857px; top: 240px;">0.0</div><div class="jqplot-point-label jqplot-series-1 jqplot-point-1" style="position: absolute; left: 124px;">0.0</div><div class="jqplot-point-label jqplot-series-1 jqplot-point-2" style="position: absolute; left: 177.714px; top: 240px;">0.0</div><div class="jqplot-point-label jqplot-series-1 jqplot-point-3" style="position: absolute; left: 231.429px; top: 240px;">0.0</div><div class="jqplot-point-label jqplot-series-1 jqplot-point-4" style="position: absolute; left: 285.143px; top: 240px;">0.0</div><div class="jqplot-point-label jqplot-series-1 jqplot-point-5" style="position: absolute; left: 338.857px; top: 240px;">0.0</div><div class="jqplot-point-label jqplot-series-1 jqplot-point-6" style="position: absolute; left: 392.571px; top: 240px;">0.0</div><div class="jqplot-point-label jqplot-series-1 jqplot-point-7" style="position: absolute; left: 446.286px; top: 240px;">0.0</div><div class="jqplot-point-label jqplot-series-1 jqplot-point-8" style="position: absolute; left: 500px; top: 240px;">0.0</div><div class="jqplot-point-label jqplot-series-1 jqplot-point-9" style="position: absolute; left: 553.714px; top: 240px;">0.0</div><div class="jqplot-point-label jqplot-series-1 jqplot-point-10" style="position: absolute; left: 607.429px; top: 240px;">0.0</div><div class="jqplot-point-label jqplot-series-1 jqplot-point-11" style="position: absolute; left: 661.143px; top: 240px;">0.0</div><div class="jqplot-point-label jqplot-series-1 jqplot-point-12" style="position: absolute; left: 714.857px; top: 240px;">0.0</div><canvas class="jqplot-barRenderer-highlight-canvas" style="position: absolute; left: 38px; top: 36px;" height="219" width="752"></canvas><canvas class="jqplot-barRenderer-highlight-canvas" style="position: absolute; left: 38px; top: 36px;" height="219" width="752"></canvas><canvas class="jqplot-event-canvas" style="position: absolute; left: 38px; top: 36px;" height="219" width="752"></canvas></div>
+

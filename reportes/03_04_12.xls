@@ -1,0 +1,25 @@
+<TABLE id=table_example class=ewTable border=1 width="100%">
+<THEAD>
+<TR style="FONT-SIZE: 12pt">
+<TH>Proposito I.4</TH>
+<TD colSpan=2>Municipios que establecen una alianza publico-privada con fines de desarrollo. Año 2: 4; Fin de proyecto: 8.</TD></TR></THEAD>
+<TBODY>
+<TR style="BACKGROUND: #4f6228; COLOR: white">
+<TD>META</TD>
+<TD>LOGRO</TD>
+<TD>% CUMPLIMIENTO</TD></TR>
+<TR style="BACKGROUND: #4f6228; COLOR: white">
+<TD>3</TD>
+<TD>17</TD>
+<TD style="BACKGROUND: #75923c">566.67%</TD></TR></TBODY></TABLE>
+<STYLE type=text/css media=screen>
+    .jqplot-axis {
+      font-size: 1.2em;
+    }
+    .jqplot-title {
+      font-size: 2.2em;
+      color: navy;
+    }
+  </STYLE>
+
+<DIV style="MARGIN-TOP: 20px; WIDTH: 800px; HEIGHT: 300px; MARGIN-LEFT: 20px" id=marcoLogico></DIV>

@@ -1,0 +1,1670 @@
+
+<table>
+     <tbody><tr style="background: #667120; color:#ffffff; font-size: 15px">
+         <th colspan="2">PROPOSITO I.2:</th><td colspan="16">Número de empleos generados: Año 2:  150; Fin proyecto: 450</td>
+     </tr>
+</tbody></table>
+ <table id="table_example" width="100%" border="1" class="ewTable">
+    <thead>
+    <tr>
+        <th bgcolor="#B8C692"></th>
+        <th colspan="5" align="center" bgcolor="#B8C692">INFORME GEOGRAFICO</th>
+        <th colspan="4" align="center" bgcolor="#b8c2a5">DATOS DE LA MERS</th>
+        <th colspan="2" align="center" bgcolor="#b8f5e0">DOCUMENTO</th>
+        <th colspan="1" align="center" bgcolor="#b89ec1">INDICADOR</th>
+    </tr>
+    <tr class="ewTableHeader">
+        <th>Nro</th>
+        <th>Regional</th>
+        <th>Departamento</th>
+        <th>Municipio</th>
+        <th>Comunidad</th>
+        <th>Zona</th>
+        <th>Rubro</th>
+        <th>Razon Social de la Mers</th>
+        <th>Responsable de la Mers</th>
+        <th>Gestión</th>
+        <th style="cursor: pointer" title="Ocultar/Ver Comentarios" onclick="verOcultarFormalizacion();">Contrato Municipio-Mers <img src="images/expand.gif"></th>
+        <th>Valor</th>
+    </tr>
+</thead>
+<tbody id="contenidoTbody">
+<tr>
+<td>1</td>
+        <td>Chuquisaca</td>
+        <td>Chuquisaca</td>
+        <td>Alcalá</td>
+        <td>Alcalá</td>
+        <td></td>
+        <td>Acopio Productivo y Transformación</td>
+        <td>APAMA</td>
+        <td>            <div>Venegas Ruiz, Lilian</div>        </td>
+        <td>2010</td>
+        <td></td>
+        <td></td>
+        <td>0</td>
+    </tr>
+<tr bgcolor="#F1F1F1">
+<td>2</td>
+        <td>Chuquisaca</td>
+        <td>Chuquisaca</td>
+        <td>Alcalá</td>
+        <td>Alcalá</td>
+        <td></td>
+        <td>Acopio Productivo y Transformación</td>
+        <td>Asociación Productores de Miel (APROMIEL)</td>
+        <td>            <div>Venegas Ruiz, Lilian</div>        </td>
+        <td>2010</td>
+        <td>SI</td>
+        <td></td>
+        <td>1</td>
+    </tr>
+<tr>
+<td>3</td>
+        <td>Chuquisaca</td>
+        <td>Chuquisaca</td>
+        <td>Alcalá</td>
+        <td>Alcalá</td>
+        <td>Municipio de Alcalá</td>
+        <td>Acopio Productivo y Transformación</td>
+        <td>Asociación Productores Agropecuarios de Alcalá (APA)</td>
+        <td>            <div>Venegas Ruiz, Lilian</div>        </td>
+        <td>2010</td>
+        <td></td>
+        <td></td>
+        <td>0</td>
+    </tr>
+<tr bgcolor="#F1F1F1">
+<td>4</td>
+        <td>Chuquisaca</td>
+        <td>Chuquisaca</td>
+        <td>Alcalá</td>
+        <td>Alcalá</td>
+        <td></td>
+        <td>Agua Potable y Alcantarillado</td>
+        <td>EPSAS Alcalá</td>
+        <td>            <div>Venegas Ruiz, Lilian</div>        </td>
+        <td>2010</td>
+        <td></td>
+        <td></td>
+        <td>0</td>
+    </tr>
+<tr>
+<td>5</td>
+        <td>Chuquisaca</td>
+        <td>Chuquisaca</td>
+        <td>Alcalá</td>
+        <td>limabamba</td>
+        <td>Municipio de Alcalá</td>
+        <td>Acopio Productivo y Transformación</td>
+        <td>Asociación de Trigo Limabamba (APTL)</td>
+        <td>            <div>Venegas Ruiz, Lilian</div>        </td>
+        <td>2010</td>
+        <td></td>
+        <td></td>
+        <td>0</td>
+    </tr>
+<tr bgcolor="#F1F1F1">
+<td>6</td>
+        <td>Chuquisaca</td>
+        <td>Chuquisaca</td>
+        <td>Alcalá</td>
+        <td>limabamba</td>
+        <td></td>
+        <td>Riego y Sistemas de Agua</td>
+        <td>Asociación de Agua y Saneamiento Básico Limabamba</td>
+        <td>            <div>Venegas Ruiz, Lilian</div>        </td>
+        <td>2010</td>
+        <td></td>
+        <td></td>
+        <td>0</td>
+    </tr>
+<tr>
+<td>7</td>
+        <td>Chuquisaca</td>
+        <td>Chuquisaca</td>
+        <td>Padilla</td>
+        <td>Lampasillos</td>
+        <td>Municipio de Padilla</td>
+        <td>Otro</td>
+        <td>Centro de Costuras "Padilla"</td>
+        <td>            <div>Venegas Ruiz, Lilian</div>        </td>
+        <td>2010</td>
+        <td></td>
+        <td></td>
+        <td>0</td>
+    </tr>
+<tr bgcolor="#F1F1F1">
+<td>8</td>
+        <td>Chuquisaca</td>
+        <td>Chuquisaca</td>
+        <td>Padilla</td>
+        <td>Padilla</td>
+        <td>Municipio de Padilla</td>
+        <td>Acopio Productivo y Transformación</td>
+        <td>Asociación Productores Agropecuarios  Lampasillos (APAL)</td>
+        <td>            <div>Venegas Ruiz, Lilian</div>        </td>
+        <td>2010</td>
+        <td></td>
+        <td></td>
+        <td>0</td>
+    </tr>
+<tr>
+<td>9</td>
+        <td>Chuquisaca</td>
+        <td>Chuquisaca</td>
+        <td>Padilla</td>
+        <td>Padilla</td>
+        <td>Municipio de Padilla</td>
+        <td>Agua Potable y Alcantarillado</td>
+        <td>COOPERATIVA DE AGUA Y ALCANTARILLADO PADILLA LTDA.</td>
+        <td>            <div>Venegas Ruiz, Lilian</div>        </td>
+        <td>2010</td>
+        <td>SI</td>
+        <td></td>
+        <td>1</td>
+    </tr>
+<tr bgcolor="#F1F1F1">
+<td>10</td>
+        <td>Chuquisaca</td>
+        <td>Chuquisaca</td>
+        <td>Padilla</td>
+        <td>San Julian</td>
+        <td>Municipio de Padilla</td>
+        <td>Acopio Productivo y Transformación</td>
+        <td>Asociación Productores de Ají "San Julian"    (APASJ)</td>
+        <td>            <div>Venegas Ruiz, Lilian</div>        </td>
+        <td>2010</td>
+        <td></td>
+        <td></td>
+        <td>0</td>
+    </tr>
+<tr>
+<td>11</td>
+        <td>Chuquisaca</td>
+        <td>Chuquisaca</td>
+        <td>Sopachuy</td>
+        <td>Milanes</td>
+        <td></td>
+        <td>Riego y Sistemas de Agua</td>
+        <td>Asociación de Agua y Saneamiento Básico Milanes</td>
+        <td>            <div>Venegas Ruiz, Lilian</div>        </td>
+        <td>2010</td>
+        <td></td>
+        <td></td>
+        <td>0</td>
+    </tr>
+<tr bgcolor="#F1F1F1">
+<td>12</td>
+        <td>Chuquisaca</td>
+        <td>Chuquisaca</td>
+        <td>Sopachuy</td>
+        <td>Pampas Punta</td>
+        <td></td>
+        <td>Agroforestación</td>
+        <td>MERS Forestales y Asociados Pampas Punta (APROAF)</td>
+        <td>            <div>Venegas Ruiz, Lilian</div>        </td>
+        <td>2010</td>
+        <td></td>
+        <td></td>
+        <td>0</td>
+    </tr>
+<tr>
+<td>13</td>
+        <td>Chuquisaca</td>
+        <td>Chuquisaca</td>
+        <td>Sopachuy</td>
+        <td>Sopachuy</td>
+        <td></td>
+        <td>Acopio Productivo y Transformación</td>
+        <td>Asoc. Productores Agropecuarios de la Cuenca del Rio Milanes (APROCMI)</td>
+        <td>            <div>Venegas Ruiz, Lilian</div>        </td>
+        <td>2010</td>
+        <td></td>
+        <td></td>
+        <td>0</td>
+    </tr>
+<tr bgcolor="#F1F1F1">
+<td>14</td>
+        <td>Chuquisaca</td>
+        <td>Chuquisaca</td>
+        <td>Sopachuy</td>
+        <td>Sopachuy</td>
+        <td></td>
+        <td>Acopio Productivo y Transformación</td>
+        <td>Coop. San Jose Obrero</td>
+        <td>            <div>Venegas Ruiz, Lilian</div>        </td>
+        <td>2010</td>
+        <td></td>
+        <td></td>
+        <td>0</td>
+    </tr>
+<tr>
+<td>15</td>
+        <td>Chuquisaca</td>
+        <td>Chuquisaca</td>
+        <td>Sopachuy</td>
+        <td>Sopachuy</td>
+        <td></td>
+        <td>Agua Potable y Alcantarillado</td>
+        <td>EPSAS Sopachuy</td>
+        <td>            <div>Venegas Ruiz, Lilian</div>        </td>
+        <td>2010</td>
+        <td></td>
+        <td></td>
+        <td>0</td>
+    </tr>
+<tr bgcolor="#F1F1F1">
+<td>16</td>
+        <td>Chuquisaca</td>
+        <td>Chuquisaca</td>
+        <td>Sopachuy</td>
+        <td>Sopachuy</td>
+        <td></td>
+        <td>Turismo y Ecoturismo</td>
+        <td>Asociación de guías de Sopachuy</td>
+        <td>            <div>Venegas Ruiz, Lilian</div>        </td>
+        <td>2010</td>
+        <td></td>
+        <td></td>
+        <td>0</td>
+    </tr>
+<tr>
+<td>17</td>
+        <td>Chuquisaca</td>
+        <td>Chuquisaca</td>
+        <td>Sopachuy</td>
+        <td>Tambillo</td>
+        <td></td>
+        <td>Riego y Sistemas de Agua</td>
+        <td>Asociación de Microriego Tambillo</td>
+        <td>            <div>Venegas Ruiz, Lilian</div>        </td>
+        <td>2010</td>
+        <td></td>
+        <td></td>
+        <td>0</td>
+    </tr>
+<tr bgcolor="#F1F1F1">
+<td>18</td>
+        <td>Chuquisaca</td>
+        <td>Chuquisaca</td>
+        <td>Tomina</td>
+        <td>Batanpampa</td>
+        <td></td>
+        <td>Riego y Sistemas de Agua</td>
+        <td>Asociación de Microriego Batanpampa</td>
+        <td>            <div>Venegas Ruiz, Lilian</div>        </td>
+        <td>2010</td>
+        <td></td>
+        <td></td>
+        <td>0</td>
+    </tr>
+<tr>
+<td>19</td>
+        <td>Chuquisaca</td>
+        <td>Chuquisaca</td>
+        <td>Tomina</td>
+        <td>Cañaveralpampa</td>
+        <td></td>
+        <td>Riego y Sistemas de Agua</td>
+        <td>Asociación de Microriego Cañaveralpampa</td>
+        <td>            <div>Venegas Ruiz, Lilian</div>        </td>
+        <td>2010</td>
+        <td></td>
+        <td></td>
+        <td>0</td>
+    </tr>
+<tr bgcolor="#F1F1F1">
+<td>20</td>
+        <td>Chuquisaca</td>
+        <td>Chuquisaca</td>
+        <td>Tomina</td>
+        <td>Chincana</td>
+        <td></td>
+        <td>Riego y Sistemas de Agua</td>
+        <td>Asociación de Microriego Chincana</td>
+        <td>            <div>Venegas Ruiz, Lilian</div>        </td>
+        <td>2010</td>
+        <td></td>
+        <td></td>
+        <td>0</td>
+    </tr>
+<tr>
+<td>21</td>
+        <td>Chuquisaca</td>
+        <td>Chuquisaca</td>
+        <td>Tomina</td>
+        <td>Corso</td>
+        <td></td>
+        <td>Acopio Productivo y Transformación</td>
+        <td>Productos "CORSO"</td>
+        <td>            <div>Venegas Ruiz, Lilian</div>        </td>
+        <td>2010</td>
+        <td></td>
+        <td></td>
+        <td>0</td>
+    </tr>
+<tr bgcolor="#F1F1F1">
+<td>22</td>
+        <td>Chuquisaca</td>
+        <td>Chuquisaca</td>
+        <td>Tomina</td>
+        <td>K"analla</td>
+        <td></td>
+        <td>Riego y Sistemas de Agua</td>
+        <td>Asociación de Microriego Kanalla</td>
+        <td>            <div>Venegas Ruiz, Lilian</div>        </td>
+        <td>2010</td>
+        <td></td>
+        <td></td>
+        <td>0</td>
+    </tr>
+<tr>
+<td>23</td>
+        <td>Chuquisaca</td>
+        <td>Chuquisaca</td>
+        <td>Tomina</td>
+        <td>Limas</td>
+        <td></td>
+        <td>Riego y Sistemas de Agua</td>
+        <td>Asociación de Microriego Limas</td>
+        <td>            <div>Venegas Ruiz, Lilian</div>        </td>
+        <td>2010</td>
+        <td></td>
+        <td></td>
+        <td>0</td>
+    </tr>
+<tr bgcolor="#F1F1F1">
+<td>24</td>
+        <td>Chuquisaca</td>
+        <td>Chuquisaca</td>
+        <td>Tomina</td>
+        <td>Pajonal</td>
+        <td></td>
+        <td>Riego y Sistemas de Agua</td>
+        <td>Asociación de Microriego Pajonal</td>
+        <td>            <div>Venegas Ruiz, Lilian</div>        </td>
+        <td>2010</td>
+        <td></td>
+        <td></td>
+        <td>0</td>
+    </tr>
+<tr>
+<td>25</td>
+        <td>Chuquisaca</td>
+        <td>Chuquisaca</td>
+        <td>Tomina</td>
+        <td>Pampas Punta</td>
+        <td></td>
+        <td>Acopio Productivo y Transformación</td>
+        <td>Asociación de Mujeres Pampas Abajo (AMUPA)</td>
+        <td>            <div>Venegas Ruiz, Lilian</div>        </td>
+        <td>2010</td>
+        <td>SI</td>
+        <td></td>
+        <td>1</td>
+    </tr>
+<tr bgcolor="#F1F1F1">
+<td>26</td>
+        <td>Chuquisaca</td>
+        <td>Chuquisaca</td>
+        <td>Tomina</td>
+        <td>Pukarillo</td>
+        <td></td>
+        <td>Riego y Sistemas de Agua</td>
+        <td>Asociación de Microriego Pukarillo</td>
+        <td>            <div>Venegas Ruiz, Lilian</div>        </td>
+        <td>2010</td>
+        <td></td>
+        <td></td>
+        <td>0</td>
+    </tr>
+<tr>
+<td>27</td>
+        <td>Chuquisaca</td>
+        <td>Chuquisaca</td>
+        <td>Tomina</td>
+        <td>Tomina</td>
+        <td></td>
+        <td>Acopio Productivo y Transformación</td>
+        <td>Asociación Productores Agropecuarios (APROA San Mauro)</td>
+        <td>            <div>Venegas Ruiz, Lilian</div>        </td>
+        <td>2010</td>
+        <td>SI</td>
+        <td></td>
+        <td>1</td>
+    </tr>
+<tr bgcolor="#F1F1F1">
+<td>28</td>
+        <td>Chuquisaca</td>
+        <td>Chuquisaca</td>
+        <td>Tomina</td>
+        <td>Tomina</td>
+        <td></td>
+        <td>Acopio Productivo y Transformación</td>
+        <td>Asociación Molinos San Mauro</td>
+        <td>            <div>Venegas Ruiz, Lilian</div>        </td>
+        <td>2010</td>
+        <td></td>
+        <td></td>
+        <td>0</td>
+    </tr>
+<tr>
+<td>29</td>
+        <td>Chuquisaca</td>
+        <td>Chuquisaca</td>
+        <td>Tomina</td>
+        <td>Tomina</td>
+        <td></td>
+        <td>Agua Potable y Alcantarillado</td>
+        <td>Emp. Serv. Agua Potable Tomina</td>
+        <td>            <div>Venegas Ruiz, Lilian</div>        </td>
+        <td>2010</td>
+        <td></td>
+        <td></td>
+        <td>0</td>
+    </tr>
+<tr bgcolor="#F1F1F1">
+<td>30</td>
+        <td>Chuquisaca</td>
+        <td>Chuquisaca</td>
+        <td>Tomina</td>
+        <td>Tomina</td>
+        <td></td>
+        <td>Otro</td>
+        <td>Asociación La Frontera</td>
+        <td>            <div>Venegas Ruiz, Lilian</div>        </td>
+        <td>2010</td>
+        <td>SI</td>
+        <td></td>
+        <td>1</td>
+    </tr>
+<tr>
+<td>31</td>
+        <td>Chuquisaca</td>
+        <td>Chuquisaca</td>
+        <td>Tomina</td>
+        <td>Tomina</td>
+        <td></td>
+        <td>Riego y Sistemas de Agua</td>
+        <td>Asociación de Microriego Tomina Pueblo</td>
+        <td>            <div>Venegas Ruiz, Lilian</div>        </td>
+        <td>2010</td>
+        <td></td>
+        <td></td>
+        <td>0</td>
+    </tr>
+<tr bgcolor="#F1F1F1">
+<td>32</td>
+        <td>Chuquisaca</td>
+        <td>Potosi</td>
+        <td>Ocurí</td>
+        <td>Canchas Blancas</td>
+        <td></td>
+        <td>Acopio Productivo y Transformación</td>
+        <td>Asociación de Productores Agropecuarios Allyn Tarpuy</td>
+        <td>            <div>Loayza , David</div>        </td>
+        <td>2010</td>
+        <td></td>
+        <td></td>
+        <td>0</td>
+    </tr>
+<tr>
+<td>33</td>
+        <td>Chuquisaca</td>
+        <td>Potosi</td>
+        <td>Ocurí</td>
+        <td>Canchas Blancas</td>
+        <td></td>
+        <td>Agua Potable y Alcantarillado</td>
+        <td>EPSAS Julla Thama</td>
+        <td>            <div>Loayza , David</div>        </td>
+        <td>2010</td>
+        <td></td>
+        <td></td>
+        <td>0</td>
+    </tr>
+<tr bgcolor="#F1F1F1">
+<td>34</td>
+        <td>Chuquisaca</td>
+        <td>Potosi</td>
+        <td>Ocurí</td>
+        <td>Chullpas</td>
+        <td></td>
+        <td>Caminos</td>
+        <td>Caminos Chullpas</td>
+        <td>            <div>Loayza , David</div>        </td>
+        <td>2010</td>
+        <td></td>
+        <td></td>
+        <td>0</td>
+    </tr>
+<tr>
+<td>35</td>
+        <td>Chuquisaca</td>
+        <td>Potosi</td>
+        <td>Ocurí</td>
+        <td>Ilabe</td>
+        <td></td>
+        <td>Otro</td>
+        <td>Asociación de Prod. Agropecuarios Ilabe (APROAGRO ILABE)</td>
+        <td>            <div>Loayza , David</div>        </td>
+        <td>2010</td>
+        <td></td>
+        <td></td>
+        <td>0</td>
+    </tr>
+<tr bgcolor="#F1F1F1">
+<td>36</td>
+        <td>Chuquisaca</td>
+        <td>Potosi</td>
+        <td>Ocurí</td>
+        <td>Ilabe</td>
+        <td></td>
+        <td>Riego y Sistemas de Agua</td>
+        <td>Asociación de Microriego Ilabe (MR ILABE)</td>
+        <td>            <div>Loayza , David</div>        </td>
+        <td>2010</td>
+        <td></td>
+        <td></td>
+        <td>0</td>
+    </tr>
+<tr>
+<td>37</td>
+        <td>Chuquisaca</td>
+        <td>Potosi</td>
+        <td>Ocurí</td>
+        <td>Iruja</td>
+        <td></td>
+        <td>Agua Potable y Alcantarillado</td>
+        <td>EPSAS  Iruja</td>
+        <td>            <div>Loayza , David</div>        </td>
+        <td>2010</td>
+        <td></td>
+        <td></td>
+        <td>0</td>
+    </tr>
+<tr bgcolor="#F1F1F1">
+<td>38</td>
+        <td>Chuquisaca</td>
+        <td>Potosi</td>
+        <td>Ocurí</td>
+        <td>LLuchu</td>
+        <td></td>
+        <td>Acopio Productivo y Transformación</td>
+        <td>Asoc. Acop. Transf. Charque</td>
+        <td>            <div>Loayza , David</div>        </td>
+        <td>2010</td>
+        <td></td>
+        <td></td>
+        <td>0</td>
+    </tr>
+<tr>
+<td>39</td>
+        <td>Chuquisaca</td>
+        <td>Potosi</td>
+        <td>Ocurí</td>
+        <td>Murifaya</td>
+        <td></td>
+        <td>Acopio Productivo y Transformación</td>
+        <td>Asoc. Acop. Transf. Murifaya</td>
+        <td>            <div>Loayza , David</div>        </td>
+        <td>2010</td>
+        <td></td>
+        <td></td>
+        <td>0</td>
+    </tr>
+<tr bgcolor="#F1F1F1">
+<td>40</td>
+        <td>Chuquisaca</td>
+        <td>Potosi</td>
+        <td>Ocurí</td>
+        <td>Ocurí</td>
+        <td></td>
+        <td>Agua Potable y Alcantarillado</td>
+        <td>EPSAs Ocurí</td>
+        <td>            <div>Loayza , David</div>        </td>
+        <td>2010</td>
+        <td>SI</td>
+        <td></td>
+        <td>1</td>
+    </tr>
+<tr>
+<td>41</td>
+        <td>Chuquisaca</td>
+        <td>Potosi</td>
+        <td>Ocurí</td>
+        <td>Ocurí</td>
+        <td></td>
+        <td>Caminos</td>
+        <td>Microempresa de Conservación Vial Ocurí</td>
+        <td>            <div>Loayza , David</div>        </td>
+        <td>2010</td>
+        <td></td>
+        <td></td>
+        <td>0</td>
+    </tr>
+<tr bgcolor="#F1F1F1">
+<td>42</td>
+        <td>Chuquisaca</td>
+        <td>Potosi</td>
+        <td>Ocurí</td>
+        <td>Siki Pampa</td>
+        <td></td>
+        <td>Agua Potable y Alcantarillado</td>
+        <td>EPSAS  Jatun Orcko</td>
+        <td>            <div>Loayza , David</div>        </td>
+        <td>2010</td>
+        <td></td>
+        <td></td>
+        <td>0</td>
+    </tr>
+<tr>
+<td>43</td>
+        <td>Chuquisaca</td>
+        <td>Potosi</td>
+        <td>Ocurí</td>
+        <td>Tahua Reja</td>
+        <td></td>
+        <td>Agua Potable y Alcantarillado</td>
+        <td>EPSAS Tahua Reja</td>
+        <td>            <div>Loayza , David</div>        </td>
+        <td>2010</td>
+        <td></td>
+        <td></td>
+        <td>0</td>
+    </tr>
+<tr bgcolor="#F1F1F1">
+<td>44</td>
+        <td>Chuquisaca</td>
+        <td>Potosi</td>
+        <td>Ocurí</td>
+        <td>Urumachi</td>
+        <td></td>
+        <td>Riego y Sistemas de Agua</td>
+        <td>Riegos Urumachi</td>
+        <td>            <div>Loayza , David</div>        </td>
+        <td>2010</td>
+        <td></td>
+        <td></td>
+        <td>0</td>
+    </tr>
+<tr>
+<td>45</td>
+        <td>Chuquisaca</td>
+        <td>Potosi</td>
+        <td>Ravelo</td>
+        <td>Antora</td>
+        <td></td>
+        <td>Agua Potable y Alcantarillado</td>
+        <td>EPSAS Antora</td>
+        <td>            <div>Loayza , David</div>        </td>
+        <td>2010</td>
+        <td></td>
+        <td></td>
+        <td>0</td>
+    </tr>
+<tr bgcolor="#F1F1F1">
+<td>46</td>
+        <td>Chuquisaca</td>
+        <td>Potosi</td>
+        <td>Ravelo</td>
+        <td>Challuma</td>
+        <td></td>
+        <td>Agua Potable y Alcantarillado</td>
+        <td>Asociación de Agua y Saneamiento Básico Challuma</td>
+        <td>            <div>Loayza , David</div>        </td>
+        <td>2010</td>
+        <td></td>
+        <td></td>
+        <td>0</td>
+    </tr>
+<tr>
+<td>47</td>
+        <td>Chuquisaca</td>
+        <td>Potosi</td>
+        <td>Ravelo</td>
+        <td>Lecheca</td>
+        <td></td>
+        <td>Agua Potable y Alcantarillado</td>
+        <td>EPSA  Lecheca</td>
+        <td>            <div>Loayza , David</div>        </td>
+        <td>2010</td>
+        <td></td>
+        <td></td>
+        <td>0</td>
+    </tr>
+<tr bgcolor="#F1F1F1">
+<td>48</td>
+        <td>Chuquisaca</td>
+        <td>Potosi</td>
+        <td>Ravelo</td>
+        <td>Ravelo</td>
+        <td></td>
+        <td>Agua Potable y Alcantarillado</td>
+        <td>EPSA Ravelo</td>
+        <td>            <div>Loayza , David</div>        </td>
+        <td>2010</td>
+        <td></td>
+        <td></td>
+        <td>0</td>
+    </tr>
+<tr>
+<td>49</td>
+        <td>Chuquisaca</td>
+        <td>Potosi</td>
+        <td>Ravelo</td>
+        <td>Ravelo</td>
+        <td></td>
+        <td>Otro</td>
+        <td>Asociación de Productores Agropecuarios-Veterinarios</td>
+        <td>            <div>Loayza , David</div>        </td>
+        <td>2010</td>
+        <td></td>
+        <td></td>
+        <td>0</td>
+    </tr>
+<tr bgcolor="#F1F1F1">
+<td>50</td>
+        <td>Chuquisaca</td>
+        <td>Potosi</td>
+        <td>Ravelo</td>
+        <td>Ravelo</td>
+        <td></td>
+        <td>Otro</td>
+        <td>Asoc. Talladores y proveedores de Piedra</td>
+        <td>            <div>Loayza , David</div>        </td>
+        <td>2010</td>
+        <td></td>
+        <td></td>
+        <td>0</td>
+    </tr>
+<tr>
+<td>51</td>
+        <td>Chuquisaca</td>
+        <td>Potosi</td>
+        <td>Ravelo</td>
+        <td>Rodeo</td>
+        <td></td>
+        <td>Agua Potable y Alcantarillado</td>
+        <td>EPSAS  Pata Rodeo</td>
+        <td>            <div>Loayza , David</div>        </td>
+        <td>2010</td>
+        <td></td>
+        <td></td>
+        <td>0</td>
+    </tr>
+<tr bgcolor="#F1F1F1">
+<td>52</td>
+        <td>Chuquisaca</td>
+        <td>Potosi</td>
+        <td>Ravelo</td>
+        <td>Rodeo</td>
+        <td></td>
+        <td>Caminos</td>
+        <td>Caminos Rodeo</td>
+        <td>            <div>Loayza , David</div>        </td>
+        <td>2010</td>
+        <td></td>
+        <td></td>
+        <td>0</td>
+    </tr>
+<tr>
+<td>53</td>
+        <td>Chuquisaca</td>
+        <td>Potosi</td>
+        <td>Ravelo</td>
+        <td>Rodeo</td>
+        <td></td>
+        <td>Otro</td>
+        <td>Artesanias Ckaska palomitas</td>
+        <td>            <div>Loayza , David</div>        </td>
+        <td>2010</td>
+        <td></td>
+        <td></td>
+        <td>0</td>
+    </tr>
+<tr bgcolor="#F1F1F1">
+<td>54</td>
+        <td>Chuquisaca</td>
+        <td>Potosi</td>
+        <td>Ravelo</td>
+        <td>Rodeo Huayllas</td>
+        <td></td>
+        <td>Acopio Productivo y Transformación</td>
+        <td>Asociación Productiva Agropecuaria (Aproagro) Huayllas</td>
+        <td>            <div>Loayza , David</div>        </td>
+        <td>2010</td>
+        <td></td>
+        <td></td>
+        <td>0</td>
+    </tr>
+<tr>
+<td>55</td>
+        <td>Chuquisaca</td>
+        <td>Potosi</td>
+        <td>Ravelo</td>
+        <td>Rodeo Huayllas</td>
+        <td></td>
+        <td>Agua Potable y Alcantarillado</td>
+        <td>EPSAS  Pajlli</td>
+        <td>            <div>Loayza , David</div>        </td>
+        <td>2010</td>
+        <td></td>
+        <td></td>
+        <td>0</td>
+    </tr>
+<tr bgcolor="#F1F1F1">
+<td>56</td>
+        <td>Chuquisaca</td>
+        <td>Potosi</td>
+        <td>Ravelo</td>
+        <td>Safiri</td>
+        <td></td>
+        <td>Riego y Sistemas de Agua</td>
+        <td>Asociación de Agua y Saneamiento Básico Safiri (MR Safiri)</td>
+        <td>            <div>Loayza , David</div>        </td>
+        <td>2010</td>
+        <td></td>
+        <td></td>
+        <td>0</td>
+    </tr>
+<tr>
+<td>57</td>
+        <td>Chuquisaca</td>
+        <td>Potosi</td>
+        <td>Ravelo</td>
+        <td>Sasanta</td>
+        <td></td>
+        <td>Otro</td>
+        <td>Asociación de Productores Agropecuarios Mojon Pata</td>
+        <td>            <div>Loayza , David</div>        </td>
+        <td>2010</td>
+        <td></td>
+        <td></td>
+        <td>0</td>
+    </tr>
+<tr bgcolor="#F1F1F1">
+<td>58</td>
+        <td>Chuquisaca</td>
+        <td>Potosi</td>
+        <td>Ravelo</td>
+        <td>Sauci Mayu</td>
+        <td></td>
+        <td>Agua Potable y Alcantarillado</td>
+        <td>EPSAS  Sauci mayu</td>
+        <td>            <div>Loayza , David</div>        </td>
+        <td>2010</td>
+        <td></td>
+        <td></td>
+        <td>0</td>
+    </tr>
+<tr>
+<td>59</td>
+        <td>Chuquisaca</td>
+        <td>Potosi</td>
+        <td>Ravelo</td>
+        <td>Sorocoto</td>
+        <td></td>
+        <td>Riego y Sistemas de Agua</td>
+        <td>Asoc. De prod. De semilla de maiz "Aprosemas"</td>
+        <td>            <div>Loayza , David</div>        </td>
+        <td>2010</td>
+        <td></td>
+        <td></td>
+        <td>0</td>
+    </tr>
+<tr bgcolor="#F1F1F1">
+<td>60</td>
+        <td>Chuquisaca</td>
+        <td>Potosi</td>
+        <td>Ravelo</td>
+        <td>Sorocoto/Soroscopa</td>
+        <td></td>
+        <td>Riego y Sistemas de Agua</td>
+        <td>Asociación de Regantes  Arsass</td>
+        <td>            <div>Loayza , David</div>        </td>
+        <td>2010</td>
+        <td></td>
+        <td></td>
+        <td>0</td>
+    </tr>
+<tr>
+<td>61</td>
+        <td>Chuquisaca</td>
+        <td>Potosi</td>
+        <td>Ravelo</td>
+        <td>Sorojchi</td>
+        <td></td>
+        <td>Otro</td>
+        <td>Mod. Lechero Sorojchi</td>
+        <td>            <div>Loayza , David</div>        </td>
+        <td>2010</td>
+        <td></td>
+        <td></td>
+        <td>0</td>
+    </tr>
+<tr bgcolor="#F1F1F1">
+<td>62</td>
+        <td>Chuquisaca</td>
+        <td>Potosi</td>
+        <td>Ravelo</td>
+        <td>Tomoyo</td>
+        <td></td>
+        <td>Otro</td>
+        <td>Modulo Lechero Tomoyo</td>
+        <td>            <div>Loayza , David</div>        </td>
+        <td>2010</td>
+        <td></td>
+        <td></td>
+        <td>0</td>
+    </tr>
+<tr>
+<td>63</td>
+        <td>Chuquisaca</td>
+        <td>Potosi</td>
+        <td>Ravelo</td>
+        <td>Tomoyo</td>
+        <td></td>
+        <td>Riego y Sistemas de Agua</td>
+        <td>Asociación de Riego y Servicio Tomoyo (ARISET)</td>
+        <td>            <div>Loayza , David</div>        </td>
+        <td>2010</td>
+        <td></td>
+        <td></td>
+        <td>0</td>
+    </tr>
+<tr bgcolor="#F1F1F1">
+<td>64</td>
+        <td>Chuquisaca</td>
+        <td>Potosi</td>
+        <td>Ravelo</td>
+        <td>Ura Rodeo</td>
+        <td></td>
+        <td>Agua Potable y Alcantarillado</td>
+        <td>EPSAS  Ura Rodeo</td>
+        <td>            <div>Loayza , David</div>        </td>
+        <td>2010</td>
+        <td></td>
+        <td></td>
+        <td>0</td>
+    </tr>
+<tr>
+<td>65</td>
+        <td>Chuquisaca</td>
+        <td>Potosi</td>
+        <td>Ravelo</td>
+        <td>Yoroca</td>
+        <td></td>
+        <td>Otro</td>
+        <td>Modulo Lechero Yoroca</td>
+        <td>            <div>Loayza , David</div>        </td>
+        <td>2010</td>
+        <td></td>
+        <td></td>
+        <td>0</td>
+    </tr>
+<tr bgcolor="#F1F1F1">
+<td>66</td>
+        <td>Cochabamba</td>
+        <td>Cochabamba</td>
+        <td>Capinota</td>
+        <td>Apillapampa</td>
+        <td></td>
+        <td>Acopio Productivo y Transformación</td>
+        <td>AIPE CAINE</td>
+        <td>            <div>Gallo Subieta, Alvaro</div>        </td>
+        <td>2010</td>
+        <td></td>
+        <td></td>
+        <td>0</td>
+    </tr>
+<tr>
+<td>67</td>
+        <td>Cochabamba</td>
+        <td>Cochabamba</td>
+        <td>Capinota</td>
+        <td>Apillapampa</td>
+        <td>Cunidad de Palcoma</td>
+        <td>Agua Potable y Alcantarillado</td>
+        <td>Comité de Agua y Sanamiento  Palcoma (EPSAS Palcoma)</td>
+        <td>            <div>Gallo Subieta, Alvaro</div>        </td>
+        <td>2010</td>
+        <td></td>
+        <td></td>
+        <td>0</td>
+    </tr>
+<tr bgcolor="#F1F1F1">
+<td>68</td>
+        <td>Cochabamba</td>
+        <td>Cochabamba</td>
+        <td>Capinota</td>
+        <td>Apillapampa</td>
+        <td></td>
+        <td>Agua Potable y Alcantarillado</td>
+        <td>EPSAS Charamoco</td>
+        <td>            <div>Gallo Subieta, Alvaro</div>        </td>
+        <td>2010</td>
+        <td></td>
+        <td></td>
+        <td>0</td>
+    </tr>
+<tr>
+<td>69</td>
+        <td>Cochabamba</td>
+        <td>Cochabamba</td>
+        <td>Capinota</td>
+        <td>Apillapampa</td>
+        <td></td>
+        <td>Construcción</td>
+        <td>Empresa Constructora Capinota</td>
+        <td>            <div>Gallo Subieta, Alvaro</div>        </td>
+        <td>2010</td>
+        <td></td>
+        <td></td>
+        <td>0</td>
+    </tr>
+<tr bgcolor="#F1F1F1">
+<td>70</td>
+        <td>Cochabamba</td>
+        <td>Cochabamba</td>
+        <td>Capinota</td>
+        <td>Capinota</td>
+        <td>Comunidad de Chimboata</td>
+        <td>Acopio Productivo y Transformación</td>
+        <td>PRODETUMBO</td>
+        <td>            <div>Gallo Subieta, Alvaro</div>        </td>
+        <td>2010</td>
+        <td></td>
+        <td></td>
+        <td>0</td>
+    </tr>
+<tr>
+<td>71</td>
+        <td>Cochabamba</td>
+        <td>Cochabamba</td>
+        <td>Capinota</td>
+        <td>Capinota</td>
+        <td>Comunidad Capinota</td>
+        <td>Agroforestación</td>
+        <td>Vivero Forestal Municipal Capinota</td>
+        <td>            <div>Gallo Subieta, Alvaro</div>        </td>
+        <td>2010</td>
+        <td></td>
+        <td></td>
+        <td>0</td>
+    </tr>
+<tr bgcolor="#F1F1F1">
+<td>72</td>
+        <td>Cochabamba</td>
+        <td>Cochabamba</td>
+        <td>Capinota</td>
+        <td>Charamoco</td>
+        <td></td>
+        <td>Otro</td>
+        <td>Modulo Lechero Charamoco</td>
+        <td>            <div>Gallo Subieta, Alvaro</div>        </td>
+        <td>2010</td>
+        <td></td>
+        <td></td>
+        <td>0</td>
+    </tr>
+<tr>
+<td>73</td>
+        <td>Cochabamba</td>
+        <td>Cochabamba</td>
+        <td>Capinota</td>
+        <td>Charamoco</td>
+        <td>Cunidad de Charamoco</td>
+        <td>Otro</td>
+        <td>Asociación Modulo Lechero Charamoco</td>
+        <td>        </td>
+        <td>2010</td>
+        <td></td>
+        <td></td>
+        <td>0</td>
+    </tr>
+<tr bgcolor="#F1F1F1">
+<td>74</td>
+        <td>Cochabamba</td>
+        <td>Cochabamba</td>
+        <td>Capinota</td>
+        <td>Honoma</td>
+        <td>Comunidad de Hornoma</td>
+        <td>Agua Potable y Alcantarillado</td>
+        <td>EPSAS Hornoma</td>
+        <td>            <div>Gallo Subieta, Alvaro</div>        </td>
+        <td>2010</td>
+        <td></td>
+        <td></td>
+        <td>0</td>
+    </tr>
+<tr>
+<td>75</td>
+        <td>Cochabamba</td>
+        <td>Cochabamba</td>
+        <td>Capinota</td>
+        <td>Honoma</td>
+        <td>Comunidad de Hornoma</td>
+        <td>Riego y Sistemas de Agua</td>
+        <td>Comité de Agua y Sanamiento  Hornoma</td>
+        <td>            <div>Gallo Subieta, Alvaro</div>        </td>
+        <td>2010</td>
+        <td></td>
+        <td></td>
+        <td>0</td>
+    </tr>
+<tr bgcolor="#F1F1F1">
+<td>76</td>
+        <td>Cochabamba</td>
+        <td>Cochabamba</td>
+        <td>Capinota</td>
+        <td>Playa Ancha</td>
+        <td>Cunidad de Charamoco</td>
+        <td>Acopio Productivo y Transformación</td>
+        <td>Asociación Modulo Lechero Playa Ancha</td>
+        <td>            <div>Gallo Subieta, Alvaro</div>        </td>
+        <td>2010</td>
+        <td>SI</td>
+        <td>hola como estas</td>
+        <td>1</td>
+    </tr>
+<tr>
+<td>77</td>
+        <td>Cochabamba</td>
+        <td>Cochabamba</td>
+        <td>Capinota</td>
+        <td>Playa Ancha</td>
+        <td>Municipio de Capinota</td>
+        <td>Agua Potable y Alcantarillado</td>
+        <td>Asociación de Usuarios y Consumidores Agua Potable Playa Ancha (EPSAS Playa Ancha)</td>
+        <td>            <div>Gallo Subieta, Alvaro</div>        </td>
+        <td>2010</td>
+        <td></td>
+        <td></td>
+        <td>0</td>
+    </tr>
+<tr bgcolor="#F1F1F1">
+<td>78</td>
+        <td>Cochabamba</td>
+        <td>Cochabamba</td>
+        <td>Capinota</td>
+        <td>Playa Ancha</td>
+        <td>Comunidad Playa Ancha</td>
+        <td>Riego y Sistemas de Agua</td>
+        <td>Comité de Agua y Sanamiento  Playa Ancha</td>
+        <td>            <div>Gallo Subieta, Alvaro</div>        </td>
+        <td>2010</td>
+        <td></td>
+        <td></td>
+        <td>0</td>
+    </tr>
+<tr>
+<td>79</td>
+        <td>Cochabamba</td>
+        <td>Cochabamba</td>
+        <td>Capinota</td>
+        <td>Ucuchi</td>
+        <td>Comunidad de Ucuchi</td>
+        <td>Acopio Productivo y Transformación</td>
+        <td>Asociación Modulo Lechero Ucuchi</td>
+        <td>            <div>Gallo Subieta, Alvaro</div>        </td>
+        <td>2010</td>
+        <td></td>
+        <td></td>
+        <td>0</td>
+    </tr>
+<tr bgcolor="#F1F1F1">
+<td>80</td>
+        <td>Cochabamba</td>
+        <td>Cochabamba</td>
+        <td>Capinota</td>
+        <td>Ucuchi</td>
+        <td>Comunidad de Ucuchi</td>
+        <td>Agua Potable y Alcantarillado</td>
+        <td>Comité de Agua y Sanamiento Ucuchi</td>
+        <td>            <div>Gallo Subieta, Alvaro</div>        </td>
+        <td>2010</td>
+        <td></td>
+        <td></td>
+        <td>0</td>
+    </tr>
+<tr>
+<td>81</td>
+        <td>Cochabamba</td>
+        <td>Cochabamba</td>
+        <td>Capinota</td>
+        <td>Villcabamba</td>
+        <td>Comunidad Villcabamba</td>
+        <td>Agua Potable y Alcantarillado</td>
+        <td>EPSAS Villcabamba</td>
+        <td>            <div>Gallo Subieta, Alvaro</div>        </td>
+        <td>2010</td>
+        <td></td>
+        <td></td>
+        <td>0</td>
+    </tr>
+<tr bgcolor="#F1F1F1">
+<td>82</td>
+        <td>Cochabamba</td>
+        <td>Cochabamba</td>
+        <td>Capinota</td>
+        <td>Villcabamba</td>
+        <td></td>
+        <td>Riego y Sistemas de Agua</td>
+        <td>Asociacion de Regantes Villcabamba</td>
+        <td>            <div>Gallo Subieta, Alvaro</div>        </td>
+        <td>2010</td>
+        <td></td>
+        <td></td>
+        <td>0</td>
+    </tr>
+<tr>
+<td>83</td>
+        <td>Cochabamba</td>
+        <td>Cochabamba</td>
+        <td>Tapacarí</td>
+        <td>Challa</td>
+        <td>Comunidad de Challa</td>
+        <td>Caminos</td>
+        <td>Microempresa Viscachani ABC Provial</td>
+        <td>            <div>Gallo Subieta, Alvaro</div>        </td>
+        <td>2010</td>
+        <td></td>
+        <td></td>
+        <td>0</td>
+    </tr>
+<tr bgcolor="#F1F1F1">
+<td>84</td>
+        <td>Cochabamba</td>
+        <td>Cochabamba</td>
+        <td>Tapacarí</td>
+        <td>Challa Grande</td>
+        <td>Comunidad de Challa Grande</td>
+        <td>Acopio Productivo y Transformación</td>
+        <td>Asociación Productores Andinos Originarios (APROANDINO)</td>
+        <td>            <div>Gallo Subieta, Alvaro</div>        </td>
+        <td>2010</td>
+        <td></td>
+        <td></td>
+        <td>0</td>
+    </tr>
+<tr>
+<td>85</td>
+        <td>Cochabamba</td>
+        <td>Cochabamba</td>
+        <td>Tapacarí</td>
+        <td>Confital</td>
+        <td></td>
+        <td>Construcción</td>
+        <td>Empresa Constructora Tapacari</td>
+        <td>            <div>Gallo Subieta, Alvaro</div>        </td>
+        <td>2010</td>
+        <td></td>
+        <td></td>
+        <td>0</td>
+    </tr>
+<tr bgcolor="#F1F1F1">
+<td>86</td>
+        <td>Cochabamba</td>
+        <td>Cochabamba</td>
+        <td>Tapacarí</td>
+        <td>Confital</td>
+        <td></td>
+        <td>Otro</td>
+        <td>APAMHUY</td>
+        <td>            <div>Gallo Subieta, Alvaro</div>        </td>
+        <td>2010</td>
+        <td></td>
+        <td></td>
+        <td>0</td>
+    </tr>
+<tr>
+<td>87</td>
+        <td>Cochabamba</td>
+        <td>Cochabamba</td>
+        <td>Tapacarí</td>
+        <td>Hualla Tambo</td>
+        <td>Comunidad de Hualla Tambo</td>
+        <td>Otro</td>
+        <td>APAE ANDINO</td>
+        <td>            <div>Gallo Subieta, Alvaro</div>        </td>
+        <td>2010</td>
+        <td></td>
+        <td></td>
+        <td>0</td>
+    </tr>
+<tr bgcolor="#F1F1F1">
+<td>88</td>
+        <td>Cochabamba</td>
+        <td>Cochabamba</td>
+        <td>Tapacarí</td>
+        <td>Japo</td>
+        <td></td>
+        <td>Acopio Productivo y Transformación</td>
+        <td>Asociacion de artesanas Japo</td>
+        <td>            <div>Gallo Subieta, Alvaro</div>        </td>
+        <td>2010</td>
+        <td></td>
+        <td></td>
+        <td>0</td>
+    </tr>
+<tr>
+<td>89</td>
+        <td>Cochabamba</td>
+        <td>Cochabamba</td>
+        <td>Tapacarí</td>
+        <td>Japo</td>
+        <td></td>
+        <td>Acopio Productivo y Transformación</td>
+        <td>Asociación Industrial Mixta Comunitaria (ASIMCO)</td>
+        <td>            <div>Gallo Subieta, Alvaro</div>        </td>
+        <td>2010</td>
+        <td></td>
+        <td></td>
+        <td>0</td>
+    </tr>
+<tr bgcolor="#F1F1F1">
+<td>90</td>
+        <td>Cochabamba</td>
+        <td>Cochabamba</td>
+        <td>Tapacarí</td>
+        <td>San Antonio de Mujlli</td>
+        <td></td>
+        <td>Acopio Productivo y Transformación</td>
+        <td>APROASAM</td>
+        <td>            <div>Gallo Subieta, Alvaro</div>        </td>
+        <td>2010</td>
+        <td></td>
+        <td></td>
+        <td>0</td>
+    </tr>
+<tr>
+<td>91</td>
+        <td>Cochabamba</td>
+        <td>Cochabamba</td>
+        <td>Tapacarí</td>
+        <td>San Antonio de Mujlli</td>
+        <td></td>
+        <td>Otro</td>
+        <td>Vivero Municipal de Tapacarí</td>
+        <td>            <div>Gallo Subieta, Alvaro</div>        </td>
+        <td>2010</td>
+        <td></td>
+        <td></td>
+        <td>0</td>
+    </tr>
+<tr bgcolor="#F1F1F1">
+<td>92</td>
+        <td>Cochabamba</td>
+        <td>Potosi</td>
+        <td>Toro toro</td>
+        <td>Apillapampa</td>
+        <td></td>
+        <td>Agua Potable y Alcantarillado</td>
+        <td>EPSAS Apillapampa</td>
+        <td>            <div>Gallo Subieta, Alvaro</div>        </td>
+        <td>2010</td>
+        <td></td>
+        <td></td>
+        <td>0</td>
+    </tr>
+<tr>
+<td>93</td>
+        <td>Cochabamba</td>
+        <td>Potosi</td>
+        <td>Toro toro</td>
+        <td>Calahuta</td>
+        <td></td>
+        <td>Agua Potable y Alcantarillado</td>
+        <td>EPSAS Calahuta</td>
+        <td>            <div>Gallo Subieta, Alvaro</div>        </td>
+        <td>2010</td>
+        <td></td>
+        <td></td>
+        <td>0</td>
+    </tr>
+<tr bgcolor="#F1F1F1">
+<td>94</td>
+        <td>Cochabamba</td>
+        <td>Potosi</td>
+        <td>Toro toro</td>
+        <td>caraci</td>
+        <td></td>
+        <td>Agua Potable y Alcantarillado</td>
+        <td>EPSAS Carasi</td>
+        <td>            <div>Gallo Subieta, Alvaro</div>        </td>
+        <td>2010</td>
+        <td></td>
+        <td></td>
+        <td>0</td>
+    </tr>
+<tr>
+<td>95</td>
+        <td>Cochabamba</td>
+        <td>Potosi</td>
+        <td>Toro toro</td>
+        <td>Julo Grande</td>
+        <td></td>
+        <td>Agua Potable y Alcantarillado</td>
+        <td>EPSAS Julo Grande</td>
+        <td>            <div>Gallo Subieta, Alvaro</div>        </td>
+        <td>2010</td>
+        <td></td>
+        <td></td>
+        <td>0</td>
+    </tr>
+<tr bgcolor="#F1F1F1">
+<td>96</td>
+        <td>Cochabamba</td>
+        <td>Potosi</td>
+        <td>Toro toro</td>
+        <td>Julo Grande</td>
+        <td></td>
+        <td>Riego y Sistemas de Agua</td>
+        <td>Asociación de microriego Julo Grande</td>
+        <td>            <div>Gallo Subieta, Alvaro</div>        </td>
+        <td>2010</td>
+        <td></td>
+        <td></td>
+        <td>0</td>
+    </tr>
+<tr>
+<td>97</td>
+        <td>Cochabamba</td>
+        <td>Potosi</td>
+        <td>Toro toro</td>
+        <td>Mollecancha</td>
+        <td></td>
+        <td>Agua Potable y Alcantarillado</td>
+        <td>EPSAS Mollecancha</td>
+        <td>            <div>Gallo Subieta, Alvaro</div>        </td>
+        <td>2010</td>
+        <td></td>
+        <td></td>
+        <td>0</td>
+    </tr>
+<tr bgcolor="#F1F1F1">
+<td>98</td>
+        <td>Cochabamba</td>
+        <td>Potosi</td>
+        <td>Toro toro</td>
+        <td>Mollecancha</td>
+        <td>Comunidad Mollecancha</td>
+        <td>Riego y Sistemas de Agua</td>
+        <td>Asoc.Riego y Serv.Kuchura Huayco</td>
+        <td>            <div>Gallo Subieta, Alvaro</div>        </td>
+        <td>2010</td>
+        <td></td>
+        <td></td>
+        <td>0</td>
+    </tr>
+<tr>
+<td>99</td>
+        <td>Cochabamba</td>
+        <td>Potosi</td>
+        <td>Toro toro</td>
+        <td>Rodeo Escalon</td>
+        <td>Comunidad Rodeo Escalon</td>
+        <td>Acopio Productivo y Transformación</td>
+        <td>Asociación Productores Andinos Originarios Ecológicos Torotoro (APECT)</td>
+        <td>            <div>Gallo Subieta, Alvaro</div>        </td>
+        <td>2010</td>
+        <td></td>
+        <td></td>
+        <td>0</td>
+    </tr>
+<tr bgcolor="#F1F1F1">
+<td>100</td>
+        <td>Cochabamba</td>
+        <td>Potosi</td>
+        <td>Toro toro</td>
+        <td>Sucusuma</td>
+        <td>Comunidad de Sucusuma</td>
+        <td>Acopio Productivo y Transformación</td>
+        <td>Asociación Productores Agropecuarios del Caine (AGROCAINE)</td>
+        <td>            <div>Gallo Subieta, Alvaro</div>        </td>
+        <td>2010</td>
+        <td></td>
+        <td></td>
+        <td>0</td>
+    </tr>
+<tr>
+<td>101</td>
+        <td>Cochabamba</td>
+        <td>Potosi</td>
+        <td>Toro toro</td>
+        <td>Sucusuma</td>
+        <td></td>
+        <td>Riego y Sistemas de Agua</td>
+        <td>Microriego Sucusuma</td>
+        <td>            <div>Gallo Subieta, Alvaro</div>        </td>
+        <td>2010</td>
+        <td></td>
+        <td></td>
+        <td>0</td>
+    </tr>
+<tr bgcolor="#F1F1F1">
+<td>102</td>
+        <td>Cochabamba</td>
+        <td>Potosi</td>
+        <td>Toro toro</td>
+        <td>Torotoro</td>
+        <td></td>
+        <td>Acopio Productivo y Transformación</td>
+        <td>APCC</td>
+        <td>            <div>Gallo Subieta, Alvaro</div>        </td>
+        <td>2010</td>
+        <td></td>
+        <td></td>
+        <td>0</td>
+    </tr>
+<tr>
+<td>103</td>
+        <td>Cochabamba</td>
+        <td>Potosi</td>
+        <td>Toro toro</td>
+        <td>Torotoro</td>
+        <td></td>
+        <td>Acopio Productivo y Transformación</td>
+        <td>APROZAT</td>
+        <td>            <div>Gallo Subieta, Alvaro</div>        </td>
+        <td>2010</td>
+        <td></td>
+        <td></td>
+        <td>0</td>
+    </tr>
+<tr bgcolor="#F1F1F1">
+<td>104</td>
+        <td>Cochabamba</td>
+        <td>Potosi</td>
+        <td>Toro toro</td>
+        <td>Torotoro</td>
+        <td></td>
+        <td>Agroforestación</td>
+        <td>Vivero Forestal Municipal Torotoro</td>
+        <td>            <div>Gallo Subieta, Alvaro</div>        </td>
+        <td>2010</td>
+        <td></td>
+        <td></td>
+        <td>0</td>
+    </tr>
+<tr>
+<td>105</td>
+        <td>Cochabamba</td>
+        <td>Potosi</td>
+        <td>Toro toro</td>
+        <td>Torotoro</td>
+        <td>Comunidad de Torotoro</td>
+        <td>Agua Potable y Alcantarillado</td>
+        <td>EPSAS Torotoro</td>
+        <td>            <div>Gallo Subieta, Alvaro</div>        </td>
+        <td>2010</td>
+        <td></td>
+        <td></td>
+        <td>0</td>
+    </tr>
+<tr bgcolor="#F1F1F1">
+<td>106</td>
+        <td>Cochabamba</td>
+        <td>Potosi</td>
+        <td>Toro toro</td>
+        <td>Torotoro</td>
+        <td></td>
+        <td>Otro</td>
+        <td>Centro artesanal Rosas T'ikas</td>
+        <td>            <div>Gallo Subieta, Alvaro</div>        </td>
+        <td>2010</td>
+        <td></td>
+        <td></td>
+        <td>0</td>
+    </tr>
+<tr>
+<td>107</td>
+        <td>Cochabamba</td>
+        <td>Potosi</td>
+        <td>Toro toro</td>
+        <td>Torotoro</td>
+        <td>Comunidad de Kewayllani</td>
+        <td>Riego y Sistemas de Agua</td>
+        <td>Asoc.Riego y Serv. Kewayllani</td>
+        <td>            <div>Gallo Subieta, Alvaro</div>        </td>
+        <td>2010</td>
+        <td></td>
+        <td></td>
+        <td>0</td>
+    </tr>
+<tr bgcolor="#F1F1F1">
+<td>108</td>
+        <td>Cochabamba</td>
+        <td>Potosi</td>
+        <td>Toro toro</td>
+        <td>Torotoro</td>
+        <td></td>
+        <td>Turismo y Ecoturismo</td>
+        <td>Asoc.Guías de Ecoturismo Torotoro</td>
+        <td>            <div>Gallo Subieta, Alvaro</div>        </td>
+        <td>2010</td>
+        <td></td>
+        <td></td>
+        <td>0</td>
+    </tr>
+<tr>
+<td>109</td>
+        <td>Cochabamba</td>
+        <td>Potosi</td>
+        <td>Toro toro</td>
+        <td>Torre Q"aka</td>
+        <td></td>
+        <td>Agua Potable y Alcantarillado</td>
+        <td>EPSAS Torre Q'aka</td>
+        <td>            <div>Gallo Subieta, Alvaro</div>        </td>
+        <td>2010</td>
+        <td></td>
+        <td></td>
+        <td>0</td>
+    </tr>
+    <input type="hidden" name="contIndicador" id="contIndicador" value="7">
+ </tbody>
+ </table>
+

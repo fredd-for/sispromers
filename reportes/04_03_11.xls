@@ -1,0 +1,39 @@
+<TABLE id=table_example class=ewTable border=1 width="100%">
+<THEAD>
+<TR style="FONT-SIZE: 12pt">
+<TH colSpan=20>CONTROL DE AVANCE DEL PROYECTO POR RUBROS DE LAS MICROEMPRESAS</TH></TR>
+<TR>
+<TH style="BACKGROUND: #632523; COLOR: #ffffff; FONT-SIZE: 10px">RUBRO DE LA MERS</TH>
+<TH style="BACKGROUND: #632523; COLOR: #ffffff; FONT-SIZE: 10px" colSpan=9>MERS EN LA LINEA DE BASE</TH>
+<TH style="BACKGROUND: #632523; COLOR: #ffffff; FONT-SIZE: 10px" colSpan=1>TOTAL</TH>
+<TH style="BACKGROUND: #fac090" colSpan=4>POA GESTION 2009</TH>
+<TH style="BACKGROUND: #fac090" colSpan=4>POA GESTION 2010</TH>
+<TH style="BACKGROUND: #fac090" colSpan=4>POA GESTION 2011</TH>
+<TH style="BACKGROUND: #632523; COLOR: #ffffff; FONT-SIZE: 10px" colSpan=3>MARCO LOGICO</TH></TR>
+<TR>
+<TH style="BACKGROUND: #d77050; COLOR: white; FONT-SIZE: 8pt" rowSpan=3>La MERS se dedica a:</TH>
+<TH style="BACKGROUND: #d77050; COLOR: white; FONT-SIZE: 8pt" colSpan=6>Chuquisaca</TH>
+<TH style="BACKGROUND: #d77050; COLOR: white; FONT-SIZE: 8pt" colSpan=3>Cochabamba</TH>
+<TH style="BACKGROUND: #d77050; COLOR: white; FONT-SIZE: 8pt" rowSpan=3>TOTAL MERS</TH>
+<TH style="BACKGROUND: #fcd5b4" rowSpan=3>Meta Planificada</TH>
+<TH style="BACKGROUND: #fcd5b4" rowSpan=3>Logro Mers Fortalecidas</TH>
+<TH style="BACKGROUND: #fcd5b4" rowSpan=3>Mers en Proceso</TH>
+<TH style="BACKGROUND: #fcd5b4" rowSpan=3>% de Avance</TH>
+<TH style="BACKGROUND: #fcd5b4" rowSpan=3>Meta Planificada</TH>
+<TH style="BACKGROUND: #fcd5b4" rowSpan=3>Logro Mers Fortalecidas</TH>
+<TH style="BACKGROUND: #fcd5b4" rowSpan=3>Mers en Proceso</TH>
+<TH style="BACKGROUND: #fcd5b4" rowSpan=3>% de Avance</TH>
+<TH style="BACKGROUND: #fcd5b4" rowSpan=3>Meta Planificada</TH>
+<TH style="BACKGROUND: #fcd5b4" rowSpan=3>Logro Mers Fortalecidas</TH>
+<TH style="BACKGROUND: #fcd5b4" rowSpan=3>Mers en Proceso</TH>
+<TH style="BACKGROUND: #fcd5b4" rowSpan=3>% de Avance</TH>
+<TH style="BACKGROUND: #d77050; COLOR: white; FONT-SIZE: 8pt" rowSpan=3>META</TH>
+<TH style="BACKGROUND: #d77050; COLOR: white; FONT-SIZE: 8pt" rowSpan=3>LOGRO</TH>
+<TH style="BACKGROUND: #d77050; COLOR: white; FONT-SIZE: 8pt" rowSpan=3>% de Avance</TH></TR>
+<TR style="BACKGROUND: #d75245; COLOR: #000000; FONT-SIZE: 7pt">
+<TH colSpan=4>Chuquisaca</TH>
+<TH colSpan=2>Potosi</TH>
+<TH colSpan=2>Cochabamba</TH>
+<TH colSpan=1>Potosi</TH></TR>
+<TR style="BACKGROUND: #d77589; COLOR: #000000; FONT-SIZE: 7pt">
+<TH>Alcal?th

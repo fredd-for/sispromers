@@ -1,0 +1,2362 @@
+
+    <table id="table_example" width="100%" border="1" class="ewTable">
+        <tbody><tr align="center"><td colspan="21" style="font-size: 10pt;background: #632523;color: white">REPORTE DE MERS FORTALECIDAS</td></tr>
+<tr bgcolor="#dddfff">
+    <td colspan="3"><b>Regional: </b>Chuquisaca</td>
+    <td colspan="3"><b>Depto: </b>Chuquisaca</td>
+    <td colspan="15"></td>
+</tr>
+<tr>
+    <th style="background:#B8C692">No</th>
+    <th style="background:#B8C692">Municipio</th>
+    <th style="background:#B8C692">Rubro</th>
+    <th style="background:#B8C692">Nombre de la Mer</th>
+    <th style="background:#B8C692">Gestion</th>
+
+    <th style="background:#0aeea3">Plan de Negocio</th>
+    <th style="background:#0aeea3">Plan Estrategico</th>
+    <th style="background:#0aeea3">Plan de Produccion</th>
+    <th style="background:#0aeea3">Plan Financiero</th>
+    <th style="background:#0aeea3">POA</th>
+
+    <th style="background:#0aeae0">Personeria Juridica</th>
+    <th style="background:#0aeae0">Estatuto Organico</th>
+    <th style="background:#0aeae0">Reglamento Interno</th>
+    <th style="background:#0aeae0">Reg. Funda Empresa</th>
+    <th style="background:#0aeae0">Acta Constitucion</th>
+    <th style="background:#0aeae0">Tarjeta Empresarial</th>
+
+    <th style="background:#0ab473">Producto Desarrollado</th>
+    <th style="background:#0ab473">Servicio Desarrollado</th>
+    <th style="background:#0ab473">Plan Marketing</th>
+
+    <th style="background:#0ac0bf">Registro de Ventas Actualizado</th>
+    <th style="background:#7DA81B">Parametros de Calidad</th>
+    <th style="background:#B8C692">Valor</th>
+</tr>
+<tr>
+<td>1</td>
+<td>Alcalá</td>
+<td>Otro</td>
+<td>APAMA</td>
+<td>2010</td>
+
+<td>SI</td>
+<td></td>
+<td>SI</td>
+<td></td>
+<td></td>
+
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td></td>
+<td></td>
+<td></td>
+
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+
+<td>SI</td>
+<td></td>
+<td>Fortalecida</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Alcalá</td>
+<td>Agua Potable y Alcantarillado</td>
+<td>EPSAS Garza Chico</td>
+<td>2011</td>
+
+<td>SI</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+
+<td></td>
+<td>SI</td>
+<td>SI</td>
+<td></td>
+<td></td>
+<td></td>
+
+<td></td>
+<td></td>
+<td>SI</td>
+
+<td>SI</td>
+<td></td>
+<td>Fortalecida</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Alcalá</td>
+<td>Riego y Sistemas de Agua</td>
+<td>Asociación de Agua y Saneamiento Básico Lima Alto</td>
+<td>2010</td>
+
+<td>SI</td>
+<td></td>
+<td></td>
+<td></td>
+<td>SI</td>
+
+<td></td>
+<td>SI</td>
+<td>SI</td>
+<td></td>
+<td>SI</td>
+<td></td>
+
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+
+<td>SI</td>
+<td></td>
+<td>Fortalecida</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Alcalá</td>
+<td>Otro</td>
+<td>Asociación Productores de Miel (APROMIEL)</td>
+<td>2010</td>
+
+<td>SI</td>
+<td>SI</td>
+<td></td>
+<td></td>
+<td></td>
+
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td></td>
+<td></td>
+<td></td>
+
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+
+<td>SI</td>
+<td></td>
+<td>Fortalecida</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Alcalá</td>
+<td>Otro</td>
+<td>Asociación de Trigo Limabamba (APTL)</td>
+<td>2010</td>
+
+<td></td>
+<td>SI</td>
+<td>SI</td>
+<td></td>
+<td></td>
+
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td></td>
+<td>SI</td>
+<td></td>
+
+<td>SI</td>
+<td>SI</td>
+<td></td>
+
+<td>SI</td>
+<td></td>
+<td>Fortalecida</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Alcalá</td>
+<td>Agua Potable y Alcantarillado</td>
+<td>EPSAS Alcalá</td>
+<td>2010</td>
+
+<td></td>
+<td>SI</td>
+<td></td>
+<td></td>
+<td></td>
+
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td></td>
+<td></td>
+<td></td>
+
+<td>SI</td>
+<td>SI</td>
+<td></td>
+
+<td>SI</td>
+<td></td>
+<td>Fortalecida</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Alcalá</td>
+<td>Acopio Productivo y Transformación</td>
+<td>Asociación Productores Agropecuarios de Alcalá (APA)</td>
+<td>2010</td>
+
+<td>SI</td>
+<td></td>
+<td>SI</td>
+<td></td>
+<td>SI</td>
+
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td></td>
+<td>SI</td>
+<td></td>
+
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+
+<td>SI</td>
+<td></td>
+<td>Fortalecida</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Padilla</td>
+<td>Otro</td>
+<td>Centro de Costuras "Padilla"</td>
+<td>2010</td>
+
+<td>SI</td>
+<td></td>
+<td>SI</td>
+<td></td>
+<td></td>
+
+<td></td>
+<td>SI</td>
+<td>SI</td>
+<td></td>
+<td>SI</td>
+<td></td>
+
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+
+<td>SI</td>
+<td></td>
+<td>Fortalecida</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Padilla</td>
+<td>Agua Potable y Alcantarillado</td>
+<td>COOPERATIVA DE AGUA Y ALCANTARILLADO PADILLA LTDA.</td>
+<td>2010</td>
+
+<td></td>
+<td>SI</td>
+<td></td>
+<td></td>
+<td></td>
+
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td></td>
+<td></td>
+<td></td>
+
+<td>SI</td>
+<td>SI</td>
+<td></td>
+
+<td>SI</td>
+<td></td>
+<td>Fortalecida</td>
+</tr>
+<tr>
+<td>10</td>
+<td>Padilla</td>
+<td>Acopio Productivo y Transformación</td>
+<td>Asociación Productores Agropecuarios  Lampasillos (APAL)</td>
+<td>2010</td>
+
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td></td>
+<td></td>
+
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td></td>
+<td></td>
+<td></td>
+
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+
+<td>SI</td>
+<td></td>
+<td>Fortalecida</td>
+</tr>
+<tr>
+<td>11</td>
+<td>Padilla</td>
+<td>Otro</td>
+<td>Asociación Productores de Ají "San Julian"    (APASJ)</td>
+<td>2010</td>
+
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td></td>
+<td></td>
+
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td></td>
+<td></td>
+<td></td>
+
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+
+<td>SI</td>
+<td></td>
+<td>Fortalecida</td>
+</tr>
+<tr>
+<td>12</td>
+<td>Sopachuy</td>
+<td>Agua Potable y Alcantarillado</td>
+<td>EPSAS Sopachuy</td>
+<td>2010</td>
+
+<td></td>
+<td>SI</td>
+<td></td>
+<td></td>
+<td></td>
+
+<td>NO</td>
+<td>SI</td>
+<td>SI</td>
+<td></td>
+<td></td>
+<td></td>
+
+<td>SI</td>
+<td>SI</td>
+<td></td>
+
+<td>SI</td>
+<td></td>
+<td>Fortalecida</td>
+</tr>
+<tr>
+<td>13</td>
+<td>Sopachuy</td>
+<td>Otro</td>
+<td>Coop. San Jose Obrero</td>
+<td>2010</td>
+
+<td></td>
+<td>SI</td>
+<td>SI</td>
+<td></td>
+<td></td>
+
+<td></td>
+<td>SI</td>
+<td>SI</td>
+<td></td>
+<td></td>
+<td></td>
+
+<td>SI</td>
+<td>SI</td>
+<td></td>
+
+<td>SI</td>
+<td></td>
+<td>Fortalecida</td>
+</tr>
+<tr>
+<td>14</td>
+<td>Sopachuy</td>
+<td>Turismo y Ecoturismo</td>
+<td>Asociación de guías de Sopachuy</td>
+<td>2010</td>
+
+<td></td>
+<td>SI</td>
+<td></td>
+<td></td>
+<td></td>
+
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td></td>
+<td>SI</td>
+<td></td>
+
+<td>SI</td>
+<td>SI</td>
+<td></td>
+
+<td>SI</td>
+<td></td>
+<td>Fortalecida</td>
+</tr>
+<tr>
+<td>15</td>
+<td>Sopachuy</td>
+<td>Acopio Productivo y Transformación</td>
+<td>Asoc. Productores Agropecuarios de la Cuenca del Rio Milanes (APROCMI)</td>
+<td>2010</td>
+
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td></td>
+<td></td>
+
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td></td>
+<td></td>
+<td></td>
+
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+
+<td>SI</td>
+<td></td>
+<td>Fortalecida</td>
+</tr>
+<tr>
+<td>16</td>
+<td>Sopachuy</td>
+<td>Agroforestación</td>
+<td>MERS Forestales y Asociados Pampas Punta (APROAF)</td>
+<td>2010</td>
+
+<td></td>
+<td>SI</td>
+<td></td>
+<td></td>
+<td></td>
+
+<td>SI</td>
+<td></td>
+<td>NO</td>
+<td></td>
+<td>SI</td>
+<td></td>
+
+<td>SI</td>
+<td>SI</td>
+<td></td>
+
+<td>SI</td>
+<td></td>
+<td>Fortalecida</td>
+</tr>
+<tr>
+<td>17</td>
+<td>Tomina</td>
+<td>Otro</td>
+<td>Asociación La Frontera</td>
+<td>2010</td>
+
+<td></td>
+<td>SI</td>
+<td>SI</td>
+<td></td>
+<td></td>
+
+<td>SI</td>
+<td></td>
+<td>SI</td>
+<td></td>
+<td></td>
+<td></td>
+
+<td>SI</td>
+<td>SI</td>
+<td></td>
+
+<td>SI</td>
+<td></td>
+<td>Fortalecida</td>
+</tr>
+<tr>
+<td>18</td>
+<td>Tomina</td>
+<td>Otro</td>
+<td>Asociación Molinos San Mauro</td>
+<td>2010</td>
+
+<td>SI</td>
+<td>SI</td>
+<td></td>
+<td></td>
+<td></td>
+
+<td>NO</td>
+<td>SI</td>
+<td>SI</td>
+<td></td>
+<td>SI</td>
+<td></td>
+
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+
+<td>SI</td>
+<td></td>
+<td>Fortalecida</td>
+</tr>
+<tr>
+<td>19</td>
+<td>Tomina</td>
+<td>Acopio Productivo y Transformación</td>
+<td>Productos "CORSO"</td>
+<td>2010</td>
+
+<td>SI</td>
+<td></td>
+<td>SI</td>
+<td></td>
+<td></td>
+
+<td></td>
+<td>SI</td>
+<td>SI</td>
+<td></td>
+<td>SI</td>
+<td></td>
+
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+
+<td>SI</td>
+<td></td>
+<td>Fortalecida</td>
+</tr>
+<tr>
+<td>20</td>
+<td>Tomina</td>
+<td>Agua Potable y Alcantarillado</td>
+<td>Emp. Serv. Agua Potable Tomina</td>
+<td>2010</td>
+
+<td>SI</td>
+<td></td>
+<td></td>
+<td></td>
+<td>SI</td>
+
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td></td>
+<td></td>
+<td></td>
+
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+
+<td>SI</td>
+<td></td>
+<td>Fortalecida</td>
+</tr>
+<tr>
+<td>21</td>
+<td>Tomina</td>
+<td>Acopio Productivo y Transformación</td>
+<td>Asociación Productores Agropecuarios (APROA San Mauro)</td>
+<td>2010</td>
+
+<td></td>
+<td>SI</td>
+<td></td>
+<td></td>
+<td></td>
+
+<td>SI</td>
+<td>SI</td>
+<td></td>
+<td></td>
+<td>SI</td>
+<td></td>
+
+<td>SI</td>
+<td>SI</td>
+<td></td>
+
+<td>SI</td>
+<td></td>
+<td>Fortalecida</td>
+</tr>
+<tr>
+<td>22</td>
+<td>Tomina</td>
+<td>Acopio Productivo y Transformación</td>
+<td>Asociación de Mujeres Pampas Abajo (AMUPA)</td>
+<td>2010</td>
+
+<td>SI</td>
+<td>SI</td>
+<td></td>
+<td></td>
+<td>SI</td>
+
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td></td>
+<td></td>
+<td></td>
+
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+
+<td>SI</td>
+<td></td>
+<td>Fortalecida</td>
+</tr>
+<tr bgcolor="#dddfff">
+    <td colspan="3"><b>Regional: </b>Chuquisaca</td>
+    <td colspan="3"><b>Depto: </b>Potosi</td>
+    <td colspan="15"></td>
+</tr>
+<tr>
+    <th style="background:#B8C692">No</th>
+    <th style="background:#B8C692">Municipio</th>
+    <th style="background:#B8C692">Rubro</th>
+    <th style="background:#B8C692">Nombre de la Mer</th>
+    <th style="background:#B8C692">Gestion</th>
+
+    <th style="background:#0aeea3">Plan de Negocio</th>
+    <th style="background:#0aeea3">Plan Estrategico</th>
+    <th style="background:#0aeea3">Plan de Produccion</th>
+    <th style="background:#0aeea3">Plan Financiero</th>
+    <th style="background:#0aeea3">POA</th>
+
+    <th style="background:#0aeae0">Personeria Juridica</th>
+    <th style="background:#0aeae0">Estatuto Organico</th>
+    <th style="background:#0aeae0">Reglamento Interno</th>
+    <th style="background:#0aeae0">Reg. Funda Empresa</th>
+    <th style="background:#0aeae0">Acta Constitucion</th>
+    <th style="background:#0aeae0">Tarjeta Empresarial</th>
+
+    <th style="background:#0ab473">Producto Desarrollado</th>
+    <th style="background:#0ab473">Servicio Desarrollado</th>
+    <th style="background:#0ab473">Plan Marketing</th>
+
+    <th style="background:#0ac0bf">Registro de Ventas Actualizado</th>
+    <th style="background:#7DA81B">Parametros de Calidad</th>
+    <th style="background:#B8C692">Valor</th>
+</tr>
+<tr>
+<td>23</td>
+<td>Ocurí</td>
+<td>Agua Potable y Alcantarillado</td>
+<td>EPSAS Cancha Cancha</td>
+<td>2011</td>
+
+<td></td>
+<td>SI</td>
+<td></td>
+<td></td>
+<td>SI</td>
+
+<td></td>
+<td>SI</td>
+<td>SI</td>
+<td></td>
+<td>SI</td>
+<td></td>
+
+<td>SI</td>
+<td>SI</td>
+<td></td>
+
+<td>SI</td>
+<td></td>
+<td>Fortalecida</td>
+</tr>
+<tr>
+<td>24</td>
+<td>Ocurí</td>
+<td>Otro</td>
+<td>Asociación de Productores Agropecuarios Allyn Tarpuy</td>
+<td>2010</td>
+
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td></td>
+
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td></td>
+<td>SI</td>
+<td></td>
+
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+
+<td>SI</td>
+<td></td>
+<td>Fortalecida</td>
+</tr>
+<tr>
+<td>25</td>
+<td>Ocurí</td>
+<td>Agua Potable y Alcantarillado</td>
+<td>EPSAS Julla Thama</td>
+<td>2010</td>
+
+<td></td>
+<td>SI</td>
+<td></td>
+<td></td>
+<td>SI</td>
+
+<td></td>
+<td>SI</td>
+<td>SI</td>
+<td></td>
+<td>SI</td>
+<td></td>
+
+<td>SI</td>
+<td>SI</td>
+<td></td>
+
+<td>SI</td>
+<td></td>
+<td>Fortalecida</td>
+</tr>
+<tr>
+<td>26</td>
+<td>Ocurí</td>
+<td>Caminos</td>
+<td>Caminos Marcoma</td>
+<td>2011</td>
+
+<td></td>
+<td>SI</td>
+<td></td>
+<td></td>
+<td></td>
+
+<td></td>
+<td>SI</td>
+<td>SI</td>
+<td></td>
+<td></td>
+<td></td>
+
+<td>SI</td>
+<td>SI</td>
+<td></td>
+
+<td>SI</td>
+<td></td>
+<td>Fortalecida</td>
+</tr>
+<tr>
+<td>27</td>
+<td>Ocurí</td>
+<td>Agua Potable y Alcantarillado</td>
+<td>EPSAS Caine</td>
+<td>2011</td>
+
+<td></td>
+<td>SI</td>
+<td></td>
+<td></td>
+<td>SI</td>
+
+<td></td>
+<td>SI</td>
+<td>SI</td>
+<td></td>
+<td>SI</td>
+<td></td>
+
+<td>SI</td>
+<td>SI</td>
+<td></td>
+
+<td>SI</td>
+<td></td>
+<td>Fortalecida</td>
+</tr>
+<tr>
+<td>28</td>
+<td>Ocurí</td>
+<td>Agua Potable y Alcantarillado</td>
+<td>EPSAS Tahua Reja</td>
+<td>2010</td>
+
+<td></td>
+<td>SI</td>
+<td></td>
+<td></td>
+<td></td>
+
+<td></td>
+<td>SI</td>
+<td>SI</td>
+<td></td>
+<td>SI</td>
+<td></td>
+
+<td>SI</td>
+<td>SI</td>
+<td></td>
+
+<td>SI</td>
+<td></td>
+<td>Fortalecida</td>
+</tr>
+<tr>
+<td>29</td>
+<td>Ocurí</td>
+<td>Otro</td>
+<td>Asociación de Prod. Agropecuarios Ilabe (APROAGRO ILABE)</td>
+<td>2010</td>
+
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td></td>
+
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td></td>
+<td>SI</td>
+<td></td>
+
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+
+<td>SI</td>
+<td></td>
+<td>Fortalecida</td>
+</tr>
+<tr>
+<td>30</td>
+<td>Ocurí</td>
+<td>Agua Potable y Alcantarillado</td>
+<td>EPSAs Ocurí</td>
+<td>2010</td>
+
+<td>NO</td>
+<td>SI</td>
+<td></td>
+<td></td>
+<td>SI</td>
+
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td></td>
+<td>SI</td>
+<td></td>
+
+<td>SI</td>
+<td>SI</td>
+<td>NO</td>
+
+<td>SI</td>
+<td></td>
+<td>Fortalecida</td>
+</tr>
+<tr>
+<td>31</td>
+<td>Ocurí</td>
+<td>Caminos</td>
+<td>Caminos Maragua</td>
+<td>2011</td>
+
+<td></td>
+<td>SI</td>
+<td></td>
+<td></td>
+<td></td>
+
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td></td>
+<td>SI</td>
+<td></td>
+
+<td>SI</td>
+<td>SI</td>
+<td></td>
+
+<td>SI</td>
+<td></td>
+<td>Fortalecida</td>
+</tr>
+<tr>
+<td>32</td>
+<td>Ocurí</td>
+<td>Caminos</td>
+<td>Microempresa de Conservación Vial Ocurí</td>
+<td>2010</td>
+
+<td></td>
+<td>SI</td>
+<td></td>
+<td></td>
+<td></td>
+
+<td></td>
+<td>SI</td>
+<td>SI</td>
+<td></td>
+<td>SI</td>
+<td>SI</td>
+
+<td>SI</td>
+<td>SI</td>
+<td></td>
+
+<td>SI</td>
+<td></td>
+<td>Fortalecida</td>
+</tr>
+<tr>
+<td>33</td>
+<td>Ravelo</td>
+<td>Otro</td>
+<td>Asoc. Talladores y proveedores de Piedra</td>
+<td>2010</td>
+
+<td>SI</td>
+<td></td>
+<td>SI</td>
+<td>SI</td>
+<td></td>
+
+<td></td>
+<td>SI</td>
+<td>SI</td>
+<td></td>
+<td>SI</td>
+<td></td>
+
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+
+<td>SI</td>
+<td></td>
+<td>Fortalecida</td>
+</tr>
+<tr>
+<td>34</td>
+<td>Ravelo</td>
+<td>Acopio Productivo y Transformación</td>
+<td>Artesanias Ckaska palomitas</td>
+<td>2010</td>
+
+<td>SI</td>
+<td></td>
+<td>SI</td>
+<td>SI</td>
+<td></td>
+
+<td></td>
+<td>SI</td>
+<td>SI</td>
+<td></td>
+<td>SI</td>
+<td></td>
+
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+
+<td>SI</td>
+<td></td>
+<td>Fortalecida</td>
+</tr>
+<tr>
+<td>35</td>
+<td>Ravelo</td>
+<td>Agua Potable y Alcantarillado</td>
+<td>EPSAS  Pajlli</td>
+<td>2010</td>
+
+<td></td>
+<td>SI</td>
+<td></td>
+<td></td>
+<td>SI</td>
+
+<td></td>
+<td>SI</td>
+<td>SI</td>
+<td></td>
+<td>SI</td>
+<td></td>
+
+<td>SI</td>
+<td>SI</td>
+<td></td>
+
+<td>SI</td>
+<td></td>
+<td>Fortalecida</td>
+</tr>
+<tr>
+<td>36</td>
+<td>Ravelo</td>
+<td>Otro</td>
+<td>Modulo Lechero Tomoyo</td>
+<td>2010</td>
+
+<td></td>
+<td></td>
+<td>SI</td>
+<td></td>
+<td></td>
+
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td></td>
+<td></td>
+<td></td>
+
+<td>SI</td>
+<td>SI</td>
+<td></td>
+
+<td>SI</td>
+<td></td>
+<td>Fortalecida</td>
+</tr>
+<tr>
+<td>37</td>
+<td>Ravelo</td>
+<td>Otro</td>
+<td>Mod. Lechero Sorojchi</td>
+<td>2010</td>
+
+<td></td>
+<td></td>
+<td>SI</td>
+<td></td>
+<td></td>
+
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td></td>
+<td></td>
+<td></td>
+
+<td>SI</td>
+<td>SI</td>
+<td></td>
+
+<td>SI</td>
+<td></td>
+<td>Fortalecida</td>
+</tr>
+<tr>
+<td>38</td>
+<td>Ravelo</td>
+<td>Riego y Sistemas de Agua</td>
+<td>Asociación de Riego y Servicio Tomoyo (ARISET)</td>
+<td>2010</td>
+
+<td>SI</td>
+<td></td>
+<td></td>
+<td>SI</td>
+<td></td>
+
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td></td>
+<td>SI</td>
+<td></td>
+
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+
+<td>SI</td>
+<td></td>
+<td>Fortalecida</td>
+</tr>
+<tr>
+<td>39</td>
+<td>Ravelo</td>
+<td>Agua Potable y Alcantarillado</td>
+<td>Asociación de Agua y Saneamiento Básico Challuma</td>
+<td>2010</td>
+
+<td></td>
+<td>SI</td>
+<td></td>
+<td></td>
+<td>NO</td>
+
+<td></td>
+<td>SI</td>
+<td>SI</td>
+<td></td>
+<td>SI</td>
+<td></td>
+
+<td>SI</td>
+<td>SI</td>
+<td></td>
+
+<td>SI</td>
+<td></td>
+<td>Fortalecida</td>
+</tr>
+<tr>
+<td>40</td>
+<td>Ravelo</td>
+<td>Otro</td>
+<td>Asociación de Productores Agropecuarios Mojon Pata</td>
+<td>2010</td>
+
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td></td>
+
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td></td>
+<td>SI</td>
+<td></td>
+
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+
+<td>SI</td>
+<td></td>
+<td>Fortalecida</td>
+</tr>
+<tr>
+<td>41</td>
+<td>Ravelo</td>
+<td>Caminos</td>
+<td>Caminos Pata Rodeo</td>
+<td>2011</td>
+
+<td></td>
+<td>SI</td>
+<td></td>
+<td></td>
+<td></td>
+
+<td>SI</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>SI</td>
+
+<td>SI</td>
+<td>SI</td>
+<td></td>
+
+<td>SI</td>
+<td></td>
+<td>Fortalecida</td>
+</tr>
+<tr>
+<td>42</td>
+<td>Ravelo</td>
+<td>Riego y Sistemas de Agua</td>
+<td>Asociación de Regantes  Arsass</td>
+<td>2010</td>
+
+<td></td>
+<td>SI</td>
+<td>SI</td>
+<td></td>
+<td></td>
+
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td></td>
+<td>SI</td>
+<td></td>
+
+<td>SI</td>
+<td>SI</td>
+<td></td>
+
+<td>SI</td>
+<td></td>
+<td>Fortalecida</td>
+</tr>
+<tr>
+<td>43</td>
+<td>Ravelo</td>
+<td>Agua Potable y Alcantarillado</td>
+<td>EPSAS  Ura Rodeo</td>
+<td>2010</td>
+
+<td></td>
+<td></td>
+<td>SI</td>
+<td></td>
+<td></td>
+
+<td></td>
+<td>SI</td>
+<td>SI</td>
+<td></td>
+<td></td>
+<td></td>
+
+<td>SI</td>
+<td>SI</td>
+<td></td>
+
+<td>SI</td>
+<td></td>
+<td>Fortalecida</td>
+</tr>
+<tr>
+<td>44</td>
+<td>Ravelo</td>
+<td>Agua Potable y Alcantarillado</td>
+<td>EPSAS  Sauci mayu</td>
+<td>2010</td>
+
+<td></td>
+<td>SI</td>
+<td>SI</td>
+<td></td>
+<td>SI</td>
+
+<td></td>
+<td>SI</td>
+<td>SI</td>
+<td></td>
+<td>SI</td>
+<td></td>
+
+<td>SI</td>
+<td>SI</td>
+<td></td>
+
+<td>SI</td>
+<td></td>
+<td>Fortalecida</td>
+</tr>
+<tr>
+<td>45</td>
+<td>Ravelo</td>
+<td>Otro</td>
+<td>Modulo Lechero Yoroca</td>
+<td>2010</td>
+
+<td></td>
+<td></td>
+<td>SI</td>
+<td></td>
+<td></td>
+
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td></td>
+<td></td>
+<td></td>
+
+<td>SI</td>
+<td>SI</td>
+<td></td>
+
+<td>SI</td>
+<td></td>
+<td>Fortalecida</td>
+</tr>
+<tr>
+<td>46</td>
+<td>Ravelo</td>
+<td>Acopio Productivo y Transformación</td>
+<td>Asociación Productiva Agropecuaria (Aproagro) Huayllas</td>
+<td>2010</td>
+
+<td>SI</td>
+<td></td>
+<td>SI</td>
+<td>SI</td>
+<td></td>
+
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td></td>
+<td>SI</td>
+<td></td>
+
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+
+<td>SI</td>
+<td></td>
+<td>Fortalecida</td>
+</tr>
+<tr>
+<td>47</td>
+<td>Ravelo</td>
+<td>Otro</td>
+<td>Asociación de Productores Agropecuarios-Veterinarios</td>
+<td>2010</td>
+
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td></td>
+
+<td></td>
+<td>SI</td>
+<td>SI</td>
+<td></td>
+<td>NO</td>
+<td></td>
+
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+
+<td>SI</td>
+<td></td>
+<td>Fortalecida</td>
+</tr>
+<tr>
+<td>48</td>
+<td>Ravelo</td>
+<td>Agua Potable y Alcantarillado</td>
+<td>EPSA Ravelo</td>
+<td>2010</td>
+
+<td></td>
+<td>SI</td>
+<td></td>
+<td></td>
+<td>SI</td>
+
+<td></td>
+<td>SI</td>
+<td>SI</td>
+<td></td>
+<td></td>
+<td></td>
+
+<td>SI</td>
+<td>SI</td>
+<td></td>
+
+<td>SI</td>
+<td></td>
+<td>Fortalecida</td>
+</tr>
+<tr>
+<td>49</td>
+<td>Ravelo</td>
+<td>Riego y Sistemas de Agua</td>
+<td>Asoc. De prod. De semilla de maiz "Aprosemas"</td>
+<td>2011</td>
+
+<td>SI</td>
+<td></td>
+<td>SI</td>
+<td>SI</td>
+<td></td>
+
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td></td>
+<td>SI</td>
+<td></td>
+
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+
+<td>SI</td>
+<td></td>
+<td>Fortalecida</td>
+</tr>
+<tr>
+<td>50</td>
+<td>Ravelo</td>
+<td>Agua Potable y Alcantarillado</td>
+<td>Asociación de Agua y Saneamiento Básico Safiri (EPSAS Safiri)</td>
+<td>2010</td>
+
+<td></td>
+<td>SI</td>
+<td></td>
+<td></td>
+<td></td>
+
+<td></td>
+<td>SI</td>
+<td>SI</td>
+<td></td>
+<td>SI</td>
+<td></td>
+
+<td>SI</td>
+<td>SI</td>
+<td></td>
+
+<td>SI</td>
+<td></td>
+<td>Fortalecida</td>
+</tr>
+<tr bgcolor="#dddfff">
+    <td colspan="3"><b>Regional: </b>Cochabamba</td>
+    <td colspan="3"><b>Depto: </b>Cochabamba</td>
+    <td colspan="15"></td>
+</tr>
+<tr>
+    <th style="background:#B8C692">No</th>
+    <th style="background:#B8C692">Municipio</th>
+    <th style="background:#B8C692">Rubro</th>
+    <th style="background:#B8C692">Nombre de la Mer</th>
+    <th style="background:#B8C692">Gestion</th>
+
+    <th style="background:#0aeea3">Plan de Negocio</th>
+    <th style="background:#0aeea3">Plan Estrategico</th>
+    <th style="background:#0aeea3">Plan de Produccion</th>
+    <th style="background:#0aeea3">Plan Financiero</th>
+    <th style="background:#0aeea3">POA</th>
+
+    <th style="background:#0aeae0">Personeria Juridica</th>
+    <th style="background:#0aeae0">Estatuto Organico</th>
+    <th style="background:#0aeae0">Reglamento Interno</th>
+    <th style="background:#0aeae0">Reg. Funda Empresa</th>
+    <th style="background:#0aeae0">Acta Constitucion</th>
+    <th style="background:#0aeae0">Tarjeta Empresarial</th>
+
+    <th style="background:#0ab473">Producto Desarrollado</th>
+    <th style="background:#0ab473">Servicio Desarrollado</th>
+    <th style="background:#0ab473">Plan Marketing</th>
+
+    <th style="background:#0ac0bf">Registro de Ventas Actualizado</th>
+    <th style="background:#7DA81B">Parametros de Calidad</th>
+    <th style="background:#B8C692">Valor</th>
+</tr>
+<tr>
+<td>51</td>
+<td>Capinota</td>
+<td>Riego y Sistemas de Agua</td>
+<td>Comité de Agua y Sanamiento  Hornoma</td>
+<td>2010</td>
+
+<td></td>
+<td>SI</td>
+<td></td>
+<td></td>
+<td></td>
+
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>SI</td>
+<td></td>
+
+<td>SI</td>
+<td>SI</td>
+<td></td>
+
+<td>SI</td>
+<td></td>
+<td>Fortalecida</td>
+</tr>
+<tr>
+<td>52</td>
+<td>Capinota</td>
+<td>Otro</td>
+<td>Asociación Modulo Lechero Playa Ancha</td>
+<td>2010</td>
+
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td></td>
+<td></td>
+
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td></td>
+<td></td>
+<td></td>
+
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+
+<td>SI</td>
+<td></td>
+<td>Fortalecida</td>
+</tr>
+<tr>
+<td>53</td>
+<td>Capinota</td>
+<td>Agua Potable y Alcantarillado</td>
+<td>Cooperativa de Agua Potable Capinota</td>
+<td>2011</td>
+
+<td></td>
+<td></td>
+<td>SI</td>
+<td></td>
+<td></td>
+
+<td>SI</td>
+<td>SI</td>
+<td></td>
+<td></td>
+<td>SI</td>
+<td></td>
+
+<td>SI</td>
+<td>SI</td>
+<td></td>
+
+<td>SI</td>
+<td></td>
+<td>Fortalecida</td>
+</tr>
+<tr>
+<td>54</td>
+<td>Capinota</td>
+<td>Agua Potable y Alcantarillado</td>
+<td>Asociación de Usuarios y Consumidores Agua Potable Playa Ancha (EPSAS Playa Ancha)</td>
+<td>2010</td>
+
+<td></td>
+<td>SI</td>
+<td></td>
+<td></td>
+<td>SI</td>
+
+<td></td>
+<td>SI</td>
+<td>SI</td>
+<td></td>
+<td></td>
+<td></td>
+
+<td>SI</td>
+<td>SI</td>
+<td></td>
+
+<td>SI</td>
+<td></td>
+<td>Fortalecida</td>
+</tr>
+<tr>
+<td>55</td>
+<td>Capinota</td>
+<td>Otro</td>
+<td>Modulo Lechero Charamoco</td>
+<td>2010</td>
+
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td></td>
+<td></td>
+
+<td></td>
+<td>SI</td>
+<td>SI</td>
+<td></td>
+<td></td>
+<td></td>
+
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+
+<td>SI</td>
+<td></td>
+<td>Fortalecida</td>
+</tr>
+<tr>
+<td>56</td>
+<td>Capinota</td>
+<td>Agua Potable y Alcantarillado</td>
+<td>EPSAS Apillapampa</td>
+<td>2010</td>
+
+<td></td>
+<td>SI</td>
+<td></td>
+<td></td>
+<td></td>
+
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td></td>
+<td></td>
+<td></td>
+
+<td>SI</td>
+<td>SI</td>
+<td></td>
+
+<td>SI</td>
+<td></td>
+<td>Fortalecida</td>
+</tr>
+<tr>
+<td>57</td>
+<td>Capinota</td>
+<td>Agua Potable y Alcantarillado</td>
+<td>EPSAS Charamoco</td>
+<td>2011</td>
+
+<td></td>
+<td>SI</td>
+<td></td>
+<td></td>
+<td></td>
+
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td></td>
+<td></td>
+<td></td>
+
+<td>SI</td>
+<td>SI</td>
+<td></td>
+
+<td>SI</td>
+<td></td>
+<td>Fortalecida</td>
+</tr>
+<tr>
+<td>58</td>
+<td>Capinota</td>
+<td>Otro</td>
+<td>Asociación Modulo Lechero Ucuchi</td>
+<td>2010</td>
+
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td></td>
+<td></td>
+
+<td>SI</td>
+<td>SI</td>
+<td></td>
+<td></td>
+<td>SI</td>
+<td></td>
+
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+
+<td>SI</td>
+<td></td>
+<td>Fortalecida</td>
+</tr>
+<tr>
+<td>59</td>
+<td>Capinota</td>
+<td>Agua Potable y Alcantarillado</td>
+<td>Cooperativa de Agua Potable Irpa Irpa</td>
+<td>2011</td>
+
+<td>SI</td>
+<td></td>
+<td>SI</td>
+<td></td>
+<td></td>
+
+<td></td>
+<td>SI</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+
+<td>SI</td>
+<td></td>
+<td>Fortalecida</td>
+</tr>
+<tr>
+<td>60</td>
+<td>Capinota</td>
+<td>Construcción</td>
+<td>Empresa Constructora Capinota</td>
+<td>2010</td>
+
+<td></td>
+<td>SI</td>
+<td></td>
+<td></td>
+<td></td>
+
+<td></td>
+<td>SI</td>
+<td>SI</td>
+<td></td>
+<td></td>
+<td></td>
+
+<td>SI</td>
+<td>SI</td>
+<td></td>
+
+<td>SI</td>
+<td></td>
+<td>Fortalecida</td>
+</tr>
+<tr>
+<td>61</td>
+<td>Capinota</td>
+<td>Otro</td>
+<td>Embotelladora de Agua Capinota</td>
+<td>2011</td>
+
+<td>SI</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+
+<td></td>
+<td>SI</td>
+<td>SI</td>
+<td></td>
+<td></td>
+<td></td>
+
+<td></td>
+<td></td>
+<td>SI</td>
+
+<td>SI</td>
+<td></td>
+<td>Fortalecida</td>
+</tr>
+<tr>
+<td>62</td>
+<td>Capinota</td>
+<td>Agua Potable y Alcantarillado</td>
+<td>Comité de Agua y Sanamiento  Palcoma (EPSAS Palcoma)</td>
+<td>2010</td>
+
+<td></td>
+<td>SI</td>
+<td></td>
+<td></td>
+<td></td>
+
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td></td>
+<td></td>
+<td></td>
+
+<td>SI</td>
+<td>SI</td>
+<td></td>
+
+<td>SI</td>
+<td></td>
+<td>Fortalecida</td>
+</tr>
+<tr>
+<td>63</td>
+<td>Capinota</td>
+<td>Agua Potable y Alcantarillado</td>
+<td>EPSAS Villcabamba</td>
+<td>2010</td>
+
+<td></td>
+<td>SI</td>
+<td></td>
+<td></td>
+<td></td>
+
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td></td>
+<td></td>
+<td></td>
+
+<td>SI</td>
+<td>SI</td>
+<td></td>
+
+<td>SI</td>
+<td></td>
+<td>Fortalecida</td>
+</tr>
+<tr>
+<td>64</td>
+<td>Capinota</td>
+<td>Agua Potable y Alcantarillado</td>
+<td>Comité de Agua y Sanamiento Ucuchi</td>
+<td>2010</td>
+
+<td></td>
+<td>SI</td>
+<td></td>
+<td></td>
+<td></td>
+
+<td></td>
+<td>SI</td>
+<td>SI</td>
+<td></td>
+<td></td>
+<td></td>
+
+<td>SI</td>
+<td>SI</td>
+<td></td>
+
+<td>SI</td>
+<td></td>
+<td>Fortalecida</td>
+</tr>
+<tr>
+<td>65</td>
+<td>Tapacarí</td>
+<td>Otro</td>
+<td>Lavadora de Hortalizas</td>
+<td>2011</td>
+
+<td>SI</td>
+<td>NO</td>
+<td>SI</td>
+<td></td>
+<td></td>
+
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>SI</td>
+<td></td>
+
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+
+<td>SI</td>
+<td></td>
+<td>Fortalecida</td>
+</tr>
+<tr>
+<td>66</td>
+<td>Tapacarí</td>
+<td>Caminos</td>
+<td>Empresa de MV ABC Provial Santiago de Challa</td>
+<td>2011</td>
+
+<td>SI</td>
+<td>SI</td>
+<td></td>
+<td></td>
+<td>SI</td>
+
+<td>SI</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>SI</td>
+
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+
+<td>SI</td>
+<td></td>
+<td>Fortalecida</td>
+</tr>
+<tr>
+<td>67</td>
+<td>Tapacarí</td>
+<td>Otro</td>
+<td>Asociacion de artesanas Japo</td>
+<td>2010</td>
+
+<td>SI</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td></td>
+<td>SI</td>
+<td></td>
+
+<td></td>
+<td></td>
+<td>SI</td>
+
+<td>SI</td>
+<td></td>
+<td>Fortalecida</td>
+</tr>
+<tr>
+<td>68</td>
+<td>Tapacarí</td>
+<td>Acopio Productivo y Transformación</td>
+<td>APAE ANDINO</td>
+<td>2009</td>
+
+<td></td>
+<td></td>
+<td>SI</td>
+<td></td>
+<td></td>
+
+<td></td>
+<td>SI</td>
+<td>SI</td>
+<td></td>
+<td>SI</td>
+<td></td>
+
+<td>SI</td>
+<td>SI</td>
+<td></td>
+
+<td>SI</td>
+<td></td>
+<td>Fortalecida</td>
+</tr>
+<tr>
+<td>69</td>
+<td>Tapacarí</td>
+<td>Caminos</td>
+<td>Empresa de MV ABC Provial Vicachani</td>
+<td>2011</td>
+
+<td></td>
+<td>SI</td>
+<td></td>
+<td></td>
+<td>SI</td>
+
+<td>SI</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>SI</td>
+
+<td>SI</td>
+<td>SI</td>
+<td></td>
+
+<td>SI</td>
+<td></td>
+<td>Fortalecida</td>
+</tr>
+<tr bgcolor="#dddfff">
+    <td colspan="3"><b>Regional: </b>Cochabamba</td>
+    <td colspan="3"><b>Depto: </b>Potosi</td>
+    <td colspan="15"></td>
+</tr>
+<tr>
+    <th style="background:#B8C692">No</th>
+    <th style="background:#B8C692">Municipio</th>
+    <th style="background:#B8C692">Rubro</th>
+    <th style="background:#B8C692">Nombre de la Mer</th>
+    <th style="background:#B8C692">Gestion</th>
+
+    <th style="background:#0aeea3">Plan de Negocio</th>
+    <th style="background:#0aeea3">Plan Estrategico</th>
+    <th style="background:#0aeea3">Plan de Produccion</th>
+    <th style="background:#0aeea3">Plan Financiero</th>
+    <th style="background:#0aeea3">POA</th>
+
+    <th style="background:#0aeae0">Personeria Juridica</th>
+    <th style="background:#0aeae0">Estatuto Organico</th>
+    <th style="background:#0aeae0">Reglamento Interno</th>
+    <th style="background:#0aeae0">Reg. Funda Empresa</th>
+    <th style="background:#0aeae0">Acta Constitucion</th>
+    <th style="background:#0aeae0">Tarjeta Empresarial</th>
+
+    <th style="background:#0ab473">Producto Desarrollado</th>
+    <th style="background:#0ab473">Servicio Desarrollado</th>
+    <th style="background:#0ab473">Plan Marketing</th>
+
+    <th style="background:#0ac0bf">Registro de Ventas Actualizado</th>
+    <th style="background:#7DA81B">Parametros de Calidad</th>
+    <th style="background:#B8C692">Valor</th>
+</tr>
+<tr>
+<td>70</td>
+<td>Toro toro</td>
+<td>Agua Potable y Alcantarillado</td>
+<td>EPSAS Torotoro</td>
+<td>2010</td>
+
+<td></td>
+<td>SI</td>
+<td></td>
+<td></td>
+<td>SI</td>
+
+<td></td>
+<td>SI</td>
+<td>SI</td>
+<td></td>
+<td>SI</td>
+<td></td>
+
+<td>SI</td>
+<td>SI</td>
+<td></td>
+
+<td>SI</td>
+<td></td>
+<td>Fortalecida</td>
+</tr>
+<tr>
+<td>71</td>
+<td>Toro toro</td>
+<td>Riego y Sistemas de Agua</td>
+<td>Asoc.Riego y Serv.Kuchura Huayco</td>
+<td>2010</td>
+
+<td>SI</td>
+<td></td>
+<td>SI</td>
+<td>SI</td>
+<td></td>
+
+<td>SI</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+
+<td>SI</td>
+<td></td>
+<td>Fortalecida</td>
+</tr>
+<tr>
+<td>72</td>
+<td>Toro toro</td>
+<td>Acopio Productivo y Transformación</td>
+<td>Asociación Productores Agropecuarios del Caine (AGROCAINE)</td>
+<td>2010</td>
+
+<td>SI</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td></td>
+<td></td>
+<td></td>
+
+<td></td>
+<td></td>
+<td>SI</td>
+
+<td>SI</td>
+<td></td>
+<td>Fortalecida</td>
+</tr>
+<tr>
+<td>73</td>
+<td>Toro toro</td>
+<td>Agua Potable y Alcantarillado</td>
+<td>EPSAS Julo Grande</td>
+<td>2011</td>
+
+<td>SI</td>
+<td>SI</td>
+<td></td>
+<td></td>
+<td></td>
+
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td></td>
+<td>SI</td>
+<td></td>
+
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+
+<td>SI</td>
+<td></td>
+<td>Fortalecida</td>
+</tr>
+<tr>
+<td>74</td>
+<td>Toro toro</td>
+<td>Agua Potable y Alcantarillado</td>
+<td>EPSAS Sucusuma</td>
+<td>2011</td>
+
+<td></td>
+<td>SI</td>
+<td></td>
+<td></td>
+<td></td>
+
+<td></td>
+<td>SI</td>
+<td>SI</td>
+<td></td>
+<td></td>
+<td></td>
+
+<td>SI</td>
+<td>SI</td>
+<td></td>
+
+<td>SI</td>
+<td></td>
+<td>Fortalecida</td>
+</tr>
+<tr>
+<td>75</td>
+<td>Toro toro</td>
+<td>Riego y Sistemas de Agua</td>
+<td>Asoc.Riego y Serv. Kewayllani</td>
+<td>2010</td>
+
+<td></td>
+<td>SI</td>
+<td></td>
+<td></td>
+<td></td>
+
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>SI</td>
+<td></td>
+
+<td>SI</td>
+<td>SI</td>
+<td></td>
+
+<td>SI</td>
+<td></td>
+<td>Fortalecida</td>
+</tr>
+<tr>
+<td>76</td>
+<td>Toro toro</td>
+<td>Acopio Productivo y Transformación</td>
+<td>Asociación Productores Andinos Originarios Ecológicos Torotoro (APECT)</td>
+<td>2009</td>
+
+<td>SI</td>
+<td>SI</td>
+<td></td>
+<td></td>
+<td></td>
+
+<td>SI</td>
+<td></td>
+<td>SI</td>
+<td></td>
+<td></td>
+<td></td>
+
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+
+<td>SI</td>
+<td></td>
+<td>Fortalecida</td>
+</tr>
+<tr>
+<td>77</td>
+<td>Toro toro</td>
+<td>Otro</td>
+<td>Servicio de Trasporte Escolar</td>
+<td>2011</td>
+
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>SI</td>
+
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>SI</td>
+<td></td>
+
+<td>SI</td>
+<td>SI</td>
+<td></td>
+
+<td>SI</td>
+<td></td>
+<td>Fortalecida</td>
+</tr>
+<tr>
+<td>78</td>
+<td>Toro toro</td>
+<td>Otro</td>
+<td>Centro artesanal Rosas T'ikas</td>
+<td>2010</td>
+
+<td>SI</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+<td></td>
+<td>SI</td>
+<td></td>
+
+<td></td>
+<td></td>
+<td>SI</td>
+
+<td>SI</td>
+<td></td>
+<td>Fortalecida</td>
+</tr>
+<tr>
+<td>79</td>
+<td>Toro toro</td>
+<td>Turismo y Ecoturismo</td>
+<td>Asoc.Guías de Ecoturismo Torotoro</td>
+<td>2010</td>
+
+<td>SI</td>
+<td></td>
+<td>SI</td>
+<td></td>
+<td></td>
+
+<td></td>
+<td>SI</td>
+<td>SI</td>
+<td></td>
+<td>SI</td>
+<td></td>
+
+<td>SI</td>
+<td>SI</td>
+<td>SI</td>
+
+<td>SI</td>
+<td></td>
+<td>Fortalecida</td>
+</tr>
+    </tbody></table>
+<br>
+<table border="1" width="50px">
+    <tbody><tr style="background: olive;color: #ffffff">
+        <th>META DEL PROYECTO</th>
+        <th>MERS FORTALECIDAS</th>
+        <th>PORCENTAJE</th>
+    </tr>
+    <tr align="center">
+        <td> 115 </td>
+        <td>79</td>
+        <td>68.70%</td>
+    </tr>
+</tbody></table>
+
