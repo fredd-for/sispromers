@@ -1,0 +1,7 @@
+date	time	id	user	action	table	field	key value	old value	new value
+2012/05/31	23:17:37	/sispromers/login.php	aruiz	login	login				
+2012/05/31	23:27:38	/sispromers/logout.php	aruiz	logout	logout				
+2012/05/31	23:27:44	/sispromers/login.php	jurgenm	login	login				
+2012/05/31	23:28:40	/sispromers/logout.php	jurgenm	logout	logout				
+2012/05/31	23:29:03	/sispromers/login.php	osvaldoc	login	login				
+2012/05/31	23:41:57	/sispromers/login.php	aruiz	login	login				
