@@ -7,8 +7,8 @@
 // Database connection
 define("EW_CONN_HOST", "localhost", TRUE);
 define("EW_CONN_PORT", 3306, TRUE);
-define("EW_CONN_USER", "user_sispromers", TRUE);
-define("EW_CONN_PASS", "pass_sispromers", TRUE);
+define("EW_CONN_USER", "root", TRUE);
+define("EW_CONN_PASS", "8209125", TRUE);
 define("EW_CONN_DB", "db_sispromers", TRUE);
 
 // Show SQL for debug

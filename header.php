@@ -167,11 +167,9 @@ if($combinacion=='0'){return '1';}
 	    <td class="ewContentColumn">
 			<!-- right column (begin) -->
 <?php
-//require_once('Connections/conexion.php');
-//mysql_select_db($database_conexion, $conexion);
-//$query_rol= "SELECT nombre FROM rol WHERE idRol=".$_SESSION['idRol'];
-//$mostrar_rol=mysql_query($query_rol, $conexion) or die(mysql_error());
-//$row_rol=mysql_fetch_assoc($mostrar_rol);
+if(isset($_SESSION['nombre'])){
 ?>
 <p style="color: green" align="right"><?php echo "<b>Usuario: </b>".$_SESSION['nombre']." ".$_SESSION['paterno'];?></p>
-	<?php } ?>
+	<?php } 
+                } 
+                ?>
