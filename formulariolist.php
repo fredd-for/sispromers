@@ -147,41 +147,46 @@ return false;
 //Formato del calendario
 </script>
 <?php
-if($_GET['idPlanilla']=='16') {
+$x_idPlanilla = 0;
+if(isset($_GET['idPlanilla'])) {
+    $x_idPlanilla = $_GET['idPlanilla'];
+}
+
+if($x_idPlanilla=='16') {
 mysql_select_db($database_conexion, $conexion);
-$query_prestamo = "SELECT count(prestamo) as prestamo FROM obtencion_credito16 WHERE idMer='".(int)$_GET['idMer']."' AND idPlanilla='".(int)$_GET['idPlanilla']."' AND prestamo='SI'";
+$query_prestamo = "SELECT count(prestamo) as prestamo FROM obtencion_credito16 WHERE idMer='".(int)$_GET['idMer']."' AND idPlanilla='".(int)$x_idPlanilla."' AND prestamo='SI'";
 $mostrar_prestamo= mysql_query($query_prestamo, $conexion) or die(mysql_error());
 $row_prestamo=mysql_fetch_assoc($mostrar_prestamo);
 
 mysql_select_db($database_conexion, $conexion);
-$query_mora= "SELECT count(mora) as mora FROM obtencion_credito16 WHERE idMer='".(int)$_GET['idMer']."' AND idPlanilla='".(int)$_GET['idPlanilla']."' AND mora='SI'";
+$query_mora= "SELECT count(mora) as mora FROM obtencion_credito16 WHERE idMer='".(int)$_GET['idMer']."' AND idPlanilla='".(int)$x_idPlanilla."' AND mora='SI'";
 $mostrar_mora= mysql_query($query_mora, $conexion) or die(mysql_error());
 $row_mora=mysql_fetch_assoc($mostrar_mora);
 
 if($row_prestamo['prestamo']>=1) {
 mysql_select_db($database_conexion, $conexion);
-$query_formularioP = "UPDATE formulario SET cuenta='SI' WHERE idMer='".(int)$_GET['idMer']."' AND idPlanilla='".(int)$_GET['idPlanilla']."'";
+$query_formularioP = "UPDATE formulario SET cuenta='SI' WHERE idMer='".(int)$_GET['idMer']."' AND idPlanilla='".(int)$x_idPlanilla."'";
 $mostrar_formularioP= mysql_query($query_formularioP, $conexion) or die(mysql_error());
 }else {
 mysql_select_db($database_conexion, $conexion);
-$query_formularioP = "UPDATE formulario SET cuenta='NO' WHERE idMer='".(int)$_GET['idMer']."' AND idPlanilla='".(int)$_GET['idPlanilla']."'";
+$query_formularioP = "UPDATE formulario SET cuenta='NO' WHERE idMer='".(int)$_GET['idMer']."' AND idPlanilla='".(int)$x_idPlanilla."'";
 $mostrar_formularioP= mysql_query($query_formularioP, $conexion) or die(mysql_error());
 }
 
 if($row_mora['mora']>=1) {
 mysql_select_db($database_conexion, $conexion);
-$query_formularioM = "UPDATE formulario SET porcentaje='1' WHERE idMer='".(int)$_GET['idMer']."' AND idPlanilla='".(int)$_GET['idPlanilla']."'";
+$query_formularioM = "UPDATE formulario SET porcentaje='1' WHERE idMer='".(int)$_GET['idMer']."' AND idPlanilla='".(int)$x_idPlanilla."'";
 $mostrar_formularioM= mysql_query($query_formularioM, $conexion) or die(mysql_error());
 }else {
 mysql_select_db($database_conexion, $conexion);
-$query_formularioM = "UPDATE formulario SET porcentaje='0' WHERE idMer='".(int)$_GET['idMer']."' AND idPlanilla='".(int)$_GET['idPlanilla']."'";
+$query_formularioM = "UPDATE formulario SET porcentaje='0' WHERE idMer='".(int)$_GET['idMer']."' AND idPlanilla='".(int)$x_idPlanilla."'";
 $mostrar_formularioM= mysql_query($query_formularioM, $conexion) or die(mysql_error());
 }
 }
 
 //Creando todo el formulario para el usuario, si este no a sido creado aun
 mysql_select_db($database_conexion, $conexion);
-$query_formulario = "SELECT * FROM formulario WHERE idMer='".(int)$_GET['idMer']."' AND idPlanilla='".(int)$_GET['idPlanilla']."'";
+$query_formulario = "SELECT * FROM formulario WHERE idMer='".(int)$_GET['idMer']."' AND idPlanilla='".(int)$x_idPlanilla."'";
 $mostrar_formulario= mysql_query($query_formulario, $conexion) or die(mysql_error());
 $row_formulario= mysql_fetch_assoc($mostrar_formulario);
 $totalRows_formulario = mysql_num_rows($mostrar_formulario);
@@ -192,18 +197,18 @@ $query_crear_formulario = "INSERT INTO formulario VALUES ('',".(int)$_GET["idMer
 mysql_query($query_crear_formulario, $conexion) or die(mysql_error());
 }
 
-if($_GET['idPlanilla']=='1' || $_GET['idPlanilla']=='14'|| $_GET['idPlanilla']=='20') {
+if($x_idPlanilla=='1' || $x_idPlanilla=='14'|| $x_idPlanilla=='20') {
 //Creando todo el tipo contrato para el usuario, si este no a sido creado aun
 mysql_select_db($database_conexion, $conexion);
-$query_contratoLlenar = "SELECT * FROM contrato_llenar WHERE idMer='".(int)$_GET['idMer']."' AND idPlanilla='".(int)$_GET['idPlanilla']."' ORDER BY idCL asc";
+$query_contratoLlenar = "SELECT * FROM contrato_llenar WHERE idMer='".(int)$_GET['idMer']."' AND idPlanilla='".(int)$x_idPlanilla."' ORDER BY idCL asc";
 $mostrar_contratoLlenar= mysql_query($query_contratoLlenar, $conexion) or die(mysql_error());
 $row_contratoLlenar= mysql_fetch_assoc($mostrar_contratoLlenar);
 $totalRows_contratoLlenar= mysql_num_rows($mostrar_contratoLlenar);
 }
 //Creando todo pregunta para el usuario, si este no a sido creado aun
-if($_GET['idPlanilla']!='1' || $_GET['idPlanilla']!='14'|| $_GET['idPlanilla']!='20') {
+if($x_idPlanilla!='1' || $x_idPlanilla!='14'|| $x_idPlanilla!='20') {
 mysql_select_db($database_conexion, $conexion);
-$query_preguntaResp = "SELECT * FROM pregunta WHERE idPlanilla='".(int)$_GET["idPlanilla"]."' AND idPregunta NOT IN (SELECT idPregunta FROM pregunta_respuesta WHERE idPlanilla='".(int)$_GET["idPlanilla"]."' AND idMer='".(int)$_GET["idMer"]."')";
+$query_preguntaResp = "SELECT * FROM pregunta WHERE idPlanilla='".(int)$x_idPlanilla."' AND idPregunta NOT IN (SELECT idPregunta FROM pregunta_respuesta WHERE idPlanilla='".(int)$x_idPlanilla."' AND idMer='".(int)$_GET["idMer"]."')";
 $mostrar_preguntaResp= mysql_query($query_preguntaResp, $conexion) or die(mysql_error());
 $totalRows_preguntaResp = mysql_num_rows($mostrar_preguntaResp);
 if($totalRows_preguntaResp > 0) {
@@ -219,7 +224,7 @@ mysql_query($query_crear_preguntaRespuesta, $conexion) or die(mysql_error());
 }
 /////////////////// proceso de llenado de datos
 
-if($_GET['idPlanilla']=='1' || $_GET['idPlanilla']=='14' || $_GET['idPlanilla']=='20') {
+if($x_idPlanilla=='1' || $x_idPlanilla=='14' || $x_idPlanilla=='20') {
 $mostrar_contratoLlenar= mysql_query($query_contratoLlenar, $conexion) or die(mysql_error());
 $totalRows_contratoLlenar= mysql_num_rows($mostrar_contratoLlenar);
 }
@@ -228,13 +233,13 @@ $row_formulario= mysql_fetch_assoc($mostrar_formulario);
 $totalRows_formulario = mysql_num_rows($mostrar_formulario);
 
 mysql_select_db($database_conexion, $conexion);
-$query_preguntaRespuesta = "SELECT a.*, b.pregunta FROM pregunta_respuesta a, pregunta b WHERE a.idMer='".(int)$_GET['idMer']."' AND a.idPlanilla='".(int)$_GET['idPlanilla']."' AND a.idPregunta = b.idPregunta";
+$query_preguntaRespuesta = "SELECT a.*, b.pregunta FROM pregunta_respuesta a, pregunta b WHERE a.idMer='".(int)$_GET['idMer']."' AND a.idPlanilla='".(int)$x_idPlanilla."' AND a.idPregunta = b.idPregunta";
 $mostrar_preguntaRespuesta= mysql_query($query_preguntaRespuesta, $conexion) or die(mysql_error());
 $row_preguntaRespuesta= mysql_fetch_assoc($mostrar_preguntaRespuesta);
 $totalRows_preguntaRespuesta = mysql_num_rows($mostrar_preguntaRespuesta);
 // extraendo todos los archivos
 mysql_select_db($database_conexion, $conexion);
-$query_archivo = "SELECT * FROM archivo WHERE idMer='".(int)$_GET['idMer']."' AND idPlanilla='".(int)$_GET['idPlanilla']."'";
+$query_archivo = "SELECT * FROM archivo WHERE idMer='".(int)$_GET['idMer']."' AND idPlanilla='".(int)$x_idPlanilla."'";
 $mostrar_archivo= mysql_query($query_archivo, $conexion) or die(mysql_error());
 $totalRows_archivo= mysql_num_rows($mostrar_archivo);
 
@@ -281,7 +286,7 @@ lista_porcentaje=$("#check_list_porcentaje");
 var aux=pSI*100/y;
 aux = Math.round(aux*100)/100
 
-if("<?php echo $_GET['idPlanilla']?>"!='13'){
+if("<?php echo $x_idPlanilla?>"!='13'){
 if(aux=='100'){resp="SI"}else{resp="NO"}
 lista.attr("value",resp);$("#idcheck_list").text(resp);
 lista_porcentaje.attr("value",aux);$("#idcheck_list_porcentaje").text(aux);
@@ -290,7 +295,7 @@ $(":radio").click(function(){
 lista=$("#check_list");
 lista_porcentaje=$("#check_list_porcentaje");
 cont=0;
-if("<?php echo $_GET['idPlanilla']?>"=='13'){
+if("<?php echo $x_idPlanilla?>"=='13'){
 cont=0;
 for(i=1;i<=y;i++)
 {str = $("input[name='respuesta_"+i+"']:checked").val();
@@ -314,7 +319,7 @@ x.click(presionFila);
 z=$("#x_tdPregunta a");
 z.click(presiona_pregunta);
 //planilla 15
-if("<?php echo $_GET['idPlanilla']?>"=='15'){
+if("<?php echo $x_idPlanilla?>"=='15'){
 var respuesta,respuesta2;
 for(i=1;i<="<?php echo $totalRows_preguntaRespuesta;?>";i++){
 respuesta=$("#respuesta_"+i);
@@ -399,8 +404,8 @@ function validar_formulario()
 { var v_archivo=$("#archivo").attr("value");
   var v_observacion=$("#x_observacion").attr("value");
   //alert(v_observacion.length);
-    if("<?php echo $_GET['idPlanilla']?>"=='1' || "<?php echo $_GET['idPlanilla']?>"=='14' || "<?php echo $_GET['idPlanilla']?>"=='16' || "<?php echo $_GET['idPlanilla']?>"=='17'){
-        if("<?php echo $_GET['idPlanilla']?>"=='17'){var v_checkList=$("#check_list17").attr("value");}else{var v_checkList=$("#check_list_1").attr("value");}
+    if("<?php echo $x_idPlanilla?>"=='1' || "<?php echo $x_idPlanilla?>"=='14' || "<?php echo $x_idPlanilla?>"=='16' || "<?php echo $x_idPlanilla?>"=='17'){
+        if("<?php echo $x_idPlanilla?>"=='17'){var v_checkList=$("#check_list17").attr("value");}else{var v_checkList=$("#check_list_1").attr("value");}
     }
     else{var v_checkList=$("#idcheck_list").text();}
     
@@ -434,7 +439,7 @@ if((v_archivo.length<=1 && v_checkList=='SI' && <?php echo $totalRows_archivo;?>
     }
 }
 </script>
-<?php if($_GET['idPlanilla']=="") {    ?>
+<?php if($x_idPlanilla=="") {    ?>
 <br>
 <form name="formulario1" id="formulario1" action="formulario_guardar.php" method="post" enctype="multipart/form-data">
 <table cellspacing="0" class="ewGrid" align="center"><tr><td class="ewGridContent">
@@ -731,7 +736,7 @@ $indicador7='NO';
 if($sw==1 && $planificado<=0){$sw=1;}else{$sw=0;}
 ?>
 <div align="center" style="background: #344785; color: #ffffff">
-<?php if ($estado==1 && ($Security->CanAdd() || $Security->CanEdit())) {?><a href="envio_email.php?x_idMer=<?php echo $_GET['idMer']?>&x_idPlanilla=<?php echo $_GET['idPlanilla'];?>&sw=desabilitar" style="background: red" onclick="return estadoDesabilitado(<?php echo $sw?>)">
+<?php if ($estado==1 && ($Security->CanAdd() || $Security->CanEdit())) {?><a href="envio_email.php?x_idMer=<?php echo $_GET['idMer']?>&x_idPlanilla=<?php echo $x_idPlanilla;?>&sw=desabilitar" style="background: red" onclick="return estadoDesabilitado(<?php echo $sw?>)">
     <img src="images/guardar.png" width="180" height="25" border="none"></a><br><?php }
 if($estado==2 && ($Security->CanAdd() || $Security->CanEdit())) {echo "Realizo el reporte exitosamente en fecha ".date("d-m-Y",strtotime($row_mer['fechaModificacion']));}?>
 <?php if ($estado==2 && $_SESSION['idRol']<2){ echo "Reporte realizado en fecha ".date("d-m-Y",strtotime($row_mer['fechaModificacion']));?>
@@ -740,7 +745,7 @@ if($estado==2 && ($Security->CanAdd() || $Security->CanEdit())) {echo "Realizo e
 if ($estado==1 && $Security->CanView()) {echo "La MERS se habilito en fecha ".date("d-m-Y",strtotime($row_mer['fechaModificacion']));}?>
 </div>
 <?php }?>
-<?php if($_GET['idPlanilla']=='1') {    ?>
+<?php if($x_idPlanilla=='1') {    ?>
 <form name="formulario1" id="formulario1" action="formulario_guardar.php" method="post" enctype="multipart/form-data" onSubmit="return validar_formulario(this);">
 <table cellspacing="0" class="ewGrid"><tr><td class="ewGridContent">
 <div class="ewGridMiddlePanel">
@@ -749,7 +754,7 @@ if ($estado==1 && $Security->CanView()) {echo "La MERS se habilito en fecha ".da
 <tr><td colspan="11" class="ewTableHeader" align="center">REGISTRO DE LOS CONTRATOS DE LA MERS</td></tr>
 <tr class="ewTableHeader">
     <td>Nro</td><td>Tipo de Contrato(*)</td><td>Registro por recibos/planillas (*)</td><td>Fecha Inicio</td><td>Fecha Finalizacion</td><td>Precio Bs.</td><td>Completo</td><td>Cert. Conformidad(x)</td>
-    <?php if($Security->CanAdd()){?><td id="x_td_contrato" colspan="3"><a href="formulario_agregar.php?idMer=<?php echo $_GET['idMer']?>&idPlanilla=<?php echo $_GET['idPlanilla']?>&sw=contratoadd" title="agregar" id="contrato"><img src="images/add.png" style="border: none"></a></td><?php } ?>
+    <?php if($Security->CanAdd()){?><td id="x_td_contrato" colspan="3"><a href="formulario_agregar.php?idMer=<?php echo $_GET['idMer']?>&idPlanilla=<?php echo $x_idPlanilla?>&sw=contratoadd" title="agregar" id="contrato"><img src="images/add.png" style="border: none"></a></td><?php } ?>
 </tr>
 <?php
 $cont=1;
@@ -784,20 +789,20 @@ $cont_tipoContrato++;
 if($row_contratoLlenar['certConformidad']=='SI') {
 $cont_conformidad='SI';
 }?></td>
-<?php if($Security->CanView()){?><td id="x_td_contrato"><a href="formulario_agregar.php?idMer=<?php echo $_GET['idMer']?>&idPlanilla=<?php echo $_GET['idPlanilla']?>&sw=contratoview&x_idCL=<?php echo $row_contratoLlenar['idCL'];?>" title="ver contrato" id="contratoedit"><img src="images/page.png" border="none"></a></td><?php } ?>
-<?php if($estado==1 && $Security->CanEdit()){?><td id="x_td_contrato"><a href="formulario_agregar.php?idMer=<?php echo $_GET['idMer']?>&idPlanilla=<?php echo $_GET['idPlanilla']?>&sw=contratoedit&x_idCL=<?php echo $row_contratoLlenar['idCL'];?>" title="editar contrato" id="contratoedit"><img src="images/page_edit.png" border="none"></a></td><?php } ?>
-<?php if($estado==1 && $Security->CanDelete()) {?><td><a href="formulario_guardar.php?x_idMer=<?php echo $_GET['idMer']?>&x_idPlanilla=<?php echo $_GET['idPlanilla'];?>&sw=contratodelete&x_idCL=<?php echo $row_contratoLlenar['idCL'];?>" title="borrar contrato" id="contratodelete" onClick="return confirmarDelete();"><img src="images/delete.png" border="none"></a></td><?php } ?>
+<?php if($Security->CanView()){?><td id="x_td_contrato"><a href="formulario_agregar.php?idMer=<?php echo $_GET['idMer']?>&idPlanilla=<?php echo $x_idPlanilla?>&sw=contratoview&x_idCL=<?php echo $row_contratoLlenar['idCL'];?>" title="ver contrato" id="contratoedit"><img src="images/page.png" border="none"></a></td><?php } ?>
+<?php if($estado==1 && $Security->CanEdit()){?><td id="x_td_contrato"><a href="formulario_agregar.php?idMer=<?php echo $_GET['idMer']?>&idPlanilla=<?php echo $x_idPlanilla?>&sw=contratoedit&x_idCL=<?php echo $row_contratoLlenar['idCL'];?>" title="editar contrato" id="contratoedit"><img src="images/page_edit.png" border="none"></a></td><?php } ?>
+<?php if($estado==1 && $Security->CanDelete()) {?><td><a href="formulario_guardar.php?x_idMer=<?php echo $_GET['idMer']?>&x_idPlanilla=<?php echo $x_idPlanilla;?>&sw=contratodelete&x_idCL=<?php echo $row_contratoLlenar['idCL'];?>" title="borrar contrato" id="contratodelete" onClick="return confirmarDelete();"><img src="images/delete.png" border="none"></a></td><?php } ?>
 </tr>
                 <?php
                 $cont++;
 }
 mysql_select_db($database_conexion, $conexion);
-$query_contadorRegistro = "SELECT b.idRegistroContrato, b.registroContrato , count(b.idRegistroContrato) as cont FROM contrato_llenar a, registro_contrato b WHERE a.idMer='".(int)$_GET['idMer']."' AND a.idPlanilla='".(int)$_GET['idPlanilla']."' AND a.idRegistroContrato=b.idRegistroContrato GROUP BY b.idRegistroContrato";
+$query_contadorRegistro = "SELECT b.idRegistroContrato, b.registroContrato , count(b.idRegistroContrato) as cont FROM contrato_llenar a, registro_contrato b WHERE a.idMer='".(int)$_GET['idMer']."' AND a.idPlanilla='".(int)$x_idPlanilla."' AND a.idRegistroContrato=b.idRegistroContrato GROUP BY b.idRegistroContrato";
 $mostrar_contadorRegistro= mysql_query($query_contadorRegistro, $conexion) or die(mysql_error());
 ?>
 <tr><td colspan="11"><div id="carga_contratoLlenar"></div><td></tr>
 </table>
-<input type="hidden" name="idPlanilla" id="idPlanilla" value="<?php echo $_GET['idPlanilla']?>">
+<input type="hidden" name="idPlanilla" id="idPlanilla" value="<?php echo $x_idPlanilla?>">
 <table cellspacing="0" class="ewTable">
 <tr><td colspan="6"><div class="titulo">RESUMEN DEL FORMULARIO</div></td></tr>
 <tr>
@@ -819,9 +824,9 @@ echo '<strong>'.$row_contadorRegistro['registroContrato'].":</strong> ".$row_con
 <div id="cargar_checklist"></div>
 
 <input type="hidden" name="check_list" id="check_list_1" size="5" value="<?php if($cont_contratoCompleto>'0') {echo "SI";}else {echo "NO";}?>">
-<input type="hidden" name="preguntaSI" id="preguntaSI" value="<?php echo $cont_preguntaSI;?>">
+
 <input type="hidden" name="x_idMer" value="<?php echo $_GET['idMer'] ?>">
-<input type="hidden" name="x_idPlanilla" value="<?php echo $_GET['idPlanilla'] ?>">
+<input type="hidden" name="x_idPlanilla" value="<?php echo $x_idPlanilla ?>">
 <table cellspacing="0" class="ewTable">
 <tr><td colspan="2"><div class="titulo">MODELO DE CONTRATO TIPO</div></td></tr>
 <tr><td>Adjuntar Archivo</td><td><?php if($Security->CanAdd()){?><input type="file" name="archivo" id="archivo" class="casilla" size="100"><?php } ?>
@@ -832,7 +837,7 @@ while (false !== ($arch = readdir($gestor))) {
 if ($arch != "." && $arch != ".." && $arch==$row_archivo['archivo']) {
 echo "<li><a href=\"files/".$arch."\" class=\"linkli\" title='Extraer archivo'>".$arch."</a>&nbsp;&nbsp;&nbsp;&nbsp;";
 if($estado==1 && $Security->CanDelete()) {
-echo "<a href='formulario_guardar.php?x_idArchivo=".$row_archivo['idArchivo']."&sw=archivodelete&archivo=".$arch."&x_idMer=".$_GET['idMer']."&x_idPlanilla=".$_GET['idPlanilla']."' title='Borrar archivo' onclick='return confirmarDeleteArchivo()'><img src='images/delete.png' height='10' width='12' border='none'></a>";
+echo "<a href='formulario_guardar.php?x_idArchivo=".$row_archivo['idArchivo']."&sw=archivodelete&archivo=".$arch."&x_idMer=".$_GET['idMer']."&x_idPlanilla=".$x_idPlanilla."' title='Borrar archivo' onclick='return confirmarDeleteArchivo()'><img src='images/delete.png' height='10' width='12' border='none'></a>";
 };
 echo "</li>\n";
 }
@@ -852,11 +857,11 @@ closedir($gestor);
 </form>
     <?php }?>
 
-<?php if($_GET['idPlanilla']=='2') {    ?>
+<?php if($x_idPlanilla=='2') {    ?>
 <form name="formulario1" id="formulario1" action="formulario_guardar.php" method="post" enctype="multipart/form-data" onSubmit="return validar_formulario(this);">
 <table cellspacing="0" class="ewGrid"><tr><td class="ewGridContent">
 <div class="ewGridMiddlePanel">
-<input type="hidden" name="idPlanilla" id="idPlanilla" value="<?php echo $_GET['idPlanilla']?>">
+<input type="hidden" name="idPlanilla" id="idPlanilla" value="<?php echo $x_idPlanilla?>">
 <table cellspacing="0" class="ewTable">
 <tr><td colspan="11"><div class="titulo">PLAN DE NEGOCIO</div></td></tr>
 <tr><td>LA MERS CUENTA CON UN PLAN DE NEGOCIO:<td id="idcheck_list"></td></tr>
@@ -890,7 +895,7 @@ $cont_pregunta++;
 <input type="hidden" name="check_list_porcentaje" id="check_list_porcentaje">
 <input type="hidden" name="preguntaSI" id="preguntaSI" value="<?php echo $cont_preguntaSI;?>">
 <input type="hidden" name="x_idMer" value="<?php echo $_GET['idMer'] ?>">
-<input type="hidden" name="x_idPlanilla" value="<?php echo $_GET['idPlanilla'] ?>">
+<input type="hidden" name="x_idPlanilla" value="<?php echo $x_idPlanilla ?>">
 <table cellspacing="0" class="ewTable">
 <tr><td colspan="2"><div class="titulo">MODELO DEL PLAN DE NEGOCIO</div></td></tr>
 <tr><td>Adjuntar Archivo</td><td><?php if($Security->CanAdd()){?><input type="file" name="archivo" id="archivo" class="casilla" size="100"><?php } ?>
@@ -901,7 +906,7 @@ while (false !== ($arch = readdir($gestor))) {
 if ($arch != "." && $arch != ".." && $arch==$row_archivo['archivo']) {
 echo "<li><a href=\"files/".$arch."\" class=\"linkli\" title='Extraer archivo'>".$arch."</a>&nbsp;&nbsp;&nbsp;&nbsp;";
 if($estado==1 && $Security->CanDelete()) {
-echo "<a href='formulario_guardar.php?x_idArchivo=".$row_archivo['idArchivo']."&sw=archivodelete&archivo=".$arch."&x_idMer=".$_GET['idMer']."&x_idPlanilla=".$_GET['idPlanilla']."' title='Borrar archivo' onclick='return confirmarDeleteArchivo()'><img src='images/delete.png' height='10' width='12' border='none'></a>";
+echo "<a href='formulario_guardar.php?x_idArchivo=".$row_archivo['idArchivo']."&sw=archivodelete&archivo=".$arch."&x_idMer=".$_GET['idMer']."&x_idPlanilla=".$x_idPlanilla."' title='Borrar archivo' onclick='return confirmarDeleteArchivo()'><img src='images/delete.png' height='10' width='12' border='none'></a>";
 };
 echo "</li>\n";
 }
@@ -921,11 +926,11 @@ closedir($gestor);
 </form>
     <?php }?>
 
-<?php if($_GET['idPlanilla']=='3') {    ?>
+<?php if($x_idPlanilla=='3') {    ?>
 <form name="formulario1" id="formulario1" action="formulario_guardar.php" method="post" enctype="multipart/form-data" onSubmit="return validar_formulario(this);">
 <table cellspacing="0" class="ewGrid"><tr><td class="ewGridContent">
 <div class="ewGridMiddlePanel">
-<input type="hidden" name="idPlanilla" id="idPlanilla" value="<?php echo $_GET['idPlanilla']?>">
+<input type="hidden" name="idPlanilla" id="idPlanilla" value="<?php echo $x_idPlanilla?>">
 <table cellspacing="0" class="ewTable">
 <tr><td colspan="11"><div class="titulo">PLAN ESTRATEGICO</div></td></tr>
 <tr><td>LA MERS CUENTA CON UN PLAN ESTRATEGICO:<td id="idcheck_list"></td></tr>
@@ -964,7 +969,7 @@ do {?>
 <input type="hidden" name="check_list_porcentaje" id="check_list_porcentaje">
 <input type="hidden" name="preguntaSI" id="preguntaSI" value="<?php echo $cont_preguntaSI;?>">
 <input type="hidden" name="x_idMer" value="<?php echo $_GET['idMer'] ?>">
-<input type="hidden" name="x_idPlanilla" value="<?php echo $_GET['idPlanilla'] ?>">
+<input type="hidden" name="x_idPlanilla" value="<?php echo $x_idPlanilla ?>">
 <table cellspacing="0" class="ewTable">
 <tr><td colspan="2"><div class="titulo">MODELO DEL PLAN ESTRATEGICO</div></td></tr>
 <tr><td>Adjuntar Archivo</td><td><?php if($Security->CanAdd()){?><input type="file" name="archivo" id="archivo" class="casilla" size="100"><?php } ?>
@@ -975,7 +980,7 @@ while (false !== ($arch = readdir($gestor))) {
 if ($arch != "." && $arch != ".." && $arch==$row_archivo['archivo']) {
 echo "<li><a href=\"files/".$arch."\" class=\"linkli\" title='Extraer archivo'>".$arch."</a>&nbsp;&nbsp;&nbsp;&nbsp;";
 if($estado==1 && $Security->CanDelete()) {
-echo "<a href='formulario_guardar.php?x_idArchivo=".$row_archivo['idArchivo']."&sw=archivodelete&archivo=".$arch."&x_idMer=".$_GET['idMer']."&x_idPlanilla=".$_GET['idPlanilla']."' title='Borrar archivo' onclick='return confirmarDeleteArchivo()'><img src='images/delete.png' height='10' width='12' border='none'></a>";
+echo "<a href='formulario_guardar.php?x_idArchivo=".$row_archivo['idArchivo']."&sw=archivodelete&archivo=".$arch."&x_idMer=".$_GET['idMer']."&x_idPlanilla=".$x_idPlanilla."' title='Borrar archivo' onclick='return confirmarDeleteArchivo()'><img src='images/delete.png' height='10' width='12' border='none'></a>";
 };
 echo "</li>\n";
 }
@@ -995,11 +1000,11 @@ closedir($gestor);
 </form>
     <?php }?>
 
-<?php if($_GET['idPlanilla']=='4') {    ?>
+<?php if($x_idPlanilla=='4') {    ?>
 <form name="formulario1" id="formulario1" action="formulario_guardar.php" method="post" enctype="multipart/form-data" onSubmit="return validar_formulario(this);">
 <table cellspacing="0" class="ewGrid"><tr><td class="ewGridContent">
 <div class="ewGridMiddlePanel">
-<input type="hidden" name="idPlanilla" id="idPlanilla" value="<?php echo $_GET['idPlanilla']?>">
+<input type="hidden" name="idPlanilla" id="idPlanilla" value="<?php echo $x_idPlanilla?>">
 <table cellspacing="0" class="ewTable">
 <tr><td colspan="11"><div class="titulo">PLAN FINANCIERO</div></td></tr>
 <tr><td>LA MERS CUENTA CON UN PLAN FINANCIERO:<td id="idcheck_list"></td></tr>
@@ -1038,7 +1043,7 @@ do {?>
 <input type="hidden" name="check_list_porcentaje" id="check_list_porcentaje">
 <input type="hidden" name="preguntaSI" id="preguntaSI" value="<?php echo $cont_preguntaSI;?>">
 <input type="hidden" name="x_idMer" value="<?php echo $_GET['idMer'] ?>">
-<input type="hidden" name="x_idPlanilla" value="<?php echo $_GET['idPlanilla'] ?>">
+<input type="hidden" name="x_idPlanilla" value="<?php echo $x_idPlanilla ?>">
 <table cellspacing="0" class="ewTable">
 <tr><td colspan="2"><div class="titulo">MODELO DEL PLAN FINANCIERO</div></td></tr>
 <tr><td>Adjuntar Archivo</td><td><?php if($Security->CanAdd()){?><input type="file" name="archivo" id="archivo" class="casilla" size="100"><?php } ?>
@@ -1049,7 +1054,7 @@ while (false !== ($arch = readdir($gestor))) {
 if ($arch != "." && $arch != ".." && $arch==$row_archivo['archivo']) {
 echo "<li><a href=\"files/".$arch."\" class=\"linkli\" title='Extraer archivo'>".$arch."</a>&nbsp;&nbsp;&nbsp;&nbsp;";
 if($estado==1 && $Security->CanDelete()) {
-echo "<a href='formulario_guardar.php?x_idArchivo=".$row_archivo['idArchivo']."&sw=archivodelete&archivo=".$arch."&x_idMer=".$_GET['idMer']."&x_idPlanilla=".$_GET['idPlanilla']."' title='Borrar archivo' onclick='return confirmarDeleteArchivo()'><img src='images/delete.png' height='10' width='12' border='none'></a>";
+echo "<a href='formulario_guardar.php?x_idArchivo=".$row_archivo['idArchivo']."&sw=archivodelete&archivo=".$arch."&x_idMer=".$_GET['idMer']."&x_idPlanilla=".$x_idPlanilla."' title='Borrar archivo' onclick='return confirmarDeleteArchivo()'><img src='images/delete.png' height='10' width='12' border='none'></a>";
 };
 echo "</li>\n";
 }
@@ -1069,11 +1074,11 @@ closedir($gestor);
 </form>
     <?php }?>
 
-<?php if($_GET['idPlanilla']=='5') {    ?>
+<?php if($x_idPlanilla=='5') {    ?>
 <form name="formulario1" id="formulario1" action="formulario_guardar.php" method="post" enctype="multipart/form-data" onSubmit="return validar_formulario(this);">
 <table cellspacing="0" class="ewGrid"><tr><td class="ewGridContent">
 <div class="ewGridMiddlePanel">
-<input type="hidden" name="idPlanilla" id="idPlanilla" value="<?php echo $_GET['idPlanilla']?>">
+<input type="hidden" name="idPlanilla" id="idPlanilla" value="<?php echo $x_idPlanilla?>">
 <table cellspacing="0" class="ewTable">
 <tr><td colspan="11"><div class="titulo">PLAN DE PRODUCCION</div></td></tr>
 <tr><td>LA MERS CUENTA CON UN PLAN DE PRODUCCION:<td id="idcheck_list"></td></tr>
@@ -1110,7 +1115,7 @@ do {?>
 <input type="hidden" name="check_list_porcentaje" id="check_list_porcentaje">
 <input type="hidden" name="preguntaSI" id="preguntaSI" value="<?php echo $cont_preguntaSI;?>">
 <input type="hidden" name="x_idMer" value="<?php echo $_GET['idMer'] ?>">
-<input type="hidden" name="x_idPlanilla" value="<?php echo $_GET['idPlanilla'] ?>">
+<input type="hidden" name="x_idPlanilla" value="<?php echo $x_idPlanilla ?>">
 <table cellspacing="0" class="ewTable">
 <tr><td colspan="2"><div class="titulo">MODELO DEL PLAN DE PRODUCCION</div></td></tr>
 <tr><td>Adjuntar Archivo</td><td><?php if($Security->CanAdd()){?><input type="file" name="archivo" id="archivo" class="casilla" size="100"><?php } ?>
@@ -1121,7 +1126,7 @@ while (false !== ($arch = readdir($gestor))) {
 if ($arch != "." && $arch != ".." && $arch==$row_archivo['archivo']) {
 echo "<li><a href=\"files/".$arch."\" class=\"linkli\" title='Extraer archivo'>".$arch."</a>&nbsp;&nbsp;&nbsp;&nbsp;";
 if($estado==1 && $Security->CanDelete()) {
-echo "<a href='formulario_guardar.php?x_idArchivo=".$row_archivo['idArchivo']."&sw=archivodelete&archivo=".$arch."&x_idMer=".$_GET['idMer']."&x_idPlanilla=".$_GET['idPlanilla']."' title='Borrar archivo' onclick='return confirmarDeleteArchivo()'><img src='images/delete.png' height='10' width='12' border='none'></a>";
+echo "<a href='formulario_guardar.php?x_idArchivo=".$row_archivo['idArchivo']."&sw=archivodelete&archivo=".$arch."&x_idMer=".$_GET['idMer']."&x_idPlanilla=".$x_idPlanilla."' title='Borrar archivo' onclick='return confirmarDeleteArchivo()'><img src='images/delete.png' height='10' width='12' border='none'></a>";
 };
 echo "</li>\n";
 }
@@ -1141,11 +1146,11 @@ closedir($gestor);
 </form>
     <?php }?>
 
-<?php if($_GET['idPlanilla']=='6') {    ?>
+<?php if($x_idPlanilla=='6') {    ?>
 <form name="formulario1" id="formulario1" action="formulario_guardar.php" method="post" enctype="multipart/form-data" onSubmit="return validar_formulario(this);">
 <table cellspacing="0" class="ewGrid"><tr><td class="ewGridContent">
 <div class="ewGridMiddlePanel">
-<input type="hidden" name="idPlanilla" id="idPlanilla" value="<?php echo $_GET['idPlanilla']?>">
+<input type="hidden" name="idPlanilla" id="idPlanilla" value="<?php echo $x_idPlanilla?>">
 <table cellspacing="0" class="ewTable">
 <tr><td colspan="11"><div class="titulo">PLAN OPERATIVO ANUAL</div></td></tr>
 <tr><td>LA MERS CUENTA CON UN POA:<td id="idcheck_list"></td></tr>
@@ -1182,7 +1187,7 @@ do {?>
 <input type="hidden" name="check_list_porcentaje" id="check_list_porcentaje">
 <input type="hidden" name="preguntaSI" id="preguntaSI" value="<?php echo $cont_preguntaSI;?>">
 <input type="hidden" name="x_idMer" value="<?php echo $_GET['idMer'] ?>">
-<input type="hidden" name="x_idPlanilla" value="<?php echo $_GET['idPlanilla'] ?>">
+<input type="hidden" name="x_idPlanilla" value="<?php echo $x_idPlanilla ?>">
 <table cellspacing="0" class="ewTable">
 <tr><td colspan="2"><div class="titulo">MODELO DEL PLAN OPERATIVO ANUAL</div></td></tr>
 <tr><td>Adjuntar Archivo</td><td><?php if($Security->CanAdd()){?><input type="file" name="archivo" id="archivo" class="casilla" size="100"><?php } ?>
@@ -1193,7 +1198,7 @@ while (false !== ($arch = readdir($gestor))) {
 if ($arch != "." && $arch != ".." && $arch==$row_archivo['archivo']) {
 echo "<li><a href=\"files/".$arch."\" class=\"linkli\" title='Extraer archivo'>".$arch."</a>&nbsp;&nbsp;&nbsp;&nbsp;";
 if($estado==1 && $Security->CanDelete()) {
-echo "<a href='formulario_guardar.php?x_idArchivo=".$row_archivo['idArchivo']."&sw=archivodelete&archivo=".$arch."&x_idMer=".$_GET['idMer']."&x_idPlanilla=".$_GET['idPlanilla']."' title='Borrar archivo' onclick='return confirmarDeleteArchivo()'><img src='images/delete.png' height='10' width='12' border='none'></a>";
+echo "<a href='formulario_guardar.php?x_idArchivo=".$row_archivo['idArchivo']."&sw=archivodelete&archivo=".$arch."&x_idMer=".$_GET['idMer']."&x_idPlanilla=".$x_idPlanilla."' title='Borrar archivo' onclick='return confirmarDeleteArchivo()'><img src='images/delete.png' height='10' width='12' border='none'></a>";
 };
 echo "</li>\n";
 }
@@ -1212,11 +1217,11 @@ closedir($gestor);
 </form>
     <?php }?>
 
-<?php if($_GET['idPlanilla']=='7') {    ?>
+<?php if($x_idPlanilla=='7') {    ?>
 <form name="formulario1" id="formulario1" action="formulario_guardar.php" method="post" enctype="multipart/form-data" onSubmit="return validar_formulario(this);">
 <table cellspacing="0" class="ewGrid"><tr><td class="ewGridContent">
 <div class="ewGridMiddlePanel">
-<input type="hidden" name="idPlanilla" id="idPlanilla" value="<?php echo $_GET['idPlanilla']?>">
+<input type="hidden" name="idPlanilla" id="idPlanilla" value="<?php echo $x_idPlanilla?>">
 <table cellspacing="0" class="ewTable">
 <tr><td colspan="11"><div class="titulo">CONSTITUCION DE LA MERS</div></td></tr>
 <tr><td>LA MERS CUENTA CON UNA ACTA DE CONSTITUCION:<td id="idcheck_list"></td></tr>
@@ -1253,7 +1258,7 @@ do {?>
 <input type="hidden" name="check_list_porcentaje" id="check_list_porcentaje">
 <input type="hidden" name="preguntaSI" id="preguntaSI" value="<?php echo $cont_preguntaSI;?>">
 <input type="hidden" name="x_idMer" value="<?php echo $_GET['idMer'] ?>">
-<input type="hidden" name="x_idPlanilla" value="<?php echo $_GET['idPlanilla'] ?>">
+<input type="hidden" name="x_idPlanilla" value="<?php echo $x_idPlanilla ?>">
 <table cellspacing="0" class="ewTable">
 <tr><td colspan="2"><div class="titulo">REQUISITOS PARA LA CONSTITUCION DE LA MERS</div></td></tr>
 <tr><td>Adjuntar Archivo</td><td><?php if($Security->CanAdd()){?><input type="file" name="archivo" id="archivo" class="casilla" size="100"><?php } ?>
@@ -1264,7 +1269,7 @@ while (false !== ($arch = readdir($gestor))) {
 if ($arch != "." && $arch != ".." && $arch==$row_archivo['archivo']) {
 echo "<li><a href=\"files/".$arch."\" class=\"linkli\" title='Extraer archivo'>".$arch."</a>&nbsp;&nbsp;&nbsp;&nbsp;";
 if($estado==1 && $Security->CanDelete()) {
-echo "<a href='formulario_guardar.php?x_idArchivo=".$row_archivo['idArchivo']."&sw=archivodelete&archivo=".$arch."&x_idMer=".$_GET['idMer']."&x_idPlanilla=".$_GET['idPlanilla']."' title='Borrar archivo' onclick='return confirmarDeleteArchivo()'><img src='images/delete.png' height='10' width='12' border='none'></a>";
+echo "<a href='formulario_guardar.php?x_idArchivo=".$row_archivo['idArchivo']."&sw=archivodelete&archivo=".$arch."&x_idMer=".$_GET['idMer']."&x_idPlanilla=".$x_idPlanilla."' title='Borrar archivo' onclick='return confirmarDeleteArchivo()'><img src='images/delete.png' height='10' width='12' border='none'></a>";
 };
 echo "</li>\n";
 }
@@ -1284,11 +1289,11 @@ closedir($gestor);
 </form>
     <?php }?>
 
-<?php if($_GET['idPlanilla']=='8') {    ?>
+<?php if($x_idPlanilla=='8') {    ?>
 <form name="formulario1" id="formulario1" action="formulario_guardar.php" method="post" enctype="multipart/form-data" onSubmit="return validar_formulario(this);">
 <table cellspacing="0" class="ewGrid"><tr><td class="ewGridContent">
 <div class="ewGridMiddlePanel">
-<input type="hidden" name="idPlanilla" id="idPlanilla" value="<?php echo $_GET['idPlanilla']?>">
+<input type="hidden" name="idPlanilla" id="idPlanilla" value="<?php echo $x_idPlanilla?>">
 <table cellspacing="0" class="ewTable">
 <tr><td colspan="11"><div class="titulo">ESTATUTO ORG&Aacute;NICO</div></td></tr>
 <tr><td>LA MERS CUENTA CON ESTATUTO ORG&Aacute;NICO:<td id="idcheck_list"></td></tr>
@@ -1325,7 +1330,7 @@ do {?>
 <input type="hidden" name="check_list_porcentaje" id="check_list_porcentaje">
 <input type="hidden" name="preguntaSI" id="preguntaSI" value="<?php echo $cont_preguntaSI;?>">
 <input type="hidden" name="x_idMer" value="<?php echo $_GET['idMer'] ?>">
-<input type="hidden" name="x_idPlanilla" value="<?php echo $_GET['idPlanilla'] ?>">
+<input type="hidden" name="x_idPlanilla" value="<?php echo $x_idPlanilla ?>">
 <table cellspacing="0" class="ewTable">
 <tr><td colspan="2"><div class="titulo">MODELO DEL ESTATUTO ORGANICO "TIPO ACOPIO, TRANSFORMACION Y PRODUCCION"</div></td></tr>
 <tr><td>Adjuntar Archivo</td><td><?php if($Security->CanAdd()){?><input type="file" name="archivo" id="archivo" class="casilla" size="100"><?php } ?>
@@ -1336,7 +1341,7 @@ while (false !== ($arch = readdir($gestor))) {
 if ($arch != "." && $arch != ".." && $arch==$row_archivo['archivo']) {
 echo "<li><a href=\"files/".$arch."\" class=\"linkli\" title='Extraer archivo'>".$arch."</a>&nbsp;&nbsp;&nbsp;&nbsp;";
 if($estado==1 && $Security->CanDelete()) {
-echo "<a href='formulario_guardar.php?x_idArchivo=".$row_archivo['idArchivo']."&sw=archivodelete&archivo=".$arch."&x_idMer=".$_GET['idMer']."&x_idPlanilla=".$_GET['idPlanilla']."' title='Borrar archivo' onclick='return confirmarDeleteArchivo()'><img src='images/delete.png' height='10' width='12' border='none'></a>";
+echo "<a href='formulario_guardar.php?x_idArchivo=".$row_archivo['idArchivo']."&sw=archivodelete&archivo=".$arch."&x_idMer=".$_GET['idMer']."&x_idPlanilla=".$x_idPlanilla."' title='Borrar archivo' onclick='return confirmarDeleteArchivo()'><img src='images/delete.png' height='10' width='12' border='none'></a>";
 };
 echo "</li>\n";
 }
@@ -1355,8 +1360,8 @@ closedir($gestor);
 </td></tr></table>
 </form>
     <?php }?>
-<?php if($_GET['idPlanilla']=='9') {    ?>
-<input type="hidden" name="idPlanilla" id="idPlanilla" value="<?php echo $_GET['idPlanilla']?>">
+<?php if($x_idPlanilla=='9') {    ?>
+<input type="hidden" name="idPlanilla" id="idPlanilla" value="<?php echo $x_idPlanilla?>">
 <form name="formulario1" id="formulario1" action="formulario_guardar.php" method="post" enctype="multipart/form-data" onSubmit="return validar_formulario(this);">
 <table cellspacing="0" class="ewGrid"><tr><td class="ewGridContent">
 <div class="ewGridMiddlePanel">
@@ -1393,7 +1398,7 @@ $cont_pregunta++;
 <input type="hidden" name="check_list_porcentaje" id="check_list_porcentaje">
     <input type="hidden" name="preguntaSI" id="preguntaSI" value="<?php echo $cont_preguntaSI;?>">
 <input type="hidden" name="x_idMer" value="<?php echo $_GET['idMer'] ?>">
-<input type="hidden" name="x_idPlanilla" value="<?php echo $_GET['idPlanilla'] ?>">
+<input type="hidden" name="x_idPlanilla" value="<?php echo $x_idPlanilla ?>">
 <table cellspacing="0" class="ewTable">
 <tr><td colspan="2"><div class="titulo">MODELO DEL REGLAMENTO INTERNO "TIPO"</div></td></tr>
 <tr><td>Adjuntar Archivo</td><td><?php if($Security->CanAdd()){?><input type="file" name="archivo" id="archivo" class="casilla" size="100"><?php } ?>
@@ -1404,7 +1409,7 @@ while (false !== ($arch = readdir($gestor))) {
 if ($arch != "." && $arch != ".." && $arch==$row_archivo['archivo']) {
 echo "<li><a href=\"files/".$arch."\" class=\"linkli\" title='Extraer archivo'>".$arch."</a>&nbsp;&nbsp;&nbsp;&nbsp;";
 if($estado==1 && $Security->CanDelete()) {
-echo "<a href='formulario_guardar.php?x_idArchivo=".$row_archivo['idArchivo']."&sw=archivodelete&archivo=".$arch."&x_idMer=".$_GET['idMer']."&x_idPlanilla=".$_GET['idPlanilla']."' title='Borrar archivo' onclick='return confirmarDeleteArchivo()'><img src='images/delete.png' height='10' width='12' border='none'></a>";
+echo "<a href='formulario_guardar.php?x_idArchivo=".$row_archivo['idArchivo']."&sw=archivodelete&archivo=".$arch."&x_idMer=".$_GET['idMer']."&x_idPlanilla=".$x_idPlanilla."' title='Borrar archivo' onclick='return confirmarDeleteArchivo()'><img src='images/delete.png' height='10' width='12' border='none'></a>";
 };
 echo "</li>\n";
 }
@@ -1423,11 +1428,11 @@ closedir($gestor);
 </td></tr></table>
 </form>
     <?php }?>
-<?php if($_GET['idPlanilla']=='10') {    ?>
+<?php if($x_idPlanilla=='10') {    ?>
 <form name="formulario1" id="formulario1" action="formulario_guardar.php" method="post" enctype="multipart/form-data" onSubmit="return validar_formulario(this);">
 <table cellspacing="0" class="ewGrid"><tr><td class="ewGridContent">
 <div class="ewGridMiddlePanel">
-<input type="hidden" name="idPlanilla" id="idPlanilla" value="<?php echo $_GET['idPlanilla']?>">
+<input type="hidden" name="idPlanilla" id="idPlanilla" value="<?php echo $x_idPlanilla?>">
 <table cellspacing="0" class="ewTable">
 <tr><td colspan="11"><div class="titulo">TARJETA EMPRESARIAL</div></td></tr>
 <tr><td>LA MERS CUENTA CON TARJETA EMPRESARIAL:<td id="idcheck_list"></td></tr>
@@ -1464,7 +1469,7 @@ do {?>
 <input type="hidden" name="check_list_porcentaje" id="check_list_porcentaje">
 <input type="hidden" name="preguntaSI" id="preguntaSI" value="<?php echo $cont_preguntaSI;?>">
 <input type="hidden" name="x_idMer" value="<?php echo $_GET['idMer'] ?>">
-<input type="hidden" name="x_idPlanilla" value="<?php echo $_GET['idPlanilla'] ?>">
+<input type="hidden" name="x_idPlanilla" value="<?php echo $x_idPlanilla ?>">
 <table cellspacing="0" class="ewTable">
 <tr><td colspan="2"><div class="titulo">REQUISITOS PARA LA OBTENCIÓN DE LA TARJETA EMPRESARIAL</div></td></tr>
 <tr><td>Adjuntar Archivo</td><td><?php if($Security->CanAdd()){?><input type="file" name="archivo" id="archivo" class="casilla" size="100"><?php } ?>
@@ -1475,7 +1480,7 @@ while (false !== ($arch = readdir($gestor))) {
 if ($arch != "." && $arch != ".." && $arch==$row_archivo['archivo']) {
 echo "<li><a href=\"files/".$arch."\" class=\"linkli\" title='Extraer archivo'>".$arch."</a>&nbsp;&nbsp;&nbsp;&nbsp;";
 if($estado==1 && $Security->CanDelete()) {
-echo "<a href='formulario_guardar.php?x_idArchivo=".$row_archivo['idArchivo']."&sw=archivodelete&archivo=".$arch."&x_idMer=".$_GET['idMer']."&x_idPlanilla=".$_GET['idPlanilla']."' title='Borrar archivo' onclick='return confirmarDeleteArchivo()'><img src='images/delete.png' height='10' width='12' border='none'></a>";
+echo "<a href='formulario_guardar.php?x_idArchivo=".$row_archivo['idArchivo']."&sw=archivodelete&archivo=".$arch."&x_idMer=".$_GET['idMer']."&x_idPlanilla=".$x_idPlanilla."' title='Borrar archivo' onclick='return confirmarDeleteArchivo()'><img src='images/delete.png' height='10' width='12' border='none'></a>";
 };
 echo "</li>\n";
 }
@@ -1494,11 +1499,11 @@ closedir($gestor);
 </td></tr></table>
 </form>
     <?php }?>
-<?php if($_GET['idPlanilla']=='11') {    ?>
+<?php if($x_idPlanilla=='11') {    ?>
 <form name="formulario1" id="formulario1" action="formulario_guardar.php" method="post" enctype="multipart/form-data" onSubmit="return validar_formulario(this);">
 <table cellspacing="0" class="ewGrid"><tr><td class="ewGridContent">
 <div class="ewGridMiddlePanel">
-<input type="hidden" name="idPlanilla" id="idPlanilla" value="<?php echo $_GET['idPlanilla']?>">
+<input type="hidden" name="idPlanilla" id="idPlanilla" value="<?php echo $x_idPlanilla?>">
 <table cellspacing="0" class="ewTable">
 <tr><td colspan="11"><div class="titulo">REGISTRO FUNDAEMPRESA</div></td></tr>
 <tr><td>LA MERS CUENTA CON REGISTRO FUNDAEMPRESA:<td id="idcheck_list"></td></tr>
@@ -1535,7 +1540,7 @@ do {?>
 <input type="hidden" name="check_list_porcentaje" id="check_list_porcentaje">
 <input type="hidden" name="preguntaSI" id="preguntaSI" value="<?php echo $cont_preguntaSI;?>">
 <input type="hidden" name="x_idMer" value="<?php echo $_GET['idMer'] ?>">
-<input type="hidden" name="x_idPlanilla" value="<?php echo $_GET['idPlanilla'] ?>">
+<input type="hidden" name="x_idPlanilla" value="<?php echo $x_idPlanilla ?>">
 <table cellspacing="0" class="ewTable">
 <tr><td colspan="2"><div class="titulo">REQUISITOS PARA EL REGISTRO FUNDAEMPRESA</div></td></tr>
 <tr><td>Adjuntar Archivo</td><td><?php if($Security->CanAdd()){?><input type="file" name="archivo" id="archivo" class="casilla" size="100"><?php } ?>
@@ -1546,7 +1551,7 @@ while (false !== ($arch = readdir($gestor))) {
 if ($arch != "." && $arch != ".." && $arch==$row_archivo['archivo']) {
 echo "<li><a href=\"files/".$arch."\" class=\"linkli\" title='Extraer archivo'>".$arch."</a>&nbsp;&nbsp;&nbsp;&nbsp;";
 if($estado==1 && $Security->CanDelete()) {
-echo "<a href='formulario_guardar.php?x_idArchivo=".$row_archivo['idArchivo']."&sw=archivodelete&archivo=".$arch."&x_idMer=".$_GET['idMer']."&x_idPlanilla=".$_GET['idPlanilla']."' title='Borrar archivo' onclick='return confirmarDeleteArchivo()'><img src='images/delete.png' height='10' width='12' border='none'></a>";
+echo "<a href='formulario_guardar.php?x_idArchivo=".$row_archivo['idArchivo']."&sw=archivodelete&archivo=".$arch."&x_idMer=".$_GET['idMer']."&x_idPlanilla=".$x_idPlanilla."' title='Borrar archivo' onclick='return confirmarDeleteArchivo()'><img src='images/delete.png' height='10' width='12' border='none'></a>";
 };
 echo "</li>\n";
 }
@@ -1565,7 +1570,7 @@ closedir($gestor);
 </td></tr></table>
 </form>
     <?php }?>
-<?php if($_GET['idPlanilla']=='12') {    ?>
+<?php if($x_idPlanilla=='12') {    ?>
 <form name="formulario1" id="formulario1" action="formulario_guardar.php" method="post" enctype="multipart/form-data" onSubmit="return validar_formulario12(this);">
 <table cellspacing="0" class="ewGrid"><tr><td class="ewGridContent">
 <div class="ewGridMiddlePanel">
@@ -1588,11 +1593,11 @@ closedir($gestor);
     <td>Fecha Inicial</td>
     <td>Fecha Finalizacion</td>
     <td>Cumple</td>
-<?php if($Security->CanAdd()){?><td id="x_td_contrato" colspan="2"><a href="formulario_agregar12.php?idMer=<?php echo $_GET['idMer']?>&idPlanilla=<?php echo $_GET['idPlanilla']?>&sw=formulario12add" title="agregar" id="contrato"><img src="images/add.png" style="border: none"></a></td><?php } ?>
+<?php if($Security->CanAdd()){?><td id="x_td_contrato" colspan="2"><a href="formulario_agregar12.php?idMer=<?php echo $_GET['idMer']?>&idPlanilla=<?php echo $x_idPlanilla?>&sw=formulario12add" title="agregar" id="contrato"><img src="images/add.png" style="border: none"></a></td><?php } ?>
 </tr>
 <?php
     mysql_select_db($database_conexion, $conexion);
-    $query_formulario12 = "SELECT * FROM formulario12 WHERE idMer='".(int)$_GET['idMer']."' AND idPlanilla='".$_GET['idPlanilla']."'";
+    $query_formulario12 = "SELECT * FROM formulario12 WHERE idMer='".(int)$_GET['idMer']."' AND idPlanilla='".$x_idPlanilla."'";
     $mostrar_formulario12= mysql_query($query_formulario12, $conexion) or die(mysql_error());
  $cont=1;
  $cumple_condicion='NO';
@@ -1617,8 +1622,8 @@ while($row_formulario12=mysql_fetch_assoc($mostrar_formulario12)){?>
     <td><?php if($row_formulario12['fechaInicial']!='0000-00-00'){echo date("d-m-Y", strtotime($row_formulario12['fechaInicial']));}?></td>
     <td><?php if($row_formulario12['fechaFinal']!='0000-00-00'){echo date("d-m-Y", strtotime($row_formulario12['fechaFinal']));}?></td>
     <td><?php echo $row_formulario12['cumple']?></td>
-<?php if($estado==1 && $Security->CanEdit()){?><td id="x_td_contrato"><a href="formulario_agregar12.php?idMer=<?php echo $_GET['idMer']?>&idPlanilla=<?php echo $_GET['idPlanilla']?>&sw=formulario12edit&x_idFormulario12=<?php echo $row_formulario12['idFormulario12'];?>" title="editar contrato" id="contratoedit"><img src="images/page_edit.png" border="none"></a></td><?php } ?>
-<?php if($estado==1 && $Security->CanDelete()) {?><td><a href="formulario_guardar.php?x_idMer=<?php echo $_GET['idMer']?>&x_idPlanilla=<?php echo $_GET['idPlanilla'];?>&sw=formulario12delete&x_idFormulario12=<?php echo $row_formulario12['idFormulario12'];?>" title="borrar contrato" id="contratodelete" onClick="return confirmarDelete();"><img src="images/delete.png" border="none"></a></td><?php } ?>
+<?php if($estado==1 && $Security->CanEdit()){?><td id="x_td_contrato"><a href="formulario_agregar12.php?idMer=<?php echo $_GET['idMer']?>&idPlanilla=<?php echo $x_idPlanilla?>&sw=formulario12edit&x_idFormulario12=<?php echo $row_formulario12['idFormulario12'];?>" title="editar contrato" id="contratoedit"><img src="images/page_edit.png" border="none"></a></td><?php } ?>
+<?php if($estado==1 && $Security->CanDelete()) {?><td><a href="formulario_guardar.php?x_idMer=<?php echo $_GET['idMer']?>&x_idPlanilla=<?php echo $x_idPlanilla;?>&sw=formulario12delete&x_idFormulario12=<?php echo $row_formulario12['idFormulario12'];?>" title="borrar contrato" id="contratodelete" onClick="return confirmarDelete();"><img src="images/delete.png" border="none"></a></td><?php } ?>
 <?php if($row_formulario12['cumple']=='SI' && $row_formulario12['tipoContrato']=='1')
 {$cumple_condicion='SI';}
 $suma_costo+=$row_formulario12['costoTotal'];
@@ -1633,7 +1638,7 @@ $suma_costo+=$row_formulario12['costoTotal'];
     <input type="hidden" name="check_list_porcentaje" id="check_list_porcentaje12" value="<?php echo $suma_costo;?>">
 <input type="hidden" name="preguntaSI" id="preguntaSI" value="<?php echo $cont_preguntaSI;?>">
 <input type="hidden" name="x_idMer" value="<?php echo $_GET['idMer'] ?>">
-<input type="hidden" name="x_idPlanilla" value="<?php echo $_GET['idPlanilla'] ?>">
+<input type="hidden" name="x_idPlanilla" value="<?php echo $x_idPlanilla ?>">
 <table cellspacing="0" class="ewTable">
 <tr><td colspan="2"><div class="titulo">MODELO DE CONTRATO</div></td></tr>
 <tr><td>Adjuntar Archivo</td><td><?php if($Security->CanAdd()){?><input type="file" name="archivo" id="archivo" class="casilla" size="100"><?php } ?>
@@ -1644,7 +1649,7 @@ while (false !== ($arch = readdir($gestor))) {
 if ($arch != "." && $arch != ".." && $arch==$row_archivo['archivo']) {
 echo "<li><a href=\"files/".$arch."\" class=\"linkli\" title='Extraer archivo'>".$arch."</a>&nbsp;&nbsp;&nbsp;&nbsp;";
 if($estado==1 && $Security->CanDelete()) {
-echo "<a href='formulario_guardar.php?x_idArchivo=".$row_archivo['idArchivo']."&sw=archivodelete&archivo=".$arch."&x_idMer=".$_GET['idMer']."&x_idPlanilla=".$_GET['idPlanilla']."' title='Borrar archivo' onclick='return confirmarDeleteArchivo()'><img src='images/delete.png' height='10' width='12' border='none'></a>";
+echo "<a href='formulario_guardar.php?x_idArchivo=".$row_archivo['idArchivo']."&sw=archivodelete&archivo=".$arch."&x_idMer=".$_GET['idMer']."&x_idPlanilla=".$x_idPlanilla."' title='Borrar archivo' onclick='return confirmarDeleteArchivo()'><img src='images/delete.png' height='10' width='12' border='none'></a>";
 };
 echo "</li>\n";
 }
@@ -1661,11 +1666,11 @@ closedir($gestor);
 </td></tr></table>
 </form>
     <?php }?>
-<?php if($_GET['idPlanilla']=='13') {    ?>
+<?php if($x_idPlanilla=='13') {    ?>
 <form name="formulario1" id="formulario1" action="formulario_guardar.php" method="post" enctype="multipart/form-data" onSubmit="return validar_formulario(this);">
 <table cellspacing="0" class="ewGrid"><tr><td class="ewGridContent">
 <div class="ewGridMiddlePanel">
-<input type="hidden" name="idPlanilla" id="idPlanilla" value="<?php echo $_GET['idPlanilla']?>">
+<input type="hidden" name="idPlanilla" id="idPlanilla" value="<?php echo $x_idPlanilla?>">
 <table cellspacing="0" class="ewTable">
 <tr><td colspan="11"><div class="titulo">DOCUMENTOS DE LA RUEDA DE NEGOCIO</div></td></tr>
 <tr><td>LA MERS PARTICIPO DE EVENTO ORGANIZADO POR EL MUNICIPIO:</td><td id="idcheck_list"><?php echo $row_formulario['cuenta'];?></td></tr>
@@ -1701,7 +1706,7 @@ $cont_preguntaSI=0;
 <input type="hidden" name="check_list" id="check_list" value="<?php echo $row_formulario['cuenta'];?>">
 <input type="hidden" name="preguntaSI" id="preguntaSI" value="<?php echo $cont_preguntaSI;?>">
 <input type="hidden" name="x_idMer" value="<?php echo $_GET['idMer'] ?>">
-<input type="hidden" name="x_idPlanilla" value="<?php echo $_GET['idPlanilla'] ?>">
+<input type="hidden" name="x_idPlanilla" value="<?php echo $x_idPlanilla ?>">
 <table cellspacing="0" class="ewTable">
 <tr><td colspan="2"><div class="titulo">MODELO DE LA RUEDA DE NEGOCIO</div></td></tr>
 <tr><td>Adjuntar Archivo</td><td><?php if($Security->CanAdd()){?><input type="file" name="archivo" id="archivo" class="casilla" size="100"><?php } ?>
@@ -1712,7 +1717,7 @@ while (false !== ($arch = readdir($gestor))) {
 if ($arch != "." && $arch != ".." && $arch==$row_archivo['archivo']) {
 echo "<li><a href=\"files/".$arch."\" class=\"linkli\" title='Extraer archivo'>".$arch."</a>&nbsp;&nbsp;&nbsp;&nbsp;";
 if($estado==1 && $Security->CanDelete()) {
-echo "<a href='formulario_guardar.php?x_idArchivo=".$row_archivo['idArchivo']."&sw=archivodelete&archivo=".$arch."&x_idMer=".$_GET['idMer']."&x_idPlanilla=".$_GET['idPlanilla']."' title='Borrar archivo' onclick='return confirmarDeleteArchivo()'><img src='images/delete.png' height='10' width='12' border='none'></a>";
+echo "<a href='formulario_guardar.php?x_idArchivo=".$row_archivo['idArchivo']."&sw=archivodelete&archivo=".$arch."&x_idMer=".$_GET['idMer']."&x_idPlanilla=".$x_idPlanilla."' title='Borrar archivo' onclick='return confirmarDeleteArchivo()'><img src='images/delete.png' height='10' width='12' border='none'></a>";
 };
 echo "</li>\n";
 }
@@ -1732,7 +1737,7 @@ closedir($gestor);
 </form>
     <?php }?>
 
-<?php if($_GET['idPlanilla']=='14') {    ?>
+<?php if($x_idPlanilla=='14') {    ?>
 <form name="formulario1" id="formulario1" action="formulario_guardar.php" method="post" enctype="multipart/form-data" onSubmit="return validar_formulario(this);">
 <table cellspacing="0" class="ewGrid"><tr><td class="ewGridContent">
 <div class="ewGridMiddlePanel">
@@ -1741,7 +1746,7 @@ closedir($gestor);
 <tr><td colspan="10" class="ewTableHeader" align="center">REGISTRO DE ALIANZAS</td></tr>
 <tr class="ewTableHeader">
     <td>Nro</td><td>Tipo de Alianza</td><td>Motivo de la Alianza</td><td>Fecha Inicio</td><td>Fecha Finalizacion</td><td>Valor Bs.</td><td>Completo</td>
-    <?php if($Security->CanAdd()){?><td id="x_td_contrato" colspan="3"><a href="formulario_agregar.php?idMer=<?php echo $_GET['idMer']?>&idPlanilla=<?php echo $_GET['idPlanilla']?>&sw=contratoadd" title="agregar" id="contrato"><img src="images/add.png" style="border: none"></a></td><?php } ?>
+    <?php if($Security->CanAdd()){?><td id="x_td_contrato" colspan="3"><a href="formulario_agregar.php?idMer=<?php echo $_GET['idMer']?>&idPlanilla=<?php echo $x_idPlanilla?>&sw=contratoadd" title="agregar" id="contrato"><img src="images/add.png" style="border: none"></a></td><?php } ?>
 </tr>
 <?php
 $cont=1;
@@ -1772,20 +1777,20 @@ $cont_tipoContrato++;
 if($row_contratoLlenar['completo']=='SI') {
 $cont_contratoCompleto++;
 }?></td>
-<?php if($Security->CanView()){?><td id="x_td_contrato"><a href="formulario_agregar.php?idMer=<?php echo $_GET['idMer']?>&idPlanilla=<?php echo $_GET['idPlanilla']?>&sw=contratoview&x_idCL=<?php echo $row_contratoLlenar['idCL'];?>" title="ver contrato" id="contratoedit"><img src="images/page.png" border="none"></a></td><?php } ?>
-<?php if($estado==1 && $Security->CanEdit()){?><td id="x_td_contrato"><a href="formulario_agregar.php?idMer=<?php echo $_GET['idMer']?>&idPlanilla=<?php echo $_GET['idPlanilla']?>&sw=contratoedit&x_idCL=<?php echo $row_contratoLlenar['idCL'];?>" title="editar contrato" id="contratoedit"><img src="images/page_edit.png" border="none"></a></td><?php } ?>
-<?php if($estado==1 && $Security->CanDelete()) {?><td><a href="formulario_guardar.php?x_idMer=<?php echo $_GET['idMer']?>&x_idPlanilla=<?php echo $_GET['idPlanilla'];?>&sw=contratodelete&x_idCL=<?php echo $row_contratoLlenar['idCL'];?>" title="borrar contrato" id="contratodelete" onClick="return confirmarDelete();"><img src="images/delete.png" border="none"></a></td><?php } ?>
+<?php if($Security->CanView()){?><td id="x_td_contrato"><a href="formulario_agregar.php?idMer=<?php echo $_GET['idMer']?>&idPlanilla=<?php echo $x_idPlanilla?>&sw=contratoview&x_idCL=<?php echo $row_contratoLlenar['idCL'];?>" title="ver contrato" id="contratoedit"><img src="images/page.png" border="none"></a></td><?php } ?>
+<?php if($estado==1 && $Security->CanEdit()){?><td id="x_td_contrato"><a href="formulario_agregar.php?idMer=<?php echo $_GET['idMer']?>&idPlanilla=<?php echo $x_idPlanilla?>&sw=contratoedit&x_idCL=<?php echo $row_contratoLlenar['idCL'];?>" title="editar contrato" id="contratoedit"><img src="images/page_edit.png" border="none"></a></td><?php } ?>
+<?php if($estado==1 && $Security->CanDelete()) {?><td><a href="formulario_guardar.php?x_idMer=<?php echo $_GET['idMer']?>&x_idPlanilla=<?php echo $x_idPlanilla;?>&sw=contratodelete&x_idCL=<?php echo $row_contratoLlenar['idCL'];?>" title="borrar contrato" id="contratodelete" onClick="return confirmarDelete();"><img src="images/delete.png" border="none"></a></td><?php } ?>
 </tr>
 <?php
 $cont++;
 }
 mysql_select_db($database_conexion, $conexion);
-$query_contadorRegistro = "SELECT b.idRegistroContrato, b.registroContrato , count(b.idRegistroContrato) as cont FROM contrato_llenar a, registro_contrato b WHERE a.idMer='".(int)$_GET['idMer']."' AND a.idPlanilla='".(int)$_GET['idPlanilla']."' AND a.idRegistroContrato=b.idRegistroContrato GROUP BY b.idRegistroContrato";
+$query_contadorRegistro = "SELECT b.idRegistroContrato, b.registroContrato , count(b.idRegistroContrato) as cont FROM contrato_llenar a, registro_contrato b WHERE a.idMer='".(int)$_GET['idMer']."' AND a.idPlanilla='".(int)$x_idPlanilla."' AND a.idRegistroContrato=b.idRegistroContrato GROUP BY b.idRegistroContrato";
 $mostrar_contadorRegistro= mysql_query($query_contadorRegistro, $conexion) or die(mysql_error());
 ?>
 <tr><td colspan="11"><div id="carga_contratoLlenar"></div><td></tr>
 </table>
-<input type="hidden" name="idPlanilla" id="idPlanilla" value="<?php echo $_GET['idPlanilla']?>">
+<input type="hidden" name="idPlanilla" id="idPlanilla" value="<?php echo $x_idPlanilla?>">
 <table cellspacing="0" class="ewTable">
 <tr><td colspan="5"><div class="titulo">RESUMEN DEL FORMULARIO</div></td></tr>
 <tr>
@@ -1801,7 +1806,7 @@ $mostrar_contadorRegistro= mysql_query($query_contadorRegistro, $conexion) or di
 <input type="hidden" name="check_list" id="check_list_1" value="<?php if($cont_contratoCompleto>'0') {echo "SI";}else {echo "NO";}?>">
 <input type="hidden" name="preguntaSI" id="preguntaSI" value="<?php echo $cont_preguntaSI;?>">
 <input type="hidden" name="x_idMer" value="<?php echo $_GET['idMer'] ?>">
-<input type="hidden" name="x_idPlanilla" value="<?php echo $_GET['idPlanilla'] ?>">
+<input type="hidden" name="x_idPlanilla" value="<?php echo $x_idPlanilla ?>">
 <table cellspacing="0" class="ewTable">
 <tr><td colspan="2"><div class="titulo">MODELOS DE ALIANZA "TIPO"</div></td></tr>
 <tr><td>Adjuntar Archivo</td><td><?php if($Security->CanAdd()){?><input type="file" name="archivo" id="archivo" class="casilla" size="100"><?php } ?>
@@ -1812,7 +1817,7 @@ while (false !== ($arch = readdir($gestor))) {
 if ($arch != "." && $arch != ".." && $arch==$row_archivo['archivo']) {
 echo "<li><a href=\"files/".$arch."\" class=\"linkli\" title='Extraer archivo'>".$arch."</a>&nbsp;&nbsp;&nbsp;&nbsp;";
 if($estado==1 && $Security->CanDelete()) {
-echo "<a href='formulario_guardar.php?x_idArchivo=".$row_archivo['idArchivo']."&sw=archivodelete&archivo=".$arch."&x_idMer=".$_GET['idMer']."&x_idPlanilla=".$_GET['idPlanilla']."' title='Borrar archivo' onclick='return confirmarDeleteArchivo()'><img src='images/delete.png' height='10' width='12' border='none'></a>";
+echo "<a href='formulario_guardar.php?x_idArchivo=".$row_archivo['idArchivo']."&sw=archivodelete&archivo=".$arch."&x_idMer=".$_GET['idMer']."&x_idPlanilla=".$x_idPlanilla."' title='Borrar archivo' onclick='return confirmarDeleteArchivo()'><img src='images/delete.png' height='10' width='12' border='none'></a>";
 };
 echo "</li>\n";
 }
@@ -1831,11 +1836,11 @@ closedir($gestor);
 </td></tr></table>
 </form>
             <?php }?>
-<?php if($_GET['idPlanilla']=='15') {    ?>
+<?php if($x_idPlanilla=='15') {    ?>
 <form name="formulario15" id="formulario15" action="formulario_guardar.php" method="post" enctype="multipart/form-data">
 <table cellspacing="0" class="ewGrid"><tr><td class="ewGridContent">
 <div class="ewGridMiddlePanel">
-<input type="hidden" name="idPlanilla" id="idPlanilla" value="<?php echo $_GET['idPlanilla']?>">
+<input type="hidden" name="idPlanilla" id="idPlanilla" value="<?php echo $x_idPlanilla?>">
 <table cellspacing="0" class="ewTable">
 <tr><td colspan="11"><div class="titulo">Porcentaje de Cumplimiento respecto al Plan de Negocio</div></td></tr>
 <tr><td>La MERS alcanzo el (%):</td><td id="idcheck_list_porcentaje15"><?php echo $row_formulario['porcentaje'];?></td></tr>
@@ -1911,7 +1916,7 @@ $suma_alcanzado=$suma_alcanzado+$row_preguntaRespuesta['respuesta2'];
 <input type="hidden" name="check_list_porcentaje" id="check_list_porcentaje15" value="<?php echo $row_formulario['porcentaje'];?>">
 <input type="hidden" name="preguntaSI" id="preguntaSI" value="<?php echo $cont_preguntaSI;?>">
 <input type="hidden" name="x_idMer" value="<?php echo $_GET['idMer'] ?>">
-<input type="hidden" name="x_idPlanilla" value="<?php echo $_GET['idPlanilla'] ?>">
+<input type="hidden" name="x_idPlanilla" value="<?php echo $x_idPlanilla ?>">
 <table cellspacing="0" class="ewTable">
 <tr><td colspan="2"><div class="titulo">MODELO DE LA RUEDA DE NEGOCIO</div></td></tr>
 <tr><td>Adjuntar Archivo</td><td><?php if($Security->CanAdd()){?><input type="file" name="archivo" id="archivo" class="casilla" size="100"><?php } ?>
@@ -1922,7 +1927,7 @@ while (false !== ($arch = readdir($gestor))) {
 if ($arch != "." && $arch != ".." && $arch==$row_archivo['archivo']) {
 echo "<li><a href=\"files/".$arch."\" class=\"linkli\" title='Extraer archivo'>".$arch."</a>&nbsp;&nbsp;&nbsp;&nbsp;";
 if($estado==1 && $Security->CanDelete()) {
-echo "<a href='formulario_guardar.php?x_idArchivo=".$row_archivo['idArchivo']."&sw=archivodelete&archivo=".$arch."&x_idMer=".$_GET['idMer']."&x_idPlanilla=".$_GET['idPlanilla']."' title='Borrar archivo' onclick='return confirmarDeleteArchivo()'><img src='images/delete.png' height='10' width='12' border='none'></a>";
+echo "<a href='formulario_guardar.php?x_idArchivo=".$row_archivo['idArchivo']."&sw=archivodelete&archivo=".$arch."&x_idMer=".$_GET['idMer']."&x_idPlanilla=".$x_idPlanilla."' title='Borrar archivo' onclick='return confirmarDeleteArchivo()'><img src='images/delete.png' height='10' width='12' border='none'></a>";
 };
 echo "</li>\n";
 }
@@ -1947,11 +1952,11 @@ closedir($gestor);
 
 </script>
 <?php }?>
-<?php if($_GET['idPlanilla']=='16') {    ?>
+<?php if($x_idPlanilla=='16') {    ?>
 <?php
 //Creando todo el formulario para el usuario, si este no a sido creado aun
 mysql_select_db($database_conexion, $conexion);
-$query_obtencionCredito = "SELECT * FROM obtencion_credito16 WHERE idMer='".(int)$_GET['idMer']."' AND idPlanilla='".(int)$_GET['idPlanilla']."'";
+$query_obtencionCredito = "SELECT * FROM obtencion_credito16 WHERE idMer='".(int)$_GET['idMer']."' AND idPlanilla='".(int)$x_idPlanilla."'";
     $mostrar_obtencionCredito= mysql_query($query_obtencionCredito, $conexion) or die(mysql_error());
     $totalRows_obtencionCredito = mysql_num_rows($mostrar_obtencionCredito);
 
@@ -1959,7 +1964,7 @@ $query_obtencionCredito = "SELECT * FROM obtencion_credito16 WHERE idMer='".(int
 <form name="formulario1" id="formulario1" action="formulario_guardar.php" method="post" enctype="multipart/form-data" onSubmit="return validar_formulario(this);">
 <table cellspacing="0" class="ewGrid"><tr><td class="ewGridContent">
 <div class="ewGridMiddlePanel">
-<input type="hidden" name="idPlanilla" id="idPlanilla" value="<?php echo $_GET['idPlanilla']?>">
+<input type="hidden" name="idPlanilla" id="idPlanilla" value="<?php echo $x_idPlanilla?>">
 <table cellspacing="0" class="ewTable">
 <tr><td colspan="11"><div class="titulo">DOCUMENTOS DE PRESTAMO</div></td></tr>
 <tr><td>La MERS cuenta con un prestamo</td><td colspan="3" id="idcheck_list_1"><?php echo $row_formulario['cuenta'];?></td></tr>
@@ -1970,7 +1975,7 @@ $query_obtencionCredito = "SELECT * FROM obtencion_credito16 WHERE idMer='".(int
 <tr><td colspan="9"><div class="titulo">OBTENCI&Oacute;N DE CREDITO</div></td></tr>
 <tr class="ewTableHeader">
     <td>Nro</td><td>Solicitud</td><td>Entidad Financiera</td><td>Prestamo</td><td>Monto Solicitado Bs.</td><td>Mora</td><td>Fecha Ultimo Recibo</td>
-<?php if($Security->CanAdd()){?><td id="x_td_contrato" colspan="2"><a href="formulario_agregar.php?idMer=<?php echo $_GET['idMer']?>&idPlanilla=<?php echo $_GET['idPlanilla']?>&sw=obtencionCreditoadd" title="agregar" id="contrato"><img src="images/add.png" style="border: none"></a></td><?php } ?>
+<?php if($Security->CanAdd()){?><td id="x_td_contrato" colspan="2"><a href="formulario_agregar.php?idMer=<?php echo $_GET['idMer']?>&idPlanilla=<?php echo $x_idPlanilla?>&sw=obtencionCreditoadd" title="agregar" id="contrato"><img src="images/add.png" style="border: none"></a></td><?php } ?>
 </tr>
             <?php
             $cont=1;
@@ -1985,8 +1990,8 @@ $query_obtencionCredito = "SELECT * FROM obtencion_credito16 WHERE idMer='".(int
     <td><?php if($row_obtencionCredito['fechaUltimoRecibo']!='0000-00-00') {
 echo date("d-m-Y",strtotime($row_obtencionCredito['fechaUltimoRecibo']));
 }?></td>
-<?php if($estado==1 && $Security->CanEdit()){?><td id="x_td_contrato"><a href="formulario_agregar.php?idMer=<?php echo $_GET['idMer']?>&idPlanilla=<?php echo $_GET['idPlanilla']?>&sw=obtencionCreditoedit&x_idObtencionCredito=<?php echo $row_obtencionCredito['idObtencionCredito'];?>" title="editar credito" id="contratoedit"><img src="images/page_edit.png" border="none"></a></td><?php } ?>
-<?php if($estado==1 && $Security->CanDelete()) {?><td><a href="formulario_guardar.php?x_idMer=<?php echo $_GET['idMer']?>&x_idPlanilla=<?php echo $_GET['idPlanilla'];?>&sw=obtencionCreditodelete&x_idObtencionCredito=<?php echo $row_obtencionCredito['idObtencionCredito'];?>" title="borrar credito" id="contratodelete" onClick="return confirmarDelete();"><img src="images/delete.png"  border="none"></a></td><?php  } ?>
+<?php if($estado==1 && $Security->CanEdit()){?><td id="x_td_contrato"><a href="formulario_agregar.php?idMer=<?php echo $_GET['idMer']?>&idPlanilla=<?php echo $x_idPlanilla?>&sw=obtencionCreditoedit&x_idObtencionCredito=<?php echo $row_obtencionCredito['idObtencionCredito'];?>" title="editar credito" id="contratoedit"><img src="images/page_edit.png" border="none"></a></td><?php } ?>
+<?php if($estado==1 && $Security->CanDelete()) {?><td><a href="formulario_guardar.php?x_idMer=<?php echo $_GET['idMer']?>&x_idPlanilla=<?php echo $x_idPlanilla;?>&sw=obtencionCreditodelete&x_idObtencionCredito=<?php echo $row_obtencionCredito['idObtencionCredito'];?>" title="borrar credito" id="contratodelete" onClick="return confirmarDelete();"><img src="images/delete.png"  border="none"></a></td><?php  } ?>
 
 </tr>
 <?php
@@ -1998,7 +2003,7 @@ $cont++;
 <input type="hidden" name="check_list_porcentaje" value="<?php if($row_formulario['porcentaje']=='0') {echo "NO";}else {echo "SI";}?>">
 <input type="hidden" name="sw" value="edit16">
 <input type="hidden" name="x_idMer" value="<?php echo $_GET['idMer'] ?>">
-<input type="hidden" name="x_idPlanilla" value="<?php echo $_GET['idPlanilla'] ?>">
+<input type="hidden" name="x_idPlanilla" value="<?php echo $x_idPlanilla ?>">
 <table cellspacing="0" class="ewTable">
 <tr><td colspan="2"><div class="titulo">MODELO DE DOCUMENTO DE PRESTAMO</div></td></tr>
 <tr><td>Adjuntar Archivo</td><td><?php if($Security->CanAdd()){?><input type="file" name="archivo" id="archivo" class="casilla" size="100"><?php } ?>
@@ -2009,7 +2014,7 @@ while (false !== ($arch = readdir($gestor))) {
 if ($arch != "." && $arch != ".." && $arch==$row_archivo['archivo']) {
 echo "<li><a href=\"files/".$arch."\" class=\"linkli\" title='Extraer archivo'>".$arch."</a>&nbsp;&nbsp;&nbsp;&nbsp;";
 if($estado==1 && $Security->CanDelete()) {
-echo "<a href='formulario_guardar.php?x_idArchivo=".$row_archivo['idArchivo']."&sw=archivodelete&archivo=".$arch."&x_idMer=".$_GET['idMer']."&x_idPlanilla=".$_GET['idPlanilla']."' title='Borrar archivo' onclick='return confirmarDeleteArchivo()'><img src='images/delete.png' height='10' width='12' border='none'></a>";
+echo "<a href='formulario_guardar.php?x_idArchivo=".$row_archivo['idArchivo']."&sw=archivodelete&archivo=".$arch."&x_idMer=".$_GET['idMer']."&x_idPlanilla=".$x_idPlanilla."' title='Borrar archivo' onclick='return confirmarDeleteArchivo()'><img src='images/delete.png' height='10' width='12' border='none'></a>";
 };
 echo "</li>\n";
 }
@@ -2027,9 +2032,9 @@ closedir($gestor);
 </td></tr></table>
 </form>
             <?php }?>
-<?php if($_GET['idPlanilla']=='17') {
+<?php if($x_idPlanilla=='17') {
 mysql_select_db($database_conexion, $conexion);
-            $query_registroVentas= "SELECT * FROM registroventas17 WHERE idMer='".(int)$_GET['idMer']."' AND idPlanilla='".(int)$_GET['idPlanilla']."' ORDER BY idRegistroVentas asc";
+            $query_registroVentas= "SELECT * FROM registroventas17 WHERE idMer='".(int)$_GET['idMer']."' AND idPlanilla='".(int)$x_idPlanilla."' ORDER BY idRegistroVentas asc";
             $mostrar_registroVentas= mysql_query($query_registroVentas, $conexion) or die(mysql_error());
 //$row_registroVentas= mysql_fetch_assoc($mostrar_registroVentas);
 $totalRows_registroVentas= mysql_num_rows($mostrar_registroVentas);
@@ -2049,7 +2054,7 @@ $totalRows_registroVentas= mysql_num_rows($mostrar_registroVentas);
 <tr><td colspan="12" class="ewTableHeader" align="center">REGISTRO DE VENTAS/SERVICIOS</td></tr>
 <tr class="ewTableHeader">
     <td>Nro</td><td>Nro de Comprobante</td><td>Tipo de Comprobante</td><td>Nombres y Apellidos del Comprador</td><td>Detalle de Ventas PRODUCTO / SERVICIO</td><td>Precio Unitario</td><td>Cantidad</td><td>Valor Total Bs.</td><td>Fecha</td><td>Cumple</td>
-<?php if($Security->CanAdd()){?><td id="x_td_contrato" colspan="2"><a href="formulario_agregar.php?idMer=<?php echo $_GET['idMer']?>&idPlanilla=<?php echo $_GET['idPlanilla']?>&sw=registroadd17" title="agregar" id="contrato"><img src="images/add.png" style="border: none"></a></td><?php } ?>
+<?php if($Security->CanAdd()){?><td id="x_td_contrato" colspan="2"><a href="formulario_agregar.php?idMer=<?php echo $_GET['idMer']?>&idPlanilla=<?php echo $x_idPlanilla?>&sw=registroadd17" title="agregar" id="contrato"><img src="images/add.png" style="border: none"></a></td><?php } ?>
 </tr>
             <?php
             $cont=1;
@@ -2071,8 +2076,8 @@ $totalRows_registroVentas= mysql_num_rows($mostrar_registroVentas);
 if($row_registroVentas['cumple']=='SI') {
 $cont_cumple++;
 }?></td>
-<?php if($estado==1 && $Security->CanEdit()){?><td id="x_td_contrato"><a href="formulario_agregar.php?idMer=<?php echo $_GET['idMer']?>&idPlanilla=<?php echo $_GET['idPlanilla']?>&sw=registroedit17&x_idRegistroVentas=<?php echo $row_registroVentas['idRegistroVentas'];?>" title="editar registro" id="contratoedit"><img src="images/page_edit.png" border="none"></a></td><?php } ?>
-<?php if($estado==1 && $Security->CanDelete()) {?><td><a href="formulario_guardar.php?x_idMer=<?php echo $_GET['idMer']?>&x_idPlanilla=<?php echo $_GET['idPlanilla'];?>&sw=registrodelete17&x_idRegistroVentas=<?php echo $row_registroVentas['idRegistroVentas'];?>" title="borrar registro" id="contratodelete" onClick="return confirmarDelete();"><img src="images/delete.png" border="none"></a></td><?php } ?>
+<?php if($estado==1 && $Security->CanEdit()){?><td id="x_td_contrato"><a href="formulario_agregar.php?idMer=<?php echo $_GET['idMer']?>&idPlanilla=<?php echo $x_idPlanilla?>&sw=registroedit17&x_idRegistroVentas=<?php echo $row_registroVentas['idRegistroVentas'];?>" title="editar registro" id="contratoedit"><img src="images/page_edit.png" border="none"></a></td><?php } ?>
+<?php if($estado==1 && $Security->CanDelete()) {?><td><a href="formulario_guardar.php?x_idMer=<?php echo $_GET['idMer']?>&x_idPlanilla=<?php echo $x_idPlanilla;?>&sw=registrodelete17&x_idRegistroVentas=<?php echo $row_registroVentas['idRegistroVentas'];?>" title="borrar registro" id="contratodelete" onClick="return confirmarDelete();"><img src="images/delete.png" border="none"></a></td><?php } ?>
 </tr>
 <?php
 $cont++;
@@ -2083,11 +2088,11 @@ $cont++;
 </table>
 <input type="hidden" name="check_list" id="check_list17">
 <input type="hidden" name="check_list_porcentaje" id="check_list_porcentaje17">
-    <input type="hidden" name="idPlanilla" id="idPlanilla" value="<?php echo $_GET['idPlanilla']?>">
+    <input type="hidden" name="idPlanilla" id="idPlanilla" value="<?php echo $x_idPlanilla?>">
 <input type="hidden" name="suma_valor" id="suma_valor" value="<?php echo $suma_valor;?>">
 <input type="hidden" name="preguntaSI" id="preguntaSI" value="<?php echo $cont_preguntaSI;?>">
 <input type="hidden" name="x_idMer" value="<?php echo $_GET['idMer'] ?>">
-<input type="hidden" name="x_idPlanilla" value="<?php echo $_GET['idPlanilla'] ?>">
+<input type="hidden" name="x_idPlanilla" value="<?php echo $x_idPlanilla ?>">
 <table cellspacing="0" class="ewTable">
 <tr><td colspan="2"><div class="titulo">MODELO DE REGISTRO DE VENTAS</div></td></tr>
 <tr><td>Adjuntar Archivo</td><td><?php if($Security->CanAdd()){?><input type="file" name="archivo" id="archivo" class="casilla" size="100"><?php } ?>
@@ -2098,7 +2103,7 @@ while (false !== ($arch = readdir($gestor))) {
 if ($arch != "." && $arch != ".." && $arch==$row_archivo['archivo']) {
 echo "<li><a href=\"files/".$arch."\" class=\"linkli\" title='Extraer archivo'>".$arch."</a>&nbsp;&nbsp;&nbsp;&nbsp;";
 if($estado==1 && $Security->CanDelete()) {
-echo "<a href='formulario_guardar.php?x_idArchivo=".$row_archivo['idArchivo']."&sw=archivodelete&archivo=".$arch."&x_idMer=".$_GET['idMer']."&x_idPlanilla=".$_GET['idPlanilla']."' title='Borrar archivo' onclick='return confirmarDeleteArchivo()'><img src='images/delete.png' height='10' width='12' border='none'></a>";
+echo "<a href='formulario_guardar.php?x_idArchivo=".$row_archivo['idArchivo']."&sw=archivodelete&archivo=".$arch."&x_idMer=".$_GET['idMer']."&x_idPlanilla=".$x_idPlanilla."' title='Borrar archivo' onclick='return confirmarDeleteArchivo()'><img src='images/delete.png' height='10' width='12' border='none'></a>";
 };
 echo "</li>\n";
 }
@@ -2116,11 +2121,11 @@ closedir($gestor);
 </td></tr></table>
 </form>
 <?php }?>
-<?php if($_GET['idPlanilla']=='18') {    ?>
+<?php if($x_idPlanilla=='18') {    ?>
 <form name="formulario1" id="formulario1" action="formulario_guardar.php" method="post" enctype="multipart/form-data" onSubmit="return validar_formulario(this);">
 <table cellspacing="0" class="ewGrid"><tr><td class="ewGridContent">
 <div class="ewGridMiddlePanel">
-<input type="hidden" name="idPlanilla" id="idPlanilla" value="<?php echo $_GET['idPlanilla']?>">
+<input type="hidden" name="idPlanilla" id="idPlanilla" value="<?php echo $x_idPlanilla?>">
 <table cellspacing="0" class="ewTable">
 <tr><td colspan="11"><div class="titulo">REGISTROS CONTABLES</div></td></tr>
 <tr><td>LA MERS CUENTA CON UN REGISTRO CONTABLE:<td id="idcheck_list"></td></tr>
@@ -2157,7 +2162,7 @@ $cont_pregunta++;
 <input type="hidden" name="check_list_porcentaje" id="check_list_porcentaje">
 <input type="hidden" name="preguntaSI" id="preguntaSI" value="<?php echo $cont_preguntaSI;?>">
 <input type="hidden" name="x_idMer" value="<?php echo $_GET['idMer'] ?>">
-<input type="hidden" name="x_idPlanilla" value="<?php echo $_GET['idPlanilla'] ?>">
+<input type="hidden" name="x_idPlanilla" value="<?php echo $x_idPlanilla ?>">
 <table cellspacing="0" class="ewTable">
 <tr><td colspan="2"><div class="titulo">MODELO DE REGISTRO CONTABLE</div></td></tr>
 <tr><td>Adjuntar Archivo</td><td><?php if($Security->CanAdd()){?><input type="file" name="archivo" id="archivo" class="casilla" size="100"><?php } ?>
@@ -2168,7 +2173,7 @@ while (false !== ($arch = readdir($gestor))) {
 if ($arch != "." && $arch != ".." && $arch==$row_archivo['archivo']) {
 echo "<li><a href=\"files/".$arch."\" class=\"linkli\" title='Extraer archivo'>".$arch."</a>&nbsp;&nbsp;&nbsp;&nbsp;";
 if($estado==1 && $Security->CanDelete()) {
-echo "<a href='formulario_guardar.php?x_idArchivo=".$row_archivo['idArchivo']."&sw=archivodelete&archivo=".$arch."&x_idMer=".$_GET['idMer']."&x_idPlanilla=".$_GET['idPlanilla']."' title='Borrar archivo' onclick='return confirmarDeleteArchivo()'><img src='images/delete.png' height='10' width='12' border='none'></a>";
+echo "<a href='formulario_guardar.php?x_idArchivo=".$row_archivo['idArchivo']."&sw=archivodelete&archivo=".$arch."&x_idMer=".$_GET['idMer']."&x_idPlanilla=".$x_idPlanilla."' title='Borrar archivo' onclick='return confirmarDeleteArchivo()'><img src='images/delete.png' height='10' width='12' border='none'></a>";
 };
 echo "</li>\n";
 }
@@ -2186,11 +2191,11 @@ closedir($gestor);
 </td></tr></table>
 </form>
 <?php }?>
-<?php if($_GET['idPlanilla']=='19') {    ?>
+<?php if($x_idPlanilla=='19') {    ?>
 <form name="formulario1" id="formulario1" action="formulario_guardar.php" method="post" enctype="multipart/form-data" onSubmit="return validar_formulario(this);">
 <table cellspacing="0" class="ewGrid"><tr><td class="ewGridContent">
 <div class="ewGridMiddlePanel">
-<input type="hidden" name="idPlanilla" id="idPlanilla" value="<?php echo $_GET['idPlanilla']?>">
+<input type="hidden" name="idPlanilla" id="idPlanilla" value="<?php echo $x_idPlanilla?>">
 <table cellspacing="0" class="ewTable">
 <tr><td colspan="11"><div class="titulo">PERSONER&Iacute;A JUR&Iacute;DICA</div></td></tr>
 <tr><td>LA MERS CUENTA CON PERSONER&Iacute;A JUR&Iacute;DICA:<td id="idcheck_list"></td></tr>
@@ -2227,7 +2232,7 @@ $cont_pregunta++;
 <input type="hidden" name="check_list_porcentaje" id="check_list_porcentaje">
 <input type="hidden" name="preguntaSI" id="preguntaSI" value="<?php echo $cont_preguntaSI;?>">
 <input type="hidden" name="x_idMer" value="<?php echo $_GET['idMer'] ?>">
-<input type="hidden" name="x_idPlanilla" value="<?php echo $_GET['idPlanilla'] ?>">
+<input type="hidden" name="x_idPlanilla" value="<?php echo $x_idPlanilla ?>">
 <table cellspacing="0" class="ewTable">
 <tr><td colspan="2"><div class="titulo">REQUISITOS PARA OBTENER LA PERSONERIA JURIDICA</div></td></tr>
 <tr><td>Adjuntar Archivo</td><td><?php if($Security->CanAdd()){?><input type="file" name="archivo" id="archivo" class="casilla" size="100"><?php } ?>
@@ -2238,7 +2243,7 @@ while (false !== ($arch = readdir($gestor))) {
 if ($arch != "." && $arch != ".." && $arch==$row_archivo['archivo']) {
 echo "<li><a href=\"files/".$arch."\" class=\"linkli\" title='Extraer archivo'>".$arch."</a>&nbsp;&nbsp;&nbsp;&nbsp;";
 if($estado==1 && $Security->CanDelete()) {
-echo "<a href='formulario_guardar.php?x_idArchivo=".$row_archivo['idArchivo']."&sw=archivodelete&archivo=".$arch."&x_idMer=".$_GET['idMer']."&x_idPlanilla=".$_GET['idPlanilla']."' title='Borrar archivo' onclick='return confirmarDeleteArchivo()'><img src='images/delete.png' height='10' width='12' border='none'></a>";
+echo "<a href='formulario_guardar.php?x_idArchivo=".$row_archivo['idArchivo']."&sw=archivodelete&archivo=".$arch."&x_idMer=".$_GET['idMer']."&x_idPlanilla=".$x_idPlanilla."' title='Borrar archivo' onclick='return confirmarDeleteArchivo()'><img src='images/delete.png' height='10' width='12' border='none'></a>";
 };
 echo "</li>\n";
 }
@@ -2257,7 +2262,7 @@ closedir($gestor);
 </form>
             <?php }?>
 
-        <?php if($_GET['idPlanilla']=='20') {    ?>
+        <?php if($x_idPlanilla=='20') {    ?>
 <form name="formulario1" id="formulario1" action="formulario_guardar.php" method="post" enctype="multipart/form-data" onSubmit="return validar_formulario(this);">
 <table cellspacing="0" class="ewGrid"><tr><td class="ewGridContent">
 <div class="ewGridMiddlePanel">
@@ -2266,7 +2271,7 @@ closedir($gestor);
 <tr><td colspan="11" class="ewTableHeader" align="center">REGISTRO DE CONTRATO DE TRABAJOS</td></tr>
 <tr class="ewTableHeader">
     <td>Nro de Empleos</td><td>Tipo de Contrato</td><td>Registro por recibos/planillas</td><td>Fecha Inicio</td><td>Fecha Finalizacion</td><td>Precio Bs.</td><td>Completo</td><td>Valor</td>
-<?php if($Security->CanAdd()){?><td id="x_td_contrato" colspan="2"><a href="formulario_agregar.php?idMer=<?php echo $_GET['idMer']?>&idPlanilla=<?php echo $_GET['idPlanilla']?>&sw=contratoadd" title="agregar" id="contrato"><img src="images/add.png" style="border: none"></a></td><?php } ?>
+<?php if($Security->CanAdd()){?><td id="x_td_contrato" colspan="2"><a href="formulario_agregar.php?idMer=<?php echo $_GET['idMer']?>&idPlanilla=<?php echo $x_idPlanilla?>&sw=contratoadd" title="agregar" id="contrato"><img src="images/add.png" style="border: none"></a></td><?php } ?>
 </tr>
     <?php
 $suma=0;
@@ -2299,19 +2304,19 @@ $row_registroContrato = mysql_fetch_assoc($mostrar_registroContrato);
                 }?></td>
     <td><?php echo $row_contratoLlenar['certConformidad'];
                 $suma=$row_contratoLlenar['certConformidad']+$suma;?></td>
-                <?php if($estado==1 && $Security->CanEdit()){?><td id="x_td_contrato"><a href="formulario_agregar.php?idMer=<?php echo $_GET['idMer']?>&idPlanilla=<?php echo $_GET['idPlanilla']?>&sw=contratoedit&x_idCL=<?php echo $row_contratoLlenar['idCL'];?>" title="editar contrato" id="contratoedit"><img src="images/page_edit.png" border="none"></a></td><?php } ?>
-<?php if($estado==1 && $Security->CanDelete()) {?><td><a href="formulario_guardar.php?x_idMer=<?php echo $_GET['idMer']?>&x_idPlanilla=<?php echo $_GET['idPlanilla'];?>&sw=contratodelete&x_idCL=<?php echo $row_contratoLlenar['idCL'];?>" title="borrar contrato" id="contratodelete" onClick="return confirmarDelete();"><img src="images/delete.png" border="none"></a></td><?php } ?>
+                <?php if($estado==1 && $Security->CanEdit()){?><td id="x_td_contrato"><a href="formulario_agregar.php?idMer=<?php echo $_GET['idMer']?>&idPlanilla=<?php echo $x_idPlanilla?>&sw=contratoedit&x_idCL=<?php echo $row_contratoLlenar['idCL'];?>" title="editar contrato" id="contratoedit"><img src="images/page_edit.png" border="none"></a></td><?php } ?>
+<?php if($estado==1 && $Security->CanDelete()) {?><td><a href="formulario_guardar.php?x_idMer=<?php echo $_GET['idMer']?>&x_idPlanilla=<?php echo $x_idPlanilla;?>&sw=contratodelete&x_idCL=<?php echo $row_contratoLlenar['idCL'];?>" title="borrar contrato" id="contratodelete" onClick="return confirmarDelete();"><img src="images/delete.png" border="none"></a></td><?php } ?>
 </tr>
 <?php
 $cont++;
 }
 mysql_select_db($database_conexion, $conexion);
-$query_contadorRegistro = "SELECT b.idRegistroContrato, b.registroContrato , count(b.idRegistroContrato) as cont FROM contrato_llenar a, registro_contrato b WHERE a.idMer='".(int)$_GET['idMer']."' AND a.idPlanilla='".(int)$_GET['idPlanilla']."' AND a.idRegistroContrato=b.idRegistroContrato GROUP BY b.idRegistroContrato";
+$query_contadorRegistro = "SELECT b.idRegistroContrato, b.registroContrato , count(b.idRegistroContrato) as cont FROM contrato_llenar a, registro_contrato b WHERE a.idMer='".(int)$_GET['idMer']."' AND a.idPlanilla='".(int)$x_idPlanilla."' AND a.idRegistroContrato=b.idRegistroContrato GROUP BY b.idRegistroContrato";
 $mostrar_contadorRegistro= mysql_query($query_contadorRegistro, $conexion) or die(mysql_error());
 ?>
 <tr><td colspan="11"><div id="carga_contratoLlenar"></div><td></tr>
 </table>
-<input type="hidden" name="idPlanilla" id="idPlanilla" value="<?php echo $_GET['idPlanilla']?>">
+<input type="hidden" name="idPlanilla" id="idPlanilla" value="<?php echo $x_idPlanilla?>">
 <table cellspacing="0" class="ewTable">
 <tr><td colspan="5"><div class="titulo">RESUMEN DEL FORMULARIO</div></td></tr>
 <tr>
@@ -2321,7 +2326,7 @@ $mostrar_contadorRegistro= mysql_query($query_contadorRegistro, $conexion) or di
 <input type="hidden" name="x_observacion" id="x_observacion" value="<?php echo $row_formulario['observacion'];?>">
 <input type="hidden" name="nroContratosCompletos" id="nroContratosCompletos" value="<?php echo $suma;?>">
 <input type="hidden" name="x_idMer" value="<?php echo $_GET['idMer'] ?>">
-<input type="hidden" name="x_idPlanilla" value="<?php echo $_GET['idPlanilla'] ?>">
+<input type="hidden" name="x_idPlanilla" value="<?php echo $x_idPlanilla ?>">
 <table cellspacing="0" class="ewTable">
 <tr><td colspan="2"><div class="titulo">MODELO DE CONTRATO TIPO</div></td></tr>
 <tr><td>Adjuntar Archivo</td><td><?php if($Security->CanAdd()){?><input type="file" name="archivo" id="archivo" class="casilla" size="100"><?php } ?>
@@ -2332,7 +2337,7 @@ while (false !== ($arch = readdir($gestor))) {
 if ($arch != "." && $arch != ".." && $arch==$row_archivo['archivo']) {
 echo "<li><a href=\"files/".$arch."\" class=\"linkli\" title='Extraer archivo'>".$arch."</a>&nbsp;&nbsp;&nbsp;&nbsp;";
 if($estado==1 && $Security->CanDelete()) {
-echo "<a href='formulario_guardar.php?x_idArchivo=".$row_archivo['idArchivo']."&sw=archivodelete&archivo=".$arch."&x_idMer=".$_GET['idMer']."&x_idPlanilla=".$_GET['idPlanilla']."' title='Borrar archivo' onclick='return confirmarDeleteArchivo()'><img src='images/delete.png' height='10' width='12' border='none'></a>";
+echo "<a href='formulario_guardar.php?x_idArchivo=".$row_archivo['idArchivo']."&sw=archivodelete&archivo=".$arch."&x_idMer=".$_GET['idMer']."&x_idPlanilla=".$x_idPlanilla."' title='Borrar archivo' onclick='return confirmarDeleteArchivo()'><img src='images/delete.png' height='10' width='12' border='none'></a>";
 };
 echo "</li>\n";
 }
@@ -2352,11 +2357,11 @@ closedir($gestor);
 </form>
 <?php } ?>
 
-<?php if($_GET['idPlanilla']=='21') {    ?>
+<?php if($x_idPlanilla=='21') {    ?>
 <form name="formulario1" id="formulario1" action="formulario_guardar.php" method="post" enctype="multipart/form-data" onSubmit="return validar_formulario(this);">
 <table cellspacing="0" class="ewGrid"><tr><td class="ewGridContent">
 <div class="ewGridMiddlePanel">
-<input type="hidden" name="idPlanilla" id="idPlanilla" value="<?php echo $_GET['idPlanilla']?>">
+<input type="hidden" name="idPlanilla" id="idPlanilla" value="<?php echo $x_idPlanilla?>">
 <table cellspacing="0" class="ewTable">
 <tr><td colspan="11"><div class="titulo">PARAMETROS DE CALIDAD</div></td></tr>
 <tr><td>LA MERS CUENTA CON PARAMETROS DE CALIDAD<td id="idcheck_list"></td></tr>
@@ -2393,7 +2398,7 @@ $cont_pregunta++;
 <input type="hidden" name="check_list_porcentaje" id="check_list_porcentaje">
 <input type="hidden" name="preguntaSI" id="preguntaSI" value="<?php echo $cont_preguntaSI;?>">
 <input type="hidden" name="x_idMer" value="<?php echo $_GET['idMer'] ?>">
-<input type="hidden" name="x_idPlanilla" value="<?php echo $_GET['idPlanilla'] ?>">
+<input type="hidden" name="x_idPlanilla" value="<?php echo $x_idPlanilla ?>">
 <table cellspacing="0" class="ewTable">
 <tr><td colspan="2"><div class="titulo">REQUISITOS PARA OBTENER LOS PARAMETROS DE CALIDAD</div></td></tr>
 <tr><td>Adjuntar Archivo</td><td><?php if($Security->CanAdd()){?><input type="file" name="archivo" id="archivo" class="casilla" size="100"><?php } ?>
@@ -2404,7 +2409,7 @@ while (false !== ($arch = readdir($gestor))) {
 if ($arch != "." && $arch != ".." && $arch==$row_archivo['archivo']) {
 echo "<li><a href=\"files/".$arch."\" class=\"linkli\" title='Extraer archivo'>".$arch."</a>&nbsp;&nbsp;&nbsp;&nbsp;";
 if($estado==1 && $Security->CanDelete()) {
-echo "<a href='formulario_guardar.php?x_idArchivo=".$row_archivo['idArchivo']."&sw=archivodelete&archivo=".$arch."&x_idMer=".$_GET['idMer']."&x_idPlanilla=".$_GET['idPlanilla']."' title='Borrar archivo' onclick='return confirmarDeleteArchivo()'><img src='images/delete.png' height='10' width='12' border='none'></a>";
+echo "<a href='formulario_guardar.php?x_idArchivo=".$row_archivo['idArchivo']."&sw=archivodelete&archivo=".$arch."&x_idMer=".$_GET['idMer']."&x_idPlanilla=".$x_idPlanilla."' title='Borrar archivo' onclick='return confirmarDeleteArchivo()'><img src='images/delete.png' height='10' width='12' border='none'></a>";
 };
 echo "</li>\n";
 }
@@ -2422,6 +2427,62 @@ closedir($gestor);
 </td></tr></table>
 </form>
             <?php }?>
+
+<!--modificado 18/02/2013-->
+
+<?php if ($x_idPlanilla == '22') { ?>
+<?php 
+mysql_select_db($database_conexion, $conexion);
+$query = "SELECT usu.nombre,usu.paterno,usu.materno,mru.idMer,mru.selector,
+mru.comentario,mru.archivo,mru.fechaCreacion,mru.estado
+FROM meta_reporte_unitario AS mru
+INNER JOIN usuario AS usu ON mru.idUsuario = usu.idUsuario
+WHERE mru.idMer = ".(int)$_GET['idMer']." AND mru.selector = 0
+ORDER BY mru.fechaCreacion DESC";
+$mostrar_arc= mysql_query($query, $conexion) or die(mysql_error());
+
+?>
+        
+<table>
+    <tr>
+        <td>
+            <table id="table_example" cellspacing="0" rowhighlightclass="ewTableHighlightRow" rowselectclass="ewTableSelectRow" roweditclass="ewTableEditRow" class="ewTable ewTableSeparate">
+                <thead>
+                    <tr class="ewTableHeader">
+                        <td>No</td>
+                        <td>Consultor</td>
+                        <td>Archivo</td>
+                        <td>Fecha Creaci&oacute;n</td>
+                        <td>Opcion</td>
+                    </tr>
+                </thead>
+                <?php
+                $c = 0;
+                while ($row = mysql_fetch_assoc($mostrar_arc)) {
+                    ?>
+                    <tr>
+                        <td><?php echo $c ?></td>
+                        <td><?php echo $row['nombre'].' '.$row['paterno'].' '.$row['materno'] ?></td>
+                        <td><?php echo $row['archivo'] ?></td>
+                        <td><?php echo date("d-m-Y", strtotime($row['fechaCreacion'])) ?></td>
+                        <td><a href="#">Asignar</a></td>
+
+                    </tr>    
+                    <?php
+                    $c++;
+                }
+                ?>
+            </table>
+        </td>
+    </tr>
+</table>
+
+
+    
+                
+<?php } ?>
+
+
 
 <?php include "footer.php" ?>
 <?php

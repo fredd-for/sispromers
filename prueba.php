@@ -17,7 +17,7 @@ function test$$(){
 	for(var i=0; i<f.length; i++){
 		s += f[i].value + '/';
 	}
-	alert(s); // shows: "joedoe1/secret/"
+	alert(s); // shows: "joedoe1/secret/"d
 
 	//now passing more than one expression
 	f = $$('div#loginForm .field input', 'div#loginForm .fieldName');

@@ -8,7 +8,7 @@
 define("EW_CONN_HOST", "localhost", TRUE);
 define("EW_CONN_PORT", 3306, TRUE);
 define("EW_CONN_USER", "root", TRUE);
-define("EW_CONN_PASS", "8209125", TRUE);
+define("EW_CONN_PASS", "", TRUE);
 define("EW_CONN_DB", "db_sispromers", TRUE);
 
 // Show SQL for debug
@@ -217,6 +217,8 @@ $EW_USER_LEVEL_TABLE_NAME[] = 'reporte_seguimiento_consultoria';
 $EW_USER_LEVEL_TABLE_CAPTION[] = "Reporte Seguimiento Consultoria";
 $EW_USER_LEVEL_TABLE_NAME[] = 'reporte_informe_consultoria';
 $EW_USER_LEVEL_TABLE_CAPTION[] = "Informe/Revision Consultoria";
+$EW_USER_LEVEL_TABLE_NAME[] = 'reporte_gis';
+$EW_USER_LEVEL_TABLE_CAPTION[] = "Reporte Informacion Geografica";
 // Dynamic User Level settings
 // User level definition table/field names
 

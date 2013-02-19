@@ -330,6 +330,9 @@ stm_aix("p8i16","p0i1",[0,"Indicador C.3-I.2","","",-1,-1,0,"indicador13list.php
 <?php if (AllowListMenu('indicador14')) { ?>
 stm_aix("p8i17","p0i1",[0,"Indicador C.3-I.3","","",-1,-1,0,"indicador14list.php","_self","","","ewmenu/indicador.png","ewmenu/click_indicador.png"],150,0);
 <?php } ?>
+<?php if (AllowListMenu('reporte_gis')) { ?>
+stm_aix("p8i17","p0i1",[0,"Reporte Informacion Geografica","","",-1,-1,0,"reporte_gislist.php","_self","","","ewmenu/indicador.png","ewmenu/click_indicador.png"],150,0);
+<?php } ?>    
 stm_ep();
 stm_em();
 //-->
@@ -337,7 +340,7 @@ stm_em();
      </td></tr></table>
 </div>
 
-<?php if($_GET['idMer']){
+<?php if(isset($_GET['idMer'])){
 mysql_select_db($database_conexion, $conexion);
 $query_planilla = "SELECT * FROM planilla";
 $mostrar_planilla = mysql_query($query_planilla, $conexion) or die(mysql_error());
@@ -350,6 +353,8 @@ stm_bp("p0",[1,4,0,0,1,2,16,18,100,"",-2,"",-2,90,0,0,"#000000","#40546A","",3,1
 //stm_ai("p0i0",[6,1,"transparent","ewmenu/banner_administrador.png",150,120,0]);
 //stm_ai("p0i1",[0,"Cerrar Sesi\u00f3n","","",-1,-1,0,"logout.php","_self","","","ewmenu/layout_sidebar.png","ewmenu/overlays.png",16,16,0,"","",0,0,0,0,1,"#f5cd8d",0,"#E7EEAE",0,"","",3,3,0,0,"#CC9966","#FFD7B0","#000000","#000000","9pt Arial","9pt Arial",0,0]);
 stm_ai("p0i1",[0,"Monitoreo","","",-1,-1,0,"formulariolist.php?idMer=<?php echo $_GET['idMer'];?>","_self","","","ewmenu/layout_sidebar.png","ewmenu/overlays.png",15,15,0,"","",0,0,0,0,1,"#f5cd8d",0,"#E7EEAE",0,"","",3,3,0,0,"#CC9966","#FFD7B0","#000000","#000000","8pt Arial","8pt Arial",0,0]);
+  stm_ai("p0i1",[0,"<?php echo $row_planilla['idPlanilla']." - ".$row_planilla['Nombre']?>","","",-1,-1,0,"formulariolist.php?idPlanilla=<?php echo $row_planilla['idPlanilla'];?>&idMer=<?php echo $_GET['idMer'];?>","_self","","","ewmenu/layout_sidebar.png","ewmenu/overlays.png",15,15,0,"","",0,0,0,0,1,"#f5cd8d",0,"#E7EEAE",0,"","",3,3,0,0,"#CC9966","#FFD7B0","#000000","#000000","8pt Arial","8pt Arial",0,0]);
+  <?php $row_planilla=mysql_fetch_assoc($mostrar_planilla);?>
   stm_ai("p0i1",[0,"<?php echo $row_planilla['idPlanilla']." - ".$row_planilla['Nombre']?>","","",-1,-1,0,"formulariolist.php?idPlanilla=<?php echo $row_planilla['idPlanilla'];?>&idMer=<?php echo $_GET['idMer'];?>","_self","","","ewmenu/layout_sidebar.png","ewmenu/overlays.png",15,15,0,"","",0,0,0,0,1,"#f5cd8d",0,"#E7EEAE",0,"","",3,3,0,0,"#CC9966","#FFD7B0","#000000","#000000","8pt Arial","8pt Arial",0,0]);
   <?php $row_planilla=mysql_fetch_assoc($mostrar_planilla);?>
   stm_ai("p0i1",[0,"<?php echo $row_planilla['idPlanilla']." - ".$row_planilla['Nombre']?>","","",-1,-1,0,"formulariolist.php?idPlanilla=<?php echo $row_planilla['idPlanilla'];?>&idMer=<?php echo $_GET['idMer'];?>","_self","","","ewmenu/layout_sidebar.png","ewmenu/overlays.png",15,15,0,"","",0,0,0,0,1,"#f5cd8d",0,"#E7EEAE",0,"","",3,3,0,0,"#CC9966","#FFD7B0","#000000","#000000","8pt Arial","8pt Arial",0,0]);
